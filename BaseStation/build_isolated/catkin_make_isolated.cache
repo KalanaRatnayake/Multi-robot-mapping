@@ -1,0 +1,2 @@
+map_merge/src/icp_merge:map_merge/src/pose_merge:octomap-devel/dynamicEDT3D:octomap-devel/octomap:octomap-devel/octovis
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/kalana/Xavier/BaseStation/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/kalana/Xavier/BaseStation/install_isolated

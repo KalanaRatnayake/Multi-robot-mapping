@@ -1,0 +1,32 @@
+<launch>
+	<group ns="qbot0">
+
+		<!-- Run all the ft transformations -->
+		<node pkg="tf" type="static_transform_publisher" name="camera_to_base" args="0 0 0.1 0 0.0 0 base_footprint camera_link 100" />
+		<node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0 map odom 100" />
+		<!-- uncomment the following line when running on real hardware -->
+		<node pkg="tf" type="static_transform_publisher" name="robot_state_publisher" args="0 0 0 0 0.0 0 base_footprint base_link 100" />
+
+		<!-- run kobuki base -->
+		<include file="$(find kobuki_node)/launch/minimal.launch"/>
+
+		<!-- run kinect -->
+		<include file="$(find freenect_launch)/launch/freenect.launch" />
+
+		<!-- run octomap_server -->
+		<include file="$(find octomap_server)/launch/octomap_mapping.launch"/>
+
+		<!-- Move base -->
+		<include file="$(find my_robot_navigation)/launch/move_base.launch.xml"/>
+
+		<!-- Run the greedy exploration algorithm -->
+		<include file="$(find explore_lite)/launch/explore.launch"/>
+
+		<!-- group ns="map_merge">
+			<param name="init_pose_x" value="0.0"/>
+			<param name="init_pose_y" value="0.0"/>
+			<param name="init_pose_z" value="0.0"/>
+			<param name="init_pose_yaw" value="0.0"/>
+		</group -->
+	</group>
+</launch>

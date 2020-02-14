@@ -1,0 +1,21 @@
+<launch>
+
+		<!-- run kobuki base -->
+		<include file="$(find kobuki_node)/launch/minimal.launch"/>
+
+		<!-- tf config -->
+		<include file="$(find multi_robot_exploration)/launch/tf_pub.launch" />
+
+		<!-- run kinect -->
+		<include file="$(find freenect_launch)/launch/freenect.launch" />
+
+		<!-- run octomap_server -->
+		<include file="$(find octomap_server)/launch/octomap_mapping.launch"/>
+
+		<!-- run navigation stack -->
+		<include file="$(find multi_robot_exploration)/launch/my_navigation.launch"/>
+
+		<!-- Run the greedy exploration algorithm -->
+		<include file="$(find explore_lite)/launch/explore.launch"/>
+
+</launch>

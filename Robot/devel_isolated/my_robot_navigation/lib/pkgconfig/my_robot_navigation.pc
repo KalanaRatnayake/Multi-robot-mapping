@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/devel_isolated/my_robot_navigation
+
+Name: my_robot_navigation
+Description: Description of my_robot_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

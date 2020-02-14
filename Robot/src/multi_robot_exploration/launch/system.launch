@@ -1,0 +1,42 @@
+<launch>
+    <arg name="tf_prefix" default="qbot1"/>
+
+    <group ns="$(arg tf_prefix)">
+        <param name="tf_prefix" value="$(arg tf_prefix)" />
+
+        <!-- run kobuki base -->
+        <include file="$(find kobuki_node)/launch/minimal_with_tf.launch">
+            <arg name="tf_prefix" value="qbot1"/>
+        </include>
+
+        <!-- tf config -->
+        <node pkg="tf" type="static_transform_publisher" name="camera_to_base" args="0 0 0.1 0 0.0 0 $(arg tf_prefix)/base_footprint $(arg tf_prefix)/camera_link 100"/>
+        <node pkg="tf" type="static_transform_publisher" name="robot_state_publisher" args="0 0 0 0 0.0 0 $(arg tf_prefix)/base_footprint $(arg tf_prefix)/base_link 100"/>
+        <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0 $(arg tf_prefix)/map $(arg tf_prefix)/odom 100"/>
+        <!-- declaring the world coordinate frame -->
+		<node pkg="tf" type="static_transform_publisher" name="world_to_robot" args="0 0 0 0 0.0 0 /world $(arg tf_prefix)/map 100" />
+
+
+        <!-- run kinect -->
+        <include file="$(find freenect_launch)/launch/freenect_tf_prefix.launch">
+            <arg name="tf_prefix" default="qbot1"/>
+        </include>
+
+        <!-- run octomap_server -->
+		<include file="$(find octomap_server)/launch/octomap_mapping_tf.launch">
+            <arg name="tf_prefix" default="qbot1"/>
+            <!--param name="frame_id" value="$(arg tf_prefix)/map"/>
+            <param name="base_frame_id" value="$(arg tf_prefix)/base_footprint"/-->
+        </include>
+
+        <!-- Move base -->
+		<include file="$(find my_robot_navigation)/launch/move_base_tf_prefix.launch.xml">
+            <arg name="tf_prefix" default="qbot1"/>
+        </include>
+
+		<!-- Run the greedy exploration algorithm -->
+		<include file="$(find explore_lite)/launch/explore_tf_prefix.launch">
+            <arg name="tf_prefix" default="qbot1"/>
+        </include>
+    </group>
+</launch>

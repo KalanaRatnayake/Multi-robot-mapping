@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf
+
+Name: robot_pose_ekf
+Description: Description of robot_pose_ekf
+Version: 1.14.4
+Cflags: -I/home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs message_runtime nav_msgs roscpp sensor_msgs std_msgs

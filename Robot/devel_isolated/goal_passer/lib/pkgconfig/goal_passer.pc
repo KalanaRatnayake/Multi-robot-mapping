@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/devel_isolated/goal_passer
+
+Name: goal_passer
+Description: Description of goal_passer
+Version: 0.2.0
+Cflags: -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/goal_passer/include
+Libs: -L${prefix}/lib -lgoal_passer
+Requires: roscpp costmap_2d pluginlib nav_core

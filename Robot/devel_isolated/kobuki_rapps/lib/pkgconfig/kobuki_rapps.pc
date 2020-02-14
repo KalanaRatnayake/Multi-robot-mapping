@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/devel_isolated/kobuki_rapps
+
+Name: kobuki_rapps
+Description: Description of kobuki_rapps
+Version: 0.7.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

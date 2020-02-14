@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/reset_device.dir/reset_device.cpp.o  -o /home/kalana/Xavier/Robot/devel_isolated/kobuki_ftdi/lib/kobuki_ftdi/reset_device -rdynamic -lusb 

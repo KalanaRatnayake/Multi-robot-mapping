@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/BaseStation/install_isolated
+
+Name: icp_merge
+Description: Description of icp_merge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: octomap_ros

@@ -1,0 +1,7 @@
+<launch>
+	<group ns="qbot0">
+		<!-- run the greedy exploration as qbot0 -->
+		<include file="$(find multi_robot_exploration)/launch/greedy_exploration.launch">
+		</include>
+	</group>
+</launch>

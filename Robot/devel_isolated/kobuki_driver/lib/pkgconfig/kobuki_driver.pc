@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/devel_isolated/kobuki_driver
+
+Name: kobuki_driver
+Description: Description of kobuki_driver
+Version: 0.7.8
+Cflags: -I/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include
+Libs: -L${prefix}/lib -lkobuki
+Requires: ecl_command_line ecl_converters ecl_devices ecl_geometry ecl_mobile_robot ecl_sigslots ecl_time

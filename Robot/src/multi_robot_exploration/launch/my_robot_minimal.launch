@@ -1,0 +1,16 @@
+<launch>
+		<!-- run kobuki base -->
+		<include file="$(find kobuki_node)/launch/minimal.launch"/>
+
+		<!-- tf config -->
+		<include file="$(find my_robot_config)/launch/tf_pub.launch"/>
+
+		<!-- run kinect -->
+		<include file="$(find freenect_launch)/launch/freenect.launch">
+			<remap from="camera/depth/points" to="bump" />
+		</include>
+
+		<!-- run octomap_server -->
+		<include file="$(find octomap_server)/launch/octomap_mapping.launch"/>
+</launch>
+

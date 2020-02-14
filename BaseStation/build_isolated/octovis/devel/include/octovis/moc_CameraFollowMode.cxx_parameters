@@ -1,0 +1,16 @@
+-I/home/kalana/Xavier/BaseStation/devel_isolated/octomap/include
+-I/home/kalana/Xavier/BaseStation/src/octomap-devel/octovis/include
+-I/usr/include/qt4
+-I/usr/include/qt4/QtOpenGL
+-I/usr/include/qt4/QtGui
+-I/usr/include/qt4/QtXml
+-I/usr/include/qt4/QtCore
+-I/home/kalana/Xavier/BaseStation/src/octomap-devel/octovis/src/extern/QGLViewer
+-D$<$<NOT:$<CONFIG:Debug>>:QT_NO_DEBUG>
+-DQT_OPENGL_LIB
+-DQT_GUI_LIB
+-DQT_XML_LIB
+-DQT_CORE_LIB
+-o
+/home/kalana/Xavier/BaseStation/build_isolated/octovis/devel/include/octovis/moc_CameraFollowMode.cxx
+/home/kalana/Xavier/BaseStation/src/octomap-devel/octovis/include/octovis/CameraFollowMode.h

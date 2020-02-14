@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/install_isolated
+
+Name: kobuki_capabilities
+Description: Description of kobuki_capabilities
+Version: 0.7.6
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/devel_isolated/kobuki_ftdi
+
+Name: kobuki_ftdi
+Description: Description of kobuki_ftdi
+Version: 0.7.8
+Cflags: -I/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/include
+Libs: -L${prefix}/lib -lusb -lftdi
+Requires: ecl_command_line

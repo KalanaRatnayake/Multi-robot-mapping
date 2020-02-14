@@ -1,0 +1,9 @@
+<launch>
+	<node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0  map odom 100"/>
+	
+	<!-- Move base -->
+	<include file="$(find my_robot_navigation)/launch/move_base.launch.xml"/>
+	
+	
+</launch>
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=node_manager
+Comment=GUI for managing running and configured ROS nodes on different hosts
+Exec=/bin/sh -c ". /home/kalana/Xavier/Robot/install_isolated/setup.sh; /home/kalana/Xavier/Robot/install_isolated/lib/node_manager_fkie/node_manager"
+Icon=/home/kalana/Xavier/Robot/install_isolated/share/node_manager_fkie/rqt_icons/crystal_clear_prop_run.png
+Terminal=false
+Type=Application
+Categories=Utility;Development;

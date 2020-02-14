@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="octomap" type="simple_example" name="simple_example" output="screen" />
+</launch>

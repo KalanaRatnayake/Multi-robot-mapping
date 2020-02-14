@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/Robot/install_isolated
+
+Name: goal_passer
+Description: Description of goal_passer
+Version: 0.2.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lgoal_passer
+Requires: roscpp costmap_2d pluginlib nav_core

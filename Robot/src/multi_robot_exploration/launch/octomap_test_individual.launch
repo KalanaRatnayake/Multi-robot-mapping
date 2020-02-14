@@ -1,0 +1,22 @@
+<launch>
+
+        <!-- run kobuki base -->
+        <include file="$(find kobuki_node)/launch/minimal.launch" />
+		<include file="$(find kobuki_keyop)/launch/keyop.launch" />
+     
+     
+        <!-- tf config -->
+        <node pkg="tf" type="static_transform_publisher" name="camera_to_base" args="0 0 0.1 0 0.0 0 base_footprint camera_link 100"/>
+        <node pkg="tf" type="static_transform_publisher" name="robot_state_publisher" args="0 0 0 0 0.0 0 base_footprint base_link 100"/>
+        <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0 map odom 100"/>
+        <!-- declaring the world coordinate frame -->
+		<node pkg="tf" type="static_transform_publisher" name="world_to_robot" args="0 0 0 0 0.0 0 /world map 100" />
+
+
+        <!-- run kinect -->
+        <include file="$(find freenect_launch)/launch/freenect.launch" />
+
+        <!-- run octomap_server -->
+		<include file="$(find octomap_server)/launch/octomap_mapping.launch" />
+    
+</launch>
