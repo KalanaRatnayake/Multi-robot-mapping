@@ -67,7 +67,7 @@ set(dwa_local_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dwa_local_planner_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner)
+  set(dwa_local_planner_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner)
   set(dwa_local_planner_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/dwa_local_planner)
   set(dwa_local_planner_INSTALL_PREFIX "")
   set(dwa_local_planner_PREFIX ${dwa_local_planner_DEVEL_PREFIX})

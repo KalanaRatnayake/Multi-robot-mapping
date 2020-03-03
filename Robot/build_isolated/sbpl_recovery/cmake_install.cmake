@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_recovery" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_recovery" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -159,11 +159,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sbpl_recovery" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery/include/sbpl_recovery/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sbpl_recovery" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery/include/sbpl_recovery/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_recovery" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery/recovery_plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_recovery" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery/recovery_plugin.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

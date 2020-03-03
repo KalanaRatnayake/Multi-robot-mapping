@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,19 +135,19 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_keyop" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_keyop" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_keyop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include" FILES_MATCHING REGEX "/[^/]*\\.h[^/]*$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_keyop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include" FILES_MATCHING REGEX "/[^/]*\\.h[^/]*$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_keyop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_keyop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_keyop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/param")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_keyop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/param")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

@@ -1,6 +1,6 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kalana/Xavier/Robot/devel_isolated/global_planner/include;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include".split(';') if "/home/kalana/Xavier/Robot/devel_isolated/global_planner/include;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kalana/Xavier/Robot/devel_isolated/global_planner/include;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include".split(';') if "/home/kalana/Xavier/Robot/devel_isolated/global_planner/include;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "costmap_2d;dynamic_reconfigure;geometry_msgs;nav_core;navfn;nav_msgs;pluginlib;roscpp;tf".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lglobal_planner".split(';') if "-lglobal_planner" != "" else []
 PROJECT_NAME = "global_planner"

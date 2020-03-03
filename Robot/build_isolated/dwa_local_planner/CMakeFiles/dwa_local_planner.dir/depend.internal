@@ -4,38 +4,38 @@
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/costmap_2d/include/costmap_2d/Costmap2DConfig.h
  /home/kalana/Xavier/Robot/devel_isolated/dwa_local_planner/include/dwa_local_planner/DWAPlannerConfig.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/goal_functions.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_limits.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_util.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_cell.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_point.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_visualizer.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/obstacle_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/oscillation_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_scored_sampling_planner.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_trajectory_generator.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_inc.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_sample_generator.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_search.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/twirling_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/include/dwa_local_planner/dwa_planner.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/goal_functions.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_limits.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_util.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_cell.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_point.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_visualizer.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/obstacle_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/oscillation_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_scored_sampling_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_trajectory_generator.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_inc.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_sample_generator.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_search.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/twirling_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/include/dwa_local_planner/dwa_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
  /opt/ros/kinetic/include/angles/angles.h
  /opt/ros/kinetic/include/boost_161_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
@@ -424,41 +424,41 @@ CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/costmap_2d/include/costmap_2d/Costmap2DConfig.h
  /home/kalana/Xavier/Robot/devel_isolated/dwa_local_planner/include/dwa_local_planner/DWAPlannerConfig.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/goal_functions.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/latched_stop_rotate_controller.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_limits.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_util.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_cell.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_point.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_visualizer.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/obstacle_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/odometry_helper_ros.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/oscillation_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_scored_sampling_planner.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_trajectory_generator.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_inc.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_sample_generator.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_search.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/twirling_cost_function.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/include/dwa_local_planner/dwa_planner.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/goal_functions.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/latched_stop_rotate_controller.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_limits.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/local_planner_util.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_cell.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_point.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_visualizer.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/obstacle_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/odometry_helper_ros.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/oscillation_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_scored_sampling_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/simple_trajectory_generator.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_inc.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_sample_generator.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_search.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/twirling_cost_function.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/include/dwa_local_planner/dwa_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/include/dwa_local_planner/dwa_planner_ros.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
  /opt/ros/kinetic/include/angles/angles.h
  /opt/ros/kinetic/include/boost_161_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h

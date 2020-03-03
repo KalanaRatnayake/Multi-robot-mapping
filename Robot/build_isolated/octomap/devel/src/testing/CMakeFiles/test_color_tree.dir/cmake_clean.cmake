@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_color_tree.dir/test_color_tree.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_color_tree.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_color_tree"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_color_tree.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_color_tree"
 )
 
 # Per-language clean rules from dependency scanning.

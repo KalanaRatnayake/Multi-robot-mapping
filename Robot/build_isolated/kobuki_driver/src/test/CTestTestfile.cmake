@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/test
+# Source directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/test
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/test
 # 
 # This file includes the relevant testing commands required for 

@@ -102,13 +102,13 @@ geometry_msgs/Twist.h
 geometry_msgs/Twist.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
 base_local_planner/world_model.h
 -
 costmap_2d/costmap_2d.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/goal_functions.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/goal_functions.h
 ros/ros.h
 -
 tf/transform_listener.h
@@ -136,7 +136,7 @@ angles/angles.h
 costmap_2d/costmap_2d.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/odometry_helper_ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/odometry_helper_ros.h
 tf/transform_datatypes.h
 -
 nav_msgs/Odometry.h
@@ -146,13 +146,13 @@ ros/ros.h
 boost/thread.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
 geometry_msgs/Point32.h
 -
 sensor_msgs/PointCloud.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
 vector
 -
 costmap_2d/observation.h
@@ -164,9 +164,9 @@ geometry_msgs/Point.h
 base_local_planner/planar_laser_scan.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
 vector
 -
 queue
@@ -176,7 +176,7 @@ geometry_msgs/Point.h
 boost/thread.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
 ros/ros.h
 -
 costmap_2d/costmap_2d.h
@@ -188,7 +188,7 @@ map_msgs/OccupancyGridUpdate.h
 tf/transform_datatypes.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
 costmap_2d/layered_costmap.h
 -
 costmap_2d/layer.h
@@ -208,7 +208,7 @@ dynamic_reconfigure/server.h
 pluginlib/class_loader.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
 ros/ros.h
 -
 geometry_msgs/Polygon.h
@@ -220,7 +220,7 @@ geometry_msgs/Point.h
 geometry_msgs/Point32.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
 costmap_2d/costmap_2d.h
 -
 costmap_2d/layered_costmap.h
@@ -232,7 +232,7 @@ tf/tf.h
 tf/transform_listener.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
 costmap_2d/cost_values.h
 -
 costmap_2d/layer.h
@@ -244,7 +244,7 @@ vector
 string
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
 geometry_msgs/Point.h
 -
 pcl/point_types.h
@@ -252,7 +252,7 @@ pcl/point_types.h
 pcl/point_cloud.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
 geometry_msgs/PoseStamped.h
 -
 geometry_msgs/Twist.h
@@ -262,17 +262,17 @@ costmap_2d/costmap_2d_ros.h
 tf/transform_listener.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/distance_calculations.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/distance_calculations.h
 Eigen/Core
 -
 teb_local_planner/misc.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/equivalence_relations.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/equivalence_relations.h
 boost/shared_ptr.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/base_teb_edges.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/base_teb_edges.h
 teb_local_planner/teb_config.h
 -
 g2o/core/base_binary_edge.h
@@ -284,7 +284,7 @@ g2o/core/base_multi_edge.h
 cmath
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_acceleration.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_acceleration.h
 teb_local_planner/g2o_types/vertex_pose.h
 -
 teb_local_planner/g2o_types/vertex_timediff.h
@@ -298,7 +298,7 @@ teb_local_planner/g2o_types/base_teb_edges.h
 geometry_msgs/Twist.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_dynamic_obstacle.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_dynamic_obstacle.h
 teb_local_planner/g2o_types/vertex_pose.h
 -
 teb_local_planner/g2o_types/vertex_timediff.h
@@ -314,7 +314,7 @@ teb_local_planner/teb_config.h
 teb_local_planner/robot_footprint_model.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_kinematics.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_kinematics.h
 teb_local_planner/g2o_types/vertex_pose.h
 -
 teb_local_planner/g2o_types/penalties.h
@@ -326,7 +326,7 @@ teb_local_planner/teb_config.h
 cmath
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_obstacle.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_obstacle.h
 teb_local_planner/obstacles.h
 -
 teb_local_planner/robot_footprint_model.h
@@ -340,7 +340,7 @@ teb_local_planner/g2o_types/penalties.h
 teb_local_planner/teb_config.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_prefer_rotdir.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_prefer_rotdir.h
 teb_local_planner/g2o_types/vertex_pose.h
 -
 teb_local_planner/g2o_types/base_teb_edges.h
@@ -348,9 +348,9 @@ teb_local_planner/g2o_types/base_teb_edges.h
 teb_local_planner/g2o_types/penalties.h
 -
 g2o/core/base_unary_edge.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/base_unary_edge.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/base_unary_edge.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_time_optimal.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_time_optimal.h
 float.h
 -
 base_local_planner/BaseLocalPlannerConfig.h
@@ -366,7 +366,7 @@ teb_local_planner/teb_config.h
 Eigen/Core
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_velocity.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_velocity.h
 teb_local_planner/g2o_types/vertex_pose.h
 -
 teb_local_planner/g2o_types/vertex_timediff.h
@@ -380,15 +380,15 @@ teb_local_planner/teb_config.h
 iostream
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_via_point.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/edge_via_point.h
 teb_local_planner/g2o_types/vertex_pose.h
 -
 teb_local_planner/g2o_types/base_teb_edges.h
 -
 g2o/core/base_unary_edge.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/base_unary_edge.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/base_unary_edge.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/penalties.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/penalties.h
 cmath
 -
 Eigen/Core
@@ -396,7 +396,7 @@ Eigen/Core
 g2o/stuff/misc.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/vertex_pose.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/vertex_pose.h
 g2o/config.h
 -
 g2o/core/base_vertex.h
@@ -408,19 +408,19 @@ g2o/stuff/misc.h
 teb_local_planner/pose_se2.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/vertex_timediff.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/vertex_timediff.h
 g2o/config.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/config.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/config.h
 g2o/core/base_vertex.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/base_vertex.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/base_vertex.h
 g2o/core/hyper_graph_action.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/hyper_graph_action.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/g2o/core/hyper_graph_action.h
 ros/console.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/ros/console.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o_types/ros/console.h
 Eigen/Core
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/graph_search.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/graph_search.h
 boost/graph/adjacency_list.hpp
 -
 boost/graph/adjacency_list.hpp
@@ -444,7 +444,7 @@ teb_local_planner/pose_se2.h
 teb_local_planner/teb_config.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/h_signature.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/h_signature.h
 teb_local_planner/equivalence_relations.h
 -
 teb_local_planner/misc.h
@@ -468,7 +468,7 @@ vector
 iterator
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/homotopy_class_planner.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/homotopy_class_planner.h
 math.h
 -
 algorithm
@@ -510,13 +510,13 @@ teb_local_planner/graph_search.h
 teb_local_planner/homotopy_class_planner.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/homotopy_class_planner.hpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/homotopy_class_planner.hpp
 teb_local_planner/homotopy_class_planner.h
 -
 teb_local_planner/h_signature.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/misc.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/misc.h
 Eigen/Core
 -
 boost/utility.hpp
@@ -524,7 +524,7 @@ boost/utility.hpp
 boost/type_traits.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/obstacles.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/obstacles.h
 Eigen/Core
 -
 Eigen/StdVector
@@ -548,7 +548,7 @@ tf/tf.h
 teb_local_planner/distance_calculations.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/optimal_planner.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/optimal_planner.h
 math.h
 -
 teb_local_planner/teb_config.h
@@ -564,19 +564,19 @@ teb_local_planner/visualization.h
 teb_local_planner/robot_footprint_model.h
 -
 g2o/core/sparse_optimizer.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/sparse_optimizer.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/sparse_optimizer.h
 g2o/core/block_solver.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/block_solver.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/block_solver.h
 g2o/core/factory.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/factory.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/factory.h
 g2o/core/optimization_algorithm_gauss_newton.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/optimization_algorithm_gauss_newton.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/optimization_algorithm_gauss_newton.h
 g2o/core/optimization_algorithm_levenberg.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/optimization_algorithm_levenberg.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/core/optimization_algorithm_levenberg.h
 g2o/solvers/csparse/linear_solver_csparse.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/solvers/csparse/linear_solver_csparse.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/solvers/csparse/linear_solver_csparse.h
 g2o/solvers/cholmod/linear_solver_cholmod.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/solvers/cholmod/linear_solver_cholmod.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/g2o/solvers/cholmod/linear_solver_cholmod.h
 teb_local_planner/g2o_types/edge_velocity.h
 -
 teb_local_planner/g2o_types/edge_acceleration.h
@@ -606,7 +606,7 @@ nav_msgs/Odometry.h
 limits.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/planner_interface.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/planner_interface.h
 boost/shared_ptr.hpp
 -
 tf/transform_datatypes.h
@@ -622,7 +622,7 @@ geometry_msgs/PoseStamped.h
 geometry_msgs/TwistStamped.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/pose_se2.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/pose_se2.h
 g2o/stuff/misc.h
 -
 Eigen/Core
@@ -634,7 +634,7 @@ geometry_msgs/Pose.h
 tf/transform_datatypes.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/recovery_behaviors.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/recovery_behaviors.h
 boost/circular_buffer.hpp
 -
 geometry_msgs/Twist.h
@@ -642,7 +642,7 @@ geometry_msgs/Twist.h
 ros/ros.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/robot_footprint_model.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/robot_footprint_model.h
 teb_local_planner/pose_se2.h
 -
 teb_local_planner/obstacles.h
@@ -650,7 +650,7 @@ teb_local_planner/obstacles.h
 visualization_msgs/Marker.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/teb_config.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/teb_config.h
 ros/console.h
 -
 ros/ros.h
@@ -662,7 +662,7 @@ Eigen/StdVector
 teb_local_planner/TebLocalPlannerReconfigureConfig.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/teb_local_planner_ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/teb_local_planner_ros.h
 ros/ros.h
 -
 nav_core/base_local_planner.h
@@ -712,7 +712,7 @@ boost/bind.hpp
 boost/shared_ptr.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/timed_elastic_band.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/timed_elastic_band.h
 ros/ros.h
 -
 ros/assert.h
@@ -736,11 +736,11 @@ teb_local_planner/g2o_types/vertex_timediff.h
 teb_local_planner/timed_elastic_band.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/timed_elastic_band.hpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/timed_elastic_band.hpp
 teb_local_planner/timed_elastic_band.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/visualization.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/visualization.h
 teb_local_planner/teb_config.h
 -
 teb_local_planner/timed_elastic_band.h
@@ -774,13 +774,13 @@ visualization_msgs/Marker.h
 teb_local_planner/visualization.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/visualization.hpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/visualization.hpp
 teb_local_planner/visualization.h
 -
 boost/utility.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/test_optim_node.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/test_optim_node.cpp
 teb_local_planner/teb_local_planner_ros.h
 -
 interactive_markers/interactive_marker_server.h

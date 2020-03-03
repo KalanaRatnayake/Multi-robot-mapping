@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.a"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.a"
 )

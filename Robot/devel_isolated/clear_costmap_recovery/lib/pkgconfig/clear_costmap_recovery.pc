@@ -3,6 +3,6 @@ prefix=/home/kalana/Xavier/Robot/devel_isolated/clear_costmap_recovery
 Name: clear_costmap_recovery
 Description: Description of clear_costmap_recovery
 Version: 1.14.4
-Cflags: -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/clear_costmap_recovery/include
+Cflags: -I/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/clear_costmap_recovery/include
 Libs: -L${prefix}/lib -lclear_costmap_recovery
 Requires: costmap_2d nav_core pluginlib roscpp tf

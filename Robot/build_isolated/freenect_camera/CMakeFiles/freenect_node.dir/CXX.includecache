@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodes/freenect_node.cpp
 ros/ros.h
 -
 nodelet/loader.h

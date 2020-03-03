@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/navfn
@@ -58,17 +58,17 @@ include test/CMakeFiles/path_calc_test.dir/progress.make
 include test/CMakeFiles/path_calc_test.dir/flags.make
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o: test/CMakeFiles/path_calc_test.dir/flags.make
-test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/test/path_calc_test.cpp
+test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/test/path_calc_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/test/path_calc_test.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/test/path_calc_test.cpp
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/test/path_calc_test.cpp > CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/test/path_calc_test.cpp > CMakeFiles/path_calc_test.dir/path_calc_test.cpp.i
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/test/path_calc_test.cpp -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/test/path_calc_test.cpp -o CMakeFiles/path_calc_test.dir/path_calc_test.cpp.s
 
 test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o.requires:
 
@@ -82,17 +82,17 @@ test/CMakeFiles/path_calc_test.dir/path_calc_test.cpp.o.provides.build: test/CMa
 
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o: test/CMakeFiles/path_calc_test.dir/flags.make
-test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp
+test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp > CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp > CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.i
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/read_pgm_costmap.cpp -o CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.s
 
 test/CMakeFiles/path_calc_test.dir/__/src/read_pgm_costmap.cpp.o.requires:
 
@@ -365,6 +365,6 @@ test/CMakeFiles/path_calc_test.dir/clean:
 .PHONY : test/CMakeFiles/path_calc_test.dir/clean
 
 test/CMakeFiles/path_calc_test.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn/test/CMakeFiles/path_calc_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn/test/CMakeFiles/path_calc_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/path_calc_test.dir/depend
 

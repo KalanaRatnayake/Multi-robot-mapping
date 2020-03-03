@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/include/voxel_grid/voxel_grid.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/include/voxel_grid/voxel_grid.h
 stdio.h
 -
 string.h
@@ -26,7 +26,7 @@ ros/console.h
 ros/assert.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/src/voxel_grid.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/src/voxel_grid.cpp
 voxel_grid/voxel_grid.h
 -
 sys/time.h

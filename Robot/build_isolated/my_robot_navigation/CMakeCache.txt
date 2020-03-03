@@ -300,7 +300,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 my_robot_navigation_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/my_robot_navigation
 
 //Value Computed by CMake
-my_robot_navigation_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation
+my_robot_navigation_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation
 
 
 ########################
@@ -384,7 +384,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

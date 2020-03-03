@@ -3,6 +3,6 @@ prefix=/home/kalana/Xavier/Robot/devel_isolated/kobuki_dock_drive
 Name: kobuki_dock_drive
 Description: Description of kobuki_dock_drive
 Version: 0.7.8
-Cflags: -I/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include
+Cflags: -I/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include
 Libs: -L${prefix}/lib -lkobuki_dock_drive
 Requires: ecl_threads ecl_geometry ecl_linear_algebra

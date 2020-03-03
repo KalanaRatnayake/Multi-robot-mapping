@@ -9,4 +9,4 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kalana/Xavier/Robot/devel_isolated/freenect_camera:$CMAKE_PREFIX_PATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kalana/Xavier/Robot/devel_isolated/freenect_camera/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/kalana/Xavier/Robot/src/camera/freenect_camera:$ROS_PACKAGE_PATH"

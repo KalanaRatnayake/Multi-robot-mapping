@@ -67,7 +67,7 @@ set(robot_pose_ekf_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robot_pose_ekf_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf)
+  set(robot_pose_ekf_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf)
   set(robot_pose_ekf_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf)
   set(robot_pose_ekf_INSTALL_PREFIX "")
   set(robot_pose_ekf_PREFIX ${robot_pose_ekf_DEVEL_PREFIX})

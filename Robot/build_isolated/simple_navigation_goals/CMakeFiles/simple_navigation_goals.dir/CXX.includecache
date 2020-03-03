@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/simple_navigation_goals/src/simple_navigation_goals.cpp
+/home/kalana/Xavier/Robot/src/Navigation/simple_navigation_goals/src/simple_navigation_goals.cpp
 ros/ros.h
 -
 move_base_msgs/MoveBaseAction.h

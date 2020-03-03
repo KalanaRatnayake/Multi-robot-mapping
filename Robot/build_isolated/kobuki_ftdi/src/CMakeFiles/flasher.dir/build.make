@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi
@@ -58,17 +58,17 @@ include src/CMakeFiles/flasher.dir/progress.make
 include src/CMakeFiles/flasher.dir/flags.make
 
 src/CMakeFiles/flasher.dir/flasher.cpp.o: src/CMakeFiles/flasher.dir/flags.make
-src/CMakeFiles/flasher.dir/flasher.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/flasher.cpp
+src/CMakeFiles/flasher.dir/flasher.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/flasher.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/flasher.dir/flasher.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flasher.dir/flasher.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/flasher.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flasher.dir/flasher.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/flasher.cpp
 
 src/CMakeFiles/flasher.dir/flasher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flasher.dir/flasher.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/flasher.cpp > CMakeFiles/flasher.dir/flasher.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/flasher.cpp > CMakeFiles/flasher.dir/flasher.cpp.i
 
 src/CMakeFiles/flasher.dir/flasher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flasher.dir/flasher.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/flasher.cpp -o CMakeFiles/flasher.dir/flasher.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/flasher.cpp -o CMakeFiles/flasher.dir/flasher.cpp.s
 
 src/CMakeFiles/flasher.dir/flasher.cpp.o.requires:
 
@@ -108,6 +108,6 @@ src/CMakeFiles/flasher.dir/clean:
 .PHONY : src/CMakeFiles/flasher.dir/clean
 
 src/CMakeFiles/flasher.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/flasher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/flasher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/flasher.dir/depend
 

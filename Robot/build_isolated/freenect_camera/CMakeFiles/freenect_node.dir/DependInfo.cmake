@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp" "/home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o"
+  "/home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodes/freenect_node.cpp" "/home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include"
-  "/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include"
+  "/home/kalana/Xavier/Robot/src/camera/freenect_camera/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/cmake/cfgbuild.cmake"

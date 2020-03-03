@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"robot_pose_ekf\"
 
-CXX_INCLUDES = -I/home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf/include -I/opt/ros/kinetic/include/bfl -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf/include -I/opt/ros/kinetic/include/bfl -I/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

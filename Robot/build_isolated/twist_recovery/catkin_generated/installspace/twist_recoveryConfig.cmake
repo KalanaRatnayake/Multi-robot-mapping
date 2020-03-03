@@ -67,7 +67,7 @@ set(twist_recovery_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(twist_recovery_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/twist_recovery)
+  set(twist_recovery_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/twist_recovery)
   set(twist_recovery_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/twist_recovery)
   set(twist_recovery_INSTALL_PREFIX "")
   set(twist_recovery_PREFIX ${twist_recovery_DEVEL_PREFIX})

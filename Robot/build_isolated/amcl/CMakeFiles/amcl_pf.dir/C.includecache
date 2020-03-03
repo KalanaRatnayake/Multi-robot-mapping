@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/eig3.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/eig3.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf.h
 pf_vector.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
 pf_kdtree.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_kdtree.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_kdtree.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_kdtree.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_kdtree.h
 rtk.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/rtk.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/rtk.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_pdf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_pdf.h
 pf_vector.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
 stdio.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/eig3.c
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/eig3.c
 math.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf.c
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf.c
 assert.h
 -
 math.h
@@ -40,15 +40,15 @@ stdlib.h
 time.h
 -
 amcl/pf/pf.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf.h
 amcl/pf/pf_pdf.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_pdf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_pdf.h
 amcl/pf/pf_kdtree.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_kdtree.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_kdtree.h
 float.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf_draw.c
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf_draw.c
 assert.h
 -
 math.h
@@ -56,15 +56,15 @@ math.h
 stdlib.h
 -
 rtk.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/rtk.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/rtk.h
 pf.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf.h
 pf_pdf.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf_pdf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf_pdf.h
 pf_kdtree.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf_kdtree.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf_kdtree.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf_kdtree.c
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf_kdtree.c
 assert.h
 -
 math.h
@@ -74,11 +74,11 @@ stdlib.h
 string.h
 -
 amcl/pf/pf_vector.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_vector.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_vector.h
 amcl/pf/pf_kdtree.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_kdtree.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_kdtree.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf_pdf.c
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf_pdf.c
 assert.h
 -
 math.h
@@ -88,13 +88,13 @@ stdlib.h
 string.h
 -
 amcl/pf/pf_pdf.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_pdf.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_pdf.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/pf_vector.c
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/pf_vector.c
 math.h
 -
 amcl/pf/pf_vector.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_vector.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/pf_vector.h
 amcl/pf/eig3.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/eig3.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/pf/amcl/pf/eig3.h
 

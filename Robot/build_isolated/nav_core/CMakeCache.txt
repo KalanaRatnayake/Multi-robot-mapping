@@ -363,7 +363,7 @@ message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 nav_core_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/nav_core
 
 //Value Computed by CMake
-nav_core_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core
+nav_core_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
@@ -546,7 +546,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

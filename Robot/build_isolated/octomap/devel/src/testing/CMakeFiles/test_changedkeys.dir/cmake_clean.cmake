@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_changedkeys.dir/test_changedkeys.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_changedkeys.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_changedkeys"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_changedkeys.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_changedkeys"
 )
 
 # Per-language clean rules from dependency scanning.

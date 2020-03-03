@@ -67,7 +67,7 @@ set(amcl_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(amcl_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl)
+  set(amcl_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl)
   set(amcl_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/amcl)
   set(amcl_INSTALL_PREFIX "")
   set(amcl_PREFIX ${amcl_DEVEL_PREFIX})

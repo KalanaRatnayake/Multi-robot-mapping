@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/simple_navigation_goals/src/simple_navigation_goals.cpp" "/home/kalana/Xavier/Robot/build_isolated/simple_navigation_goals/CMakeFiles/simple_navigation_goals.dir/src/simple_navigation_goals.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/simple_navigation_goals/src/simple_navigation_goals.cpp" "/home/kalana/Xavier/Robot/build_isolated/simple_navigation_goals/CMakeFiles/simple_navigation_goals.dir/src/simple_navigation_goals.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,8 +3,8 @@
 
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/KeyboardInput.h
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/MotorPower.h
-src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
-src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/src/keyop_core.cpp
+src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
+src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/src/keyop_core.cpp
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /opt/ros/kinetic/include/ecl/concepts/nullary_function.hpp
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /opt/ros/kinetic/include/ecl/config.hpp
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /opt/ros/kinetic/include/ecl/config/char_sign.hpp
@@ -139,8 +139,8 @@ src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/Xml
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 
 src/CMakeFiles/keyop.dir/main.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/KeyboardInput.h
-src/CMakeFiles/keyop.dir/main.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
-src/CMakeFiles/keyop.dir/main.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/src/main.cpp
+src/CMakeFiles/keyop.dir/main.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
+src/CMakeFiles/keyop.dir/main.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/src/main.cpp
 src/CMakeFiles/keyop.dir/main.cpp.o: /opt/ros/kinetic/include/ecl/concepts/nullary_function.hpp
 src/CMakeFiles/keyop.dir/main.cpp.o: /opt/ros/kinetic/include/ecl/config.hpp
 src/CMakeFiles/keyop.dir/main.cpp.o: /opt/ros/kinetic/include/ecl/config/char_sign.hpp

@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/astar.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/astar.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/dijkstra.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/dijkstra.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/gradient_path.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/gradient_path.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/grid_path.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/grid_path.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/orientation_filter.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/orientation_filter.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/planner_core.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/planner_core.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/quadratic_calculator.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/quadratic_calculator.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/astar.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/astar.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/dijkstra.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/dijkstra.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/gradient_path.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/gradient_path.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/grid_path.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/grid_path.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/orientation_filter.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/orientation_filter.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/planner_core.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/planner_core.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/quadratic_calculator.cpp" "/home/kalana/Xavier/Robot/build_isolated/global_planner/CMakeFiles/global_planner.dir/src/quadratic_calculator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,13 +24,13 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/kalana/Xavier/Robot/devel_isolated/global_planner/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include"
   "/home/kalana/Xavier/Robot/devel_isolated/navfn/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include"
   "/home/kalana/Xavier/Robot/devel_isolated/costmap_2d/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/pcl-1.7"

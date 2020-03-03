@@ -67,7 +67,7 @@ set(kobuki_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_driver_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver)
+  set(kobuki_driver_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver)
   set(kobuki_driver_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_driver)
   set(kobuki_driver_INSTALL_PREFIX "")
   set(kobuki_driver_PREFIX ${kobuki_driver_DEVEL_PREFIX})

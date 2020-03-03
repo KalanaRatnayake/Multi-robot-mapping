@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz
+# Install script for directory: /home/kalana/Xavier/Robot/src/octomap/octomap_rviz
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,11 +135,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_rviz_plugins" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_rviz_plugins" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_rviz_plugins" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap_rviz_plugins" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -163,7 +163,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_rviz_plugins" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/plugin_description.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_rviz_plugins" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/plugin_description.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

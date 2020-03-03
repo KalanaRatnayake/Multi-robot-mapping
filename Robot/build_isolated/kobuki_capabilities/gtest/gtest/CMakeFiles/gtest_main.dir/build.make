@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_capabilities
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_capabilities
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities
@@ -109,6 +109,6 @@ gtest/gtest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/clean
 
 gtest/gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_capabilities /usr/src/gtest /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities/gtest/gtest /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities/gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_capabilities /usr/src/gtest /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities/gtest/gtest /home/kalana/Xavier/Robot/build_isolated/kobuki_capabilities/gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/depend
 

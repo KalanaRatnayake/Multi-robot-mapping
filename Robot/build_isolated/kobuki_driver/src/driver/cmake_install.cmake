@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

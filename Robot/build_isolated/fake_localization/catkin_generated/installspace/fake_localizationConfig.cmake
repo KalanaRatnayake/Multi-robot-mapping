@@ -67,7 +67,7 @@ set(fake_localization_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(fake_localization_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization)
+  set(fake_localization_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization)
   set(fake_localization_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/fake_localization)
   set(fake_localization_INSTALL_PREFIX "")
   set(fake_localization_PREFIX ${fake_localization_DEVEL_PREFIX})

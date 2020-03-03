@@ -7,20 +7,20 @@ CMakeFiles/planner.dir/src/plan_node.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/navfn/include/navfn/MakeNavPlan.h
  /home/kalana/Xavier/Robot/devel_isolated/navfn/include/navfn/MakeNavPlanRequest.h
  /home/kalana/Xavier/Robot/devel_isolated/navfn/include/navfn/MakeNavPlanResponse.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include/global_planner/expander.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include/global_planner/orientation_filter.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include/global_planner/planner_core.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include/global_planner/potential_calculator.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/include/global_planner/traceback.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner/src/plan_node.cpp
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include/nav_core/base_global_planner.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include/global_planner/expander.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include/global_planner/orientation_filter.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include/global_planner/planner_core.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include/global_planner/potential_calculator.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/include/global_planner/traceback.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner/src/plan_node.cpp
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include/nav_core/base_global_planner.h
  /opt/ros/kinetic/include/boost_161_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h

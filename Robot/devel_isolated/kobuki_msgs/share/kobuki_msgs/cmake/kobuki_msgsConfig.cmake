@@ -67,7 +67,7 @@ set(kobuki_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(kobuki_msgs_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic)
+  set(kobuki_msgs_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic)
   set(kobuki_msgs_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs)
   set(kobuki_msgs_INSTALL_PREFIX "")
   set(kobuki_msgs_PREFIX ${kobuki_msgs_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include " STREQUAL 
         message(FATAL_ERROR "Project 'kobuki_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'kobuki_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'kobuki_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/${idir}'.  ${_report}")
     endif()
     _list_append_unique(kobuki_msgs_INCLUDE_DIRS ${include})
   endforeach()

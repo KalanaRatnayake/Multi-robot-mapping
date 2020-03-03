@@ -660,157 +660,157 @@ bool oscillation_recovery;
 
 
 
-//#line 23 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 23 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool teb_autosize;
-//#line 27 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 27 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double dt_ref;
-//#line 31 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 31 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double dt_hysteresis;
-//#line 35 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 35 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool global_plan_overwrite_orientation;
-//#line 39 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 39 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool allow_init_with_backwards_motion;
-//#line 43 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 43 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double max_global_plan_lookahead_dist;
-//#line 47 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 47 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double force_reinit_new_goal_dist;
-//#line 51 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 51 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       int feasibility_check_no_poses;
-//#line 55 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 55 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool exact_arc_length;
-//#line 59 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 59 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool publish_feedback;
-//#line 63 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 63 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double visualize_with_time_as_z_axis_scale;
-//#line 70 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 70 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double global_plan_viapoint_sep;
-//#line 74 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 74 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool via_points_ordered;
-//#line 81 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 81 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double max_vel_x;
-//#line 85 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 85 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double max_vel_x_backwards;
-//#line 89 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 89 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double max_vel_theta;
-//#line 93 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 93 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double acc_lim_x;
-//#line 97 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 97 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double acc_lim_theta;
-//#line 101 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 101 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool is_footprint_dynamic;
-//#line 109 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 109 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double min_turning_radius;
-//#line 113 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 113 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double wheelbase;
-//#line 117 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 117 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool cmd_angle_instead_rotvel;
-//#line 125 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 125 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double max_vel_y;
-//#line 129 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 129 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double acc_lim_y;
-//#line 136 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 136 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double xy_goal_tolerance;
-//#line 140 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 140 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double yaw_goal_tolerance;
-//#line 144 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 144 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool free_goal_vel;
-//#line 151 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 151 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double min_obstacle_dist;
-//#line 155 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 155 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double inflation_dist;
-//#line 159 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 159 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double dynamic_obstacle_inflation_dist;
-//#line 163 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 163 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool include_dynamic_obstacles;
-//#line 167 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 167 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool include_costmap_obstacles;
-//#line 171 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 171 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool legacy_obstacle_association;
-//#line 175 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 175 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double obstacle_association_force_inclusion_factor;
-//#line 179 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 179 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double obstacle_association_cutoff_factor;
-//#line 183 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 183 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double costmap_obstacles_behind_robot_dist;
-//#line 187 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 187 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       int obstacle_poses_affected;
-//#line 195 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 195 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       int no_inner_iterations;
-//#line 199 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 199 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       int no_outer_iterations;
-//#line 203 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 203 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool optimization_activate;
-//#line 207 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 207 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool optimization_verbose;
-//#line 211 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 211 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double penalty_epsilon;
-//#line 215 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 215 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_max_vel_x;
-//#line 219 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 219 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_max_vel_y;
-//#line 223 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 223 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_max_vel_theta;
-//#line 227 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 227 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_acc_lim_x;
-//#line 231 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 231 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_acc_lim_y;
-//#line 235 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 235 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_acc_lim_theta;
-//#line 239 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 239 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_kinematics_nh;
-//#line 243 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 243 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_kinematics_forward_drive;
-//#line 247 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 247 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_kinematics_turning_radius;
-//#line 251 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 251 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_optimaltime;
-//#line 255 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 255 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_obstacle;
-//#line 259 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 259 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_inflation;
-//#line 263 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 263 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_dynamic_obstacle;
-//#line 267 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 267 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_dynamic_obstacle_inflation;
-//#line 271 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 271 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_viapoint;
-//#line 275 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 275 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double weight_adapt_factor;
-//#line 284 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 284 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool enable_multithreading;
-//#line 288 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 288 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       int max_number_classes;
-//#line 292 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 292 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double selection_cost_hysteresis;
-//#line 297 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 297 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double selection_prefer_initial_plan;
-//#line 301 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 301 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double selection_obst_cost_scale;
-//#line 305 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 305 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double selection_viapoint_cost_scale;
-//#line 309 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 309 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool selection_alternative_time_cost;
-//#line 313 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 313 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double switching_blocking_period;
-//#line 317 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 317 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       int roadmap_graph_no_samples;
-//#line 321 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 321 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double roadmap_graph_area_width;
-//#line 325 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 325 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double roadmap_graph_area_length_scale;
-//#line 329 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 329 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double h_signature_prescaler;
-//#line 333 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 333 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double h_signature_threshold;
-//#line 337 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 337 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       double obstacle_heading_threshold;
-//#line 341 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 341 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool viapoints_all_candidates;
-//#line 345 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 345 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool visualize_hc_graph;
-//#line 353 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 353 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool shrink_horizon_backup;
-//#line 357 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 357 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       bool oscillation_recovery;
 //#line 228 "/opt/ros/kinetic/share/dynamic_reconfigure/cmake/../templates/ConfigType.h.template"
 
@@ -951,115 +951,115 @@ bool oscillation_recovery;
     {
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT, TebLocalPlannerReconfigureConfig> Default("Default", "", 0, 0, true, &TebLocalPlannerReconfigureConfig::groups);
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::TRAJECTORY, TebLocalPlannerReconfigureConfig::DEFAULT> Trajectory("Trajectory", "tab", 0, 1, true, &TebLocalPlannerReconfigureConfig::DEFAULT::trajectory);
-//#line 23 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 23 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.teb_autosize = 0;
-//#line 23 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 23 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.teb_autosize = 1;
-//#line 23 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 23 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.teb_autosize = 1;
-//#line 23 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 23 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("teb_autosize", "bool", 0, "Enable the automatic resizing of the trajectory during optimization (based on the temporal resolution of the trajectory, recommended)", "", &TebLocalPlannerReconfigureConfig::teb_autosize)));
-//#line 23 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 23 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("teb_autosize", "bool", 0, "Enable the automatic resizing of the trajectory during optimization (based on the temporal resolution of the trajectory, recommended)", "", &TebLocalPlannerReconfigureConfig::teb_autosize)));
-//#line 27 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 27 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.dt_ref = 0.01;
-//#line 27 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 27 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.dt_ref = 1.0;
-//#line 27 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 27 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.dt_ref = 0.3;
-//#line 27 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 27 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("dt_ref", "double", 0, "Temporal resolution of the planned trajectory (usually it is set to the magnitude of the 1/control_rate)", "", &TebLocalPlannerReconfigureConfig::dt_ref)));
-//#line 27 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 27 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("dt_ref", "double", 0, "Temporal resolution of the planned trajectory (usually it is set to the magnitude of the 1/control_rate)", "", &TebLocalPlannerReconfigureConfig::dt_ref)));
-//#line 31 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 31 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.dt_hysteresis = 0.002;
-//#line 31 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 31 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.dt_hysteresis = 0.5;
-//#line 31 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 31 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.dt_hysteresis = 0.1;
-//#line 31 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 31 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("dt_hysteresis", "double", 0, "Hysteresis that is utilized for automatic resizing depending on the current temporal resolution (dt): usually 10% of dt_ref", "", &TebLocalPlannerReconfigureConfig::dt_hysteresis)));
-//#line 31 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 31 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("dt_hysteresis", "double", 0, "Hysteresis that is utilized for automatic resizing depending on the current temporal resolution (dt): usually 10% of dt_ref", "", &TebLocalPlannerReconfigureConfig::dt_hysteresis)));
-//#line 35 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 35 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.global_plan_overwrite_orientation = 0;
-//#line 35 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 35 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.global_plan_overwrite_orientation = 1;
-//#line 35 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 35 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.global_plan_overwrite_orientation = 1;
-//#line 35 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 35 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("global_plan_overwrite_orientation", "bool", 0, "Some global planners are not considering the orientation at local subgoals between start and global goal, therefore determine it automatically", "", &TebLocalPlannerReconfigureConfig::global_plan_overwrite_orientation)));
-//#line 35 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 35 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("global_plan_overwrite_orientation", "bool", 0, "Some global planners are not considering the orientation at local subgoals between start and global goal, therefore determine it automatically", "", &TebLocalPlannerReconfigureConfig::global_plan_overwrite_orientation)));
-//#line 39 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 39 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.allow_init_with_backwards_motion = 0;
-//#line 39 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 39 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.allow_init_with_backwards_motion = 1;
-//#line 39 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 39 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.allow_init_with_backwards_motion = 0;
-//#line 39 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 39 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("allow_init_with_backwards_motion", "bool", 0, "If true, the underlying trajectories might be initialized with backwards motions in case the goal is behind the start within the local costmap (this is only recommended if the robot is equipped with rear sensors)", "", &TebLocalPlannerReconfigureConfig::allow_init_with_backwards_motion)));
-//#line 39 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 39 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("allow_init_with_backwards_motion", "bool", 0, "If true, the underlying trajectories might be initialized with backwards motions in case the goal is behind the start within the local costmap (this is only recommended if the robot is equipped with rear sensors)", "", &TebLocalPlannerReconfigureConfig::allow_init_with_backwards_motion)));
-//#line 43 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 43 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.max_global_plan_lookahead_dist = 0.0;
-//#line 43 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 43 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.max_global_plan_lookahead_dist = 50.0;
-//#line 43 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 43 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.max_global_plan_lookahead_dist = 3.0;
-//#line 43 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 43 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_global_plan_lookahead_dist", "double", 0, "Specify maximum length (cumulative Euclidean distances) of the subset of the global plan taken into account for optimization [if 0 or negative: disabled; the length is also bounded by the local costmap size]", "", &TebLocalPlannerReconfigureConfig::max_global_plan_lookahead_dist)));
-//#line 43 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 43 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_global_plan_lookahead_dist", "double", 0, "Specify maximum length (cumulative Euclidean distances) of the subset of the global plan taken into account for optimization [if 0 or negative: disabled; the length is also bounded by the local costmap size]", "", &TebLocalPlannerReconfigureConfig::max_global_plan_lookahead_dist)));
-//#line 47 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 47 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.force_reinit_new_goal_dist = 0.0;
-//#line 47 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 47 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.force_reinit_new_goal_dist = 10.0;
-//#line 47 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 47 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.force_reinit_new_goal_dist = 1.0;
-//#line 47 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 47 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("force_reinit_new_goal_dist", "double", 0, "Force the planner to reinitialize the trajectory if a previous goal is updated with a seperation of more than the specified value in meters (skip hot-starting)", "", &TebLocalPlannerReconfigureConfig::force_reinit_new_goal_dist)));
-//#line 47 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 47 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("force_reinit_new_goal_dist", "double", 0, "Force the planner to reinitialize the trajectory if a previous goal is updated with a seperation of more than the specified value in meters (skip hot-starting)", "", &TebLocalPlannerReconfigureConfig::force_reinit_new_goal_dist)));
-//#line 51 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 51 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.feasibility_check_no_poses = 0;
-//#line 51 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 51 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.feasibility_check_no_poses = 50;
-//#line 51 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 51 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.feasibility_check_no_poses = 5;
-//#line 51 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 51 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("feasibility_check_no_poses", "int", 0, "Specify up to which pose on the predicted plan the feasibility should be checked each sampling interval", "", &TebLocalPlannerReconfigureConfig::feasibility_check_no_poses)));
-//#line 51 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 51 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("feasibility_check_no_poses", "int", 0, "Specify up to which pose on the predicted plan the feasibility should be checked each sampling interval", "", &TebLocalPlannerReconfigureConfig::feasibility_check_no_poses)));
-//#line 55 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 55 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.exact_arc_length = 0;
-//#line 55 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 55 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.exact_arc_length = 1;
-//#line 55 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 55 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.exact_arc_length = 0;
-//#line 55 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 55 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("exact_arc_length", "bool", 0, "If true, the planner uses the exact arc length in velocity, acceleration and turning rate computations [-> increased cpu time], otherwise the euclidean approximation is used.", "", &TebLocalPlannerReconfigureConfig::exact_arc_length)));
-//#line 55 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 55 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("exact_arc_length", "bool", 0, "If true, the planner uses the exact arc length in velocity, acceleration and turning rate computations [-> increased cpu time], otherwise the euclidean approximation is used.", "", &TebLocalPlannerReconfigureConfig::exact_arc_length)));
-//#line 59 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 59 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.publish_feedback = 0;
-//#line 59 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 59 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.publish_feedback = 1;
-//#line 59 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 59 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.publish_feedback = 0;
-//#line 59 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 59 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("publish_feedback", "bool", 0, "Publish planner feedback containing the full trajectory and a list of active obstacles (should be enabled only for evaluation or debugging purposes)", "", &TebLocalPlannerReconfigureConfig::publish_feedback)));
-//#line 59 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 59 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("publish_feedback", "bool", 0, "Publish planner feedback containing the full trajectory and a list of active obstacles (should be enabled only for evaluation or debugging purposes)", "", &TebLocalPlannerReconfigureConfig::publish_feedback)));
-//#line 63 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 63 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.visualize_with_time_as_z_axis_scale = 0.0;
-//#line 63 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 63 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.visualize_with_time_as_z_axis_scale = 1.0;
-//#line 63 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 63 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.visualize_with_time_as_z_axis_scale = 0.0;
-//#line 63 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 63 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Trajectory.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("visualize_with_time_as_z_axis_scale", "double", 0, "If this value is bigger than 0, the trajectory and obstacles are visualized in 3d using the time as the z-axis scaled by this value. Most useful for dynamic obstacles.", "", &TebLocalPlannerReconfigureConfig::visualize_with_time_as_z_axis_scale)));
-//#line 63 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 63 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("visualize_with_time_as_z_axis_scale", "double", 0, "If this value is bigger than 0, the trajectory and obstacles are visualized in 3d using the time as the z-axis scaled by this value. Most useful for dynamic obstacles.", "", &TebLocalPlannerReconfigureConfig::visualize_with_time_as_z_axis_scale)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Trajectory.convertParams();
@@ -1068,25 +1068,25 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::TRAJECTORY, TebLocalPlannerReconfigureConfig::DEFAULT>(Trajectory)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::VIAPOINTS, TebLocalPlannerReconfigureConfig::DEFAULT> ViaPoints("ViaPoints", "tab", 0, 2, true, &TebLocalPlannerReconfigureConfig::DEFAULT::viapoints);
-//#line 70 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 70 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.global_plan_viapoint_sep = -0.1;
-//#line 70 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 70 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.global_plan_viapoint_sep = 5.0;
-//#line 70 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 70 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.global_plan_viapoint_sep = -0.1;
-//#line 70 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 70 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       ViaPoints.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("global_plan_viapoint_sep", "double", 0, "Min. separation between each two consecutive via-points extracted from the global plan [if negative: disabled]", "", &TebLocalPlannerReconfigureConfig::global_plan_viapoint_sep)));
-//#line 70 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 70 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("global_plan_viapoint_sep", "double", 0, "Min. separation between each two consecutive via-points extracted from the global plan [if negative: disabled]", "", &TebLocalPlannerReconfigureConfig::global_plan_viapoint_sep)));
-//#line 74 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 74 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.via_points_ordered = 0;
-//#line 74 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 74 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.via_points_ordered = 1;
-//#line 74 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 74 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.via_points_ordered = 0;
-//#line 74 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 74 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       ViaPoints.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("via_points_ordered", "bool", 0, "If true, the planner adheres to the order of via-points in the storage container", "", &TebLocalPlannerReconfigureConfig::via_points_ordered)));
-//#line 74 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 74 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("via_points_ordered", "bool", 0, "If true, the planner adheres to the order of via-points in the storage container", "", &TebLocalPlannerReconfigureConfig::via_points_ordered)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       ViaPoints.convertParams();
@@ -1095,96 +1095,96 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::VIAPOINTS, TebLocalPlannerReconfigureConfig::DEFAULT>(ViaPoints)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT, TebLocalPlannerReconfigureConfig::DEFAULT> Robot("Robot", "tab", 0, 3, true, &TebLocalPlannerReconfigureConfig::DEFAULT::robot);
-//#line 81 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 81 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.max_vel_x = 0.01;
-//#line 81 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 81 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.max_vel_x = 100.0;
-//#line 81 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 81 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.max_vel_x = 0.4;
-//#line 81 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 81 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Robot.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_x", "double", 0, "Maximum translational velocity of the robot", "", &TebLocalPlannerReconfigureConfig::max_vel_x)));
-//#line 81 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 81 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_x", "double", 0, "Maximum translational velocity of the robot", "", &TebLocalPlannerReconfigureConfig::max_vel_x)));
-//#line 85 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 85 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.max_vel_x_backwards = 0.01;
-//#line 85 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 85 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.max_vel_x_backwards = 100.0;
-//#line 85 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 85 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.max_vel_x_backwards = 0.2;
-//#line 85 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 85 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Robot.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_x_backwards", "double", 0, "Maximum translational velocity of the robot for driving backwards", "", &TebLocalPlannerReconfigureConfig::max_vel_x_backwards)));
-//#line 85 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 85 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_x_backwards", "double", 0, "Maximum translational velocity of the robot for driving backwards", "", &TebLocalPlannerReconfigureConfig::max_vel_x_backwards)));
-//#line 89 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 89 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.max_vel_theta = 0.01;
-//#line 89 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 89 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.max_vel_theta = 100.0;
-//#line 89 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 89 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.max_vel_theta = 0.3;
-//#line 89 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 89 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Robot.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_theta", "double", 0, "Maximum angular velocity of the robot", "", &TebLocalPlannerReconfigureConfig::max_vel_theta)));
-//#line 89 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 89 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_theta", "double", 0, "Maximum angular velocity of the robot", "", &TebLocalPlannerReconfigureConfig::max_vel_theta)));
-//#line 93 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 93 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.acc_lim_x = 0.01;
-//#line 93 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 93 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.acc_lim_x = 100.0;
-//#line 93 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 93 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.acc_lim_x = 0.5;
-//#line 93 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 93 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Robot.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("acc_lim_x", "double", 0, "Maximum translational acceleration of the robot", "", &TebLocalPlannerReconfigureConfig::acc_lim_x)));
-//#line 93 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 93 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("acc_lim_x", "double", 0, "Maximum translational acceleration of the robot", "", &TebLocalPlannerReconfigureConfig::acc_lim_x)));
-//#line 97 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 97 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.acc_lim_theta = 0.01;
-//#line 97 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 97 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.acc_lim_theta = 100.0;
-//#line 97 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 97 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.acc_lim_theta = 0.5;
-//#line 97 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 97 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Robot.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("acc_lim_theta", "double", 0, "Maximum angular acceleration of the robot", "", &TebLocalPlannerReconfigureConfig::acc_lim_theta)));
-//#line 97 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 97 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("acc_lim_theta", "double", 0, "Maximum angular acceleration of the robot", "", &TebLocalPlannerReconfigureConfig::acc_lim_theta)));
-//#line 101 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 101 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.is_footprint_dynamic = 0;
-//#line 101 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 101 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.is_footprint_dynamic = 1;
-//#line 101 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 101 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.is_footprint_dynamic = 0;
-//#line 101 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 101 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Robot.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("is_footprint_dynamic", "bool", 0, "If true, updated the footprint before checking trajectory feasibility", "", &TebLocalPlannerReconfigureConfig::is_footprint_dynamic)));
-//#line 101 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 101 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("is_footprint_dynamic", "bool", 0, "If true, updated the footprint before checking trajectory feasibility", "", &TebLocalPlannerReconfigureConfig::is_footprint_dynamic)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT::CARLIKE, TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT> Carlike("Carlike", "hide", 3, 4, true, &TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT::carlike);
-//#line 109 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 109 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.min_turning_radius = 0.0;
-//#line 109 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 109 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.min_turning_radius = 50.0;
-//#line 109 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 109 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.min_turning_radius = 0.0;
-//#line 109 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 109 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Carlike.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("min_turning_radius", "double", 0, "Minimum turning radius of a carlike robot (diff-drive robot: zero)", "", &TebLocalPlannerReconfigureConfig::min_turning_radius)));
-//#line 109 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 109 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("min_turning_radius", "double", 0, "Minimum turning radius of a carlike robot (diff-drive robot: zero)", "", &TebLocalPlannerReconfigureConfig::min_turning_radius)));
-//#line 113 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 113 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.wheelbase = -10.0;
-//#line 113 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 113 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.wheelbase = 10.0;
-//#line 113 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 113 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.wheelbase = 1.0;
-//#line 113 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 113 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Carlike.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("wheelbase", "double", 0, "The distance between the drive shaft and steering axle (only required for a carlike robot with 'cmd_angle_instead_rotvel' enabled); The value might be negative for back-wheeled robots!", "", &TebLocalPlannerReconfigureConfig::wheelbase)));
-//#line 113 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 113 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("wheelbase", "double", 0, "The distance between the drive shaft and steering axle (only required for a carlike robot with 'cmd_angle_instead_rotvel' enabled); The value might be negative for back-wheeled robots!", "", &TebLocalPlannerReconfigureConfig::wheelbase)));
-//#line 117 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 117 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.cmd_angle_instead_rotvel = 0;
-//#line 117 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 117 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.cmd_angle_instead_rotvel = 1;
-//#line 117 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 117 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.cmd_angle_instead_rotvel = 0;
-//#line 117 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 117 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Carlike.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("cmd_angle_instead_rotvel", "bool", 0, "Substitute the rotational velocity in the commanded velocity message by the corresponding steering angle (check 'axles_distance')", "", &TebLocalPlannerReconfigureConfig::cmd_angle_instead_rotvel)));
-//#line 117 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 117 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("cmd_angle_instead_rotvel", "bool", 0, "Substitute the rotational velocity in the commanded velocity message by the corresponding steering angle (check 'axles_distance')", "", &TebLocalPlannerReconfigureConfig::cmd_angle_instead_rotvel)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Carlike.convertParams();
@@ -1193,25 +1193,25 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT::CARLIKE, TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT>(Carlike)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT::OMNIDIRECTIONAL, TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT> Omnidirectional("Omnidirectional", "hide", 3, 5, true, &TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT::omnidirectional);
-//#line 125 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 125 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.max_vel_y = 0.0;
-//#line 125 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 125 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.max_vel_y = 100.0;
-//#line 125 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 125 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.max_vel_y = 0.0;
-//#line 125 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 125 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Omnidirectional.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_y", "double", 0, "Maximum strafing velocity of the robot (should be zero for non-holonomic robots!)", "", &TebLocalPlannerReconfigureConfig::max_vel_y)));
-//#line 125 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 125 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("max_vel_y", "double", 0, "Maximum strafing velocity of the robot (should be zero for non-holonomic robots!)", "", &TebLocalPlannerReconfigureConfig::max_vel_y)));
-//#line 129 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 129 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.acc_lim_y = 0.01;
-//#line 129 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 129 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.acc_lim_y = 100.0;
-//#line 129 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 129 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.acc_lim_y = 0.5;
-//#line 129 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 129 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Omnidirectional.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("acc_lim_y", "double", 0, "Maximum strafing acceleration of the robot", "", &TebLocalPlannerReconfigureConfig::acc_lim_y)));
-//#line 129 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 129 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("acc_lim_y", "double", 0, "Maximum strafing acceleration of the robot", "", &TebLocalPlannerReconfigureConfig::acc_lim_y)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Omnidirectional.convertParams();
@@ -1226,35 +1226,35 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::ROBOT, TebLocalPlannerReconfigureConfig::DEFAULT>(Robot)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::GOALTOLERANCE, TebLocalPlannerReconfigureConfig::DEFAULT> GoalTolerance("GoalTolerance", "tab", 0, 6, true, &TebLocalPlannerReconfigureConfig::DEFAULT::goaltolerance);
-//#line 136 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 136 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.xy_goal_tolerance = 0.001;
-//#line 136 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 136 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.xy_goal_tolerance = 10.0;
-//#line 136 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 136 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.xy_goal_tolerance = 0.2;
-//#line 136 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 136 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       GoalTolerance.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("xy_goal_tolerance", "double", 0, "Allowed final euclidean distance to the goal position", "", &TebLocalPlannerReconfigureConfig::xy_goal_tolerance)));
-//#line 136 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 136 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("xy_goal_tolerance", "double", 0, "Allowed final euclidean distance to the goal position", "", &TebLocalPlannerReconfigureConfig::xy_goal_tolerance)));
-//#line 140 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 140 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.yaw_goal_tolerance = 0.001;
-//#line 140 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 140 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.yaw_goal_tolerance = 3.2;
-//#line 140 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 140 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.yaw_goal_tolerance = 0.1;
-//#line 140 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 140 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       GoalTolerance.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("yaw_goal_tolerance", "double", 0, "Allowed final orientation error to the goal orientation", "", &TebLocalPlannerReconfigureConfig::yaw_goal_tolerance)));
-//#line 140 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 140 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("yaw_goal_tolerance", "double", 0, "Allowed final orientation error to the goal orientation", "", &TebLocalPlannerReconfigureConfig::yaw_goal_tolerance)));
-//#line 144 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 144 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.free_goal_vel = 0;
-//#line 144 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 144 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.free_goal_vel = 1;
-//#line 144 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 144 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.free_goal_vel = 0;
-//#line 144 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 144 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       GoalTolerance.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("free_goal_vel", "bool", 0, "Allow the robot's velocity to be nonzero for planning purposes (the robot can arrive at the goal with max speed)", "", &TebLocalPlannerReconfigureConfig::free_goal_vel)));
-//#line 144 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 144 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("free_goal_vel", "bool", 0, "Allow the robot's velocity to be nonzero for planning purposes (the robot can arrive at the goal with max speed)", "", &TebLocalPlannerReconfigureConfig::free_goal_vel)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       GoalTolerance.convertParams();
@@ -1263,105 +1263,105 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::GOALTOLERANCE, TebLocalPlannerReconfigureConfig::DEFAULT>(GoalTolerance)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::OBSTACLES, TebLocalPlannerReconfigureConfig::DEFAULT> Obstacles("Obstacles", "tab", 0, 7, true, &TebLocalPlannerReconfigureConfig::DEFAULT::obstacles);
-//#line 151 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 151 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.min_obstacle_dist = 0.0;
-//#line 151 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 151 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.min_obstacle_dist = 10.0;
-//#line 151 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 151 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.min_obstacle_dist = 0.5;
-//#line 151 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 151 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("min_obstacle_dist", "double", 0, "Minimum desired separation from obstacles", "", &TebLocalPlannerReconfigureConfig::min_obstacle_dist)));
-//#line 151 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 151 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("min_obstacle_dist", "double", 0, "Minimum desired separation from obstacles", "", &TebLocalPlannerReconfigureConfig::min_obstacle_dist)));
-//#line 155 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 155 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.inflation_dist = 0.0;
-//#line 155 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 155 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.inflation_dist = 15.0;
-//#line 155 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 155 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.inflation_dist = 0.6;
-//#line 155 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 155 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("inflation_dist", "double", 0, "Buffer zone around obstacles with non-zero penalty costs (should be larger than min_obstacle_dist in order to take effect)", "", &TebLocalPlannerReconfigureConfig::inflation_dist)));
-//#line 155 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 155 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("inflation_dist", "double", 0, "Buffer zone around obstacles with non-zero penalty costs (should be larger than min_obstacle_dist in order to take effect)", "", &TebLocalPlannerReconfigureConfig::inflation_dist)));
-//#line 159 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 159 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.dynamic_obstacle_inflation_dist = 0.0;
-//#line 159 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 159 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.dynamic_obstacle_inflation_dist = 15.0;
-//#line 159 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 159 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.dynamic_obstacle_inflation_dist = 0.6;
-//#line 159 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 159 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("dynamic_obstacle_inflation_dist", "double", 0, "Buffer zone around predicted locations of dynamic obstacles with non-zero penalty costs (should be larger than min_obstacle_dist in order to take effect)", "", &TebLocalPlannerReconfigureConfig::dynamic_obstacle_inflation_dist)));
-//#line 159 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 159 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("dynamic_obstacle_inflation_dist", "double", 0, "Buffer zone around predicted locations of dynamic obstacles with non-zero penalty costs (should be larger than min_obstacle_dist in order to take effect)", "", &TebLocalPlannerReconfigureConfig::dynamic_obstacle_inflation_dist)));
-//#line 163 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 163 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.include_dynamic_obstacles = 0;
-//#line 163 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 163 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.include_dynamic_obstacles = 1;
-//#line 163 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 163 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.include_dynamic_obstacles = 0;
-//#line 163 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 163 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("include_dynamic_obstacles", "bool", 0, "Specify whether the movement of dynamic obstacles should be predicted by a constant velocity model (this also changes the homotopy class search). If false, all obstacles are considered to be static.", "", &TebLocalPlannerReconfigureConfig::include_dynamic_obstacles)));
-//#line 163 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 163 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("include_dynamic_obstacles", "bool", 0, "Specify whether the movement of dynamic obstacles should be predicted by a constant velocity model (this also changes the homotopy class search). If false, all obstacles are considered to be static.", "", &TebLocalPlannerReconfigureConfig::include_dynamic_obstacles)));
-//#line 167 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 167 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.include_costmap_obstacles = 0;
-//#line 167 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 167 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.include_costmap_obstacles = 1;
-//#line 167 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 167 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.include_costmap_obstacles = 1;
-//#line 167 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 167 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("include_costmap_obstacles", "bool", 0, "Specify whether the obstacles in the costmap should be taken into account directly (this is necessary if no seperate clustering and detection is implemented)", "", &TebLocalPlannerReconfigureConfig::include_costmap_obstacles)));
-//#line 167 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 167 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("include_costmap_obstacles", "bool", 0, "Specify whether the obstacles in the costmap should be taken into account directly (this is necessary if no seperate clustering and detection is implemented)", "", &TebLocalPlannerReconfigureConfig::include_costmap_obstacles)));
-//#line 171 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 171 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.legacy_obstacle_association = 0;
-//#line 171 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 171 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.legacy_obstacle_association = 1;
-//#line 171 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 171 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.legacy_obstacle_association = 0;
-//#line 171 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 171 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("legacy_obstacle_association", "bool", 0, "If true, the old association strategy is used (for each obstacle, find the nearest TEB pose), otherwise the new one (for each teb pose, find only 'relevant' obstacles).", "", &TebLocalPlannerReconfigureConfig::legacy_obstacle_association)));
-//#line 171 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 171 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("legacy_obstacle_association", "bool", 0, "If true, the old association strategy is used (for each obstacle, find the nearest TEB pose), otherwise the new one (for each teb pose, find only 'relevant' obstacles).", "", &TebLocalPlannerReconfigureConfig::legacy_obstacle_association)));
-//#line 175 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 175 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.obstacle_association_force_inclusion_factor = 0.0;
-//#line 175 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 175 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.obstacle_association_force_inclusion_factor = 100.0;
-//#line 175 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 175 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.obstacle_association_force_inclusion_factor = 1.5;
-//#line 175 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 175 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("obstacle_association_force_inclusion_factor", "double", 0, "The non-legacy obstacle association technique tries to connect only relevant obstacles with the discretized trajectory during optimization, all obstacles within a specifed distance are forced to be included (as a multiple of min_obstacle_dist), e.g. choose 2.0 in order to consider obstacles within a radius of 2.0*min_obstacle_dist.", "", &TebLocalPlannerReconfigureConfig::obstacle_association_force_inclusion_factor)));
-//#line 175 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 175 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("obstacle_association_force_inclusion_factor", "double", 0, "The non-legacy obstacle association technique tries to connect only relevant obstacles with the discretized trajectory during optimization, all obstacles within a specifed distance are forced to be included (as a multiple of min_obstacle_dist), e.g. choose 2.0 in order to consider obstacles within a radius of 2.0*min_obstacle_dist.", "", &TebLocalPlannerReconfigureConfig::obstacle_association_force_inclusion_factor)));
-//#line 179 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 179 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.obstacle_association_cutoff_factor = 1.0;
-//#line 179 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 179 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.obstacle_association_cutoff_factor = 100.0;
-//#line 179 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 179 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.obstacle_association_cutoff_factor = 5.0;
-//#line 179 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 179 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("obstacle_association_cutoff_factor", "double", 0, "See obstacle_association_force_inclusion_factor, but beyond a multiple of [value]*min_obstacle_dist all obstacles are ignored during optimization. obstacle_association_force_inclusion_factor is processed first.", "", &TebLocalPlannerReconfigureConfig::obstacle_association_cutoff_factor)));
-//#line 179 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 179 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("obstacle_association_cutoff_factor", "double", 0, "See obstacle_association_force_inclusion_factor, but beyond a multiple of [value]*min_obstacle_dist all obstacles are ignored during optimization. obstacle_association_force_inclusion_factor is processed first.", "", &TebLocalPlannerReconfigureConfig::obstacle_association_cutoff_factor)));
-//#line 183 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 183 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.costmap_obstacles_behind_robot_dist = 0.0;
-//#line 183 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 183 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.costmap_obstacles_behind_robot_dist = 20.0;
-//#line 183 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 183 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.costmap_obstacles_behind_robot_dist = 1.5;
-//#line 183 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 183 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("costmap_obstacles_behind_robot_dist", "double", 0, "Limit the occupied local costmap obstacles taken into account for planning behind the robot (specify distance in meters)", "", &TebLocalPlannerReconfigureConfig::costmap_obstacles_behind_robot_dist)));
-//#line 183 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 183 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("costmap_obstacles_behind_robot_dist", "double", 0, "Limit the occupied local costmap obstacles taken into account for planning behind the robot (specify distance in meters)", "", &TebLocalPlannerReconfigureConfig::costmap_obstacles_behind_robot_dist)));
-//#line 187 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 187 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.obstacle_poses_affected = 0;
-//#line 187 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 187 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.obstacle_poses_affected = 200;
-//#line 187 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 187 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.obstacle_poses_affected = 30;
-//#line 187 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 187 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Obstacles.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("obstacle_poses_affected", "int", 0, "The obstacle position is attached to the closest pose on the trajectory to reduce computational effort, but take a number of neighbors into account as well", "", &TebLocalPlannerReconfigureConfig::obstacle_poses_affected)));
-//#line 187 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 187 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("obstacle_poses_affected", "int", 0, "The obstacle position is attached to the closest pose on the trajectory to reduce computational effort, but take a number of neighbors into account as well", "", &TebLocalPlannerReconfigureConfig::obstacle_poses_affected)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Obstacles.convertParams();
@@ -1370,215 +1370,215 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::OBSTACLES, TebLocalPlannerReconfigureConfig::DEFAULT>(Obstacles)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::OPTIMIZATION, TebLocalPlannerReconfigureConfig::DEFAULT> Optimization("Optimization", "tab", 0, 8, true, &TebLocalPlannerReconfigureConfig::DEFAULT::optimization);
-//#line 195 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 195 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.no_inner_iterations = 1;
-//#line 195 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 195 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.no_inner_iterations = 100;
-//#line 195 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 195 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.no_inner_iterations = 5;
-//#line 195 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 195 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("no_inner_iterations", "int", 0, "Number of solver iterations called in each outerloop iteration", "", &TebLocalPlannerReconfigureConfig::no_inner_iterations)));
-//#line 195 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 195 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("no_inner_iterations", "int", 0, "Number of solver iterations called in each outerloop iteration", "", &TebLocalPlannerReconfigureConfig::no_inner_iterations)));
-//#line 199 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 199 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.no_outer_iterations = 1;
-//#line 199 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 199 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.no_outer_iterations = 100;
-//#line 199 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 199 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.no_outer_iterations = 4;
-//#line 199 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 199 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("no_outer_iterations", "int", 0, "Each outerloop iteration automatically resizes the trajectory and invokes the internal optimizer with no_inner_iterations", "", &TebLocalPlannerReconfigureConfig::no_outer_iterations)));
-//#line 199 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 199 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("no_outer_iterations", "int", 0, "Each outerloop iteration automatically resizes the trajectory and invokes the internal optimizer with no_inner_iterations", "", &TebLocalPlannerReconfigureConfig::no_outer_iterations)));
-//#line 203 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 203 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.optimization_activate = 0;
-//#line 203 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 203 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.optimization_activate = 1;
-//#line 203 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 203 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.optimization_activate = 1;
-//#line 203 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 203 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("optimization_activate", "bool", 0, "Activate the optimization", "", &TebLocalPlannerReconfigureConfig::optimization_activate)));
-//#line 203 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 203 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("optimization_activate", "bool", 0, "Activate the optimization", "", &TebLocalPlannerReconfigureConfig::optimization_activate)));
-//#line 207 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 207 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.optimization_verbose = 0;
-//#line 207 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 207 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.optimization_verbose = 1;
-//#line 207 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 207 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.optimization_verbose = 0;
-//#line 207 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 207 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("optimization_verbose", "bool", 0, "Print verbose information", "", &TebLocalPlannerReconfigureConfig::optimization_verbose)));
-//#line 207 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 207 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("optimization_verbose", "bool", 0, "Print verbose information", "", &TebLocalPlannerReconfigureConfig::optimization_verbose)));
-//#line 211 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 211 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.penalty_epsilon = 0.0;
-//#line 211 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 211 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.penalty_epsilon = 1.0;
-//#line 211 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 211 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.penalty_epsilon = 0.1;
-//#line 211 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 211 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("penalty_epsilon", "double", 0, "Add a small safty margin to penalty functions for hard-constraint approximations", "", &TebLocalPlannerReconfigureConfig::penalty_epsilon)));
-//#line 211 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 211 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("penalty_epsilon", "double", 0, "Add a small safty margin to penalty functions for hard-constraint approximations", "", &TebLocalPlannerReconfigureConfig::penalty_epsilon)));
-//#line 215 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 215 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_max_vel_x = 0.0;
-//#line 215 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 215 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_max_vel_x = 1000.0;
-//#line 215 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 215 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_max_vel_x = 2.0;
-//#line 215 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 215 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_max_vel_x", "double", 0, "Optimization weight for satisfying the maximum allowed translational velocity", "", &TebLocalPlannerReconfigureConfig::weight_max_vel_x)));
-//#line 215 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 215 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_max_vel_x", "double", 0, "Optimization weight for satisfying the maximum allowed translational velocity", "", &TebLocalPlannerReconfigureConfig::weight_max_vel_x)));
-//#line 219 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 219 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_max_vel_y = 0.0;
-//#line 219 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 219 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_max_vel_y = 1000.0;
-//#line 219 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 219 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_max_vel_y = 2.0;
-//#line 219 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 219 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_max_vel_y", "double", 0, "Optimization weight for satisfying the maximum allowed strafing velocity (in use only for holonomic robots)", "", &TebLocalPlannerReconfigureConfig::weight_max_vel_y)));
-//#line 219 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 219 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_max_vel_y", "double", 0, "Optimization weight for satisfying the maximum allowed strafing velocity (in use only for holonomic robots)", "", &TebLocalPlannerReconfigureConfig::weight_max_vel_y)));
-//#line 223 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 223 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_max_vel_theta = 0.0;
-//#line 223 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 223 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_max_vel_theta = 1000.0;
-//#line 223 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 223 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_max_vel_theta = 1.0;
-//#line 223 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 223 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_max_vel_theta", "double", 0, "Optimization weight for satisfying the maximum allowed angular velocity", "", &TebLocalPlannerReconfigureConfig::weight_max_vel_theta)));
-//#line 223 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 223 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_max_vel_theta", "double", 0, "Optimization weight for satisfying the maximum allowed angular velocity", "", &TebLocalPlannerReconfigureConfig::weight_max_vel_theta)));
-//#line 227 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 227 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_acc_lim_x = 0.0;
-//#line 227 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 227 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_acc_lim_x = 1000.0;
-//#line 227 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 227 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_acc_lim_x = 1.0;
-//#line 227 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 227 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_acc_lim_x", "double", 0, "Optimization weight for satisfying the maximum allowed translational acceleration", "", &TebLocalPlannerReconfigureConfig::weight_acc_lim_x)));
-//#line 227 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 227 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_acc_lim_x", "double", 0, "Optimization weight for satisfying the maximum allowed translational acceleration", "", &TebLocalPlannerReconfigureConfig::weight_acc_lim_x)));
-//#line 231 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 231 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_acc_lim_y = 0.0;
-//#line 231 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 231 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_acc_lim_y = 1000.0;
-//#line 231 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 231 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_acc_lim_y = 1.0;
-//#line 231 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 231 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_acc_lim_y", "double", 0, "Optimization weight for satisfying the maximum allowed strafing acceleration (in use only for holonomic robots)", "", &TebLocalPlannerReconfigureConfig::weight_acc_lim_y)));
-//#line 231 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 231 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_acc_lim_y", "double", 0, "Optimization weight for satisfying the maximum allowed strafing acceleration (in use only for holonomic robots)", "", &TebLocalPlannerReconfigureConfig::weight_acc_lim_y)));
-//#line 235 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 235 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_acc_lim_theta = 0.0;
-//#line 235 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 235 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_acc_lim_theta = 1000.0;
-//#line 235 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 235 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_acc_lim_theta = 1.0;
-//#line 235 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 235 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_acc_lim_theta", "double", 0, "Optimization weight for satisfying the maximum allowed angular acceleration", "", &TebLocalPlannerReconfigureConfig::weight_acc_lim_theta)));
-//#line 235 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 235 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_acc_lim_theta", "double", 0, "Optimization weight for satisfying the maximum allowed angular acceleration", "", &TebLocalPlannerReconfigureConfig::weight_acc_lim_theta)));
-//#line 239 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 239 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_kinematics_nh = 0.0;
-//#line 239 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 239 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_kinematics_nh = 10000.0;
-//#line 239 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 239 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_kinematics_nh = 1000.0;
-//#line 239 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 239 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_kinematics_nh", "double", 0, "Optimization weight for satisfying the non-holonomic kinematics", "", &TebLocalPlannerReconfigureConfig::weight_kinematics_nh)));
-//#line 239 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 239 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_kinematics_nh", "double", 0, "Optimization weight for satisfying the non-holonomic kinematics", "", &TebLocalPlannerReconfigureConfig::weight_kinematics_nh)));
-//#line 243 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 243 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_kinematics_forward_drive = 0.0;
-//#line 243 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 243 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_kinematics_forward_drive = 1000.0;
-//#line 243 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 243 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_kinematics_forward_drive = 1.0;
-//#line 243 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 243 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_kinematics_forward_drive", "double", 0, "Optimization weight for forcing the robot to choose only forward directions (positive transl. velocities, only diffdrive robot)", "", &TebLocalPlannerReconfigureConfig::weight_kinematics_forward_drive)));
-//#line 243 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 243 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_kinematics_forward_drive", "double", 0, "Optimization weight for forcing the robot to choose only forward directions (positive transl. velocities, only diffdrive robot)", "", &TebLocalPlannerReconfigureConfig::weight_kinematics_forward_drive)));
-//#line 247 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 247 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_kinematics_turning_radius = 0.0;
-//#line 247 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 247 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_kinematics_turning_radius = 1000.0;
-//#line 247 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 247 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_kinematics_turning_radius = 1.0;
-//#line 247 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 247 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_kinematics_turning_radius", "double", 0, "Optimization weight for enforcing a minimum turning radius (carlike robots)", "", &TebLocalPlannerReconfigureConfig::weight_kinematics_turning_radius)));
-//#line 247 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 247 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_kinematics_turning_radius", "double", 0, "Optimization weight for enforcing a minimum turning radius (carlike robots)", "", &TebLocalPlannerReconfigureConfig::weight_kinematics_turning_radius)));
-//#line 251 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 251 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_optimaltime = 0.0;
-//#line 251 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 251 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_optimaltime = 1000.0;
-//#line 251 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 251 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_optimaltime = 1.0;
-//#line 251 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 251 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_optimaltime", "double", 0, "Optimization weight for contracting the trajectory w.r.t transition time", "", &TebLocalPlannerReconfigureConfig::weight_optimaltime)));
-//#line 251 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 251 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_optimaltime", "double", 0, "Optimization weight for contracting the trajectory w.r.t transition time", "", &TebLocalPlannerReconfigureConfig::weight_optimaltime)));
-//#line 255 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 255 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_obstacle = 0.0;
-//#line 255 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 255 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_obstacle = 1000.0;
-//#line 255 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 255 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_obstacle = 50.0;
-//#line 255 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 255 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_obstacle", "double", 0, "Optimization weight for satisfying a minimum seperation from obstacles", "", &TebLocalPlannerReconfigureConfig::weight_obstacle)));
-//#line 255 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 255 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_obstacle", "double", 0, "Optimization weight for satisfying a minimum seperation from obstacles", "", &TebLocalPlannerReconfigureConfig::weight_obstacle)));
-//#line 259 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 259 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_inflation = 0.0;
-//#line 259 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 259 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_inflation = 10.0;
-//#line 259 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 259 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_inflation = 0.1;
-//#line 259 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 259 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_inflation", "double", 0, "Optimization weight for the inflation penalty (should be small)", "", &TebLocalPlannerReconfigureConfig::weight_inflation)));
-//#line 259 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 259 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_inflation", "double", 0, "Optimization weight for the inflation penalty (should be small)", "", &TebLocalPlannerReconfigureConfig::weight_inflation)));
-//#line 263 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 263 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_dynamic_obstacle = 0.0;
-//#line 263 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 263 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_dynamic_obstacle = 1000.0;
-//#line 263 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 263 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_dynamic_obstacle = 50.0;
-//#line 263 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 263 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_dynamic_obstacle", "double", 0, "Optimization weight for satisfying a minimum seperation from dynamic obstacles", "", &TebLocalPlannerReconfigureConfig::weight_dynamic_obstacle)));
-//#line 263 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 263 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_dynamic_obstacle", "double", 0, "Optimization weight for satisfying a minimum seperation from dynamic obstacles", "", &TebLocalPlannerReconfigureConfig::weight_dynamic_obstacle)));
-//#line 267 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 267 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_dynamic_obstacle_inflation = 0.0;
-//#line 267 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 267 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_dynamic_obstacle_inflation = 10.0;
-//#line 267 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 267 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_dynamic_obstacle_inflation = 0.1;
-//#line 267 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 267 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_dynamic_obstacle_inflation", "double", 0, "Optimization weight for the inflation penalty of dynamic obstacles (should be small)", "", &TebLocalPlannerReconfigureConfig::weight_dynamic_obstacle_inflation)));
-//#line 267 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 267 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_dynamic_obstacle_inflation", "double", 0, "Optimization weight for the inflation penalty of dynamic obstacles (should be small)", "", &TebLocalPlannerReconfigureConfig::weight_dynamic_obstacle_inflation)));
-//#line 271 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 271 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_viapoint = 0.0;
-//#line 271 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 271 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_viapoint = 1000.0;
-//#line 271 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 271 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_viapoint = 1.0;
-//#line 271 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 271 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_viapoint", "double", 0, "Optimization weight for minimizing the distance to via-points", "", &TebLocalPlannerReconfigureConfig::weight_viapoint)));
-//#line 271 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 271 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_viapoint", "double", 0, "Optimization weight for minimizing the distance to via-points", "", &TebLocalPlannerReconfigureConfig::weight_viapoint)));
-//#line 275 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 275 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.weight_adapt_factor = 1.0;
-//#line 275 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 275 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.weight_adapt_factor = 100.0;
-//#line 275 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 275 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.weight_adapt_factor = 2.0;
-//#line 275 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 275 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Optimization.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_adapt_factor", "double", 0, "Some special weights (currently 'weight_obstacle') are repeatedly scaled by this factor in each outer TEB iteration (weight_new: weight_old * factor); Increasing weights iteratively instead of setting a huge value a-priori leads to better numerical conditions of the underlying optimization problem.", "", &TebLocalPlannerReconfigureConfig::weight_adapt_factor)));
-//#line 275 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 275 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("weight_adapt_factor", "double", 0, "Some special weights (currently 'weight_obstacle') are repeatedly scaled by this factor in each outer TEB iteration (weight_new: weight_old * factor); Increasing weights iteratively instead of setting a huge value a-priori leads to better numerical conditions of the underlying optimization problem.", "", &TebLocalPlannerReconfigureConfig::weight_adapt_factor)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Optimization.convertParams();
@@ -1587,165 +1587,165 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::OPTIMIZATION, TebLocalPlannerReconfigureConfig::DEFAULT>(Optimization)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::HCPLANNING, TebLocalPlannerReconfigureConfig::DEFAULT> HCPlanning("HCPlanning", "tab", 0, 9, true, &TebLocalPlannerReconfigureConfig::DEFAULT::hcplanning);
-//#line 284 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 284 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.enable_multithreading = 0;
-//#line 284 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 284 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.enable_multithreading = 1;
-//#line 284 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 284 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.enable_multithreading = 1;
-//#line 284 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 284 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("enable_multithreading", "bool", 0, "Activate multiple threading for planning multiple trajectories in parallel", "", &TebLocalPlannerReconfigureConfig::enable_multithreading)));
-//#line 284 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 284 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("enable_multithreading", "bool", 0, "Activate multiple threading for planning multiple trajectories in parallel", "", &TebLocalPlannerReconfigureConfig::enable_multithreading)));
-//#line 288 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 288 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.max_number_classes = 1;
-//#line 288 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 288 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.max_number_classes = 100;
-//#line 288 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 288 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.max_number_classes = 5;
-//#line 288 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 288 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("max_number_classes", "int", 0, "Specify the maximum number of allowed alternative homotopy classes (limits computational effort)", "", &TebLocalPlannerReconfigureConfig::max_number_classes)));
-//#line 288 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 288 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("max_number_classes", "int", 0, "Specify the maximum number of allowed alternative homotopy classes (limits computational effort)", "", &TebLocalPlannerReconfigureConfig::max_number_classes)));
-//#line 292 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 292 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.selection_cost_hysteresis = 0.0;
-//#line 292 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 292 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.selection_cost_hysteresis = 2.0;
-//#line 292 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 292 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.selection_cost_hysteresis = 1.0;
-//#line 292 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 292 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_cost_hysteresis", "double", 0, "Specify how much trajectory cost must a new candidate have w.r.t. a previously selected trajectory in order to be selected (selection if new_cost < old_cost*factor)", "", &TebLocalPlannerReconfigureConfig::selection_cost_hysteresis)));
-//#line 292 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 292 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_cost_hysteresis", "double", 0, "Specify how much trajectory cost must a new candidate have w.r.t. a previously selected trajectory in order to be selected (selection if new_cost < old_cost*factor)", "", &TebLocalPlannerReconfigureConfig::selection_cost_hysteresis)));
-//#line 297 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 297 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.selection_prefer_initial_plan = 0.0;
-//#line 297 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 297 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.selection_prefer_initial_plan = 1.0;
-//#line 297 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 297 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.selection_prefer_initial_plan = 0.95;
-//#line 297 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 297 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_prefer_initial_plan", "double", 0, "Specify a cost reduction in the interval (0,1) for the trajectory in the equivalence class of the initial plan.)", "", &TebLocalPlannerReconfigureConfig::selection_prefer_initial_plan)));
-//#line 297 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 297 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_prefer_initial_plan", "double", 0, "Specify a cost reduction in the interval (0,1) for the trajectory in the equivalence class of the initial plan.)", "", &TebLocalPlannerReconfigureConfig::selection_prefer_initial_plan)));
-//#line 301 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 301 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.selection_obst_cost_scale = 0.0;
-//#line 301 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 301 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.selection_obst_cost_scale = 1000.0;
-//#line 301 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 301 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.selection_obst_cost_scale = 100.0;
-//#line 301 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 301 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_obst_cost_scale", "double", 0, "Extra scaling of obstacle cost terms just for selecting the 'best' candidate (new_obst_cost: obst_cost*factor)", "", &TebLocalPlannerReconfigureConfig::selection_obst_cost_scale)));
-//#line 301 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 301 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_obst_cost_scale", "double", 0, "Extra scaling of obstacle cost terms just for selecting the 'best' candidate (new_obst_cost: obst_cost*factor)", "", &TebLocalPlannerReconfigureConfig::selection_obst_cost_scale)));
-//#line 305 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 305 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.selection_viapoint_cost_scale = 0.0;
-//#line 305 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 305 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.selection_viapoint_cost_scale = 100.0;
-//#line 305 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 305 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.selection_viapoint_cost_scale = 1.0;
-//#line 305 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 305 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_viapoint_cost_scale", "double", 0, "Extra scaling of via-point cost terms just for selecting the 'best' candidate. (new_viapt_cost: viapt_cost*factor)", "", &TebLocalPlannerReconfigureConfig::selection_viapoint_cost_scale)));
-//#line 305 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 305 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("selection_viapoint_cost_scale", "double", 0, "Extra scaling of via-point cost terms just for selecting the 'best' candidate. (new_viapt_cost: viapt_cost*factor)", "", &TebLocalPlannerReconfigureConfig::selection_viapoint_cost_scale)));
-//#line 309 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 309 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.selection_alternative_time_cost = 0;
-//#line 309 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 309 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.selection_alternative_time_cost = 1;
-//#line 309 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 309 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.selection_alternative_time_cost = 0;
-//#line 309 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 309 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("selection_alternative_time_cost", "bool", 0, "If true, time cost is replaced by the total transition time.", "", &TebLocalPlannerReconfigureConfig::selection_alternative_time_cost)));
-//#line 309 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 309 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("selection_alternative_time_cost", "bool", 0, "If true, time cost is replaced by the total transition time.", "", &TebLocalPlannerReconfigureConfig::selection_alternative_time_cost)));
-//#line 313 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 313 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.switching_blocking_period = 0.0;
-//#line 313 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 313 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.switching_blocking_period = 60.0;
-//#line 313 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 313 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.switching_blocking_period = 0.0;
-//#line 313 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 313 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("switching_blocking_period", "double", 0, "Specify a time duration in seconds that needs to be expired before a switch to new equivalence class is allowed", "", &TebLocalPlannerReconfigureConfig::switching_blocking_period)));
-//#line 313 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 313 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("switching_blocking_period", "double", 0, "Specify a time duration in seconds that needs to be expired before a switch to new equivalence class is allowed", "", &TebLocalPlannerReconfigureConfig::switching_blocking_period)));
-//#line 317 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 317 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.roadmap_graph_no_samples = 1;
-//#line 317 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 317 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.roadmap_graph_no_samples = 100;
-//#line 317 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 317 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.roadmap_graph_no_samples = 15;
-//#line 317 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 317 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("roadmap_graph_no_samples", "int", 0, "Specify the number of samples generated for creating the roadmap graph, if simple_exploration is turend off", "", &TebLocalPlannerReconfigureConfig::roadmap_graph_no_samples)));
-//#line 317 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 317 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<int>("roadmap_graph_no_samples", "int", 0, "Specify the number of samples generated for creating the roadmap graph, if simple_exploration is turend off", "", &TebLocalPlannerReconfigureConfig::roadmap_graph_no_samples)));
-//#line 321 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 321 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.roadmap_graph_area_width = 0.1;
-//#line 321 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 321 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.roadmap_graph_area_width = 20.0;
-//#line 321 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 321 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.roadmap_graph_area_width = 5.0;
-//#line 321 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 321 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("roadmap_graph_area_width", "double", 0, "Specify the width of the area in which sampled will be generated between start and goal [m] (the height equals the start-goal distance)", "", &TebLocalPlannerReconfigureConfig::roadmap_graph_area_width)));
-//#line 321 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 321 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("roadmap_graph_area_width", "double", 0, "Specify the width of the area in which sampled will be generated between start and goal [m] (the height equals the start-goal distance)", "", &TebLocalPlannerReconfigureConfig::roadmap_graph_area_width)));
-//#line 325 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 325 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.roadmap_graph_area_length_scale = 0.5;
-//#line 325 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 325 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.roadmap_graph_area_length_scale = 2.0;
-//#line 325 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 325 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.roadmap_graph_area_length_scale = 1.0;
-//#line 325 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 325 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("roadmap_graph_area_length_scale", "double", 0, "The length of the rectangular region is determined by the distance between start and goal. This parameter further scales the distance such that the geometric center remains equal!)", "", &TebLocalPlannerReconfigureConfig::roadmap_graph_area_length_scale)));
-//#line 325 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 325 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("roadmap_graph_area_length_scale", "double", 0, "The length of the rectangular region is determined by the distance between start and goal. This parameter further scales the distance such that the geometric center remains equal!)", "", &TebLocalPlannerReconfigureConfig::roadmap_graph_area_length_scale)));
-//#line 329 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 329 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.h_signature_prescaler = 0.2;
-//#line 329 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 329 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.h_signature_prescaler = 1.0;
-//#line 329 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 329 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.h_signature_prescaler = 1.0;
-//#line 329 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 329 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("h_signature_prescaler", "double", 0, "Scale number of obstacle value in order to allow huge number of obstacles. Do not choose it extremly low, otherwise obstacles cannot be distinguished from each other (0.2<H<=1)", "", &TebLocalPlannerReconfigureConfig::h_signature_prescaler)));
-//#line 329 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 329 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("h_signature_prescaler", "double", 0, "Scale number of obstacle value in order to allow huge number of obstacles. Do not choose it extremly low, otherwise obstacles cannot be distinguished from each other (0.2<H<=1)", "", &TebLocalPlannerReconfigureConfig::h_signature_prescaler)));
-//#line 333 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 333 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.h_signature_threshold = 0.0;
-//#line 333 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 333 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.h_signature_threshold = 1.0;
-//#line 333 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 333 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.h_signature_threshold = 0.1;
-//#line 333 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 333 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("h_signature_threshold", "double", 0, "Two h-signuteres are assumed to be equal, if both the difference of real parts and complex parts are below the specified threshold", "", &TebLocalPlannerReconfigureConfig::h_signature_threshold)));
-//#line 333 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 333 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("h_signature_threshold", "double", 0, "Two h-signuteres are assumed to be equal, if both the difference of real parts and complex parts are below the specified threshold", "", &TebLocalPlannerReconfigureConfig::h_signature_threshold)));
-//#line 337 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 337 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.obstacle_heading_threshold = 0.0;
-//#line 337 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 337 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.obstacle_heading_threshold = 1.0;
-//#line 337 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 337 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.obstacle_heading_threshold = 0.45;
-//#line 337 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 337 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("obstacle_heading_threshold", "double", 0, "Specify the value of the normalized scalar product between obstacle heading and goal heading in order to take them (obstacles) into account for exploration)", "", &TebLocalPlannerReconfigureConfig::obstacle_heading_threshold)));
-//#line 337 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 337 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<double>("obstacle_heading_threshold", "double", 0, "Specify the value of the normalized scalar product between obstacle heading and goal heading in order to take them (obstacles) into account for exploration)", "", &TebLocalPlannerReconfigureConfig::obstacle_heading_threshold)));
-//#line 341 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 341 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.viapoints_all_candidates = 0;
-//#line 341 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 341 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.viapoints_all_candidates = 1;
-//#line 341 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 341 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.viapoints_all_candidates = 1;
-//#line 341 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 341 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("viapoints_all_candidates", "bool", 0, "If true, all trajectories of different topologies are attached to the set of via-points, otherwise only the trajectory sharing the same one as the initial/global plan is attached (no effect in test_optim_node).", "", &TebLocalPlannerReconfigureConfig::viapoints_all_candidates)));
-//#line 341 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 341 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("viapoints_all_candidates", "bool", 0, "If true, all trajectories of different topologies are attached to the set of via-points, otherwise only the trajectory sharing the same one as the initial/global plan is attached (no effect in test_optim_node).", "", &TebLocalPlannerReconfigureConfig::viapoints_all_candidates)));
-//#line 345 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 345 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.visualize_hc_graph = 0;
-//#line 345 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 345 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.visualize_hc_graph = 1;
-//#line 345 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 345 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.visualize_hc_graph = 0;
-//#line 345 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 345 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       HCPlanning.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("visualize_hc_graph", "bool", 0, "Visualize the graph that is created for exploring new homotopy classes", "", &TebLocalPlannerReconfigureConfig::visualize_hc_graph)));
-//#line 345 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 345 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("visualize_hc_graph", "bool", 0, "Visualize the graph that is created for exploring new homotopy classes", "", &TebLocalPlannerReconfigureConfig::visualize_hc_graph)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       HCPlanning.convertParams();
@@ -1754,25 +1754,25 @@ TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureCon
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       __group_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractGroupDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::HCPLANNING, TebLocalPlannerReconfigureConfig::DEFAULT>(HCPlanning)));
 TebLocalPlannerReconfigureConfig::GroupDescription<TebLocalPlannerReconfigureConfig::DEFAULT::RECOVERY, TebLocalPlannerReconfigureConfig::DEFAULT> Recovery("Recovery", "tab", 0, 10, true, &TebLocalPlannerReconfigureConfig::DEFAULT::recovery);
-//#line 353 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 353 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.shrink_horizon_backup = 0;
-//#line 353 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 353 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.shrink_horizon_backup = 1;
-//#line 353 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 353 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.shrink_horizon_backup = 1;
-//#line 353 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 353 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Recovery.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("shrink_horizon_backup", "bool", 0, "Allows the planner to shrink the horizon temporary (50%) in case of automatically detected issues.", "", &TebLocalPlannerReconfigureConfig::shrink_horizon_backup)));
-//#line 353 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 353 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("shrink_horizon_backup", "bool", 0, "Allows the planner to shrink the horizon temporary (50%) in case of automatically detected issues.", "", &TebLocalPlannerReconfigureConfig::shrink_horizon_backup)));
-//#line 357 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 357 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __min__.oscillation_recovery = 0;
-//#line 357 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 357 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __max__.oscillation_recovery = 1;
-//#line 357 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 357 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __default__.oscillation_recovery = 1;
-//#line 357 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 357 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       Recovery.abstract_parameters.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("oscillation_recovery", "bool", 0, "Try to detect and resolve oscillations between multiple solutions in the same equivalence class (robot frequently switches between left/right/forward/backwards).", "", &TebLocalPlannerReconfigureConfig::oscillation_recovery)));
-//#line 357 "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
+//#line 357 "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg/TebLocalPlannerReconfigure.cfg"
       __param_descriptions__.push_back(TebLocalPlannerReconfigureConfig::AbstractParamDescriptionConstPtr(new TebLocalPlannerReconfigureConfig::ParamDescription<bool>("oscillation_recovery", "bool", 0, "Try to detect and resolve oscillations between multiple solutions in the same equivalence class (robot frequently switches between left/right/forward/backwards).", "", &TebLocalPlannerReconfigureConfig::oscillation_recovery)));
 //#line 124 "/opt/ros/kinetic/lib/python2.7/dist-packages/dynamic_reconfigure/parameter_generator_catkin.py"
       Recovery.convertParams();

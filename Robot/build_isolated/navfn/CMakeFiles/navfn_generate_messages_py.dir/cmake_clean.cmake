@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_generate_messages_py"
-  "/home/kalana/Xavier/Robot/devel_isolated/navfn/lib/python2.7/dist-packages/navfn/srv/_SetCostmap.py"
   "/home/kalana/Xavier/Robot/devel_isolated/navfn/lib/python2.7/dist-packages/navfn/srv/_MakeNavPlan.py"
+  "/home/kalana/Xavier/Robot/devel_isolated/navfn/lib/python2.7/dist-packages/navfn/srv/_SetCostmap.py"
   "/home/kalana/Xavier/Robot/devel_isolated/navfn/lib/python2.7/dist-packages/navfn/srv/__init__.py"
 )
 

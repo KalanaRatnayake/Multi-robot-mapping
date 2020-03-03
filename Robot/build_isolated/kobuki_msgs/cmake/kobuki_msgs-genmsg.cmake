@@ -2,7 +2,7 @@
 
 message(STATUS "kobuki_msgs: 25 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ikobuki_msgs:/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg;-Ikobuki_msgs:/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ikobuki_msgs:/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg;-Ikobuki_msgs:/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -22,49 +22,49 @@ add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionGoal.msg" "actionlib_msgs/GoalID:kobuki_msgs/AutoDockingGoal:std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" "std_msgs/Header"
 )
 
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg" NAME_WE)
@@ -77,24 +77,14 @@ add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg" "actionlib_msgs/GoalID:kobuki_msgs/AutoDockingFeedback:std_msgs/Header:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" ""
-)
-
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
-add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" ""
-)
-
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
-add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" ""
 )
 
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" NAME_WE)
@@ -102,9 +92,24 @@ add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" "actionlib_msgs/GoalID:kobuki_msgs/AutoDockingResult:std_msgs/Header:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" ""
+)
+
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" ""
+)
+
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" ""
+)
+
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
+add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" ""
 )
 
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingGoal.msg" NAME_WE)
@@ -117,29 +122,24 @@ add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg" "kobuki_msgs/AutoDockingFeedback:std_msgs/Header:kobuki_msgs/AutoDockingGoal:kobuki_msgs/AutoDockingResult:kobuki_msgs/AutoDockingActionFeedback:kobuki_msgs/AutoDockingActionGoal:actionlib_msgs/GoalID:kobuki_msgs/AutoDockingActionResult:actionlib_msgs/GoalStatus"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" ""
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" ""
 )
 
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" NAME_WE)
 add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
   COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" ""
-)
-
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
-add_custom_target(_kobuki_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "kobuki_msgs" "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" ""
 )
 
 #
@@ -155,9 +155,63 @@ _generate_msg_cpp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
@@ -167,79 +221,13 @@ _generate_msg_cpp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
@@ -251,7 +239,25 @@ _generate_msg_cpp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
+  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
@@ -269,31 +275,25 @@ _generate_msg_cpp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_cpp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_cpp(kobuki_msgs
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_cpp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/kobuki_msgs
@@ -315,53 +315,53 @@ add_dependencies(kobuki_msgs_generate_messages kobuki_msgs_generate_messages_cpp
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_cpp _kobuki_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -380,9 +380,63 @@ _generate_msg_eus(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
@@ -392,79 +446,13 @@ _generate_msg_eus(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
@@ -476,7 +464,25 @@ _generate_msg_eus(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
+  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
@@ -494,31 +500,25 @@ _generate_msg_eus(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_eus(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_eus(kobuki_msgs
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_eus(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/kobuki_msgs
@@ -540,53 +540,53 @@ add_dependencies(kobuki_msgs_generate_messages kobuki_msgs_generate_messages_eus
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_eus _kobuki_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -605,9 +605,63 @@ _generate_msg_lisp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
@@ -617,79 +671,13 @@ _generate_msg_lisp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
@@ -701,7 +689,25 @@ _generate_msg_lisp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
+  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
@@ -719,31 +725,25 @@ _generate_msg_lisp(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_lisp(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_lisp(kobuki_msgs
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_lisp(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/kobuki_msgs
@@ -765,53 +765,53 @@ add_dependencies(kobuki_msgs_generate_messages kobuki_msgs_generate_messages_lis
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_lisp _kobuki_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -830,9 +830,63 @@ _generate_msg_nodejs(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
@@ -842,79 +896,13 @@ _generate_msg_nodejs(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
@@ -926,7 +914,25 @@ _generate_msg_nodejs(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
+  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
@@ -944,31 +950,25 @@ _generate_msg_nodejs(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_nodejs(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_nodejs(kobuki_msgs
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_nodejs(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/kobuki_msgs
@@ -990,53 +990,53 @@ add_dependencies(kobuki_msgs_generate_messages kobuki_msgs_generate_messages_nod
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_nodejs _kobuki_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -1055,9 +1055,63 @@ _generate_msg_py(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg"
+  "${MSG_I_FLAGS}"
+  ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
@@ -1067,79 +1121,13 @@ _generate_msg_py(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
@@ -1151,7 +1139,25 @@ _generate_msg_py(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
+  "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
@@ -1169,31 +1175,25 @@ _generate_msg_py(kobuki_msgs
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
-  "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
+  "${MSG_I_FLAGS}"
+  ""
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
+)
+_generate_msg_py(kobuki_msgs
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
 )
 _generate_msg_py(kobuki_msgs
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg"
-  "${MSG_I_FLAGS}"
-  ""
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
-)
-_generate_msg_py(kobuki_msgs
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/kobuki_msgs
@@ -1215,53 +1215,53 @@ add_dependencies(kobuki_msgs_generate_messages kobuki_msgs_generate_messages_py)
 # add dependencies to all check dependencies targets
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionFeedback.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingActionResult.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg" NAME_WE)
+add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingGoal.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingAction.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 get_filename_component(_filename "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/msg/AutoDockingFeedback.msg" NAME_WE)
-add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg" NAME_WE)
 add_dependencies(kobuki_msgs_generate_messages_py _kobuki_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

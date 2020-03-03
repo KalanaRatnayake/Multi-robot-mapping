@@ -269,7 +269,7 @@ angles_DIR:PATH=/opt/ros/kinetic/share/angles/cmake
 assisted_teleop_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/assisted_teleop
 
 //Value Computed by CMake
-assisted_teleop_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop
+assisted_teleop_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop
 
 //The directory containing a CMake configuration file for base_local_planner.
 base_local_planner_DIR:PATH=/home/kalana/Xavier/Robot/devel_isolated/base_local_planner/share/base_local_planner/cmake
@@ -567,7 +567,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

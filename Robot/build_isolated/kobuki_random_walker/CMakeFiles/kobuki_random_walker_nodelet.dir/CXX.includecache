@@ -70,7 +70,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/include/kobuki_random_walker/random_walker_controller.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/include/kobuki_random_walker/random_walker_controller.hpp
 cmath
 -
 cstdlib
@@ -94,7 +94,7 @@ std_msgs/Empty.h
 yocs_controllers/default_controller.hpp
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/src/nodelet.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/src/nodelet.cpp
 string
 -
 ecl/threads/thread.hpp
@@ -104,7 +104,7 @@ nodelet/nodelet.h
 pluginlib/class_list_macros.h
 -
 kobuki_random_walker/random_walker_controller.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/src/kobuki_random_walker/random_walker_controller.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/src/kobuki_random_walker/random_walker_controller.hpp
 
 /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp

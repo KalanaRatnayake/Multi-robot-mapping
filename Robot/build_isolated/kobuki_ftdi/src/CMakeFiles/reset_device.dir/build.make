@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi
@@ -58,17 +58,17 @@ include src/CMakeFiles/reset_device.dir/progress.make
 include src/CMakeFiles/reset_device.dir/flags.make
 
 src/CMakeFiles/reset_device.dir/reset_device.cpp.o: src/CMakeFiles/reset_device.dir/flags.make
-src/CMakeFiles/reset_device.dir/reset_device.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/reset_device.cpp
+src/CMakeFiles/reset_device.dir/reset_device.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/reset_device.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/reset_device.dir/reset_device.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reset_device.dir/reset_device.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/reset_device.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reset_device.dir/reset_device.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/reset_device.cpp
 
 src/CMakeFiles/reset_device.dir/reset_device.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reset_device.dir/reset_device.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/reset_device.cpp > CMakeFiles/reset_device.dir/reset_device.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/reset_device.cpp > CMakeFiles/reset_device.dir/reset_device.cpp.i
 
 src/CMakeFiles/reset_device.dir/reset_device.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reset_device.dir/reset_device.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/reset_device.cpp -o CMakeFiles/reset_device.dir/reset_device.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/reset_device.cpp -o CMakeFiles/reset_device.dir/reset_device.cpp.s
 
 src/CMakeFiles/reset_device.dir/reset_device.cpp.o.requires:
 
@@ -108,6 +108,6 @@ src/CMakeFiles/reset_device.dir/clean:
 .PHONY : src/CMakeFiles/reset_device.dir/clean
 
 src/CMakeFiles/reset_device.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/reset_device.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/reset_device.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/reset_device.dir/depend
 

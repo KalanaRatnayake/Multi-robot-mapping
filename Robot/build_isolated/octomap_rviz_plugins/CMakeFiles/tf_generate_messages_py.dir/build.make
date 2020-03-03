@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap/octomap_rviz
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins
@@ -67,6 +67,6 @@ CMakeFiles/tf_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/clean
 
 CMakeFiles/tf_generate_messages_py.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap/octomap_rviz /home/kalana/Xavier/Robot/src/octomap/octomap_rviz /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/tf_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf_generate_messages_py.dir/depend
 

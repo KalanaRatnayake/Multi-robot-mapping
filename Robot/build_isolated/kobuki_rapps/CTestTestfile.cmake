@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_rapps
+# Source directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_rapps
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/kobuki_rapps
 # 
 # This file includes the relevant testing commands required for 

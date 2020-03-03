@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/src/nodelet.cpp" "/home/kalana/Xavier/Robot/build_isolated/kobuki_random_walker/CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/src/nodelet.cpp" "/home/kalana/Xavier/Robot/build_isolated/kobuki_random_walker/CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/include"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/include"
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"

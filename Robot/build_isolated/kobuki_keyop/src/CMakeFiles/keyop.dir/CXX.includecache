@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
 ros/ros.h
 -
 termios.h
@@ -52,7 +52,7 @@ geometry_msgs/TwistStamped.h
 kobuki_msgs/KeyboardInput.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/src/keyop_core.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/src/keyop_core.cpp
 ros/ros.h
 -
 ecl/time.hpp
@@ -64,11 +64,11 @@ std_srvs/Empty.h
 kobuki_msgs/MotorPower.h
 -
 ../include/keyop_core/keyop_core.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/src/main.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/src/main.cpp
 ../include/keyop_core/keyop_core.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
 
 /opt/ros/kinetic/include/ecl/concepts/nullary_function.hpp
 macros.hpp

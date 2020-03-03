@@ -67,7 +67,7 @@ set(freenect_camera_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(freenect_camera_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera)
+  set(freenect_camera_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/camera/freenect_camera)
   set(freenect_camera_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/freenect_camera)
   set(freenect_camera_INSTALL_PREFIX "")
   set(freenect_camera_PREFIX ${freenect_camera_DEVEL_PREFIX})

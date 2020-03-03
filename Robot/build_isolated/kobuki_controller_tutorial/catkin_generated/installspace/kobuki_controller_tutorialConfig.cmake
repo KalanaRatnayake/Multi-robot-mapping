@@ -67,7 +67,7 @@ set(kobuki_controller_tutorial_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_controller_tutorial_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial)
+  set(kobuki_controller_tutorial_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial)
   set(kobuki_controller_tutorial_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_controller_tutorial)
   set(kobuki_controller_tutorial_INSTALL_PREFIX "")
   set(kobuki_controller_tutorial_PREFIX ${kobuki_controller_tutorial_DEVEL_PREFIX})

@@ -67,7 +67,7 @@ set(simple_navigation_goals_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(simple_navigation_goals_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/simple_navigation_goals)
+  set(simple_navigation_goals_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/simple_navigation_goals)
   set(simple_navigation_goals_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/simple_navigation_goals)
   set(simple_navigation_goals_INSTALL_PREFIX "")
   set(simple_navigation_goals_PREFIX ${simple_navigation_goals_DEVEL_PREFIX})

@@ -67,7 +67,7 @@ set(goal_passer_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(goal_passer_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/goal_passer)
+  set(goal_passer_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/goal_passer)
   set(goal_passer_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/goal_passer)
   set(goal_passer_INSTALL_PREFIX "")
   set(goal_passer_PREFIX ${goal_passer_DEVEL_PREFIX})

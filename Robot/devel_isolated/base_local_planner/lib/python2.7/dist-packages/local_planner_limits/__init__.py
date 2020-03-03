@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src".split(";")
+__extended_path = "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

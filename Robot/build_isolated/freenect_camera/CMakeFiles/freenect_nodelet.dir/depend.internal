@@ -3,11 +3,11 @@
 
 CMakeFiles/freenect_nodelet.dir/src/nodelets/driver.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h
- /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include/freenect_camera/freenect_device.hpp
- /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include/freenect_camera/freenect_driver.hpp
- /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include/freenect_camera/image_buffer.hpp
- /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodelets/driver.cpp
- /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodelets/driver.h
+ /home/kalana/Xavier/Robot/src/camera/freenect_camera/include/freenect_camera/freenect_device.hpp
+ /home/kalana/Xavier/Robot/src/camera/freenect_camera/include/freenect_camera/freenect_driver.hpp
+ /home/kalana/Xavier/Robot/src/camera/freenect_camera/include/freenect_camera/image_buffer.hpp
+ /home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodelets/driver.cpp
+ /home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodelets/driver.h
  /opt/ros/kinetic/include/camera_info_manager/camera_info_manager.h
  /opt/ros/kinetic/include/class_loader/./class_loader.hpp
  /opt/ros/kinetic/include/class_loader/class_loader.h

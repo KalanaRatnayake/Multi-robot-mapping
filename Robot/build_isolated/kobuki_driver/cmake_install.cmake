@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,11 +135,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_driver" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_driver" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_driver" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_driver" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

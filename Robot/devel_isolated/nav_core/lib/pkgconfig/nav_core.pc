@@ -3,6 +3,6 @@ prefix=/home/kalana/Xavier/Robot/devel_isolated/nav_core
 Name: nav_core
 Description: Description of nav_core
 Version: 1.14.4
-Cflags: -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include
+Cflags: -I/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include
 Libs: -L${prefix}/lib 
 Requires: std_msgs geometry_msgs tf costmap_2d

@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wno-error  -O3 -funroll-loops -DNDEBUG   -fPIC
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include 
+CXX_INCLUDES = -I/home/kalana/Xavier/Robot/src/octomap/octomap/include 
 

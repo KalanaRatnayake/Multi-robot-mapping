@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/command.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/command.hpp
 ecl/containers.hpp
 -
 packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 modules/led_array.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/led_array.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/led_array.hpp
 modules.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules.hpp
 macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/event_manager.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/event_manager.hpp
 stdint.h
 -
 vector
@@ -26,11 +26,11 @@ vector
 ecl/sigslots.hpp
 -
 packets/core_sensors.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
 macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/kobuki.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/kobuki.hpp
 string
 -
 iomanip
@@ -48,43 +48,43 @@ ecl/exceptions/standard_exception.hpp
 ecl/geometry/legacy_pose2d.hpp
 -
 version_info.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/version_info.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/version_info.hpp
 parameters.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/parameters.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/parameters.hpp
 event_manager.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/event_manager.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/event_manager.hpp
 command.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/command.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/command.hpp
 modules.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules.hpp
 packets.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets.hpp
 packet_handler/packet_finder.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/packet_finder.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/packet_finder.hpp
 macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 ecl/config/macros.hpp
 -
 ecl/config/ecl.hpp
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules.hpp
 modules/battery.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/battery.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/battery.hpp
 modules/digital_output.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/digital_output.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/digital_output.hpp
 modules/led_array.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/led_array.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/led_array.hpp
 modules/diff_drive.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/diff_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/diff_drive.hpp
 modules/sound.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/sound.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/sound.hpp
 modules/acceleration_limiter.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/acceleration_limiter.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/acceleration_limiter.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/acceleration_limiter.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/acceleration_limiter.hpp
 vector
 -
 iomanip
@@ -98,15 +98,15 @@ stdint.h
 ecl/time.hpp
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/battery.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/battery.hpp
 stdint.h
 -
 ../packets/core_sensors.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
 ../macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/diff_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/diff_drive.hpp
 vector
 -
 climits
@@ -120,15 +120,15 @@ ecl/mobile_robot.hpp
 ecl/threads/mutex.hpp
 -
 ../macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/digital_output.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/digital_output.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/led_array.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/led_array.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/sound.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/sound.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/packet_finder.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/packet_finder.hpp
 iomanip
 -
 ecl/containers.hpp
@@ -136,121 +136,121 @@ ecl/containers.hpp
 ecl/sigslots.hpp
 -
 ../macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ecl/containers.hpp
 -
 stdint.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets.hpp
 packets/cliff.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/cliff.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/cliff.hpp
 packets/core_sensors.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
 packets/current.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/current.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/current.hpp
 packets/gp_input.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/gp_input.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/gp_input.hpp
 packets/inertia.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/inertia.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/inertia.hpp
 packets/dock_ir.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/dock_ir.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/dock_ir.hpp
 packets/firmware.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/firmware.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/firmware.hpp
 packets/hardware.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/hardware.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/hardware.hpp
 packets/unique_device_id.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/unique_device_id.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/unique_device_id.hpp
 packets/three_axis_gyro.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/three_axis_gyro.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/three_axis_gyro.hpp
 packets/controller_info.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/controller_info.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/controller_info.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/cliff.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/cliff.hpp
 vector
 -
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/controller_info.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/controller_info.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/core_sensors.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 stdint.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/current.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/current.hpp
 vector
 -
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/dock_ir.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/dock_ir.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/firmware.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/firmware.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/gp_input.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/gp_input.hpp
 vector
 -
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/hardware.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/hardware.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/inertia.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/inertia.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/three_axis_gyro.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/three_axis_gyro.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packets/unique_device_id.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packets/unique_device_id.hpp
 ../packet_handler/payload_base.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_base.hpp
 ../packet_handler/payload_headers.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/packet_handler/payload_headers.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/parameters.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/parameters.hpp
 string
 -
 modules/battery.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/modules/battery.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/modules/battery.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/version_info.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/version_info.hpp
 string
 -
 sstream
@@ -258,9 +258,9 @@ sstream
 stdint.h
 -
 macros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/include/kobuki_driver/macros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/include/kobuki_driver/macros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/test/initialisation.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/test/initialisation.cpp
 iostream
 -
 kobuki_driver/kobuki.hpp

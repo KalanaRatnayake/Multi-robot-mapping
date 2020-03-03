@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_follower" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_follower" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -159,11 +159,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pose_follower" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower/include/pose_follower/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/pose_follower" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower/include/pose_follower/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_follower" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower/blp_plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/pose_follower" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower/blp_plugin.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

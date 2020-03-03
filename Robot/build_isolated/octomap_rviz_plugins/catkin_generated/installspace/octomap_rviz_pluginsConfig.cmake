@@ -67,7 +67,7 @@ set(octomap_rviz_plugins_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(octomap_rviz_plugins_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz)
+  set(octomap_rviz_plugins_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/octomap/octomap_rviz)
   set(octomap_rviz_plugins_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/octomap_rviz_plugins)
   set(octomap_rviz_plugins_INSTALL_PREFIX "")
   set(octomap_rviz_plugins_PREFIX ${octomap_rviz_plugins_DEVEL_PREFIX})

@@ -67,7 +67,7 @@ set(kobuki_node_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_node_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node)
+  set(kobuki_node_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_node)
   set(kobuki_node_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_node)
   set(kobuki_node_INSTALL_PREFIX "")
   set(kobuki_node_PREFIX ${kobuki_node_DEVEL_PREFIX})

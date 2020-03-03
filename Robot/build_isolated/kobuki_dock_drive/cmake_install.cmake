@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_dock_drive" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_dock_drive" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -159,7 +159,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_dock_drive" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_dock_drive" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

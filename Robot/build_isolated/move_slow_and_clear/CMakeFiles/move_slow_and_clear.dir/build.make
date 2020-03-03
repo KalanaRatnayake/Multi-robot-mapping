@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear
@@ -58,17 +58,17 @@ include CMakeFiles/move_slow_and_clear.dir/progress.make
 include CMakeFiles/move_slow_and_clear.dir/flags.make
 
 CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o: CMakeFiles/move_slow_and_clear.dir/flags.make
-CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp
+CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp
 
 CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp > CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp > CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.i
 
 CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp -o CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear/src/move_slow_and_clear.cpp -o CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.s
 
 CMakeFiles/move_slow_and_clear.dir/src/move_slow_and_clear.cpp.o.requires:
 
@@ -564,6 +564,6 @@ CMakeFiles/move_slow_and_clear.dir/clean:
 .PHONY : CMakeFiles/move_slow_and_clear.dir/clean
 
 CMakeFiles/move_slow_and_clear.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_slow_and_clear /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_slow_and_clear /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear /home/kalana/Xavier/Robot/build_isolated/move_slow_and_clear/CMakeFiles/move_slow_and_clear.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/move_slow_and_clear.dir/depend
 

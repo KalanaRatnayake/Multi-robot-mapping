@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teb_local_planner_generate_messages_eus"
-  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/roseus/ros/teb_local_planner/msg/TrajectoryPointMsg.l"
-  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/roseus/ros/teb_local_planner/msg/TrajectoryMsg.l"
   "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/roseus/ros/teb_local_planner/msg/FeedbackMsg.l"
+  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/roseus/ros/teb_local_planner/msg/TrajectoryMsg.l"
+  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/roseus/ros/teb_local_planner/msg/TrajectoryPointMsg.l"
   "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/roseus/ros/teb_local_planner/manifest.l"
 )
 

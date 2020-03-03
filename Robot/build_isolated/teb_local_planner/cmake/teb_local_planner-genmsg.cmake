@@ -2,7 +2,7 @@
 
 message(STATUS "teb_local_planner: 3 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iteb_local_planner:/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Icostmap_converter:/opt/ros/kinetic/share/costmap_converter/cmake/../msg")
+set(MSG_I_FLAGS "-Iteb_local_planner:/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Icostmap_converter:/opt/ros/kinetic/share/costmap_converter/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,19 +17,19 @@ add_custom_target(teb_local_planner_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
 add_custom_target(_teb_local_planner_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "teb_local_planner" "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Twist:geometry_msgs/Point:geometry_msgs/Vector3"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "teb_local_planner" "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" "geometry_msgs/Twist:std_msgs/Header:geometry_msgs/Quaternion:teb_local_planner/TrajectoryMsg:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/Vector3:costmap_converter/ObstacleMsg:teb_local_planner/TrajectoryPointMsg:geometry_msgs/Polygon:costmap_converter/ObstacleArrayMsg:geometry_msgs/Pose:geometry_msgs/TwistWithCovariance"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
 add_custom_target(_teb_local_planner_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "teb_local_planner" "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" "teb_local_planner/TrajectoryPointMsg:geometry_msgs/Twist:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Vector3:geometry_msgs/Pose"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "teb_local_planner" "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" "geometry_msgs/Pose:std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Vector3:teb_local_planner/TrajectoryPointMsg:geometry_msgs/Twist"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
 add_custom_target(_teb_local_planner_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "teb_local_planner" "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" "teb_local_planner/TrajectoryPointMsg:geometry_msgs/Twist:std_msgs/Header:geometry_msgs/Quaternion:teb_local_planner/TrajectoryMsg:geometry_msgs/Point32:geometry_msgs/Point:geometry_msgs/Vector3:costmap_converter/ObstacleMsg:geometry_msgs/Polygon:costmap_converter/ObstacleArrayMsg:geometry_msgs/Pose:geometry_msgs/TwistWithCovariance"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "teb_local_planner" "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" "geometry_msgs/Quaternion:geometry_msgs/Pose:geometry_msgs/Twist:geometry_msgs/Point:geometry_msgs/Vector3"
 )
 
 #
@@ -39,21 +39,21 @@ add_custom_target(_teb_local_planner_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_cpp(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_cpp(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_cpp(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_cpp(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/teb_local_planner
 )
 
@@ -71,11 +71,11 @@ add_custom_target(teb_local_planner_generate_messages_cpp
 add_dependencies(teb_local_planner_generate_messages teb_local_planner_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_cpp _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_cpp _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_cpp _teb_local_planner_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -88,21 +88,21 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS teb_local_planner_generate_messages
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_eus(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_eus(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_eus(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_eus(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/teb_local_planner
 )
 
@@ -120,11 +120,11 @@ add_custom_target(teb_local_planner_generate_messages_eus
 add_dependencies(teb_local_planner_generate_messages teb_local_planner_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_eus _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_eus _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_eus _teb_local_planner_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -137,21 +137,21 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS teb_local_planner_generate_messages
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_lisp(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_lisp(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_lisp(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_lisp(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/teb_local_planner
 )
 
@@ -169,11 +169,11 @@ add_custom_target(teb_local_planner_generate_messages_lisp
 add_dependencies(teb_local_planner_generate_messages teb_local_planner_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_lisp _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_lisp _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_lisp _teb_local_planner_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -186,21 +186,21 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS teb_local_planner_generate_messages
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_nodejs(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_nodejs(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_nodejs(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_nodejs(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/teb_local_planner
 )
 
@@ -218,11 +218,11 @@ add_custom_target(teb_local_planner_generate_messages_nodejs
 add_dependencies(teb_local_planner_generate_messages teb_local_planner_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_nodejs _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_nodejs _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_nodejs _teb_local_planner_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -235,21 +235,21 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS teb_local_planner_generate_messages
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_py(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
+  "${MSG_I_FLAGS}"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg"
+  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/teb_local_planner
+)
+_generate_msg_py(teb_local_planner
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_py(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg"
-  ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/teb_local_planner
-)
-_generate_msg_py(teb_local_planner
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
-  "${MSG_I_FLAGS}"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Twist.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point32.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Vector3.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Polygon.msg;/opt/ros/kinetic/share/costmap_converter/cmake/../msg/ObstacleArrayMsg.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/TwistWithCovariance.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/teb_local_planner
 )
 
@@ -267,11 +267,11 @@ add_custom_target(teb_local_planner_generate_messages_py
 add_dependencies(teb_local_planner_generate_messages teb_local_planner_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_py _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_py _teb_local_planner_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg" NAME_WE)
 add_dependencies(teb_local_planner_generate_messages_py _teb_local_planner_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

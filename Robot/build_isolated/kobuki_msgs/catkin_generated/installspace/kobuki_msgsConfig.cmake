@@ -67,7 +67,7 @@ set(kobuki_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_msgs_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic)
+  set(kobuki_msgs_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic)
   set(kobuki_msgs_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs)
   set(kobuki_msgs_INSTALL_PREFIX "")
   set(kobuki_msgs_PREFIX ${kobuki_msgs_DEVEL_PREFIX})

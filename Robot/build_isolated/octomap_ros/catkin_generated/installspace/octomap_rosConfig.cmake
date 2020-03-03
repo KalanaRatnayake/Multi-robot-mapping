@@ -67,7 +67,7 @@ set(octomap_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(octomap_ros_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros)
+  set(octomap_ros_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/octomap/octomap_ros)
   set(octomap_ros_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/octomap_ros)
   set(octomap_ros_INSTALL_PREFIX "")
   set(octomap_ros_PREFIX ${octomap_ros_DEVEL_PREFIX})

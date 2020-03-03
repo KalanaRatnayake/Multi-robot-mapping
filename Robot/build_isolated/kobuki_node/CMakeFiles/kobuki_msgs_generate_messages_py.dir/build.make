@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_node
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_node
@@ -67,6 +67,6 @@ CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/kobuki_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/kobuki_msgs_generate_messages_py.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles/kobuki_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_node /home/kalana/Xavier/Robot/src/kobuki/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles/kobuki_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kobuki_msgs_generate_messages_py.dir/depend
 

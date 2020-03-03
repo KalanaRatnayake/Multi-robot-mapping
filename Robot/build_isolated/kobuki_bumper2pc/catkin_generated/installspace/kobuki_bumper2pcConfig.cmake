@@ -67,7 +67,7 @@ set(kobuki_bumper2pc_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_bumper2pc_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc)
+  set(kobuki_bumper2pc_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc)
   set(kobuki_bumper2pc_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_bumper2pc)
   set(kobuki_bumper2pc_INSTALL_PREFIX "")
   set(kobuki_bumper2pc_PREFIX ${kobuki_bumper2pc_DEVEL_PREFIX})

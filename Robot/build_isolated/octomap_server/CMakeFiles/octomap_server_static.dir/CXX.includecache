@@ -66,7 +66,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include/octomap_msgs/conversions.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include/octomap_msgs/conversions.h
 octomap/octomap.h
 -
 octomap_msgs/Octomap.h
@@ -74,7 +74,7 @@ octomap_msgs/Octomap.h
 octomap/ColorOcTree.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_server/src/octomap_server_static.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap_server/src/octomap_server_static.cpp
 ros/ros.h
 -
 octomap_msgs/conversions.h

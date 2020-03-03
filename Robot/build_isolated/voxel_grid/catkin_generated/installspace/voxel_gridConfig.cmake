@@ -67,7 +67,7 @@ set(voxel_grid_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(voxel_grid_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid)
+  set(voxel_grid_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid)
   set(voxel_grid_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/voxel_grid)
   set(voxel_grid_INSTALL_PREFIX "")
   set(voxel_grid_PREFIX ${voxel_grid_DEVEL_PREFIX})

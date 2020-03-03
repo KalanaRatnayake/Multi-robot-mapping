@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,11 +135,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_core" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/nav_core" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nav_core" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include/nav_core/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/nav_core" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include/nav_core/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

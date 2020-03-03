@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_node
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_node
@@ -58,17 +58,17 @@ include src/nodelet/CMakeFiles/kobuki_nodelet.dir/progress.make
 include src/nodelet/CMakeFiles/kobuki_nodelet.dir/flags.make
 
 src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o: src/nodelet/CMakeFiles/kobuki_nodelet.dir/flags.make
-src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/nodelet/kobuki_nodelet.cpp
+src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/nodelet/kobuki_nodelet.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/nodelet/kobuki_nodelet.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/nodelet/kobuki_nodelet.cpp
 
 src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/nodelet/kobuki_nodelet.cpp > CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/nodelet/kobuki_nodelet.cpp > CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.i
 
 src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/nodelet/kobuki_nodelet.cpp -o CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/nodelet/kobuki_nodelet.cpp -o CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.s
 
 src/nodelet/CMakeFiles/kobuki_nodelet.dir/kobuki_nodelet.cpp.o.requires:
 
@@ -160,6 +160,6 @@ src/nodelet/CMakeFiles/kobuki_nodelet.dir/clean:
 .PHONY : src/nodelet/CMakeFiles/kobuki_nodelet.dir/clean
 
 src/nodelet/CMakeFiles/kobuki_nodelet.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/nodelet /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_node /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/nodelet /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/nodelet/CMakeFiles/kobuki_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/nodelet/CMakeFiles/kobuki_nodelet.dir/depend
 

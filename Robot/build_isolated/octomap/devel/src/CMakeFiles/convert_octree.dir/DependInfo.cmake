@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/convert_octree.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/src/convert_octree.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/include"
   )
 
 # Targets to which this target links.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees"
 )
 
 # Per-language clean rules from dependency scanning.

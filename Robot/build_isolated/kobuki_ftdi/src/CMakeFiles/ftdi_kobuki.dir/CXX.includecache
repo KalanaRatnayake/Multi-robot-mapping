@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/ftdi_kobuki.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/ftdi_kobuki.cpp
 ftdi.h
 -
 cstring

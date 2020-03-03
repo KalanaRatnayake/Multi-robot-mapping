@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/navfn_generate_messages_cpp"
-  "/home/kalana/Xavier/Robot/devel_isolated/navfn/include/navfn/SetCostmap.h"
   "/home/kalana/Xavier/Robot/devel_isolated/navfn/include/navfn/MakeNavPlan.h"
+  "/home/kalana/Xavier/Robot/devel_isolated/navfn/include/navfn/SetCostmap.h"
 )
 
 # Per-language clean rules from dependency scanning.

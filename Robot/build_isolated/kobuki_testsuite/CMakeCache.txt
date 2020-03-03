@@ -464,7 +464,7 @@ kobuki_safety_controller_DIR:PATH=/home/kalana/Xavier/Robot/devel_isolated/kobuk
 kobuki_testsuite_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/kobuki_testsuite
 
 //Value Computed by CMake
-kobuki_testsuite_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite
+kobuki_testsuite_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libecl_streams.so
@@ -632,7 +632,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -9,4 +9,4 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/kalana/Xavier/Robot/devel_isolated/kobuki_driver:$CMAKE_PREFIX_PATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kalana/Xavier/Robot/devel_isolated/kobuki_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/kalana/Xavier/Robot/src/kobuki/kobuki_driver:$ROS_PACKAGE_PATH"

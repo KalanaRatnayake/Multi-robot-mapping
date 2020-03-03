@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -179,26 +179,26 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/include/kobuki_auto_docking/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/include/kobuki_auto_docking/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/plugins")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/plugins")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/param")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_auto_docking" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/param")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kobuki_auto_docking" TYPE PROGRAM FILES
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/scripts/DockDriveActionClient.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/scripts/DockDriveControl.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/scripts/getDockIR.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/scripts/DockDriveActionClient.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/scripts/DockDriveControl.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/scripts/getDockIR.py"
     )
 endif()
 

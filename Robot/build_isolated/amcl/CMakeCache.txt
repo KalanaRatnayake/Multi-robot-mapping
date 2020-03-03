@@ -248,7 +248,7 @@ UBUNTU:BOOL=TRUE
 UBUNTU_XENIAL:BOOL=TRUE
 
 //Path to a file.
-_file_name:FILEPATH=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/test/texas_willow_hallway_loop.xml
+_file_name:FILEPATH=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/test/texas_willow_hallway_loop.xml
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
@@ -272,7 +272,7 @@ actionlib_msgs_DIR:PATH=/opt/ros/kinetic/share/actionlib_msgs/cmake
 amcl_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/amcl
 
 //Value Computed by CMake
-amcl_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl
+amcl_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl
 
 //Dependencies for target
 amcl_map_LIB_DEPENDS:STATIC=
@@ -520,7 +520,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

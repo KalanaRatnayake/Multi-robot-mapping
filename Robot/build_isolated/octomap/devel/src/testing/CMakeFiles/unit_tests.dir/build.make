@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap_setup/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/octomap/devel
@@ -58,17 +58,17 @@ include src/testing/CMakeFiles/unit_tests.dir/progress.make
 include src/testing/CMakeFiles/unit_tests.dir/flags.make
 
 src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o: src/testing/CMakeFiles/unit_tests.dir/flags.make
-src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/testing/unit_tests.cpp
+src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap/src/testing/unit_tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/unit_tests.cpp.o -c /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/testing/unit_tests.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unit_tests.dir/unit_tests.cpp.o -c /home/kalana/Xavier/Robot/src/octomap/octomap/src/testing/unit_tests.cpp
 
 src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unit_tests.dir/unit_tests.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/testing/unit_tests.cpp > CMakeFiles/unit_tests.dir/unit_tests.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/octomap/octomap/src/testing/unit_tests.cpp > CMakeFiles/unit_tests.dir/unit_tests.cpp.i
 
 src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unit_tests.dir/unit_tests.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/testing/unit_tests.cpp -o CMakeFiles/unit_tests.dir/unit_tests.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/octomap/octomap/src/testing/unit_tests.cpp -o CMakeFiles/unit_tests.dir/unit_tests.cpp.s
 
 src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o.requires:
 
@@ -88,16 +88,16 @@ unit_tests_OBJECTS = \
 # External object files for target unit_tests
 unit_tests_EXTERNAL_OBJECTS =
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests: src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests: src/testing/CMakeFiles/unit_tests.dir/build.make
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.so.1.9.0
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.so.1.9.0
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests: src/testing/CMakeFiles/unit_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests"
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests: src/testing/CMakeFiles/unit_tests.dir/unit_tests.cpp.o
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests: src/testing/CMakeFiles/unit_tests.dir/build.make
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests: /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so.1.9.0
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests: /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so.1.9.0
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests: src/testing/CMakeFiles/unit_tests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests"
 	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unit_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/testing/CMakeFiles/unit_tests.dir/build: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/unit_tests
+src/testing/CMakeFiles/unit_tests.dir/build: /home/kalana/Xavier/Robot/src/octomap/octomap/bin/unit_tests
 
 .PHONY : src/testing/CMakeFiles/unit_tests.dir/build
 
@@ -110,6 +110,6 @@ src/testing/CMakeFiles/unit_tests.dir/clean:
 .PHONY : src/testing/CMakeFiles/unit_tests.dir/clean
 
 src/testing/CMakeFiles/unit_tests.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap_setup/octomap /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/testing /home/kalana/Xavier/Robot/build_isolated/octomap/devel /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing/CMakeFiles/unit_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap/octomap /home/kalana/Xavier/Robot/src/octomap/octomap/src/testing /home/kalana/Xavier/Robot/build_isolated/octomap/devel /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/testing/CMakeFiles/unit_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/testing/CMakeFiles/unit_tests.dir/depend
 

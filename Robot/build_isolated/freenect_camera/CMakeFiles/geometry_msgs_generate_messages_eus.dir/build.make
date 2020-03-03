@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera/freenect_camera
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/freenect_camera
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/freenect_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/freenect_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera/freenect_camera /home/kalana/Xavier/Robot/src/camera/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/geometry_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_eus.dir/depend
 

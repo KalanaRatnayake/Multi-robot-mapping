@@ -67,7 +67,7 @@ set(pose_follower_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pose_follower_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower)
+  set(pose_follower_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower)
   set(pose_follower_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/pose_follower)
   set(pose_follower_INSTALL_PREFIX "")
   set(pose_follower_PREFIX ${pose_follower_DEVEL_PREFIX})

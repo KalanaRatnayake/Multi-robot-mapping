@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap/octomap_rviz
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins

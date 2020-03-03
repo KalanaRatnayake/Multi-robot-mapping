@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dkobuki_dock_drive_EXPORTS
 
-CXX_INCLUDES = -I/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/sophus/../../include -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/sophus/../../include -I/usr/include/eigen3 
 

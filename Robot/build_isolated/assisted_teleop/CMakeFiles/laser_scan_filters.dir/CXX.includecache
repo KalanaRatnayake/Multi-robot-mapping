@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/include/assisted_teleop/max_range_filter.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/include/assisted_teleop/max_range_filter.h
 filters/filter_base.h
 -
 sensor_msgs/LaserScan.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/src/laser_scan_filters.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/src/laser_scan_filters.cpp
 assisted_teleop/max_range_filter.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/src/assisted_teleop/max_range_filter.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/src/assisted_teleop/max_range_filter.h
 sensor_msgs/LaserScan.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/src/sensor_msgs/LaserScan.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/src/sensor_msgs/LaserScan.h
 filters/filter_base.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/src/filters/filter_base.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/src/filters/filter_base.h
 pluginlib/class_list_macros.hpp
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/src/pluginlib/class_list_macros.hpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/src/pluginlib/class_list_macros.hpp
 
 /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp

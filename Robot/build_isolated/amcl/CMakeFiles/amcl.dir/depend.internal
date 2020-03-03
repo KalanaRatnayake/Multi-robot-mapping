@@ -3,15 +3,15 @@
 
 CMakeFiles/amcl.dir/src/amcl_node.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/map/map.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_kdtree.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_pdf.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/sensors/amcl_laser.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/sensors/amcl_odom.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include/amcl/sensors/amcl_sensor.h
- /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl_node.cpp
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/map/map.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_kdtree.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_pdf.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/pf/pf_vector.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/sensors/amcl_laser.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/sensors/amcl_odom.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include/amcl/sensors/amcl_sensor.h
+ /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl_node.cpp
  /opt/ros/kinetic/include/boost_161_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
  /opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h

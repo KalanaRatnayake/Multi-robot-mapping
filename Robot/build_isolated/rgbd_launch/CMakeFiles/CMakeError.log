@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77e6f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77e6f.dir/build.make CMakeFiles/cmTC_77e6f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_12b6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12b6f.dir/build.make CMakeFiles/cmTC_12b6f.dir/build
 make[1]: Entering directory '/home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_77e6f.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_77e6f.dir/CheckSymbolExists.c.o   -c /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_77e6f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77e6f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_77e6f.dir/CheckSymbolExists.c.o  -o cmTC_77e6f -rdynamic 
-CMakeFiles/cmTC_77e6f.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_12b6f.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_12b6f.dir/CheckSymbolExists.c.o   -c /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_12b6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12b6f.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_12b6f.dir/CheckSymbolExists.c.o  -o cmTC_12b6f -rdynamic 
+CMakeFiles/cmTC_12b6f.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_77e6f.dir/build.make:97: recipe for target 'cmTC_77e6f' failed
-make[1]: *** [cmTC_77e6f] Error 1
+CMakeFiles/cmTC_12b6f.dir/build.make:97: recipe for target 'cmTC_12b6f' failed
+make[1]: *** [cmTC_12b6f] Error 1
 make[1]: Leaving directory '/home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_77e6f/fast' failed
-make: *** [cmTC_77e6f/fast] Error 2
+Makefile:126: recipe for target 'cmTC_12b6f/fast' failed
+make: *** [cmTC_12b6f/fast] Error 2
 
 File /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b782/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6b782.dir/build.make CMakeFiles/cmTC_6b782.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c3f43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c3f43.dir/build.make CMakeFiles/cmTC_c3f43.dir/build
 make[1]: Entering directory '/home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6b782.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_6b782.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_6b782
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b782.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_6b782.dir/CheckFunctionExists.c.o  -o cmTC_6b782 -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_c3f43.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c3f43.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c3f43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3f43.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c3f43.dir/CheckFunctionExists.c.o  -o cmTC_c3f43 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_6b782.dir/build.make:97: recipe for target 'cmTC_6b782' failed
-make[1]: *** [cmTC_6b782] Error 1
+CMakeFiles/cmTC_c3f43.dir/build.make:97: recipe for target 'cmTC_c3f43' failed
+make[1]: *** [cmTC_c3f43] Error 1
 make[1]: Leaving directory '/home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_6b782/fast' failed
-make: *** [cmTC_6b782/fast] Error 2
+Makefile:126: recipe for target 'cmTC_c3f43/fast' failed
+make: *** [cmTC_c3f43/fast] Error 2
 
 

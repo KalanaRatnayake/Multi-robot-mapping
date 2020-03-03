@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assisted_teleop" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assisted_teleop" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -179,15 +179,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/assisted_teleop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/include/assisted_teleop/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/assisted_teleop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/include/assisted_teleop/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assisted_teleop" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/filter_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assisted_teleop" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/filter_plugins.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assisted_teleop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assisted_teleop" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

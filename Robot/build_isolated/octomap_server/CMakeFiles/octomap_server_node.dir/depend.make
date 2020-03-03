@@ -9,10 +9,10 @@ CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/X
 CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/GetOctomapResponse.h
 CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/Octomap.h
 CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_server/include/octomap_server/OctomapServerConfig.h
-CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include/octomap_msgs/conversions.h
-CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros/include/octomap_ros/conversions.h
-CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_server/include/octomap_server/OctomapServer.h
-CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_server/src/octomap_server_node.cpp
+CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include/octomap_msgs/conversions.h
+CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_ros/include/octomap_ros/conversions.h
+CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_server/include/octomap_server/OctomapServer.h
+CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_server/src/octomap_server_node.cpp
 CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /opt/ros/kinetic/include/boost_161_condition_variable.h
 CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /opt/ros/kinetic/include/boost_161_pthread_condition_variable.h
 CMakeFiles/octomap_server_node.dir/src/octomap_server_node.cpp.o: /opt/ros/kinetic/include/boost_161_pthread_condition_variable_fwd.h

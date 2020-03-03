@@ -336,7 +336,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 kobuki_bumper2pc_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc
 
 //Value Computed by CMake
-kobuki_bumper2pc_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc
+kobuki_bumper2pc_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc
 
 //Dependencies for the target
 kobuki_bumper2pc_nodelet_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libnodeletlib.so;general;/usr/lib/x86_64-linux-gnu/libuuid.so;general;/opt/ros/kinetic/lib/libbondcpp.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml2.so;general;/opt/ros/kinetic/lib/libclass_loader.so;general;/usr/lib/libPocoFoundation.so;general;/usr/lib/x86_64-linux-gnu/libdl.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/libroslib.so;general;/opt/ros/kinetic/lib/librospack.so;general;/usr/lib/x86_64-linux-gnu/libpython2.7.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_program_options.so;general;/usr/lib/x86_64-linux-gnu/libtinyxml.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;
@@ -474,7 +474,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -124,7 +124,7 @@ file(INSTALL DESTINATION "/home/kalana/Xavier/Robot/install_isolated" TYPE FILE 
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner/msg" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/msg/SBPLLatticePlannerStats.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner/msg" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/msg/SBPLLatticePlannerStats.msg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -171,7 +171,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -195,19 +195,19 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sbpl_lattice_planner" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/include/sbpl_lattice_planner/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/sbpl_lattice_planner" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/include/sbpl_lattice_planner/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/bgp_plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/bgp_plugin.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/sbpl_lattice_planner" TYPE DIRECTORY FILES
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/launch"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/matlab"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/rviz"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/worlds"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/launch"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/matlab"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/rviz"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/worlds"
     )
 endif()
 

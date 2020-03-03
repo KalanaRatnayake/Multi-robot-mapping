@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/navfn
@@ -67,6 +67,6 @@ test/CMakeFiles/_run_tests_navfn.dir/clean:
 .PHONY : test/CMakeFiles/_run_tests_navfn.dir/clean
 
 test/CMakeFiles/_run_tests_navfn.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn/test/CMakeFiles/_run_tests_navfn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn/test /home/kalana/Xavier/Robot/build_isolated/navfn/test/CMakeFiles/_run_tests_navfn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/_run_tests_navfn.dir/depend
 

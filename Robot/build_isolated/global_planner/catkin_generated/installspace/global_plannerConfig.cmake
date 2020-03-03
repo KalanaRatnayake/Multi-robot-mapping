@@ -67,7 +67,7 @@ set(global_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(global_planner_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/global_planner)
+  set(global_planner_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/global_planner)
   set(global_planner_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/global_planner)
   set(global_planner_INSTALL_PREFIX "")
   set(global_planner_PREFIX ${global_planner_DEVEL_PREFIX})

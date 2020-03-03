@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_controller_tutorial" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_controller_tutorial" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -159,15 +159,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_controller_tutorial" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/include/kobuki_controller_tutorial/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/kobuki_controller_tutorial" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/include/kobuki_controller_tutorial/")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_controller_tutorial" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/plugins")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_controller_tutorial" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/plugins")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_controller_tutorial" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_controller_tutorial" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/launch")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

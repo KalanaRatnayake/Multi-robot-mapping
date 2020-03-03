@@ -1,2 +1,2 @@
-/usr/bin/ar qc /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.a  CMakeFiles/octomath-static.dir/Vector3.cpp.o CMakeFiles/octomath-static.dir/Quaternion.cpp.o CMakeFiles/octomath-static.dir/Pose6D.cpp.o
-/usr/bin/ranlib /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.a
+/usr/bin/ar qc /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.a  CMakeFiles/octomath-static.dir/Vector3.cpp.o CMakeFiles/octomath-static.dir/Quaternion.cpp.o CMakeFiles/octomath-static.dir/Pose6D.cpp.o
+/usr/bin/ranlib /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.a

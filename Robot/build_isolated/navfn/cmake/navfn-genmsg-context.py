@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/srv/MakeNavPlan.srv;/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/srv/SetCostmap.srv"
+services_str = "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/srv/MakeNavPlan.srv;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/srv/SetCostmap.srv"
 pkg_name = "navfn"
 dependencies_str = "geometry_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

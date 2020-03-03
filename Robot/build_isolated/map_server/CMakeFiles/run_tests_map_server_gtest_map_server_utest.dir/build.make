@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/map_server
@@ -71,6 +71,6 @@ CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/clean:
 .PHONY : CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/clean
 
 CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server /home/kalana/Xavier/Robot/build_isolated/map_server /home/kalana/Xavier/Robot/build_isolated/map_server /home/kalana/Xavier/Robot/build_isolated/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server /home/kalana/Xavier/Robot/build_isolated/map_server /home/kalana/Xavier/Robot/build_isolated/map_server /home/kalana/Xavier/Robot/build_isolated/map_server/CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_map_server_gtest_map_server_utest.dir/depend
 

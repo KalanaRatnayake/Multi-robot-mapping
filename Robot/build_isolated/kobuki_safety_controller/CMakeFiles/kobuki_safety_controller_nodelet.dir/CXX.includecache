@@ -54,7 +54,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
 string
 -
 ros/ros.h
@@ -72,7 +72,7 @@ kobuki_msgs/CliffEvent.h
 kobuki_msgs/WheelDropEvent.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/src/nodelet.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/src/nodelet.cpp
 nodelet/nodelet.h
 -
 pluginlib/class_list_macros.h
@@ -80,7 +80,7 @@ pluginlib/class_list_macros.h
 ecl/threads/thread.hpp
 -
 kobuki_safety_controller/safety_controller.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/src/kobuki_safety_controller/safety_controller.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/src/kobuki_safety_controller/safety_controller.hpp
 
 /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp

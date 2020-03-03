@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization/fake_localization.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization/fake_localization.cpp
 ros/ros.h
 -
 ros/time.h
@@ -20,7 +20,7 @@ geometry_msgs/PoseWithCovarianceStamped.h
 angles/angles.h
 -
 ros/console.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization/ros/console.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization/ros/console.h
 tf2/LinearMath/Transform.h
 -
 tf2/convert.h
@@ -36,7 +36,7 @@ tf2_ros/transform_listener.h
 tf2_ros/message_filter.h
 -
 message_filters/subscriber.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization/message_filters/subscriber.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization/message_filters/subscriber.h
 
 /opt/ros/kinetic/include/angles/angles.h
 algorithm

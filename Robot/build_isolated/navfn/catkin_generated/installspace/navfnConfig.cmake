@@ -67,7 +67,7 @@ set(navfn_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(navfn_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn)
+  set(navfn_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn)
   set(navfn_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/navfn)
   set(navfn_INSTALL_PREFIX "")
   set(navfn_PREFIX ${navfn_DEVEL_PREFIX})

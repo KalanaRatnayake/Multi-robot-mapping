@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn_node.cpp" "/home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles/navfn_node.dir/src/navfn_node.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn_node.cpp" "/home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles/navfn_node.dir/src/navfn_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -43,11 +43,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/python2.7"
   "/usr/include/libxml2"
   "/usr/include/tcl"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include"
   "/home/kalana/Xavier/Robot/devel_isolated/costmap_2d/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/pcl-1.7"

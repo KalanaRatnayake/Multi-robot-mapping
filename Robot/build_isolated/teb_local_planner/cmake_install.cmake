@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -125,9 +125,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_local_planner/msg" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg"
     )
 endif()
 
@@ -191,7 +191,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_local_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_local_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -235,18 +235,18 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/teb_local_planner" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/teb_local_planner" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/include/teb_local_planner/" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_local_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/teb_local_planner_plugin.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_local_planner" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/teb_local_planner_plugin.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/teb_local_planner" TYPE DIRECTORY FILES
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/launch"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/scripts"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/launch"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/cfg"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/scripts"
     REGEX "/\\.svn$" EXCLUDE)
 endif()
 

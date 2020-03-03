@@ -67,7 +67,7 @@ set(move_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(move_base_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_base)
+  set(move_base_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_base)
   set(move_base_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/move_base)
   set(move_base_INSTALL_PREFIX "")
   set(move_base_PREFIX ${move_base_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/kalana/Xavier/Robot/devel_isolated/move_base/include " STREQUAL " 
         message(FATAL_ERROR "Project 'move_base' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'move_base' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_base/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'move_base' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_base/${idir}'.  ${_report}")
     endif()
     _list_append_unique(move_base_INCLUDE_DIRS ${include})
   endforeach()

@@ -67,7 +67,7 @@ set(pose_base_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pose_base_controller_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_base_controller)
+  set(pose_base_controller_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_base_controller)
   set(pose_base_controller_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/pose_base_controller)
   set(pose_base_controller_INSTALL_PREFIX "")
   set(pose_base_controller_PREFIX ${pose_base_controller_DEVEL_PREFIX})

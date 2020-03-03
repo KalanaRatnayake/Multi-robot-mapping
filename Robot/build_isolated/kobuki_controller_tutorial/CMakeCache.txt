@@ -336,7 +336,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 kobuki_controller_tutorial_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/kobuki_controller_tutorial
 
 //Value Computed by CMake
-kobuki_controller_tutorial_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial
+kobuki_controller_tutorial_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial
 
 //The directory containing a CMake configuration file for kobuki_msgs.
 kobuki_msgs_DIR:PATH=/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/cmake
@@ -471,7 +471,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

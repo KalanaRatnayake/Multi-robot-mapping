@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -124,7 +124,7 @@ file(INSTALL DESTINATION "/home/kalana/Xavier/Robot/install_isolated" TYPE FILE 
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_pose_ekf/srv" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/srv/GetStatus.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_pose_ekf/srv" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/srv/GetStatus.srv")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -171,7 +171,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_pose_ekf" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_pose_ekf" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -196,13 +196,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_pose_ekf" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/robot_pose_ekf.launch"
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/example_with_gps.launch"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/robot_pose_ekf.launch"
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/example_with_gps.launch"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_pose_ekf" TYPE PROGRAM FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/scripts/wtf.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_pose_ekf" TYPE PROGRAM FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/scripts/wtf.py")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

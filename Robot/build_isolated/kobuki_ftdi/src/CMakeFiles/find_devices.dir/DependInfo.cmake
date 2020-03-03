@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/find_devices.cpp" "/home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/find_devices.dir/find_devices.cpp.o"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/find_devices.cpp" "/home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/find_devices.dir/find_devices.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/include"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/include"
   "/opt/ros/kinetic/include"
   )
 

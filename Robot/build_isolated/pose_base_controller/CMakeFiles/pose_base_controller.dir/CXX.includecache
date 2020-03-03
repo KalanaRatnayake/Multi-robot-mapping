@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_base_controller/include/pose_base_controller/pose_base_controller.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_base_controller/include/pose_base_controller/pose_base_controller.h
 ros/ros.h
 -
 tf/tf.h
@@ -28,7 +28,7 @@ nav_msgs/Odometry.h
 boost/thread.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_base_controller/src/pose_base_controller.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_base_controller/src/pose_base_controller.cpp
 pose_base_controller/pose_base_controller.h
 -
 

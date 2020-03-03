@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/math
+# Install script for directory: /home/kalana/Xavier/Robot/src/octomap/octomap/src/math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.so.1.9.0"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.so.1.9"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.so"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so.1.9.0"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so.1.9"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomath.so.1.9.0"
@@ -69,6 +69,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.a")
 endif()
 

@@ -3,6 +3,6 @@ prefix=/home/kalana/Xavier/Robot/devel_isolated/kobuki_bumper2pc
 Name: kobuki_bumper2pc
 Description: Description of kobuki_bumper2pc
 Version: 0.7.6
-Cflags: -I/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/include
+Cflags: -I/home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/include
 Libs: -L${prefix}/lib -lkobuki_bumper2pc_nodelet
 Requires: roscpp nodelet pluginlib sensor_msgs kobuki_msgs

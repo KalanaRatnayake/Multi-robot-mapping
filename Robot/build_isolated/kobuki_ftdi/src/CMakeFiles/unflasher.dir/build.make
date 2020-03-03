@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi
@@ -58,17 +58,17 @@ include src/CMakeFiles/unflasher.dir/progress.make
 include src/CMakeFiles/unflasher.dir/flags.make
 
 src/CMakeFiles/unflasher.dir/unflasher.cpp.o: src/CMakeFiles/unflasher.dir/flags.make
-src/CMakeFiles/unflasher.dir/unflasher.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/unflasher.cpp
+src/CMakeFiles/unflasher.dir/unflasher.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/unflasher.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/unflasher.dir/unflasher.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unflasher.dir/unflasher.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/unflasher.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unflasher.dir/unflasher.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/unflasher.cpp
 
 src/CMakeFiles/unflasher.dir/unflasher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unflasher.dir/unflasher.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/unflasher.cpp > CMakeFiles/unflasher.dir/unflasher.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/unflasher.cpp > CMakeFiles/unflasher.dir/unflasher.cpp.i
 
 src/CMakeFiles/unflasher.dir/unflasher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unflasher.dir/unflasher.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src/unflasher.cpp -o CMakeFiles/unflasher.dir/unflasher.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src/unflasher.cpp -o CMakeFiles/unflasher.dir/unflasher.cpp.s
 
 src/CMakeFiles/unflasher.dir/unflasher.cpp.o.requires:
 
@@ -108,6 +108,6 @@ src/CMakeFiles/unflasher.dir/clean:
 .PHONY : src/CMakeFiles/unflasher.dir/clean
 
 src/CMakeFiles/unflasher.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/unflasher.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src /home/kalana/Xavier/Robot/build_isolated/kobuki_ftdi/src/CMakeFiles/unflasher.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/unflasher.dir/depend
 

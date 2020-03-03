@@ -10,4 +10,4 @@
 export CMAKE_PREFIX_PATH="/home/kalana/Xavier/Robot/devel_isolated/fake_localization:$CMAKE_PREFIX_PATH"
 export PWD="/home/kalana/Xavier/Robot/build_isolated/fake_localization"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/kalana/Xavier/Robot/devel_isolated/fake_localization/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization:$ROS_PACKAGE_PATH"
+export ROS_PACKAGE_PATH="/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization:$ROS_PACKAGE_PATH"

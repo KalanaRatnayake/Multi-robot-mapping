@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/color_tree_histogram.dir/color_tree_histogram.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/color_tree_histogram.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/color_tree_histogram"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/color_tree_histogram.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/color_tree_histogram"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -67,7 +67,7 @@ set(freenect_launch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(freenect_launch_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_launch)
+  set(freenect_launch_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/camera/freenect_launch)
   set(freenect_launch_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/freenect_launch)
   set(freenect_launch_INSTALL_PREFIX "")
   set(freenect_launch_PREFIX ${freenect_launch_DEVEL_PREFIX})

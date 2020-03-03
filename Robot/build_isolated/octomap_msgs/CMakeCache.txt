@@ -333,7 +333,7 @@ message_runtime_DIR:PATH=/opt/ros/kinetic/share/message_runtime/cmake
 octomap_msgs_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/octomap_msgs
 
 //Value Computed by CMake
-octomap_msgs_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs
+octomap_msgs_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/octomap/octomap_msgs
 
 //The directory containing a CMake configuration file for roscpp_serialization.
 roscpp_serialization_DIR:PATH=/opt/ros/kinetic/share/roscpp_serialization/cmake
@@ -429,7 +429,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/octomap/octomap_msgs
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

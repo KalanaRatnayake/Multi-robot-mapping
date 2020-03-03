@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner
@@ -58,17 +58,17 @@ include CMakeFiles/dwa_local_planner.dir/progress.make
 include CMakeFiles/dwa_local_planner.dir/flags.make
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o: CMakeFiles/dwa_local_planner.dir/flags.make
-CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp
+CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.i
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.s
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/dwa_local_planner.dir/src/dwa_planner.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o: CMakeFiles/dwa_local_planner.dir/flags.make
-CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp
+CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/dwa_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp > CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.i
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner/src/dwa_planner_ros.cpp -o CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.s
 
 CMakeFiles/dwa_local_planner.dir/src/dwa_planner_ros.cpp.o.requires:
 
@@ -365,6 +365,6 @@ CMakeFiles/dwa_local_planner.dir/clean:
 .PHONY : CMakeFiles/dwa_local_planner.dir/clean
 
 CMakeFiles/dwa_local_planner.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/dwa_local_planner /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/dwa_local_planner /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner /home/kalana/Xavier/Robot/build_isolated/dwa_local_planner/CMakeFiles/dwa_local_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dwa_local_planner.dir/depend
 

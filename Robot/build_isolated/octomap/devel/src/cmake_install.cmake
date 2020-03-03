@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src
+# Install script for directory: /home/kalana/Xavier/Robot/src/octomap/octomap/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -46,9 +46,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.so.1.9.0"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.so.1.9"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.so"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so.1.9.0"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so.1.9"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liboctomap.so.1.9.0"
@@ -59,7 +59,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+           OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
            NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
@@ -69,7 +69,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.a")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -98,12 +98,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/graph2tree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/graph2tree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/graph2tree")
@@ -118,12 +118,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/log2graph")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/log2graph")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/log2graph")
@@ -138,12 +138,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/binvox2bt")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/binvox2bt")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/binvox2bt")
@@ -158,12 +158,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/bt2vrml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/bt2vrml")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/bt2vrml")
@@ -178,12 +178,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/edit_octree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/edit_octree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/edit_octree")
@@ -198,12 +198,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/convert_octree")
@@ -218,12 +218,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/eval_octree_accuracy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/eval_octree_accuracy")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/eval_octree_accuracy")
@@ -238,12 +238,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees"
          RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees"
-         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib:"
+         OLD_RPATH "/home/kalana/Xavier/Robot/src/octomap/octomap/lib:::"
          NEW_RPATH "/home/kalana/Xavier/Robot/devel_isolated/octomap/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/compare_octrees")

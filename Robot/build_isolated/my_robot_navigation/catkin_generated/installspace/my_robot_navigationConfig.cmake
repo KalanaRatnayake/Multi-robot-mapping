@@ -67,7 +67,7 @@ set(my_robot_navigation_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(my_robot_navigation_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation)
+  set(my_robot_navigation_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation)
   set(my_robot_navigation_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/my_robot_navigation)
   set(my_robot_navigation_INSTALL_PREFIX "")
   set(my_robot_navigation_PREFIX ${my_robot_navigation_DEVEL_PREFIX})

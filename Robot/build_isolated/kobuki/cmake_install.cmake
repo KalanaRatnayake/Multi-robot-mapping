@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -124,7 +124,7 @@ file(INSTALL DESTINATION "/home/kalana/Xavier/Robot/install_isolated" TYPE FILE 
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

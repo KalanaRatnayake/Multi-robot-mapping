@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,26 +135,26 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/bluetooth")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/bluetooth")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/eeproms")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/eeproms")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kobuki_ftdi" TYPE PROGRAM FILES
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/scripts/turtlebot_config"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/scripts/create_udev_rules"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/scripts/turtlebot_config"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/scripts/create_udev_rules"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/57-kobuki.rules")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_ftdi" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/57-kobuki.rules")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

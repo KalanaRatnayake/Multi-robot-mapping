@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs
+# Install script for directory: /home/kalana/Xavier/Robot/src/octomap/octomap_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -125,15 +125,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_msgs/msg" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_msgs/srv" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv"
     )
 endif()
 
@@ -181,11 +181,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_msgs" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap_msgs" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include/" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

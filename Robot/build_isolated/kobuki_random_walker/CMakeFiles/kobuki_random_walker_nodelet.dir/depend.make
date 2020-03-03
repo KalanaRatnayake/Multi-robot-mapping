@@ -5,8 +5,8 @@ CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavi
 CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/CliffEvent.h
 CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/Led.h
 CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/WheelDropEvent.h
-CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/include/kobuki_random_walker/random_walker_controller.hpp
-CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker/src/nodelet.cpp
+CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/include/kobuki_random_walker/random_walker_controller.hpp
+CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker/src/nodelet.cpp
 CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader.h
 CMakeFiles/kobuki_random_walker_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_core.hpp

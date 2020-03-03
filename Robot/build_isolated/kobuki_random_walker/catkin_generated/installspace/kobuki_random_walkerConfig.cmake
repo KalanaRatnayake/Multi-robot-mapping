@@ -67,7 +67,7 @@ set(kobuki_random_walker_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_random_walker_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker)
+  set(kobuki_random_walker_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker)
   set(kobuki_random_walker_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_random_walker)
   set(kobuki_random_walker_INSTALL_PREFIX "")
   set(kobuki_random_walker_PREFIX ${kobuki_random_walker_DEVEL_PREFIX})

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_driver
@@ -58,17 +58,17 @@ include src/driver/CMakeFiles/kobuki.dir/progress.make
 include src/driver/CMakeFiles/kobuki.dir/flags.make
 
 src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/core_sensors.cpp
+src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/core_sensors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/core_sensors.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/core_sensors.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/core_sensors.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/core_sensors.cpp
 
 src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/core_sensors.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/core_sensors.cpp > CMakeFiles/kobuki.dir/core_sensors.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/core_sensors.cpp > CMakeFiles/kobuki.dir/core_sensors.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/core_sensors.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/core_sensors.cpp -o CMakeFiles/kobuki.dir/core_sensors.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/core_sensors.cpp -o CMakeFiles/kobuki.dir/core_sensors.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/driver/CMakeFiles/kobuki.dir/core_sensors.cpp.o.provides.build: src/driver/C
 
 
 src/driver/CMakeFiles/kobuki.dir/battery.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/battery.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/battery.cpp
+src/driver/CMakeFiles/kobuki.dir/battery.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/battery.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/driver/CMakeFiles/kobuki.dir/battery.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/battery.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/battery.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/battery.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/battery.cpp
 
 src/driver/CMakeFiles/kobuki.dir/battery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/battery.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/battery.cpp > CMakeFiles/kobuki.dir/battery.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/battery.cpp > CMakeFiles/kobuki.dir/battery.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/battery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/battery.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/battery.cpp -o CMakeFiles/kobuki.dir/battery.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/battery.cpp -o CMakeFiles/kobuki.dir/battery.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/battery.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/driver/CMakeFiles/kobuki.dir/battery.cpp.o.provides.build: src/driver/CMakeF
 
 
 src/driver/CMakeFiles/kobuki.dir/command.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/command.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/command.cpp
+src/driver/CMakeFiles/kobuki.dir/command.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/command.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/driver/CMakeFiles/kobuki.dir/command.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/command.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/command.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/command.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/command.cpp
 
 src/driver/CMakeFiles/kobuki.dir/command.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/command.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/command.cpp > CMakeFiles/kobuki.dir/command.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/command.cpp > CMakeFiles/kobuki.dir/command.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/command.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/command.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/command.cpp -o CMakeFiles/kobuki.dir/command.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/command.cpp -o CMakeFiles/kobuki.dir/command.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/command.cpp.o.requires:
 
@@ -130,17 +130,17 @@ src/driver/CMakeFiles/kobuki.dir/command.cpp.o.provides.build: src/driver/CMakeF
 
 
 src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/kobuki.cpp
+src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/kobuki.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/kobuki.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/kobuki.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/kobuki.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/kobuki.cpp
 
 src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/kobuki.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/kobuki.cpp > CMakeFiles/kobuki.dir/kobuki.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/kobuki.cpp > CMakeFiles/kobuki.dir/kobuki.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/kobuki.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/kobuki.cpp -o CMakeFiles/kobuki.dir/kobuki.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/kobuki.cpp -o CMakeFiles/kobuki.dir/kobuki.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.o.requires:
 
@@ -154,17 +154,17 @@ src/driver/CMakeFiles/kobuki.dir/kobuki.cpp.o.provides.build: src/driver/CMakeFi
 
 
 src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/packet_finder.cpp
+src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/packet_finder.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/packet_finder.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/packet_finder.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/packet_finder.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/packet_finder.cpp
 
 src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/packet_finder.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/packet_finder.cpp > CMakeFiles/kobuki.dir/packet_finder.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/packet_finder.cpp > CMakeFiles/kobuki.dir/packet_finder.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/packet_finder.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/packet_finder.cpp -o CMakeFiles/kobuki.dir/packet_finder.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/packet_finder.cpp -o CMakeFiles/kobuki.dir/packet_finder.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.o.requires:
 
@@ -178,17 +178,17 @@ src/driver/CMakeFiles/kobuki.dir/packet_finder.cpp.o.provides.build: src/driver/
 
 
 src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/event_manager.cpp
+src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/event_manager.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/event_manager.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/event_manager.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/event_manager.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/event_manager.cpp
 
 src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/event_manager.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/event_manager.cpp > CMakeFiles/kobuki.dir/event_manager.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/event_manager.cpp > CMakeFiles/kobuki.dir/event_manager.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/event_manager.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/event_manager.cpp -o CMakeFiles/kobuki.dir/event_manager.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/event_manager.cpp -o CMakeFiles/kobuki.dir/event_manager.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.o.requires:
 
@@ -202,17 +202,17 @@ src/driver/CMakeFiles/kobuki.dir/event_manager.cpp.o.provides.build: src/driver/
 
 
 src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/diff_drive.cpp
+src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/diff_drive.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/diff_drive.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/diff_drive.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/diff_drive.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/diff_drive.cpp
 
 src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/diff_drive.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/diff_drive.cpp > CMakeFiles/kobuki.dir/diff_drive.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/diff_drive.cpp > CMakeFiles/kobuki.dir/diff_drive.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/diff_drive.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver/diff_drive.cpp -o CMakeFiles/kobuki.dir/diff_drive.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver/diff_drive.cpp -o CMakeFiles/kobuki.dir/diff_drive.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.o.requires:
 
@@ -226,17 +226,17 @@ src/driver/CMakeFiles/kobuki.dir/diff_drive.cpp.o.provides.build: src/driver/CMa
 
 
 src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o: src/driver/CMakeFiles/kobuki.dir/flags.make
-src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/build/version_info.cpp
+src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/build/version_info.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/build/version_info.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/build/version_info.cpp
 
 src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/build/version_info.cpp > CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/build/version_info.cpp > CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.i
 
 src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/build/version_info.cpp -o CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/build/version_info.cpp -o CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.s
 
 src/driver/CMakeFiles/kobuki.dir/__/__/build/version_info.cpp.o.requires:
 
@@ -310,6 +310,6 @@ src/driver/CMakeFiles/kobuki.dir/clean:
 .PHONY : src/driver/CMakeFiles/kobuki.dir/clean
 
 src/driver/CMakeFiles/kobuki.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_driver/src/driver /home/kalana/Xavier/Robot/build_isolated/kobuki_driver /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver/CMakeFiles/kobuki.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver /home/kalana/Xavier/Robot/src/kobuki/kobuki_driver/src/driver /home/kalana/Xavier/Robot/build_isolated/kobuki_driver /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver /home/kalana/Xavier/Robot/build_isolated/kobuki_driver/src/driver/CMakeFiles/kobuki.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/driver/CMakeFiles/kobuki.dir/depend
 

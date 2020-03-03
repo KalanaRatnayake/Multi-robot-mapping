@@ -14,7 +14,7 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner"
+echo_and_run cd "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner"
 
 # ensure that Python install destination exists
 echo_and_run mkdir -p "$DESTDIR/home/kalana/Xavier/Robot/install_isolated/lib/python2.7/dist-packages"
@@ -26,7 +26,7 @@ echo_and_run /usr/bin/env \
     PYTHONPATH="/home/kalana/Xavier/Robot/install_isolated/lib/python2.7/dist-packages:/home/kalana/Xavier/Robot/build_isolated/base_local_planner/lib/python2.7/dist-packages:$PYTHONPATH" \
     CATKIN_BINARY_DIR="/home/kalana/Xavier/Robot/build_isolated/base_local_planner" \
     "/usr/bin/python2" \
-    "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/setup.py" \
+    "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/setup.py" \
     build --build-base "/home/kalana/Xavier/Robot/build_isolated/base_local_planner" \
     install \
     $DESTDIR_ARG \

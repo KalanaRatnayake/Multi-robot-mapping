@@ -5,8 +5,8 @@ CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/
 CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/GetOctomapRequest.h
 CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/GetOctomapResponse.h
 CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/Octomap.h
-CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include/octomap_msgs/conversions.h
-CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_server/src/octomap_saver.cpp
+CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include/octomap_msgs/conversions.h
+CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_server/src/octomap_saver.cpp
 CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /opt/ros/kinetic/include/octomap/AbstractOcTree.h
 CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /opt/ros/kinetic/include/octomap/AbstractOccupancyOcTree.h
 CMakeFiles/octomap_saver.dir/src/octomap_saver.cpp.o: /opt/ros/kinetic/include/octomap/ColorOcTree.h

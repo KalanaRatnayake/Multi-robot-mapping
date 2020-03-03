@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower
+# Source directory: /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/pose_follower
 # 
 # This file includes the relevant testing commands required for 

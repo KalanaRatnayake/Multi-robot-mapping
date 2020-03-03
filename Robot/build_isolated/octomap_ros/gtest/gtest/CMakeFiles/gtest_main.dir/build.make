@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap/octomap_ros
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/octomap_ros
@@ -109,6 +109,6 @@ gtest/gtest/CMakeFiles/gtest_main.dir/clean:
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/clean
 
 gtest/gtest/CMakeFiles/gtest_main.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros /usr/src/gtest /home/kalana/Xavier/Robot/build_isolated/octomap_ros /home/kalana/Xavier/Robot/build_isolated/octomap_ros/gtest/gtest /home/kalana/Xavier/Robot/build_isolated/octomap_ros/gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap_ros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap/octomap_ros /usr/src/gtest /home/kalana/Xavier/Robot/build_isolated/octomap_ros /home/kalana/Xavier/Robot/build_isolated/octomap_ros/gtest/gtest /home/kalana/Xavier/Robot/build_isolated/octomap_ros/gtest/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/depend
 

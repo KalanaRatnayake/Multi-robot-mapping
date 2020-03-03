@@ -7,16 +7,16 @@
 #IncludeRegexTransform: 
 
 /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/include/octomap_rviz_plugins/moc_occupancy_grid_display.cpp
-../../../../src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h
+../../../../src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
 /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/include/octomap_rviz_plugins/moc_occupancy_map_display.cpp
-../../../../src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_map_display.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_map_display.h
+../../../../src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_map_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_map_display.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -40,7 +40,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include/octomap_msgs/conversions.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include/octomap_msgs/conversions.h
 octomap/octomap.h
 -
 octomap_msgs/Octomap.h
@@ -48,7 +48,7 @@ octomap_msgs/Octomap.h
 octomap/ColorOcTree.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h
 ros/ros.h
 -
 boost/shared_ptr.hpp
@@ -66,15 +66,15 @@ octomap/ColorOcTree.h
 rviz/display.h
 -
 rviz/ogre_helpers/point_cloud.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/rviz/ogre_helpers/point_cloud.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/rviz/ogre_helpers/point_cloud.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_map_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_map_display.h
 qobject.h
 -
 ros/ros.h
 -
 rviz/default_plugin/map_display.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/rviz/default_plugin/map_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include/octomap_rviz_plugins/rviz/default_plugin/map_display.h
 octomap_msgs/Octomap.h
 -
 octomap/OcTreeStamped.h
@@ -82,11 +82,11 @@ octomap/OcTreeStamped.h
 message_filters/subscriber.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/occupancy_grid_display.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/occupancy_grid_display.cpp
 QObject
 -
 octomap_rviz_plugins/occupancy_grid_display.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/octomap_rviz_plugins/occupancy_grid_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/octomap_rviz_plugins/occupancy_grid_display.h
 boost/bind.hpp
 -
 boost/shared_ptr.hpp
@@ -96,17 +96,17 @@ OGRE/OgreSceneNode.h
 OGRE/OgreSceneManager.h
 -
 rviz/visualization_manager.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/visualization_manager.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/visualization_manager.h
 rviz/frame_manager.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/frame_manager.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/frame_manager.h
 rviz/properties/int_property.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/properties/int_property.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/properties/int_property.h
 rviz/properties/ros_topic_property.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/properties/ros_topic_property.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/properties/ros_topic_property.h
 rviz/properties/enum_property.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/properties/enum_property.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/properties/enum_property.h
 rviz/properties/float_property.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/properties/float_property.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/properties/float_property.h
 octomap/octomap.h
 -
 octomap/ColorOcTree.h
@@ -120,15 +120,15 @@ sstream
 pluginlib/class_list_macros.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/occupancy_map_display.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/occupancy_map_display.cpp
 octomap_rviz_plugins/occupancy_map_display.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/octomap_rviz_plugins/occupancy_map_display.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/octomap_rviz_plugins/occupancy_map_display.h
 rviz/visualization_manager.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/visualization_manager.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/visualization_manager.h
 rviz/properties/int_property.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/properties/int_property.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/properties/int_property.h
 rviz/properties/ros_topic_property.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/rviz/properties/ros_topic_property.h
+/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/rviz/properties/ros_topic_property.h
 octomap/octomap.h
 -
 octomap_msgs/Octomap.h

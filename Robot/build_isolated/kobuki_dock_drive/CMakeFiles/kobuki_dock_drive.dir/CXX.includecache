@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/dock_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/dock_drive.hpp
 iostream
 -
 sstream
@@ -22,23 +22,23 @@ ecl/geometry/legacy_pose2d.hpp
 ecl/linear_algebra.hpp
 -
 kobuki_dock_drive/state.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/kobuki_dock_drive/state.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/kobuki_dock_drive/state.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/state.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/state.hpp
 iostream
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive.cpp
 kobuki_dock_drive/dock_drive.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/kobuki_dock_drive/dock_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/kobuki_dock_drive/dock_drive.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_debug.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_debug.cpp
 kobuki_dock_drive/dock_drive.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/kobuki_dock_drive/dock_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/kobuki_dock_drive/dock_drive.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_states.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_states.cpp
 kobuki_dock_drive/dock_drive.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/kobuki_dock_drive/dock_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/kobuki_dock_drive/dock_drive.hpp
 
 /opt/ros/kinetic/include/ecl/concepts/containers.hpp
 ecl/config/ecl.hpp

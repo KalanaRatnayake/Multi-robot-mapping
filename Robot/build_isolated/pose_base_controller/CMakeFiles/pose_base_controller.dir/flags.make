@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"pose_base_controller\"
 
-CXX_INCLUDES = -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_base_controller/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_base_controller/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

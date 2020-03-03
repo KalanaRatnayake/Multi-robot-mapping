@@ -67,7 +67,7 @@ set(kobuki_auto_docking_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_auto_docking_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking)
+  set(kobuki_auto_docking_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking)
   set(kobuki_auto_docking_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_auto_docking)
   set(kobuki_auto_docking_INSTALL_PREFIX "")
   set(kobuki_auto_docking_PREFIX ${kobuki_auto_docking_DEVEL_PREFIX})

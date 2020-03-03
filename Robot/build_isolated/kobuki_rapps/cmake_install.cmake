@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_rapps
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_rapps
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,11 +135,11 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_rapps" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_rapps/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_rapps" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_rapps/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_rapps" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_rapps/rapps")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_rapps" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_rapps/rapps")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

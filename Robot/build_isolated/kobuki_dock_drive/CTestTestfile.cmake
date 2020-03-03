@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive
+# Source directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive
 # 
 # This file includes the relevant testing commands required for 

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/base_local_planner
@@ -58,17 +58,17 @@ include CMakeFiles/base_local_planner.dir/progress.make
 include CMakeFiles/base_local_planner.dir/flags.make
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp
+CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp > CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp > CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/footprint_helper.cpp -o CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/base_local_planner.dir/src/footprint_helper.cpp.o.provides.build: CMa
 
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp
+CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp > CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp > CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/goal_functions.cpp -o CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/base_local_planner.dir/src/goal_functions.cpp.o.provides.build: CMake
 
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp
+CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp > CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp > CMakeFiles/base_local_planner.dir/src/map_cell.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_cell.cpp -o CMakeFiles/base_local_planner.dir/src/map_cell.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/base_local_planner.dir/src/map_cell.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp
+CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp > CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp > CMakeFiles/base_local_planner.dir/src/map_grid.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/base_local_planner.dir/src/map_grid.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp
+CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_visualizer.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/base_local_planner.dir/src/map_grid_visualizer.cpp.o.provides.build: 
 
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/map_grid_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/base_local_planner.dir/src/map_grid_cost_function.cpp.o.provides.buil
 
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp
+CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp > CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp > CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/latched_stop_rotate_controller.cpp -o CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/base_local_planner.dir/src/latched_stop_rotate_controller.cpp.o.provi
 
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp
+CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp > CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp > CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/local_planner_util.cpp -o CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/base_local_planner.dir/src/local_planner_util.cpp.o.provides.build: C
 
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp
+CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp > CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp > CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/odometry_helper_ros.cpp -o CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/base_local_planner.dir/src/odometry_helper_ros.cpp.o.provides.build: 
 
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/obstacle_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/base_local_planner.dir/src/obstacle_cost_function.cpp.o.provides.buil
 
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/oscillation_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/base_local_planner.dir/src/oscillation_cost_function.cpp.o.provides.b
 
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/prefer_forward_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/base_local_planner.dir/src/prefer_forward_cost_function.cpp.o.provide
 
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp
+CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp > CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp > CMakeFiles/base_local_planner.dir/src/point_grid.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/point_grid.cpp -o CMakeFiles/base_local_planner.dir/src/point_grid.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/base_local_planner.dir/src/point_grid.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp
+CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp > CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp > CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/costmap_model.cpp -o CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/base_local_planner.dir/src/costmap_model.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp
+CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp > CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp > CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_scored_sampling_planner.cpp -o CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/base_local_planner.dir/src/simple_scored_sampling_planner.cpp.o.provi
 
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp
+CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp > CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp > CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/simple_trajectory_generator.cpp -o CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o.requires:
 
@@ -442,17 +442,17 @@ CMakeFiles/base_local_planner.dir/src/simple_trajectory_generator.cpp.o.provides
 
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp
+CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp > CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp > CMakeFiles/base_local_planner.dir/src/trajectory.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory.cpp -o CMakeFiles/base_local_planner.dir/src/trajectory.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o.requires:
 
@@ -466,17 +466,17 @@ CMakeFiles/base_local_planner.dir/src/trajectory.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp
+CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp > CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/twirling_cost_function.cpp -o CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o.requires:
 
@@ -490,17 +490,17 @@ CMakeFiles/base_local_planner.dir/src/twirling_cost_function.cpp.o.provides.buil
 
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o: CMakeFiles/base_local_planner.dir/flags.make
-CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp
+CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp > CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp > CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.i
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/voxel_grid_model.cpp -o CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.s
 
 CMakeFiles/base_local_planner.dir/src/voxel_grid_model.cpp.o.requires:
 
@@ -1265,6 +1265,6 @@ CMakeFiles/base_local_planner.dir/clean:
 .PHONY : CMakeFiles/base_local_planner.dir/clean
 
 CMakeFiles/base_local_planner.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_local_planner.dir/depend
 

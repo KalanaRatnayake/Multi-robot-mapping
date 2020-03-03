@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/base_local_planner
@@ -58,17 +58,17 @@ include CMakeFiles/trajectory_planner_ros.dir/progress.make
 include CMakeFiles/trajectory_planner_ros.dir/flags.make
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o: CMakeFiles/trajectory_planner_ros.dir/flags.make
-CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp
+CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp > CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp > CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.i
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner.cpp -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.s
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner.cpp.o.provides.buil
 
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o: CMakeFiles/trajectory_planner_ros.dir/flags.make
-CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp
+CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp > CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp > CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.i
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/src/trajectory_planner_ros.cpp -o CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.s
 
 CMakeFiles/trajectory_planner_ros.dir/src/trajectory_planner_ros.cpp.o.requires:
 
@@ -733,6 +733,6 @@ CMakeFiles/trajectory_planner_ros.dir/clean:
 .PHONY : CMakeFiles/trajectory_planner_ros.dir/clean
 
 CMakeFiles/trajectory_planner_ros.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/base_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner /home/kalana/Xavier/Robot/build_isolated/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trajectory_planner_ros.dir/depend
 

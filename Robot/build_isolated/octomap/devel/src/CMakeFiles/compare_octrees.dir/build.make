@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap_setup/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/octomap/devel
@@ -58,17 +58,17 @@ include src/CMakeFiles/compare_octrees.dir/progress.make
 include src/CMakeFiles/compare_octrees.dir/flags.make
 
 src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o: src/CMakeFiles/compare_octrees.dir/flags.make
-src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/compare_octrees.cpp
+src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap/src/compare_octrees.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o -c /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/compare_octrees.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o -c /home/kalana/Xavier/Robot/src/octomap/octomap/src/compare_octrees.cpp
 
 src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compare_octrees.dir/compare_octrees.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/compare_octrees.cpp > CMakeFiles/compare_octrees.dir/compare_octrees.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/octomap/octomap/src/compare_octrees.cpp > CMakeFiles/compare_octrees.dir/compare_octrees.cpp.i
 
 src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compare_octrees.dir/compare_octrees.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/compare_octrees.cpp -o CMakeFiles/compare_octrees.dir/compare_octrees.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/octomap/octomap/src/compare_octrees.cpp -o CMakeFiles/compare_octrees.dir/compare_octrees.cpp.s
 
 src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o.requires:
 
@@ -88,16 +88,16 @@ compare_octrees_OBJECTS = \
 # External object files for target compare_octrees
 compare_octrees_EXTERNAL_OBJECTS =
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees: src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees: src/CMakeFiles/compare_octrees.dir/build.make
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.so.1.9.0
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.so.1.9.0
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees: src/CMakeFiles/compare_octrees.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees"
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees: src/CMakeFiles/compare_octrees.dir/compare_octrees.cpp.o
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees: src/CMakeFiles/compare_octrees.dir/build.make
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees: /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so.1.9.0
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees: /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so.1.9.0
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees: src/CMakeFiles/compare_octrees.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees"
 	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compare_octrees.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/compare_octrees.dir/build: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/compare_octrees
+src/CMakeFiles/compare_octrees.dir/build: /home/kalana/Xavier/Robot/src/octomap/octomap/bin/compare_octrees
 
 .PHONY : src/CMakeFiles/compare_octrees.dir/build
 
@@ -110,6 +110,6 @@ src/CMakeFiles/compare_octrees.dir/clean:
 .PHONY : src/CMakeFiles/compare_octrees.dir/clean
 
 src/CMakeFiles/compare_octrees.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap_setup/octomap /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/CMakeFiles/compare_octrees.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap/octomap /home/kalana/Xavier/Robot/src/octomap/octomap/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/CMakeFiles/compare_octrees.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/compare_octrees.dir/depend
 

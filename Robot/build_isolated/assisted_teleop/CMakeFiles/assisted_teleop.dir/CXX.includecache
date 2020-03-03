@@ -58,13 +58,13 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/costmap_model.h
 base_local_planner/world_model.h
 -
 costmap_2d/costmap_2d.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/footprint_helper.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/footprint_helper.h
 vector
 -
 costmap_2d/costmap_2d.h
@@ -76,11 +76,11 @@ Eigen/Core
 base_local_planner/Position2DInt.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_cell.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_cell.h
 base_local_planner/trajectory_inc.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid.h
 vector
 -
 iostream
@@ -98,11 +98,11 @@ costmap_2d/costmap_2d.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_point.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_cost_point.h
 pcl/register_point_struct.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_visualizer.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/map_grid_visualizer.h
 ros/ros.h
 -
 base_local_planner/map_grid.h
@@ -114,7 +114,7 @@ base_local_planner/map_grid_cost_point.h
 pcl_ros/publisher.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/odometry_helper_ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/odometry_helper_ros.h
 tf/transform_datatypes.h
 -
 nav_msgs/Odometry.h
@@ -124,13 +124,13 @@ ros/ros.h
 boost/thread.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/planar_laser_scan.h
 geometry_msgs/Point32.h
 -
 sensor_msgs/PointCloud.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/point_grid.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/point_grid.h
 vector
 -
 list
@@ -148,15 +148,15 @@ pcl/point_types.h
 pcl/point_cloud.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory.h
 vector
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_inc.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_inc.h
 limits
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_planner.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_planner.h
 vector
 -
 cmath
@@ -186,7 +186,7 @@ base_local_planner/map_cell.h
 base_local_planner/map_grid.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_planner_ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/trajectory_planner_ros.h
 ros/ros.h
 -
 costmap_2d/costmap_2d.h
@@ -236,7 +236,7 @@ base_local_planner/BaseLocalPlannerConfig.h
 base_local_planner/odometry_helper_ros.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/voxel_grid_model.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/voxel_grid_model.h
 vector
 -
 list
@@ -256,7 +256,7 @@ pcl/point_cloud.h
 voxel_grid/voxel_grid.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include/base_local_planner/world_model.h
 vector
 -
 costmap_2d/observation.h
@@ -268,9 +268,9 @@ geometry_msgs/Point.h
 base_local_planner/planar_laser_scan.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/cost_values.h
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d.h
 vector
 -
 queue
@@ -280,7 +280,7 @@ geometry_msgs/Point.h
 boost/thread.hpp
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_publisher.h
 ros/ros.h
 -
 costmap_2d/costmap_2d.h
@@ -292,7 +292,7 @@ map_msgs/OccupancyGridUpdate.h
 tf/transform_datatypes.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/costmap_2d_ros.h
 costmap_2d/layered_costmap.h
 -
 costmap_2d/layer.h
@@ -312,7 +312,7 @@ dynamic_reconfigure/server.h
 pluginlib/class_loader.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/footprint.h
 ros/ros.h
 -
 geometry_msgs/Polygon.h
@@ -324,7 +324,7 @@ geometry_msgs/Point.h
 geometry_msgs/Point32.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layer.h
 costmap_2d/costmap_2d.h
 -
 costmap_2d/layered_costmap.h
@@ -336,7 +336,7 @@ tf/tf.h
 tf/transform_listener.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/layered_costmap.h
 costmap_2d/cost_values.h
 -
 costmap_2d/layer.h
@@ -348,7 +348,7 @@ vector
 string
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include/costmap_2d/observation.h
 geometry_msgs/Point.h
 -
 pcl/point_types.h
@@ -356,7 +356,7 @@ pcl/point_types.h
 pcl/point_cloud.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include/nav_core/base_local_planner.h
 geometry_msgs/PoseStamped.h
 -
 geometry_msgs/Twist.h
@@ -366,7 +366,7 @@ costmap_2d/costmap_2d_ros.h
 tf/transform_listener.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/include/voxel_grid/voxel_grid.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/include/voxel_grid/voxel_grid.h
 stdio.h
 -
 string.h
@@ -386,7 +386,7 @@ ros/console.h
 ros/assert.h
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/include/assisted_teleop/assisted_teleop.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/include/assisted_teleop/assisted_teleop.h
 ros/ros.h
 -
 geometry_msgs/Twist.h
@@ -400,7 +400,7 @@ boost/thread.hpp
 Eigen/Core
 -
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop/src/assisted_teleop.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop/src/assisted_teleop.cpp
 assisted_teleop/assisted_teleop.h
 -
 

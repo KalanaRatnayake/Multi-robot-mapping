@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Pose6D.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Pose6D.h
 Vector3.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h
 Quaternion.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Quaternion.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Quaternion.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Quaternion.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Quaternion.h
 Vector3.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h
 iostream
 -
 vector
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Utils.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Utils.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h
 iostream
 -
 math.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/math/Pose6D.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap/src/math/Pose6D.cpp
 octomap/math/Pose6D.h
 -
 math.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/math/Quaternion.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap/src/math/Quaternion.cpp
 octomap/math/Vector3.h
 -
 octomap/math/Quaternion.h
@@ -48,7 +48,7 @@ math.h
 algorithm
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/math/Vector3.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap/src/math/Vector3.cpp
 octomap/math/Vector3.h
 -
 cassert

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/AbstractOcTree.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/AbstractOcTree.h
 cstddef
 -
 fstream
@@ -18,31 +18,31 @@ iostream
 map
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/AbstractOccupancyOcTree.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/AbstractOccupancyOcTree.h
 AbstractOcTree.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/AbstractOcTree.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/AbstractOcTree.h
 octomap_utils.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_utils.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_utils.h
 OcTreeNode.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeNode.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeNode.h
 OcTreeKey.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeKey.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeKey.h
 cassert
 -
 fstream
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/MCTables.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/MCTables.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTree.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTree.h
 OccupancyOcTreeBase.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OccupancyOcTreeBase.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.h
 OcTreeNode.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeNode.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeNode.h
 ScanGraph.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/ScanGraph.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/ScanGraph.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeBaseImpl.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeBaseImpl.h
 list
 -
 limits
@@ -54,35 +54,35 @@ stack
 bitset
 -
 octomap_types.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 OcTreeKey.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeKey.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeKey.h
 ScanGraph.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/ScanGraph.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/ScanGraph.h
 octomap/OcTreeIterator.hxx
 -
 octomap/OcTreeBaseImpl.hxx
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeBaseImpl.hxx
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeBaseImpl.hxx
 limits
 -
 omp.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeDataNode.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeDataNode.h
 octomap_types.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 assert.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/assert.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/assert.h
 octomap/OcTreeDataNode.hxx
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap/OcTreeDataNode.hxx
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap/OcTreeDataNode.hxx
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeDataNode.hxx
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeDataNode.hxx
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeIterator.hxx
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeIterator.hxx
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeKey.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeKey.h
 ciso646
 -
 assert.h
@@ -96,17 +96,17 @@ unordered_set
 unordered_map
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeNode.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeNode.h
 octomap_types.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 octomap_utils.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_utils.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_utils.h
 OcTreeDataNode.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeDataNode.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeDataNode.h
 limits
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OccupancyOcTreeBase.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.h
 list
 -
 stdlib.h
@@ -114,17 +114,17 @@ stdlib.h
 vector
 -
 octomap_types.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 octomap_utils.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_utils.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_utils.h
 OcTreeBaseImpl.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeBaseImpl.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeBaseImpl.h
 AbstractOccupancyOcTree.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/AbstractOccupancyOcTree.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/AbstractOccupancyOcTree.h
 octomap/OccupancyOcTreeBase.hxx
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap/OccupancyOcTreeBase.hxx
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap/OccupancyOcTreeBase.hxx
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OccupancyOcTreeBase.hxx
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.hxx
 bitset
 -
 algorithm
@@ -132,7 +132,7 @@ algorithm
 octomap/MCTables.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/Pointcloud.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/Pointcloud.h
 vector
 -
 list
@@ -140,49 +140,49 @@ list
 octomap/octomap_types.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/ScanGraph.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/ScanGraph.h
 string
 -
 math.h
 -
 Pointcloud.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/Pointcloud.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/Pointcloud.h
 octomap_types.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Pose6D.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Pose6D.h
 Vector3.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h
 Quaternion.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Quaternion.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Quaternion.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Quaternion.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Quaternion.h
 Vector3.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h
 iostream
 -
 vector
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h
 iostream
 -
 math.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap.h
 octomap_types.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 Pointcloud.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/Pointcloud.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/Pointcloud.h
 ScanGraph.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/ScanGraph.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/ScanGraph.h
 OcTree.h
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTree.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTree.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_deprecated.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_deprecated.h
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h
 stdio.h
 -
 vector
@@ -198,11 +198,11 @@ octomap/math/Pose6D.h
 octomap/octomap_deprecated.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_utils.h
+/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_utils.h
 math.h
 -
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/edit_octree.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap/src/edit_octree.cpp
 string
 -
 fstream

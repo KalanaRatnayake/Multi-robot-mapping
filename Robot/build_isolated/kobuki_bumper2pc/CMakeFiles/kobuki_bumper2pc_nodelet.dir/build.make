@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc
@@ -58,17 +58,17 @@ include CMakeFiles/kobuki_bumper2pc_nodelet.dir/progress.make
 include CMakeFiles/kobuki_bumper2pc_nodelet.dir/flags.make
 
 CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o: CMakeFiles/kobuki_bumper2pc_nodelet.dir/flags.make
-CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp
+CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp
 
 CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp > CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp > CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.i
 
 CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp -o CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/src/kobuki_bumper2pc.cpp -o CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.s
 
 CMakeFiles/kobuki_bumper2pc_nodelet.dir/src/kobuki_bumper2pc.cpp.o.requires:
 
@@ -139,6 +139,6 @@ CMakeFiles/kobuki_bumper2pc_nodelet.dir/clean:
 .PHONY : CMakeFiles/kobuki_bumper2pc_nodelet.dir/clean
 
 CMakeFiles/kobuki_bumper2pc_nodelet.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc/CMakeFiles/kobuki_bumper2pc_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc /home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc /home/kalana/Xavier/Robot/build_isolated/kobuki_bumper2pc/CMakeFiles/kobuki_bumper2pc_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kobuki_bumper2pc_nodelet.dir/depend
 

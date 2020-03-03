@@ -67,7 +67,7 @@ set(move_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(move_base_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/move_base)
+  set(move_base_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/move_base)
   set(move_base_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/move_base)
   set(move_base_INSTALL_PREFIX "")
   set(move_base_PREFIX ${move_base_DEVEL_PREFIX})

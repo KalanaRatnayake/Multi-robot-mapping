@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros/src/conversions.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_ros/CMakeFiles/octomap_ros.dir/src/conversions.cpp.o"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_ros/src/conversions.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_ros/CMakeFiles/octomap_ros.dir/src/conversions.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,11 +18,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/home/kalana/Xavier/Robot/devel_isolated/octomap/include"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros/include"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_ros/include"
   )
 
 # Targets to which this target links.

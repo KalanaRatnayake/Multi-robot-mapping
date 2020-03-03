@@ -3,6 +3,6 @@ prefix=/home/kalana/Xavier/Robot/devel_isolated/twist_recovery
 Name: twist_recovery
 Description: Description of twist_recovery
 Version: 0.2.0
-Cflags: -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/twist_recovery/include
+Cflags: -I/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/twist_recovery/include
 Libs: -L${prefix}/lib -ltwist_recovery
 Requires: nav_core costmap_2d geometry_msgs pluginlib base_local_planner

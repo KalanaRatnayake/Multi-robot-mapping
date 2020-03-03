@@ -67,7 +67,7 @@ set(kobuki_safety_controller_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_safety_controller_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller)
+  set(kobuki_safety_controller_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller)
   set(kobuki_safety_controller_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_safety_controller)
   set(kobuki_safety_controller_INSTALL_PREFIX "")
   set(kobuki_safety_controller_PREFIX ${kobuki_safety_controller_DEVEL_PREFIX})

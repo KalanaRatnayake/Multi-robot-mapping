@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation /home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation /home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation /home/kalana/Xavier/Robot/build_isolated/my_robot_navigation/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

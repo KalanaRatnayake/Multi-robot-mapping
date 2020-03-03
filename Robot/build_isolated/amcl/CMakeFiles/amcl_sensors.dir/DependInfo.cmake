@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/sensors/amcl_laser.cpp" "/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_laser.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/sensors/amcl_odom.cpp" "/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_odom.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/src/amcl/sensors/amcl_sensor.cpp" "/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_sensor.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/sensors/amcl_laser.cpp" "/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_laser.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/sensors/amcl_odom.cpp" "/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_odom.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/src/amcl/sensors/amcl_sensor.cpp" "/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_sensors.dir/src/amcl/sensors/amcl_sensor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -20,7 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/kalana/Xavier/Robot/devel_isolated/amcl/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

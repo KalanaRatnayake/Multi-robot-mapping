@@ -287,7 +287,7 @@ UBUNTU:BOOL=TRUE
 UBUNTU_XENIAL:BOOL=TRUE
 
 //Path to a file.
-_file_name:FILEPATH=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/test/rtest.xml
+_file_name:FILEPATH=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/test/rtest.xml
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
@@ -378,7 +378,7 @@ lib:FILEPATH=/opt/ros/kinetic/lib/libtf2.so
 map_server_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/map_server
 
 //Value Computed by CMake
-map_server_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server
+map_server_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server
 
 //Dependencies for the target
 map_server_image_loader_LIB_DEPENDS:STATIC=general;/usr/lib/x86_64-linux-gnu/libBulletDynamics.so;general;/usr/lib/x86_64-linux-gnu/libBulletCollision.so;general;/usr/lib/x86_64-linux-gnu/libLinearMath.so;general;/usr/lib/x86_64-linux-gnu/libBulletSoftBody.so;general;/opt/ros/kinetic/lib/libroscpp.so;general;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;general;/usr/lib/x86_64-linux-gnu/libboost_signals.so;general;/opt/ros/kinetic/lib/librosconsole.so;general;/opt/ros/kinetic/lib/librosconsole_log4cxx.so;general;/opt/ros/kinetic/lib/librosconsole_backend_interface.so;general;/usr/lib/x86_64-linux-gnu/liblog4cxx.so;general;/usr/lib/x86_64-linux-gnu/libboost_regex.so;general;/opt/ros/kinetic/lib/libxmlrpcpp.so;general;/opt/ros/kinetic/lib/libtf2.so;general;/opt/ros/kinetic/lib/libroscpp_serialization.so;general;/opt/ros/kinetic/lib/librostime.so;general;/opt/ros/kinetic/lib/libcpp_common.so;general;/usr/lib/x86_64-linux-gnu/libboost_system.so;general;/usr/lib/x86_64-linux-gnu/libboost_thread.so;general;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;general;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;general;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/usr/lib/x86_64-linux-gnu/libconsole_bridge.so;general;/usr/lib/x86_64-linux-gnu/libSDLmain.a;general;/usr/lib/x86_64-linux-gnu/libSDL.so;general;-lpthread;general;/usr/lib/x86_64-linux-gnu/libSDL_image.so;
@@ -523,7 +523,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

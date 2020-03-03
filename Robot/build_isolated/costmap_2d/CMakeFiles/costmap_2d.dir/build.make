@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/costmap_2d
@@ -58,17 +58,17 @@ include CMakeFiles/costmap_2d.dir/progress.make
 include CMakeFiles/costmap_2d.dir/flags.make
 
 CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp
+CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp
 
 CMakeFiles/costmap_2d.dir/src/array_parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/array_parser.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp > CMakeFiles/costmap_2d.dir/src/array_parser.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp > CMakeFiles/costmap_2d.dir/src/array_parser.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/array_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/array_parser.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp -o CMakeFiles/costmap_2d.dir/src/array_parser.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/array_parser.cpp -o CMakeFiles/costmap_2d.dir/src/array_parser.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/costmap_2d.dir/src/array_parser.cpp.o.provides.build: CMakeFiles/cost
 
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp
+CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp > CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp > CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/costmap_2d.dir/src/costmap_2d.cpp.o.provides.build: CMakeFiles/costma
 
 
 CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp
+CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp
 
 CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp > CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp > CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp -o CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/observation_buffer.cpp -o CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/costmap_2d.dir/src/observation_buffer.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/costmap_2d.dir/src/layer.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/layer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layer.cpp
+CMakeFiles/costmap_2d.dir/src/layer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/costmap_2d.dir/src/layer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/layer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/layer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layer.cpp
 
 CMakeFiles/costmap_2d.dir/src/layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/layer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layer.cpp > CMakeFiles/costmap_2d.dir/src/layer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layer.cpp > CMakeFiles/costmap_2d.dir/src/layer.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/layer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layer.cpp -o CMakeFiles/costmap_2d.dir/src/layer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layer.cpp -o CMakeFiles/costmap_2d.dir/src/layer.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/layer.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/costmap_2d.dir/src/layer.cpp.o.provides.build: CMakeFiles/costmap_2d.
 
 
 CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp
+CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp
 
 CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp > CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp > CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp -o CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/layered_costmap.cpp -o CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/costmap_2d.dir/src/layered_costmap.cpp.o.provides.build: CMakeFiles/c
 
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp
+CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp > CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp > CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_ros.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/costmap_2d.dir/src/costmap_2d_ros.cpp.o.provides.build: CMakeFiles/co
 
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp
+CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp > CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp > CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_2d_publisher.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/costmap_2d.dir/src/costmap_2d_publisher.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp
+CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp
 
 CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp > CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp > CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_math.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/costmap_2d.dir/src/costmap_math.cpp.o.provides.build: CMakeFiles/cost
 
 
 CMakeFiles/costmap_2d.dir/src/footprint.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/footprint.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/footprint.cpp
+CMakeFiles/costmap_2d.dir/src/footprint.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/footprint.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/costmap_2d.dir/src/footprint.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/footprint.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/footprint.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/footprint.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/footprint.cpp
 
 CMakeFiles/costmap_2d.dir/src/footprint.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/footprint.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/footprint.cpp > CMakeFiles/costmap_2d.dir/src/footprint.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/footprint.cpp > CMakeFiles/costmap_2d.dir/src/footprint.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/footprint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/footprint.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/footprint.cpp -o CMakeFiles/costmap_2d.dir/src/footprint.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/footprint.cpp -o CMakeFiles/costmap_2d.dir/src/footprint.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/footprint.cpp.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/costmap_2d.dir/src/footprint.cpp.o.provides.build: CMakeFiles/costmap
 
 
 CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o: CMakeFiles/costmap_2d.dir/flags.make
-CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp
+CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp
 
 CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp > CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp > CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.i
 
 CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/src/costmap_layer.cpp -o CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.s
 
 CMakeFiles/costmap_2d.dir/src/costmap_layer.cpp.o.requires:
 
@@ -1032,6 +1032,6 @@ CMakeFiles/costmap_2d.dir/clean:
 .PHONY : CMakeFiles/costmap_2d.dir/clean
 
 CMakeFiles/costmap_2d.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/costmap_2d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d /home/kalana/Xavier/Robot/build_isolated/costmap_2d /home/kalana/Xavier/Robot/build_isolated/costmap_2d /home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles/costmap_2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/costmap_2d && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d /home/kalana/Xavier/Robot/build_isolated/costmap_2d /home/kalana/Xavier/Robot/build_isolated/costmap_2d /home/kalana/Xavier/Robot/build_isolated/costmap_2d/CMakeFiles/costmap_2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/costmap_2d.dir/depend
 

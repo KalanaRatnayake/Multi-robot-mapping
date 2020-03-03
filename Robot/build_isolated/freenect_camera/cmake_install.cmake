@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera
+# Install script for directory: /home/kalana/Xavier/Robot/src/camera/freenect_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -151,7 +151,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/camera/freenect_camera/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "main")
@@ -195,7 +195,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/freenect_nodelets.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/camera/freenect_camera/freenect_nodelets.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

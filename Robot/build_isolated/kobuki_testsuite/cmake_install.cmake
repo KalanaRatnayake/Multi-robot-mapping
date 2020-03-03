@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -139,27 +139,27 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_testsuite" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_testsuite" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/kobuki_testsuite" TYPE PROGRAM FILES
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/inf_rotation.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_analog_input.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_battery_voltage.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_events.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_gyro.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_led_array.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_rotation.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_sounds.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/scan_angle.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_battery"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_digital_output.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_external_power.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_input.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_output.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_safewandering.py"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite/scripts/test_translation.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/inf_rotation.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_analog_input.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_battery_voltage.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_events.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_gyro.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_led_array.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_rotation.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_sounds.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/scan_angle.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_battery"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_digital_output.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_external_power.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_input.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_output.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_safewandering.py"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite/scripts/test_translation.py"
     )
 endif()
 

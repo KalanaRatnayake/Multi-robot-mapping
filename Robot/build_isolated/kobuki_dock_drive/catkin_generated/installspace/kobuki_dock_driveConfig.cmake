@@ -67,7 +67,7 @@ set(kobuki_dock_drive_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_dock_drive_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive)
+  set(kobuki_dock_drive_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive)
   set(kobuki_dock_drive_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_dock_drive)
   set(kobuki_dock_drive_INSTALL_PREFIX "")
   set(kobuki_dock_drive_PREFIX ${kobuki_dock_drive_DEVEL_PREFIX})

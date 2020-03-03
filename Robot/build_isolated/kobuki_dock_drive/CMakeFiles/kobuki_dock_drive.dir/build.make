@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive
@@ -58,17 +58,17 @@ include CMakeFiles/kobuki_dock_drive.dir/progress.make
 include CMakeFiles/kobuki_dock_drive.dir/flags.make
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o: CMakeFiles/kobuki_dock_drive.dir/flags.make
-CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive.cpp
+CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive.cpp
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive.cpp > CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive.cpp > CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.i
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive.cpp -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive.cpp -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.s
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/kobuki_dock_drive.dir/src/dock_drive.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o: CMakeFiles/kobuki_dock_drive.dir/flags.make
-CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_states.cpp
+CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_states.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_states.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_states.cpp
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_states.cpp > CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_states.cpp > CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.i
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_states.cpp -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_states.cpp -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.s
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_states.cpp.o.provides.build: CMa
 
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o: CMakeFiles/kobuki_dock_drive.dir/flags.make
-CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_debug.cpp
+CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_debug.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_debug.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_debug.cpp
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_debug.cpp > CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_debug.cpp > CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.i
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/src/dock_drive_debug.cpp -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/src/dock_drive_debug.cpp -o CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.s
 
 CMakeFiles/kobuki_dock_drive.dir/src/dock_drive_debug.cpp.o.requires:
 
@@ -173,6 +173,6 @@ CMakeFiles/kobuki_dock_drive.dir/clean:
 .PHONY : CMakeFiles/kobuki_dock_drive.dir/clean
 
 CMakeFiles/kobuki_dock_drive.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles/kobuki_dock_drive.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles/kobuki_dock_drive.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kobuki_dock_drive.dir/depend
 

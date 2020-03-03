@@ -67,7 +67,7 @@ set(base_local_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(base_local_planner_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner)
+  set(base_local_planner_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner)
   set(base_local_planner_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/base_local_planner)
   set(base_local_planner_INSTALL_PREFIX "")
   set(base_local_planner_PREFIX ${base_local_planner_DEVEL_PREFIX})

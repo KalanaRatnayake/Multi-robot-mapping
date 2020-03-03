@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery/src/sbpl_recovery.cpp" "/home/kalana/Xavier/Robot/build_isolated/sbpl_recovery/CMakeFiles/sbpl_recovery.dir/src/sbpl_recovery.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery/src/sbpl_recovery.cpp" "/home/kalana/Xavier/Robot/build_isolated/sbpl_recovery/CMakeFiles/sbpl_recovery.dir/src/sbpl_recovery.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,16 +17,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery/include"
   "/home/kalana/Xavier/Robot/devel_isolated/sbpl_lattice_planner/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_lattice_planner/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/pose_follower/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_lattice_planner/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_follower/include"
   "/home/kalana/Xavier/Robot/devel_isolated/base_local_planner/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/base_local_planner/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/nav_core/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/base_local_planner/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/nav_core/include"
   "/home/kalana/Xavier/Robot/devel_isolated/costmap_2d/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/costmap_2d/include"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/costmap_2d/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/pcl-1.7"

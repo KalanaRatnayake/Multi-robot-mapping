@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_msgs
@@ -99,17 +99,6 @@ install/strip/fast: install/strip
 
 .PHONY : install/strip/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -120,6 +109,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
@@ -192,84 +192,6 @@ kobuki_msgs_generate_messages_py/fast:
 .PHONY : kobuki_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_Led
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_Led: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_Led
-.PHONY : _kobuki_msgs_generate_messages_check_deps_Led
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_Led/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_Led.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_Led.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_Led/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal
-.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_msgs_generate_messages_eus
-
-# Build rule for target.
-kobuki_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_eus
-.PHONY : kobuki_msgs_generate_messages_eus
-
-# fast build rule for target.
-kobuki_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/kobuki_msgs_generate_messages_eus.dir/build.make CMakeFiles/kobuki_msgs_generate_messages_eus.dir/build
-.PHONY : kobuki_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_ExternalPower
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_ExternalPower: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_ExternalPower
-.PHONY : _kobuki_msgs_generate_messages_check_deps_ExternalPower
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_ExternalPower/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ExternalPower.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ExternalPower.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_ExternalPower/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_msgs_generate_messages
-
-# Build rule for target.
-kobuki_msgs_generate_messages: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages
-.PHONY : kobuki_msgs_generate_messages
-
-# fast build rule for target.
-kobuki_msgs_generate_messages/fast:
-	$(MAKE) -f CMakeFiles/kobuki_msgs_generate_messages.dir/build.make CMakeFiles/kobuki_msgs_generate_messages.dir/build
-.PHONY : kobuki_msgs_generate_messages/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_VersionInfo
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_VersionInfo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_VersionInfo
-.PHONY : _kobuki_msgs_generate_messages_check_deps_VersionInfo
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_VersionInfo/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_VersionInfo.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_VersionInfo.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_VersionInfo/fast
-
-#=============================================================================
 # Target rules for targets named _kobuki_msgs_generate_messages_check_deps_MotorPower
 
 # Build rule for target.
@@ -283,17 +205,56 @@ _kobuki_msgs_generate_messages_check_deps_MotorPower/fast:
 .PHONY : _kobuki_msgs_generate_messages_check_deps_MotorPower/fast
 
 #=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_SensorState
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_WheelDropEvent
 
 # Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_SensorState: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_SensorState
-.PHONY : _kobuki_msgs_generate_messages_check_deps_SensorState
+_kobuki_msgs_generate_messages_check_deps_WheelDropEvent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_WheelDropEvent
+.PHONY : _kobuki_msgs_generate_messages_check_deps_WheelDropEvent
 
 # fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_SensorState/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_SensorState.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_SensorState.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_SensorState/fast
+_kobuki_msgs_generate_messages_check_deps_WheelDropEvent/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_WheelDropEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_WheelDropEvent.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_WheelDropEvent/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_DockInfraRed
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_DockInfraRed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_DockInfraRed
+.PHONY : _kobuki_msgs_generate_messages_check_deps_DockInfraRed
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_DockInfraRed/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DockInfraRed.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DockInfraRed.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_DockInfraRed/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent
+.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_ScanAngle
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_ScanAngle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_ScanAngle
+.PHONY : _kobuki_msgs_generate_messages_check_deps_ScanAngle
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_ScanAngle/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ScanAngle.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ScanAngle.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_ScanAngle/fast
 
 #=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_py
@@ -361,30 +322,43 @@ actionlib_msgs_generate_messages_eus/fast:
 .PHONY : actionlib_msgs_generate_messages_eus/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_cpp
+# Target rules for targets named kobuki_msgs_gennodejs
 
 # Build rule for target.
-std_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
-.PHONY : std_msgs_generate_messages_cpp
+kobuki_msgs_gennodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_gennodejs
+.PHONY : kobuki_msgs_gennodejs
 
 # fast build rule for target.
-std_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
-.PHONY : std_msgs_generate_messages_cpp/fast
+kobuki_msgs_gennodejs/fast:
+	$(MAKE) -f CMakeFiles/kobuki_msgs_gennodejs.dir/build.make CMakeFiles/kobuki_msgs_gennodejs.dir/build
+.PHONY : kobuki_msgs_gennodejs/fast
 
 #=============================================================================
-# Target rules for targets named actionlib_msgs_generate_messages_cpp
+# Target rules for targets named tests
 
 # Build rule for target.
-actionlib_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
-.PHONY : actionlib_msgs_generate_messages_cpp
+tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tests
+.PHONY : tests
 
 # fast build rule for target.
-actionlib_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
-.PHONY : actionlib_msgs_generate_messages_cpp/fast
+tests/fast:
+	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
+.PHONY : tests/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult
+.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult/fast
 
 #=============================================================================
 # Target rules for targets named clean_test_results
@@ -465,45 +439,6 @@ _kobuki_msgs_generate_messages_check_deps_AutoDockingFeedback/fast:
 .PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingFeedback/fast
 
 #=============================================================================
-# Target rules for targets named kobuki_msgs_gennodejs
-
-# Build rule for target.
-kobuki_msgs_gennodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_gennodejs
-.PHONY : kobuki_msgs_gennodejs
-
-# fast build rule for target.
-kobuki_msgs_gennodejs/fast:
-	$(MAKE) -f CMakeFiles/kobuki_msgs_gennodejs.dir/build.make CMakeFiles/kobuki_msgs_gennodejs.dir/build
-.PHONY : kobuki_msgs_gennodejs/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult
-.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult/fast
-
-#=============================================================================
-# Target rules for targets named tests
-
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
-
-# fast build rule for target.
-tests/fast:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
 # Target rules for targets named _kobuki_msgs_generate_messages_check_deps_PowerSystemEvent
 
 # Build rule for target.
@@ -543,17 +478,95 @@ _kobuki_msgs_generate_messages_check_deps_CliffEvent/fast:
 .PHONY : _kobuki_msgs_generate_messages_check_deps_CliffEvent/fast
 
 #=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_KeyboardInput
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal
 
 # Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_KeyboardInput: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_KeyboardInput
-.PHONY : _kobuki_msgs_generate_messages_check_deps_KeyboardInput
+_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal
+.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal
 
 # fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_KeyboardInput/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_KeyboardInput.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_KeyboardInput.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_KeyboardInput/fast
+_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_Led
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_Led: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_Led
+.PHONY : _kobuki_msgs_generate_messages_check_deps_Led
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_Led/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_Led.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_Led.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_Led/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_msgs_generate_messages_eus
+
+# Build rule for target.
+kobuki_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages_eus
+.PHONY : kobuki_msgs_generate_messages_eus
+
+# fast build rule for target.
+kobuki_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/kobuki_msgs_generate_messages_eus.dir/build.make CMakeFiles/kobuki_msgs_generate_messages_eus.dir/build
+.PHONY : kobuki_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_msgs_generate_messages
+
+# Build rule for target.
+kobuki_msgs_generate_messages: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_generate_messages
+.PHONY : kobuki_msgs_generate_messages
+
+# fast build rule for target.
+kobuki_msgs_generate_messages/fast:
+	$(MAKE) -f CMakeFiles/kobuki_msgs_generate_messages.dir/build.make CMakeFiles/kobuki_msgs_generate_messages.dir/build
+.PHONY : kobuki_msgs_generate_messages/fast
+
+#=============================================================================
+# Target rules for targets named actionlib_msgs_generate_messages_cpp
+
+# Build rule for target.
+actionlib_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 actionlib_msgs_generate_messages_cpp
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_cpp
+
+# Build rule for target.
+std_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_cpp
+.PHONY : std_msgs_generate_messages_cpp
+
+# fast build rule for target.
+std_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+.PHONY : std_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_VersionInfo
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_VersionInfo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_VersionInfo
+.PHONY : _kobuki_msgs_generate_messages_check_deps_VersionInfo
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_VersionInfo/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_VersionInfo.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_VersionInfo.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_VersionInfo/fast
 
 #=============================================================================
 # Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingAction
@@ -567,6 +580,32 @@ _kobuki_msgs_generate_messages_check_deps_AutoDockingAction: cmake_check_build_s
 _kobuki_msgs_generate_messages_check_deps_AutoDockingAction/fast:
 	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingAction.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingAction.dir/build
 .PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingAction/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_KeyboardInput
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_KeyboardInput: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_KeyboardInput
+.PHONY : _kobuki_msgs_generate_messages_check_deps_KeyboardInput
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_KeyboardInput/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_KeyboardInput.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_KeyboardInput.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_KeyboardInput/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_ExternalPower
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_ExternalPower: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_ExternalPower
+.PHONY : _kobuki_msgs_generate_messages_check_deps_ExternalPower
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_ExternalPower/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ExternalPower.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ExternalPower.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_ExternalPower/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_eus
@@ -608,30 +647,17 @@ download_extra_data/fast:
 .PHONY : download_extra_data/fast
 
 #=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_SensorState
 
 # Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent
-.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent
+_kobuki_msgs_generate_messages_check_deps_SensorState: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_SensorState
+.PHONY : _kobuki_msgs_generate_messages_check_deps_SensorState
 
 # fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalInputEvent.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_ScanAngle
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_ScanAngle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_ScanAngle
-.PHONY : _kobuki_msgs_generate_messages_check_deps_ScanAngle
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_ScanAngle/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ScanAngle.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ScanAngle.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_ScanAngle/fast
+_kobuki_msgs_generate_messages_check_deps_SensorState/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_SensorState.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_SensorState.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_SensorState/fast
 
 #=============================================================================
 # Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback
@@ -645,97 +671,6 @@ _kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback: cmake_check
 _kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback/fast:
 	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback.dir/build
 .PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback/fast
-
-#=============================================================================
-# Target rules for targets named std_msgs_generate_messages_nodejs
-
-# Build rule for target.
-std_msgs_generate_messages_nodejs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
-.PHONY : std_msgs_generate_messages_nodejs
-
-# fast build rule for target.
-std_msgs_generate_messages_nodejs/fast:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
-.PHONY : std_msgs_generate_messages_nodejs/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_DigitalOutput
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_DigitalOutput: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_DigitalOutput
-.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalOutput
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_DigitalOutput/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalOutput.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalOutput.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalOutput/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_ButtonEvent
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_ButtonEvent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_ButtonEvent
-.PHONY : _kobuki_msgs_generate_messages_check_deps_ButtonEvent
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_ButtonEvent/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ButtonEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ButtonEvent.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_ButtonEvent/fast
-
-#=============================================================================
-# Target rules for targets named kobuki_msgs_gencpp
-
-# Build rule for target.
-kobuki_msgs_gencpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_gencpp
-.PHONY : kobuki_msgs_gencpp
-
-# fast build rule for target.
-kobuki_msgs_gencpp/fast:
-	$(MAKE) -f CMakeFiles/kobuki_msgs_gencpp.dir/build.make CMakeFiles/kobuki_msgs_gencpp.dir/build
-.PHONY : kobuki_msgs_gencpp/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal
-.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_DockInfraRed
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_DockInfraRed: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_DockInfraRed
-.PHONY : _kobuki_msgs_generate_messages_check_deps_DockInfraRed
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_DockInfraRed/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DockInfraRed.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DockInfraRed.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_DockInfraRed/fast
-
-#=============================================================================
-# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_WheelDropEvent
-
-# Build rule for target.
-_kobuki_msgs_generate_messages_check_deps_WheelDropEvent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_WheelDropEvent
-.PHONY : _kobuki_msgs_generate_messages_check_deps_WheelDropEvent
-
-# fast build rule for target.
-_kobuki_msgs_generate_messages_check_deps_WheelDropEvent/fast:
-	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_WheelDropEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_WheelDropEvent.dir/build
-.PHONY : _kobuki_msgs_generate_messages_check_deps_WheelDropEvent/fast
 
 #=============================================================================
 # Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingResult
@@ -762,6 +697,71 @@ _kobuki_msgs_generate_messages_check_deps_BumperEvent: cmake_check_build_system
 _kobuki_msgs_generate_messages_check_deps_BumperEvent/fast:
 	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_BumperEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_BumperEvent.dir/build
 .PHONY : _kobuki_msgs_generate_messages_check_deps_BumperEvent/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal
+.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_AutoDockingGoal.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_DigitalOutput
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_DigitalOutput: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_DigitalOutput
+.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalOutput
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_DigitalOutput/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalOutput.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_DigitalOutput.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_DigitalOutput/fast
+
+#=============================================================================
+# Target rules for targets named std_msgs_generate_messages_nodejs
+
+# Build rule for target.
+std_msgs_generate_messages_nodejs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_nodejs
+.PHONY : std_msgs_generate_messages_nodejs
+
+# fast build rule for target.
+std_msgs_generate_messages_nodejs/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+.PHONY : std_msgs_generate_messages_nodejs/fast
+
+#=============================================================================
+# Target rules for targets named _kobuki_msgs_generate_messages_check_deps_ButtonEvent
+
+# Build rule for target.
+_kobuki_msgs_generate_messages_check_deps_ButtonEvent: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _kobuki_msgs_generate_messages_check_deps_ButtonEvent
+.PHONY : _kobuki_msgs_generate_messages_check_deps_ButtonEvent
+
+# fast build rule for target.
+_kobuki_msgs_generate_messages_check_deps_ButtonEvent/fast:
+	$(MAKE) -f CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ButtonEvent.dir/build.make CMakeFiles/_kobuki_msgs_generate_messages_check_deps_ButtonEvent.dir/build
+.PHONY : _kobuki_msgs_generate_messages_check_deps_ButtonEvent/fast
+
+#=============================================================================
+# Target rules for targets named kobuki_msgs_gencpp
+
+# Build rule for target.
+kobuki_msgs_gencpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 kobuki_msgs_gencpp
+.PHONY : kobuki_msgs_gencpp
+
+# fast build rule for target.
+kobuki_msgs_gencpp/fast:
+	$(MAKE) -f CMakeFiles/kobuki_msgs_gencpp.dir/build.make CMakeFiles/kobuki_msgs_gencpp.dir/build
+.PHONY : kobuki_msgs_gencpp/fast
 
 #=============================================================================
 # Target rules for targets named kobuki_msgs_generate_messages_cpp
@@ -892,52 +892,52 @@ help:
 	@echo "... install/strip"
 	@echo "... kobuki_msgs_genpy"
 	@echo "... kobuki_msgs_generate_messages_py"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_Led"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal"
-	@echo "... install/local"
-	@echo "... kobuki_msgs_generate_messages_eus"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_ExternalPower"
-	@echo "... kobuki_msgs_generate_messages"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_VersionInfo"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_MotorPower"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_SensorState"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_WheelDropEvent"
+	@echo "... rebuild_cache"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_DockInfraRed"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_ScanAngle"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... kobuki_msgs_generate_messages_nodejs"
 	@echo "... run_tests"
 	@echo "... doxygen"
 	@echo "... actionlib_msgs_generate_messages_eus"
-	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... kobuki_msgs_gennodejs"
+	@echo "... tests"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult"
 	@echo "... clean_test_results"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_ControllerInfo"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_RobotStateEvent"
 	@echo "... std_msgs_generate_messages_py"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_Sound"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingFeedback"
-	@echo "... kobuki_msgs_gennodejs"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingActionResult"
-	@echo "... tests"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_PowerSystemEvent"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_CliffEvent"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_KeyboardInput"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingActionGoal"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_Led"
+	@echo "... install/local"
+	@echo "... kobuki_msgs_generate_messages_eus"
+	@echo "... kobuki_msgs_generate_messages"
+	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_cpp"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_VersionInfo"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingAction"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_KeyboardInput"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_ExternalPower"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_lisp"
 	@echo "... download_extra_data"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_DigitalInputEvent"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_ScanAngle"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_SensorState"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingActionFeedback"
-	@echo "... std_msgs_generate_messages_nodejs"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_DigitalOutput"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_ButtonEvent"
-	@echo "... kobuki_msgs_gencpp"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal"
-	@echo "... rebuild_cache"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_DockInfraRed"
-	@echo "... _kobuki_msgs_generate_messages_check_deps_WheelDropEvent"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingResult"
 	@echo "... _kobuki_msgs_generate_messages_check_deps_BumperEvent"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_AutoDockingGoal"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_DigitalOutput"
+	@echo "... std_msgs_generate_messages_nodejs"
+	@echo "... _kobuki_msgs_generate_messages_check_deps_ButtonEvent"
+	@echo "... kobuki_msgs_gencpp"
 	@echo "... kobuki_msgs_generate_messages_cpp"
 	@echo "... install"
 	@echo "... std_msgs_generate_messages_lisp"

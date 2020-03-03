@@ -6,8 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/include/octomap_rviz_plugins/moc_occupancy_grid_display.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/octomap_rviz_plugins.dir/include/octomap_rviz_plugins/moc_occupancy_grid_display.cpp.o"
   "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/include/octomap_rviz_plugins/moc_occupancy_map_display.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/octomap_rviz_plugins.dir/include/octomap_rviz_plugins/moc_occupancy_map_display.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/occupancy_grid_display.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/octomap_rviz_plugins.dir/src/occupancy_grid_display.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/src/occupancy_map_display.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/octomap_rviz_plugins.dir/src/occupancy_map_display.cpp.o"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/occupancy_grid_display.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/octomap_rviz_plugins.dir/src/occupancy_grid_display.cpp.o"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/src/occupancy_map_display.cpp" "/home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins/CMakeFiles/octomap_rviz_plugins.dir/src/occupancy_map_display.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,9 +25,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz/include"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_rviz/include"
   "/home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_node
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_node
@@ -58,17 +58,17 @@ include src/library/CMakeFiles/kobuki_ros.dir/progress.make
 include src/library/CMakeFiles/kobuki_ros.dir/flags.make
 
 src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o: src/library/CMakeFiles/kobuki_ros.dir/flags.make
-src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/subscriber_callbacks.cpp
+src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/subscriber_callbacks.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/subscriber_callbacks.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/subscriber_callbacks.cpp
 
 src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/subscriber_callbacks.cpp > CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/subscriber_callbacks.cpp > CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.i
 
 src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/subscriber_callbacks.cpp -o CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/subscriber_callbacks.cpp -o CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.s
 
 src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/library/CMakeFiles/kobuki_ros.dir/subscriber_callbacks.cpp.o.provides.build:
 
 
 src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o: src/library/CMakeFiles/kobuki_ros.dir/flags.make
-src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/diagnostics.cpp
+src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/diagnostics.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/diagnostics.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/diagnostics.cpp
 
 src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_ros.dir/diagnostics.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/diagnostics.cpp > CMakeFiles/kobuki_ros.dir/diagnostics.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/diagnostics.cpp > CMakeFiles/kobuki_ros.dir/diagnostics.cpp.i
 
 src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_ros.dir/diagnostics.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/diagnostics.cpp -o CMakeFiles/kobuki_ros.dir/diagnostics.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/diagnostics.cpp -o CMakeFiles/kobuki_ros.dir/diagnostics.cpp.s
 
 src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/library/CMakeFiles/kobuki_ros.dir/diagnostics.cpp.o.provides.build: src/libr
 
 
 src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o: src/library/CMakeFiles/kobuki_ros.dir/flags.make
-src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/slot_callbacks.cpp
+src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/slot_callbacks.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/slot_callbacks.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/slot_callbacks.cpp
 
 src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/slot_callbacks.cpp > CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/slot_callbacks.cpp > CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.i
 
 src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/slot_callbacks.cpp -o CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/slot_callbacks.cpp -o CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.s
 
 src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o.requires:
 
@@ -130,17 +130,17 @@ src/library/CMakeFiles/kobuki_ros.dir/slot_callbacks.cpp.o.provides.build: src/l
 
 
 src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.o: src/library/CMakeFiles/kobuki_ros.dir/flags.make
-src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/odometry.cpp
+src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/odometry.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/odometry.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/odometry.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/odometry.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/odometry.cpp
 
 src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_ros.dir/odometry.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/odometry.cpp > CMakeFiles/kobuki_ros.dir/odometry.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/odometry.cpp > CMakeFiles/kobuki_ros.dir/odometry.cpp.i
 
 src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_ros.dir/odometry.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/odometry.cpp -o CMakeFiles/kobuki_ros.dir/odometry.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/odometry.cpp -o CMakeFiles/kobuki_ros.dir/odometry.cpp.s
 
 src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.o.requires:
 
@@ -154,17 +154,17 @@ src/library/CMakeFiles/kobuki_ros.dir/odometry.cpp.o.provides.build: src/library
 
 
 src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o: src/library/CMakeFiles/kobuki_ros.dir/flags.make
-src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/kobuki_ros.cpp
+src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/kobuki_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_node/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/kobuki_ros.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/kobuki_ros.cpp
 
 src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/kobuki_ros.cpp > CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/kobuki_ros.cpp > CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.i
 
 src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library/kobuki_ros.cpp -o CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library/kobuki_ros.cpp -o CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.s
 
 src/library/CMakeFiles/kobuki_ros.dir/kobuki_ros.cpp.o.requires:
 
@@ -267,6 +267,6 @@ src/library/CMakeFiles/kobuki_ros.dir/clean:
 .PHONY : src/library/CMakeFiles/kobuki_ros.dir/clean
 
 src/library/CMakeFiles/kobuki_ros.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/library /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library/CMakeFiles/kobuki_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_node /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/library /home/kalana/Xavier/Robot/build_isolated/kobuki_node /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library /home/kalana/Xavier/Robot/build_isolated/kobuki_node/src/library/CMakeFiles/kobuki_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/library/CMakeFiles/kobuki_ros.dir/depend
 

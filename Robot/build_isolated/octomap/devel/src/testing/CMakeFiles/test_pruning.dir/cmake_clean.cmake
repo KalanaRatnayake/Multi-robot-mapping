@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_pruning.dir/test_pruning.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_pruning.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_pruning"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_pruning.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_pruning"
 )
 
 # Per-language clean rules from dependency scanning.

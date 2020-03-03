@@ -3,8 +3,8 @@
 
 CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/BumperEvent.h
 CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/Led.h
-CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/include/kobuki_controller_tutorial/bump_blink_controller.hpp
-CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/src/nodelet.cpp
+CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/include/kobuki_controller_tutorial/bump_blink_controller.hpp
+CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/src/nodelet.cpp
 CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader.h
 CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_core.hpp

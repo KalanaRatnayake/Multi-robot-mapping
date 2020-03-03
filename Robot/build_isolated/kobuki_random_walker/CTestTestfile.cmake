@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_random_walker
+# Source directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_random_walker
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/kobuki_random_walker
 # 
 # This file includes the relevant testing commands required for 

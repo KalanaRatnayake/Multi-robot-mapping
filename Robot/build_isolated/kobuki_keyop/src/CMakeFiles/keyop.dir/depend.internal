@@ -4,8 +4,8 @@
 src/CMakeFiles/keyop.dir/keyop_core.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/KeyboardInput.h
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/MotorPower.h
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/src/keyop_core.cpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/src/keyop_core.cpp
  /opt/ros/kinetic/include/ecl/concepts/nullary_function.hpp
  /opt/ros/kinetic/include/ecl/config.hpp
  /opt/ros/kinetic/include/ecl/config/char_sign.hpp
@@ -140,8 +140,8 @@ src/CMakeFiles/keyop.dir/keyop_core.cpp.o
  /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
 src/CMakeFiles/keyop.dir/main.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/KeyboardInput.h
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/include/keyop_core/keyop_core.hpp
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop/src/main.cpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/include/keyop_core/keyop_core.hpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop/src/main.cpp
  /opt/ros/kinetic/include/ecl/concepts/nullary_function.hpp
  /opt/ros/kinetic/include/ecl/config.hpp
  /opt/ros/kinetic/include/ecl/config/char_sign.hpp

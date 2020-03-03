@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../../../src/octomap_setup/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h"
+#include "../../../../src/octomap/octomap_rviz/include/octomap_rviz_plugins/occupancy_grid_display.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)

@@ -1,5 +1,5 @@
 <launch>
-    <arg name="tf_prefix" default="qbot1"/>
+    <arg name="tf_prefix" default="qbot0"/>
 
     <group ns="$(arg tf_prefix)">
         <param name="tf_prefix" value="$(arg tf_prefix)" />

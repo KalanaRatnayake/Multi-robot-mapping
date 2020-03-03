@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi/src
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

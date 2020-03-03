@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/teb_local_planner
@@ -58,17 +58,17 @@ include CMakeFiles/teb_local_planner.dir/progress.make
 include CMakeFiles/teb_local_planner.dir/flags.make
 
 CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp
+CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp
 
 CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp > CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp > CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp -o CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/timed_elastic_band.cpp -o CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/teb_local_planner.dir/src/timed_elastic_band.cpp.o.provides.build: CM
 
 
 CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp
+CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp
 
 CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp > CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp > CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp -o CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/optimal_planner.cpp -o CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/teb_local_planner.dir/src/optimal_planner.cpp.o.provides.build: CMake
 
 
 CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp
+CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp
 
 CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp > CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp > CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp -o CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/obstacles.cpp -o CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/teb_local_planner.dir/src/obstacles.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp
+CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp
 
 CMakeFiles/teb_local_planner.dir/src/visualization.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/visualization.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp > CMakeFiles/teb_local_planner.dir/src/visualization.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp > CMakeFiles/teb_local_planner.dir/src/visualization.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/visualization.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/visualization.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp -o CMakeFiles/teb_local_planner.dir/src/visualization.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/visualization.cpp -o CMakeFiles/teb_local_planner.dir/src/visualization.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/teb_local_planner.dir/src/visualization.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp
+CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp
 
 CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp > CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp > CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp -o CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/recovery_behaviors.cpp -o CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/teb_local_planner.dir/src/recovery_behaviors.cpp.o.provides.build: CM
 
 
 CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp
+CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp
 
 CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp > CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp > CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp -o CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_config.cpp -o CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/teb_local_planner.dir/src/teb_config.cpp.o.provides.build: CMakeFiles
 
 
 CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp
+CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp
 
 CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp > CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp > CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp -o CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/homotopy_class_planner.cpp -o CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/teb_local_planner.dir/src/homotopy_class_planner.cpp.o.provides.build
 
 
 CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp
+CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp
 
 CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp > CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp > CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp -o CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/teb_local_planner_ros.cpp -o CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/teb_local_planner.dir/src/teb_local_planner_ros.cpp.o.provides.build:
 
 
 CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: CMakeFiles/teb_local_planner.dir/flags.make
-CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp
+CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp
 
 CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp > CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp > CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.i
 
 CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp -o CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/src/graph_search.cpp -o CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.s
 
 CMakeFiles/teb_local_planner.dir/src/graph_search.cpp.o.requires:
 
@@ -568,6 +568,6 @@ CMakeFiles/teb_local_planner.dir/clean:
 .PHONY : CMakeFiles/teb_local_planner.dir/clean
 
 CMakeFiles/teb_local_planner.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/teb_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/teb_local_planner-kinetic-devel /home/kalana/Xavier/Robot/build_isolated/teb_local_planner /home/kalana/Xavier/Robot/build_isolated/teb_local_planner /home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles/teb_local_planner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/teb_local_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel /home/kalana/Xavier/Robot/build_isolated/teb_local_planner /home/kalana/Xavier/Robot/build_isolated/teb_local_planner /home/kalana/Xavier/Robot/build_isolated/teb_local_planner/CMakeFiles/teb_local_planner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/teb_local_planner.dir/depend
 

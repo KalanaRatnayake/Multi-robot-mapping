@@ -67,7 +67,7 @@ set(clear_costmap_recovery_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(clear_costmap_recovery_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/clear_costmap_recovery)
+  set(clear_costmap_recovery_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/clear_costmap_recovery)
   set(clear_costmap_recovery_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/clear_costmap_recovery)
   set(clear_costmap_recovery_INSTALL_PREFIX "")
   set(clear_costmap_recovery_PREFIX ${clear_costmap_recovery_DEVEL_PREFIX})

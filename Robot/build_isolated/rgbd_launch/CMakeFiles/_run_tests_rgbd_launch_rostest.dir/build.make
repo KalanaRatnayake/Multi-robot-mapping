@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/rgbd_launch
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera/rgbd_launch
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/rgbd_launch
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_rgbd_launch_rostest.dir/clean:
 .PHONY : CMakeFiles/_run_tests_rgbd_launch_rostest.dir/clean
 
 CMakeFiles/_run_tests_rgbd_launch_rostest.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/rgbd_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/rgbd_launch /home/kalana/Xavier/Robot/src/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/_run_tests_rgbd_launch_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/rgbd_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera/rgbd_launch /home/kalana/Xavier/Robot/src/camera/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/_run_tests_rgbd_launch_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_rgbd_launch_rostest.dir/depend
 

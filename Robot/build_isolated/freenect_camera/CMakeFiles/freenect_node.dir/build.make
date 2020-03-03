@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera/freenect_camera
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/freenect_camera
@@ -58,17 +58,17 @@ include CMakeFiles/freenect_node.dir/progress.make
 include CMakeFiles/freenect_node.dir/flags.make
 
 CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o: CMakeFiles/freenect_node.dir/flags.make
-CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o: /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
+CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o: /home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodes/freenect_node.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o -c /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o -c /home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodes/freenect_node.cpp
 
 CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp > CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodes/freenect_node.cpp > CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i
 
 CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodes/freenect_node.cpp -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s
 
 CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o.requires:
 
@@ -145,6 +145,6 @@ CMakeFiles/freenect_node.dir/clean:
 .PHONY : CMakeFiles/freenect_node.dir/clean
 
 CMakeFiles/freenect_node.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/freenect_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/freenect_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/freenect_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera/freenect_camera /home/kalana/Xavier/Robot/src/camera/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/freenect_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/freenect_node.dir/depend
 

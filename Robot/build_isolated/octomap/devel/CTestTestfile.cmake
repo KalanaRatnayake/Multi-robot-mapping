@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap
+# Source directory: /home/kalana/Xavier/Robot/src/octomap/octomap
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/octomap/devel
 # 
 # This file includes the relevant testing commands required for 

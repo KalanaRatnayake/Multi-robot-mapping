@@ -354,7 +354,7 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 simple_navigation_goals_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/simple_navigation_goals
 
 //Value Computed by CMake
-simple_navigation_goals_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/simple_navigation_goals
+simple_navigation_goals_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/simple_navigation_goals
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
@@ -444,7 +444,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/simple_navigation_goals
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/simple_navigation_goals
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

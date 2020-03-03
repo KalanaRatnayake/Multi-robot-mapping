@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/amcl
@@ -57,11 +57,11 @@ CMakeFiles/amcl_gencfg: /home/kalana/Xavier/Robot/devel_isolated/amcl/include/am
 CMakeFiles/amcl_gencfg: /home/kalana/Xavier/Robot/devel_isolated/amcl/lib/python2.7/dist-packages/amcl/cfg/AMCLConfig.py
 
 
-/home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/cfg/AMCL.cfg
+/home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/cfg/AMCL.cfg
 /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
 /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/AMCL.cfg: /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h /home/kalana/Xavier/Robot/devel_isolated/amcl/lib/python2.7/dist-packages/amcl/cfg/AMCLConfig.py"
-	catkin_generated/env_cached.sh /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl/cfg/AMCL.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/kalana/Xavier/Robot/devel_isolated/amcl/share/amcl /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl /home/kalana/Xavier/Robot/devel_isolated/amcl/lib/python2.7/dist-packages/amcl
+	catkin_generated/env_cached.sh /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl/cfg/AMCL.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/kalana/Xavier/Robot/devel_isolated/amcl/share/amcl /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl /home/kalana/Xavier/Robot/devel_isolated/amcl/lib/python2.7/dist-packages/amcl
 
 /home/kalana/Xavier/Robot/devel_isolated/amcl/share/amcl/docs/AMCLConfig.dox: /home/kalana/Xavier/Robot/devel_isolated/amcl/include/amcl/AMCLConfig.h
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/kalana/Xavier/Robot/devel_isolated/amcl/share/amcl/docs/AMCLConfig.dox
@@ -95,6 +95,6 @@ CMakeFiles/amcl_gencfg.dir/clean:
 .PHONY : CMakeFiles/amcl_gencfg.dir/clean
 
 CMakeFiles/amcl_gencfg.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/amcl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/amcl /home/kalana/Xavier/Robot/build_isolated/amcl /home/kalana/Xavier/Robot/build_isolated/amcl /home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/amcl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/amcl /home/kalana/Xavier/Robot/build_isolated/amcl /home/kalana/Xavier/Robot/build_isolated/amcl /home/kalana/Xavier/Robot/build_isolated/amcl/CMakeFiles/amcl_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/amcl_gencfg.dir/depend
 

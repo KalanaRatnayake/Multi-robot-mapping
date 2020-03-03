@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/test/test_constants.cpp" "/home/kalana/Xavier/Robot/build_isolated/map_server/CMakeFiles/map_server_utest.dir/test/test_constants.cpp.o"
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/test/utest.cpp" "/home/kalana/Xavier/Robot/build_isolated/map_server/CMakeFiles/map_server_utest.dir/test/utest.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/test/test_constants.cpp" "/home/kalana/Xavier/Robot/build_isolated/map_server/CMakeFiles/map_server_utest.dir/test/test_constants.cpp.o"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/test/utest.cpp" "/home/kalana/Xavier/Robot/build_isolated/map_server/CMakeFiles/map_server_utest.dir/test/utest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/include"
+  "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/include"
   "/usr/include/bullet"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"

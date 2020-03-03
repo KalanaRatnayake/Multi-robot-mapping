@@ -67,7 +67,7 @@ set(kobuki_ftdi_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_ftdi_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_ftdi)
+  set(kobuki_ftdi_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_ftdi)
   set(kobuki_ftdi_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_ftdi)
   set(kobuki_ftdi_INSTALL_PREFIX "")
   set(kobuki_ftdi_PREFIX ${kobuki_ftdi_DEVEL_PREFIX})

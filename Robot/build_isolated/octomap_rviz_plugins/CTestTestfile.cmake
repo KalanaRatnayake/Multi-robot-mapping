@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_rviz
+# Source directory: /home/kalana/Xavier/Robot/src/octomap/octomap_rviz
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/octomap_rviz_plugins
 # 
 # This file includes the relevant testing commands required for 

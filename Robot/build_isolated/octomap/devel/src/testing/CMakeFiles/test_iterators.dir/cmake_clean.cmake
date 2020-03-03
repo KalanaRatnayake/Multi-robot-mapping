@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_iterators.dir/test_iterators.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_iterators.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/test_iterators"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_iterators.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/test_iterators"
 )
 
 # Per-language clean rules from dependency scanning.

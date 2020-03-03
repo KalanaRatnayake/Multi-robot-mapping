@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teb_local_planner_generate_messages_nodejs"
-  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/gennodejs/ros/teb_local_planner/msg/TrajectoryPointMsg.js"
-  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/gennodejs/ros/teb_local_planner/msg/TrajectoryMsg.js"
   "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/gennodejs/ros/teb_local_planner/msg/FeedbackMsg.js"
+  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/gennodejs/ros/teb_local_planner/msg/TrajectoryMsg.js"
+  "/home/kalana/Xavier/Robot/devel_isolated/teb_local_planner/share/gennodejs/ros/teb_local_planner/msg/TrajectoryPointMsg.js"
 )
 
 # Per-language clean rules from dependency scanning.

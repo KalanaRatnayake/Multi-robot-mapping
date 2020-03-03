@@ -392,7 +392,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 kobuki_keyop_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/kobuki_keyop
 
 //Value Computed by CMake
-kobuki_keyop_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop
+kobuki_keyop_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop
 
 //The directory containing a CMake configuration file for kobuki_msgs.
 kobuki_msgs_DIR:PATH=/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/share/kobuki_msgs/cmake
@@ -512,7 +512,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

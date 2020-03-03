@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation
+# Install script for directory: /home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,7 +135,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_navigation" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation_setup/my_navigation/my_robot_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_navigation" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/Navigation/my_navigation/my_robot_navigation/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

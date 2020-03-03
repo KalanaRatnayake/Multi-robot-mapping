@@ -4,8 +4,8 @@
 CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/BumperEvent.h
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/Led.h
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/include/kobuki_controller_tutorial/bump_blink_controller.hpp
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/src/nodelet.cpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/include/kobuki_controller_tutorial/bump_blink_controller.hpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/src/nodelet.cpp
  /opt/ros/kinetic/include/class_loader/./class_loader.hpp
  /opt/ros/kinetic/include/class_loader/class_loader.h
  /opt/ros/kinetic/include/class_loader/class_loader_core.hpp

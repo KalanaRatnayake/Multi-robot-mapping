@@ -67,7 +67,7 @@ set(rgbd_launch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rgbd_launch_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/rgbd_launch)
+  set(rgbd_launch_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/camera/rgbd_launch)
   set(rgbd_launch_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/rgbd_launch)
   set(rgbd_launch_INSTALL_PREFIX "")
   set(rgbd_launch_PREFIX ${rgbd_launch_DEVEL_PREFIX})

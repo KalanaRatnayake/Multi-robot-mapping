@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid
+# Source directory: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid
 # Build directory: /home/kalana/Xavier/Robot/build_isolated/voxel_grid
 # 
 # This file includes the relevant testing commands required for 

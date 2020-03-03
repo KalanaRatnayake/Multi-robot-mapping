@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/octomap_setup/octomap
+# Install script for directory: /home/kalana/Xavier/Robot/src/octomap/octomap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,48 +34,48 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/Pointcloud.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_timing.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/AbstractOccupancyOcTree.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OccupancyOcTreeBase.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/MapCollection.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeNode.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/ScanGraph.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_deprecated.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeBase.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeKey.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeStamped.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeBaseImpl.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_types.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/AbstractOcTree.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/CountingOcTree.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/MCTables.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeDataNode.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap_utils.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/MapNode.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTree.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/ColorOcTree.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/octomap.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeBaseImpl.hxx"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OccupancyOcTreeBase.hxx"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/MapCollection.hxx"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeIterator.hxx"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/MapNode.hxx"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/OcTreeDataNode.hxx"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/Pointcloud.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_timing.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/AbstractOccupancyOcTree.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/MapCollection.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeNode.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/ScanGraph.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_deprecated.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeBase.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeKey.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeStamped.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeBaseImpl.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_types.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/AbstractOcTree.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/CountingOcTree.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/MCTables.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeDataNode.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap_utils.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/MapNode.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTree.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/ColorOcTree.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/octomap.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeBaseImpl.hxx"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OccupancyOcTreeBase.hxx"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/MapCollection.hxx"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeIterator.hxx"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/MapNode.hxx"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/OcTreeDataNode.hxx"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/octomap/math" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Pose6D.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Utils.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Quaternion.h"
-    "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/include/octomap/math/Vector3.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Pose6D.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Utils.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Quaternion.h"
+    "/home/kalana/Xavier/Robot/src/octomap/octomap/include/octomap/math/Vector3.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/octomap" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/octomap/octomap/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")

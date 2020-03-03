@@ -67,7 +67,7 @@ set(robot_pose_ekf_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(robot_pose_ekf_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf)
+  set(robot_pose_ekf_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf)
   set(robot_pose_ekf_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf)
   set(robot_pose_ekf_INSTALL_PREFIX "")
   set(robot_pose_ekf_PREFIX ${robot_pose_ekf_DEVEL_PREFIX})
@@ -110,7 +110,7 @@ if(NOT "/home/kalana/Xavier/Robot/devel_isolated/robot_pose_ekf/include " STREQU
         message(FATAL_ERROR "Project 'robot_pose_ekf' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'robot_pose_ekf' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'robot_pose_ekf' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf/${idir}'.  ${_report}")
     endif()
     _list_append_unique(robot_pose_ekf_INCLUDE_DIRS ${include})
   endforeach()

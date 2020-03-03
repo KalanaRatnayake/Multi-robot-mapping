@@ -67,7 +67,7 @@ set(assisted_teleop_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(assisted_teleop_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/assisted_teleop)
+  set(assisted_teleop_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/assisted_teleop)
   set(assisted_teleop_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/assisted_teleop)
   set(assisted_teleop_INSTALL_PREFIX "")
   set(assisted_teleop_PREFIX ${assisted_teleop_DEVEL_PREFIX})

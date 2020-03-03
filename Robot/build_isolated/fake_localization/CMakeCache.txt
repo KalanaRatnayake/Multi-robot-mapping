@@ -290,7 +290,7 @@ cpp_common_DIR:PATH=/opt/ros/kinetic/share/cpp_common/cmake
 fake_localization_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/fake_localization
 
 //Value Computed by CMake
-fake_localization_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization
+fake_localization_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization
 
 //The directory containing a CMake configuration file for gencpp.
 gencpp_DIR:PATH=/opt/ros/kinetic/share/gencpp/cmake
@@ -507,7 +507,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/fake_localization
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/fake_localization
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

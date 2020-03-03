@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive /home/kalana/Xavier/Robot/build_isolated/kobuki_dock_drive/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

@@ -260,7 +260,7 @@ catkin_DIR:PATH=/opt/ros/kinetic/share/catkin/cmake
 freenect_stack_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/freenect_stack
 
 //Value Computed by CMake
-freenect_stack_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_stack
+freenect_stack_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/camera/freenect_stack
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/freenect_stack/gtest
@@ -384,7 +384,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_stack
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/camera/freenect_stack
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

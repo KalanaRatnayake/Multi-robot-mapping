@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_node/src/nodelet
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_node/src/nodelet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

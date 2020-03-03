@@ -389,7 +389,7 @@ kobuki_dock_drive_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/kob
 kobuki_dock_drive_LIB_DEPENDS:STATIC=general;/opt/ros/kinetic/lib/libecl_threads.so;general;/usr/lib/x86_64-linux-gnu/libpthread.so;general;/opt/ros/kinetic/lib/libecl_time.so;general;/opt/ros/kinetic/lib/libecl_time_lite.so;general;/usr/lib/x86_64-linux-gnu/librt.so;general;/opt/ros/kinetic/lib/libecl_geometry.so;general;/opt/ros/kinetic/lib/libecl_linear_algebra.so;general;/opt/ros/kinetic/lib/libecl_formatters.so;general;/opt/ros/kinetic/lib/libecl_exceptions.so;general;/opt/ros/kinetic/lib/libecl_errors.so;general;/opt/ros/kinetic/lib/libecl_type_traits.so;
 
 //Value Computed by CMake
-kobuki_dock_drive_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive
+kobuki_dock_drive_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libecl_linear_algebra.so
@@ -476,7 +476,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

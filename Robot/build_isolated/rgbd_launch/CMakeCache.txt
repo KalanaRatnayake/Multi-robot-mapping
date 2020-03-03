@@ -242,7 +242,7 @@ UBUNTU:BOOL=TRUE
 UBUNTU_XENIAL:BOOL=TRUE
 
 //Path to a file.
-_file_name:FILEPATH=/home/kalana/Xavier/Robot/src/rgbd_launch/test/camera.test
+_file_name:FILEPATH=/home/kalana/Xavier/Robot/src/camera/rgbd_launch/test/camera.test
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
@@ -303,7 +303,7 @@ gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 rgbd_launch_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/rgbd_launch
 
 //Value Computed by CMake
-rgbd_launch_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/rgbd_launch
+rgbd_launch_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/camera/rgbd_launch
 
 //The directory containing a CMake configuration file for roslaunch.
 roslaunch_DIR:PATH=/opt/ros/kinetic/share/roslaunch/cmake
@@ -393,7 +393,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/rgbd_launch
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/camera/rgbd_launch
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

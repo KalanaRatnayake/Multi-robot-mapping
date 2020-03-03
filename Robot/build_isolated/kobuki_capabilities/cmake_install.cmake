@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_capabilities
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_capabilities
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -135,15 +135,15 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_capabilities" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_capabilities/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_capabilities" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_capabilities/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_capabilities" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_capabilities/interfaces")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_capabilities" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_capabilities/interfaces")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_capabilities" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_capabilities/providers")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_capabilities" TYPE DIRECTORY FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_capabilities/providers")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

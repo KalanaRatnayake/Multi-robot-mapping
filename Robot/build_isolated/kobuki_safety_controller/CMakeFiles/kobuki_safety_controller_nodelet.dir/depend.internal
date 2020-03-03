@@ -5,8 +5,8 @@ CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/BumperEvent.h
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/CliffEvent.h
  /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/WheelDropEvent.h
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
- /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/src/nodelet.cpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+ /home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/src/nodelet.cpp
  /opt/ros/kinetic/include/class_loader/./class_loader.hpp
  /opt/ros/kinetic/include/class_loader/class_loader.h
  /opt/ros/kinetic/include/class_loader/class_loader_core.hpp

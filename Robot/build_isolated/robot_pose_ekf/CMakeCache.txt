@@ -393,7 +393,7 @@ nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
 robot_pose_ekf_BINARY_DIR:STATIC=/home/kalana/Xavier/Robot/build_isolated/robot_pose_ekf
 
 //Value Computed by CMake
-robot_pose_ekf_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf
+robot_pose_ekf_SOURCE_DIR:STATIC=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/kinetic/share/rosconsole/cmake
@@ -590,7 +590,7 @@ CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/robot_pose_ekf
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/robot_pose_ekf
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -67,7 +67,7 @@ set(kobuki_testsuite_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_testsuite_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_testsuite)
+  set(kobuki_testsuite_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_testsuite)
   set(kobuki_testsuite_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_testsuite)
   set(kobuki_testsuite_INSTALL_PREFIX "")
   set(kobuki_testsuite_PREFIX ${kobuki_testsuite_DEVEL_PREFIX})

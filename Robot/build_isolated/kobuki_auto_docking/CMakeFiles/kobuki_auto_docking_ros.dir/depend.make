@@ -10,10 +10,10 @@ CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/AutoDockingResult.h
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/DockInfraRed.h
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/SensorState.h
-CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp
-CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/auto_docking_ros.cpp
-CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/dock_drive.hpp
-CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/state.hpp
+CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp
+CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/auto_docking_ros.cpp
+CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/dock_drive.hpp
+CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/state.hpp
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /opt/ros/kinetic/include/actionlib/action_definition.h
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /opt/ros/kinetic/include/actionlib/decl.h
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /opt/ros/kinetic/include/actionlib/destruction_guard.h

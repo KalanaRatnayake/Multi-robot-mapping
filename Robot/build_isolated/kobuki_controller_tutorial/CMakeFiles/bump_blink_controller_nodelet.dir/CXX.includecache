@@ -38,7 +38,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/include/kobuki_controller_tutorial/bump_blink_controller.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/include/kobuki_controller_tutorial/bump_blink_controller.hpp
 ros/ros.h
 -
 std_msgs/Empty.h
@@ -50,13 +50,13 @@ kobuki_msgs/BumperEvent.h
 kobuki_msgs/Led.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/src/nodelet.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/src/nodelet.cpp
 nodelet/nodelet.h
 -
 pluginlib/class_list_macros.h
 -
 kobuki_controller_tutorial/bump_blink_controller.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/src/kobuki_controller_tutorial/bump_blink_controller.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/src/kobuki_controller_tutorial/bump_blink_controller.hpp
 
 /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 boost/bind.hpp

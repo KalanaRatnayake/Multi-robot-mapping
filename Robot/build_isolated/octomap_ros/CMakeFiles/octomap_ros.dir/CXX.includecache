@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap_ros/src/conversions.cpp
+/home/kalana/Xavier/Robot/src/octomap/octomap_ros/src/conversions.cpp
 sensor_msgs/point_cloud2_iterator.h
 -
 octomap_ros/conversions.h

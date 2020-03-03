@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic
+# Install script for directory: /home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -125,29 +125,29 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/msg" TYPE FILE FILES
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/BumperEvent.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/CliffEvent.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ExternalPower.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Led.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/SensorState.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/VersionInfo.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/MotorPower.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/Sound.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/ScanAngle.msg"
-    "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/BumperEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/CliffEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalOutput.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ExternalPower.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Led.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/PowerSystemEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/SensorState.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/VersionInfo.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ControllerInfo.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ButtonEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DigitalInputEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/DockInfraRed.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/KeyboardInput.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/MotorPower.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/RobotStateEvent.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/Sound.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/ScanAngle.msg"
+    "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/msg/WheelDropEvent.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/action" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/action/AutoDocking.action")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs/action" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/action/AutoDocking.action")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -206,7 +206,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_msgs-kinetic/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/kobuki_msgs" TYPE FILE FILES "/home/kalana/Xavier/Robot/src/kobuki/kobuki_msgs-kinetic/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

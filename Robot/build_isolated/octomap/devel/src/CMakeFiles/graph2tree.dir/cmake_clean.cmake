@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/graph2tree.dir/graph2tree.cpp.o"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/graph2tree.pdb"
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/graph2tree"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/graph2tree.pdb"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap/bin/graph2tree"
 )
 
 # Per-language clean rules from dependency scanning.

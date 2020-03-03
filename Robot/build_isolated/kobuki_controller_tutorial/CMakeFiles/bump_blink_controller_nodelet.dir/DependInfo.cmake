@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/src/nodelet.cpp" "/home/kalana/Xavier/Robot/build_isolated/kobuki_controller_tutorial/CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/src/nodelet.cpp" "/home/kalana/Xavier/Robot/build_isolated/kobuki_controller_tutorial/CMakeFiles/bump_blink_controller_nodelet.dir/src/nodelet.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_controller_tutorial/include"
+  "/home/kalana/Xavier/Robot/src/kobuki/kobuki_controller_tutorial/include"
   "/home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"

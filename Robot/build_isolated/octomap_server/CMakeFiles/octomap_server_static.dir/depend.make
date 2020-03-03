@@ -5,8 +5,8 @@ CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kala
 CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/GetOctomapRequest.h
 CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/GetOctomapResponse.h
 CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/octomap_msgs/include/octomap_msgs/Octomap.h
-CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/include/octomap_msgs/conversions.h
-CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap_server/src/octomap_server_static.cpp
+CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_msgs/include/octomap_msgs/conversions.h
+CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap_server/src/octomap_server_static.cpp
 CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /opt/ros/kinetic/include/octomap/AbstractOcTree.h
 CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /opt/ros/kinetic/include/octomap/AbstractOccupancyOcTree.h
 CMakeFiles/octomap_server_static.dir/src/octomap_server_static.cpp.o: /opt/ros/kinetic/include/octomap/ColorOcTree.h

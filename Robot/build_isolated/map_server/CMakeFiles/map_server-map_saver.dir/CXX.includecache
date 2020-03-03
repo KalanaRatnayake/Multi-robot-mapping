@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/src/map_saver.cpp
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/src/map_saver.cpp
 cstdio
 -
 ros/ros.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/src/ros/ros.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/src/ros/ros.h
 ros/console.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/src/ros/console.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/src/ros/console.h
 nav_msgs/GetMap.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/src/nav_msgs/GetMap.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/src/nav_msgs/GetMap.h
 tf2/LinearMath/Matrix3x3.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/src/tf2/LinearMath/Matrix3x3.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/src/tf2/LinearMath/Matrix3x3.h
 geometry_msgs/Quaternion.h
-/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/map_server/src/geometry_msgs/Quaternion.h
+/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/map_server/src/geometry_msgs/Quaternion.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

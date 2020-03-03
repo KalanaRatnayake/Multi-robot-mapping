@@ -178,7 +178,7 @@ ros/message_operations.h
 std_msgs/Header.h
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/include/kobuki_auto_docking/auto_docking_ros.hpp
 ros/ros.h
 -
 actionlib/server/simple_action_server.h
@@ -216,11 +216,11 @@ kdl_conversions/kdl_msg.h
 kobuki_dock_drive/dock_drive.hpp
 -
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/auto_docking_ros.cpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/auto_docking_ros.cpp
 kobuki_auto_docking/auto_docking_ros.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/kobuki_auto_docking/auto_docking_ros.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/kobuki_auto_docking/auto_docking_ros.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/dock_drive.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/dock_drive.hpp
 iostream
 -
 sstream
@@ -236,9 +236,9 @@ ecl/geometry/legacy_pose2d.hpp
 ecl/linear_algebra.hpp
 -
 kobuki_dock_drive/state.hpp
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/kobuki_dock_drive/state.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/kobuki_dock_drive/state.hpp
 
-/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_dock_drive/include/kobuki_dock_drive/state.hpp
+/home/kalana/Xavier/Robot/src/kobuki/kobuki_dock_drive/include/kobuki_dock_drive/state.hpp
 iostream
 -
 

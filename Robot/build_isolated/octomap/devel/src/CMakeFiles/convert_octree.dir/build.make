@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap_setup/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/octomap/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/octomap/devel
@@ -58,17 +58,17 @@ include src/CMakeFiles/convert_octree.dir/progress.make
 include src/CMakeFiles/convert_octree.dir/flags.make
 
 src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o: src/CMakeFiles/convert_octree.dir/flags.make
-src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/convert_octree.cpp
+src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o: /home/kalana/Xavier/Robot/src/octomap/octomap/src/convert_octree.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/convert_octree.dir/convert_octree.cpp.o -c /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/convert_octree.cpp
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/convert_octree.dir/convert_octree.cpp.o -c /home/kalana/Xavier/Robot/src/octomap/octomap/src/convert_octree.cpp
 
 src/CMakeFiles/convert_octree.dir/convert_octree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convert_octree.dir/convert_octree.cpp.i"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/convert_octree.cpp > CMakeFiles/convert_octree.dir/convert_octree.cpp.i
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/octomap/octomap/src/convert_octree.cpp > CMakeFiles/convert_octree.dir/convert_octree.cpp.i
 
 src/CMakeFiles/convert_octree.dir/convert_octree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convert_octree.dir/convert_octree.cpp.s"
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src/convert_octree.cpp -o CMakeFiles/convert_octree.dir/convert_octree.cpp.s
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/octomap/octomap/src/convert_octree.cpp -o CMakeFiles/convert_octree.dir/convert_octree.cpp.s
 
 src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o.requires:
 
@@ -88,16 +88,16 @@ convert_octree_OBJECTS = \
 # External object files for target convert_octree
 convert_octree_EXTERNAL_OBJECTS =
 
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree: src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree: src/CMakeFiles/convert_octree.dir/build.make
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomap.so.1.9.0
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/lib/liboctomath.so.1.9.0
-/home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree: src/CMakeFiles/convert_octree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree"
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree: src/CMakeFiles/convert_octree.dir/convert_octree.cpp.o
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree: src/CMakeFiles/convert_octree.dir/build.make
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree: /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so.1.9.0
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree: /home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so.1.9.0
+/home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree: src/CMakeFiles/convert_octree.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree"
 	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/convert_octree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/convert_octree.dir/build: /home/kalana/Xavier/Robot/src/octomap_setup/octomap/bin/convert_octree
+src/CMakeFiles/convert_octree.dir/build: /home/kalana/Xavier/Robot/src/octomap/octomap/bin/convert_octree
 
 .PHONY : src/CMakeFiles/convert_octree.dir/build
 
@@ -110,6 +110,6 @@ src/CMakeFiles/convert_octree.dir/clean:
 .PHONY : src/CMakeFiles/convert_octree.dir/clean
 
 src/CMakeFiles/convert_octree.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap_setup/octomap /home/kalana/Xavier/Robot/src/octomap_setup/octomap/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/CMakeFiles/convert_octree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/octomap/octomap /home/kalana/Xavier/Robot/src/octomap/octomap/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src /home/kalana/Xavier/Robot/build_isolated/octomap/devel/src/CMakeFiles/convert_octree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/convert_octree.dir/depend
 

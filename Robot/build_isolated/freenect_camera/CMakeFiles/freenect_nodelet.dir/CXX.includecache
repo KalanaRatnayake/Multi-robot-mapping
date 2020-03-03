@@ -24,7 +24,7 @@ dynamic_reconfigure/config_init_mutex.h
 boost/any.hpp
 -
 
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include/freenect_camera/freenect_device.hpp
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/include/freenect_camera/freenect_device.hpp
 boost/shared_ptr.hpp
 -
 boost/noncopyable.hpp
@@ -42,13 +42,13 @@ libfreenect/libfreenect_registration.h
 freenect_camera/image_buffer.hpp
 -
 
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include/freenect_camera/freenect_driver.hpp
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/include/freenect_camera/freenect_driver.hpp
 libfreenect/libfreenect.h
 -
 freenect_camera/freenect_device.hpp
 -
 
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/include/freenect_camera/image_buffer.hpp
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/include/freenect_camera/image_buffer.hpp
 stdexcept
 -
 boost/thread/mutex.hpp
@@ -60,9 +60,9 @@ boost/lexical_cast.hpp
 libfreenect/libfreenect.h
 -
 
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodelets/driver.cpp
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodelets/driver.cpp
 driver.h
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodelets/driver.h
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodelets/driver.h
 sensor_msgs/image_encodings.h
 -
 sensor_msgs/distortion_models.h
@@ -74,7 +74,7 @@ log4cxx/logger.h
 pluginlib/class_list_macros.h
 -
 
-/home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/src/nodelets/driver.h
+/home/kalana/Xavier/Robot/src/camera/freenect_camera/src/nodelets/driver.h
 ros/ros.h
 -
 nodelet/nodelet.h

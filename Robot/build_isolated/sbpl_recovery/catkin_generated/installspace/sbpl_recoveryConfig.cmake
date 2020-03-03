@@ -67,7 +67,7 @@ set(sbpl_recovery_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(sbpl_recovery_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation_setup/navigation_experimental-kinetic-devel/sbpl_recovery)
+  set(sbpl_recovery_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/sbpl_recovery)
   set(sbpl_recovery_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/sbpl_recovery)
   set(sbpl_recovery_INSTALL_PREFIX "")
   set(sbpl_recovery_PREFIX ${sbpl_recovery_DEVEL_PREFIX})

@@ -67,7 +67,7 @@ set(kobuki_rapps_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_rapps_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_rapps)
+  set(kobuki_rapps_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_rapps)
   set(kobuki_rapps_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_rapps)
   set(kobuki_rapps_INSTALL_PREFIX "")
   set(kobuki_rapps_PREFIX ${kobuki_rapps_DEVEL_PREFIX})

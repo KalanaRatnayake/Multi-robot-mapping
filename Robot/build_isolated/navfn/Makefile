@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/navfn
@@ -502,6 +502,19 @@ download_extra_data: cmake_check_build_system
 download_extra_data/fast:
 	$(MAKE) -f CMakeFiles/download_extra_data.dir/build.make CMakeFiles/download_extra_data.dir/build
 .PHONY : download_extra_data/fast
+
+#=============================================================================
+# Target rules for targets named navtest
+
+# Build rule for target.
+navtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 navtest
+.PHONY : navtest
+
+# fast build rule for target.
+navtest/fast:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/build
+.PHONY : navtest/fast
 
 #=============================================================================
 # Target rules for targets named sensor_msgs_generate_messages_cpp
@@ -1962,6 +1975,60 @@ src/navfn_ros.cpp.s:
 	$(MAKE) -f CMakeFiles/navfn.dir/build.make CMakeFiles/navfn.dir/src/navfn_ros.cpp.s
 .PHONY : src/navfn_ros.cpp.s
 
+src/navtest.o: src/navtest.cpp.o
+
+.PHONY : src/navtest.o
+
+# target to build an object file
+src/navtest.cpp.o:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/src/navtest.cpp.o
+.PHONY : src/navtest.cpp.o
+
+src/navtest.i: src/navtest.cpp.i
+
+.PHONY : src/navtest.i
+
+# target to preprocess a source file
+src/navtest.cpp.i:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/src/navtest.cpp.i
+.PHONY : src/navtest.cpp.i
+
+src/navtest.s: src/navtest.cpp.s
+
+.PHONY : src/navtest.s
+
+# target to generate assembly for a file
+src/navtest.cpp.s:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/src/navtest.cpp.s
+.PHONY : src/navtest.cpp.s
+
+src/navwin.o: src/navwin.cpp.o
+
+.PHONY : src/navwin.o
+
+# target to build an object file
+src/navwin.cpp.o:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/src/navwin.cpp.o
+.PHONY : src/navwin.cpp.o
+
+src/navwin.i: src/navwin.cpp.i
+
+.PHONY : src/navwin.i
+
+# target to preprocess a source file
+src/navwin.cpp.i:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/src/navwin.cpp.i
+.PHONY : src/navwin.cpp.i
+
+src/navwin.s: src/navwin.cpp.s
+
+.PHONY : src/navwin.s
+
+# target to generate assembly for a file
+src/navwin.cpp.s:
+	$(MAKE) -f CMakeFiles/navtest.dir/build.make CMakeFiles/navtest.dir/src/navwin.cpp.s
+.PHONY : src/navwin.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1997,6 +2064,7 @@ help:
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... nav_msgs_generate_messages_cpp"
 	@echo "... download_extra_data"
+	@echo "... navtest"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... map_msgs_generate_messages_py"
 	@echo "... nodelet_generate_messages_cpp"
@@ -2116,6 +2184,12 @@ help:
 	@echo "... src/navfn_ros.o"
 	@echo "... src/navfn_ros.i"
 	@echo "... src/navfn_ros.s"
+	@echo "... src/navtest.o"
+	@echo "... src/navtest.i"
+	@echo "... src/navtest.s"
+	@echo "... src/navwin.o"
+	@echo "... src/navwin.i"
+	@echo "... src/navwin.s"
 .PHONY : help
 
 

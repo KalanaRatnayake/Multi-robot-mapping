@@ -67,7 +67,7 @@ set(kobuki_keyop_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(kobuki_keyop_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_keyop)
+  set(kobuki_keyop_SOURCE_PREFIX /home/kalana/Xavier/Robot/src/kobuki/kobuki_keyop)
   set(kobuki_keyop_DEVEL_PREFIX /home/kalana/Xavier/Robot/devel_isolated/kobuki_keyop)
   set(kobuki_keyop_INSTALL_PREFIX "")
   set(kobuki_keyop_PREFIX ${kobuki_keyop_DEVEL_PREFIX})

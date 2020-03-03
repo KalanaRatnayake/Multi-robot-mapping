@@ -4,8 +4,8 @@
 CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/BumperEvent.h
 CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/CliffEvent.h
 CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/devel_isolated/kobuki_msgs/include/kobuki_msgs/WheelDropEvent.h
-CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
-CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_safety_controller/src/nodelet.cpp
+CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/include/kobuki_safety_controller/safety_controller.hpp
+CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_safety_controller/src/nodelet.cpp
 CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/./class_loader.hpp
 CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader.h
 CMakeFiles/kobuki_safety_controller_nodelet.dir/src/nodelet.cpp.o: /opt/ros/kinetic/include/class_loader/class_loader_core.hpp

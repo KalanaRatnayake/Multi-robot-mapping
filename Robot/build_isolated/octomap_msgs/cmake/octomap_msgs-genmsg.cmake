@@ -2,7 +2,7 @@
 
 message(STATUS "octomap_msgs: 2 messages, 2 services")
 
-set(MSG_I_FLAGS "-Ioctomap_msgs:/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ioctomap_msgs:/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,24 +17,24 @@ add_custom_target(octomap_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
 add_custom_target(_octomap_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" "std_msgs/Header:octomap_msgs/Octomap"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" "std_msgs/Header:octomap_msgs/Octomap"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" NAME_WE)
 add_custom_target(_octomap_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" "std_msgs/Header"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" "std_msgs/Header"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
 add_custom_target(_octomap_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" "geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" "geometry_msgs/Point"
 )
 
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
 add_custom_target(_octomap_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" "geometry_msgs/Quaternion:geometry_msgs/Pose:std_msgs/Header:octomap_msgs/Octomap:geometry_msgs/Point"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "octomap_msgs" "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" "geometry_msgs/Quaternion:geometry_msgs/Pose:std_msgs/Header:octomap_msgs/Octomap:geometry_msgs/Point"
 )
 
 #
@@ -44,27 +44,27 @@ add_custom_target(_octomap_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/octomap_msgs
 )
 _generate_msg_cpp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/octomap_msgs
 )
 
 ### Generating Services
 _generate_srv_cpp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/octomap_msgs
 )
 _generate_srv_cpp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/octomap_msgs
@@ -82,13 +82,13 @@ add_custom_target(octomap_msgs_generate_messages_cpp
 add_dependencies(octomap_msgs_generate_messages octomap_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_cpp _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_cpp _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_cpp _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_cpp _octomap_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -101,27 +101,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS octomap_msgs_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/octomap_msgs
 )
 _generate_msg_eus(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/octomap_msgs
 )
 
 ### Generating Services
 _generate_srv_eus(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/octomap_msgs
 )
 _generate_srv_eus(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/octomap_msgs
@@ -139,13 +139,13 @@ add_custom_target(octomap_msgs_generate_messages_eus
 add_dependencies(octomap_msgs_generate_messages octomap_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_eus _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_eus _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_eus _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_eus _octomap_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -158,27 +158,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS octomap_msgs_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/octomap_msgs
 )
 _generate_msg_lisp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/octomap_msgs
 )
 
 ### Generating Services
 _generate_srv_lisp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/octomap_msgs
 )
 _generate_srv_lisp(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/octomap_msgs
@@ -196,13 +196,13 @@ add_custom_target(octomap_msgs_generate_messages_lisp
 add_dependencies(octomap_msgs_generate_messages octomap_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_lisp _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_lisp _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_lisp _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_lisp _octomap_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -215,27 +215,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS octomap_msgs_generate_messages_lisp
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/octomap_msgs
 )
 _generate_msg_nodejs(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/octomap_msgs
 )
 
 ### Generating Services
 _generate_srv_nodejs(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/octomap_msgs
 )
 _generate_srv_nodejs(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/octomap_msgs
@@ -253,13 +253,13 @@ add_custom_target(octomap_msgs_generate_messages_nodejs
 add_dependencies(octomap_msgs_generate_messages octomap_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_nodejs _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_nodejs _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_nodejs _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_nodejs _octomap_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -272,27 +272,27 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS octomap_msgs_generate_messages_node
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/octomap_msgs
 )
 _generate_msg_py(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
+  "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Quaternion.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg;/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/octomap_msgs
 )
 
 ### Generating Services
 _generate_srv_py(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv"
   "${MSG_I_FLAGS}"
-  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg"
+  "/opt/ros/kinetic/share/std_msgs/cmake/../msg/Header.msg;/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/octomap_msgs
 )
 _generate_srv_py(octomap_msgs
-  "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv"
+  "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/kinetic/share/geometry_msgs/cmake/../msg/Point.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/octomap_msgs
@@ -310,13 +310,13 @@ add_custom_target(octomap_msgs_generate_messages_py
 add_dependencies(octomap_msgs_generate_messages octomap_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/GetOctomap.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_py _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/Octomap.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/Octomap.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_py _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/srv/BoundingBoxQuery.srv" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_py _octomap_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap_setup/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
+get_filename_component(_filename "/home/kalana/Xavier/Robot/src/octomap/octomap_msgs/msg/OctomapWithPose.msg" NAME_WE)
 add_dependencies(octomap_msgs_generate_messages_py _octomap_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

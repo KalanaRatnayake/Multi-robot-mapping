@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/rgbd_launch
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera/rgbd_launch
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/rgbd_launch
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/rgbd_launch
 include CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/progress.make
 
 CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test:
-	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/test_results/rgbd_launch/rostest-test_camera.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/kalana/Xavier/Robot/src/rgbd_launch --package=rgbd_launch --results-filename test_camera.xml --results-base-dir \"/home/kalana/Xavier/Robot/build_isolated/rgbd_launch/test_results\" /home/kalana/Xavier/Robot/src/rgbd_launch/test/camera.test "
+	catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/kinetic/share/catkin/cmake/test/run_tests.py /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/test_results/rgbd_launch/rostest-test_camera.xml "/opt/ros/kinetic/share/rostest/cmake/../../../bin/rostest --pkgdir=/home/kalana/Xavier/Robot/src/camera/rgbd_launch --package=rgbd_launch --results-filename test_camera.xml --results-base-dir \"/home/kalana/Xavier/Robot/build_isolated/rgbd_launch/test_results\" /home/kalana/Xavier/Robot/src/camera/rgbd_launch/test/camera.test "
 
 _run_tests_rgbd_launch_rostest_test_camera.test: CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test
 _run_tests_rgbd_launch_rostest_test_camera.test: CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/clean:
 .PHONY : CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/clean
 
 CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/rgbd_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/rgbd_launch /home/kalana/Xavier/Robot/src/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/rgbd_launch && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera/rgbd_launch /home/kalana/Xavier/Robot/src/camera/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch /home/kalana/Xavier/Robot/build_isolated/rgbd_launch/CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_rgbd_launch_rostest_test_camera.test.dir/depend
 

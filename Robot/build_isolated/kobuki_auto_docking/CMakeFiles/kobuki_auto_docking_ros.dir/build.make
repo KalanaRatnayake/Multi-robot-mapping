@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking
@@ -58,17 +58,17 @@ include CMakeFiles/kobuki_auto_docking_ros.dir/progress.make
 include CMakeFiles/kobuki_auto_docking_ros.dir/flags.make
 
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: CMakeFiles/kobuki_auto_docking_ros.dir/flags.make
-CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/auto_docking_ros.cpp
+CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o: /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/auto_docking_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/auto_docking_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o -c /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/auto_docking_ros.cpp
 
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/auto_docking_ros.cpp > CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/auto_docking_ros.cpp > CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.i
 
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking/src/auto_docking_ros.cpp -o CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking/src/auto_docking_ros.cpp -o CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.s
 
 CMakeFiles/kobuki_auto_docking_ros.dir/src/auto_docking_ros.cpp.o.requires:
 
@@ -154,6 +154,6 @@ CMakeFiles/kobuki_auto_docking_ros.dir/clean:
 .PHONY : CMakeFiles/kobuki_auto_docking_ros.dir/clean
 
 CMakeFiles/kobuki_auto_docking_ros.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking /home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_auto_docking /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking_ros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking /home/kalana/Xavier/Robot/src/kobuki/kobuki_auto_docking /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking /home/kalana/Xavier/Robot/build_isolated/kobuki_auto_docking/CMakeFiles/kobuki_auto_docking_ros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/kobuki_auto_docking_ros.dir/depend
 

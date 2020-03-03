@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/camera/freenect_camera
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/freenect_camera
@@ -57,11 +57,11 @@ CMakeFiles/freenect_camera_gencfg: /home/kalana/Xavier/Robot/devel_isolated/free
 CMakeFiles/freenect_camera_gencfg: /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/lib/python2.7/dist-packages/freenect_camera/cfg/FreenectConfig.py
 
 
-/home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h: /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/cfg/Freenect.cfg
+/home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h: /home/kalana/Xavier/Robot/src/camera/freenect_camera/cfg/Freenect.cfg
 /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
 /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Freenect.cfg: /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/lib/python2.7/dist-packages/freenect_camera/cfg/FreenectConfig.py"
-	catkin_generated/env_cached.sh /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera/cfg/Freenect.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/share/freenect_camera /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/lib/python2.7/dist-packages/freenect_camera
+	catkin_generated/env_cached.sh /home/kalana/Xavier/Robot/src/camera/freenect_camera/cfg/Freenect.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/share/freenect_camera /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/lib/python2.7/dist-packages/freenect_camera
 
 /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/share/freenect_camera/docs/FreenectConfig.dox: /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/include/freenect_camera/FreenectConfig.h
 	@$(CMAKE_COMMAND) -E touch_nocreate /home/kalana/Xavier/Robot/devel_isolated/freenect_camera/share/freenect_camera/docs/FreenectConfig.dox
@@ -95,6 +95,6 @@ CMakeFiles/freenect_camera_gencfg.dir/clean:
 .PHONY : CMakeFiles/freenect_camera_gencfg.dir/clean
 
 CMakeFiles/freenect_camera_gencfg.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/freenect_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera /home/kalana/Xavier/Robot/src/camera_drivers/freenect_stack/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/freenect_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/camera/freenect_camera /home/kalana/Xavier/Robot/src/camera/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera /home/kalana/Xavier/Robot/build_isolated/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/freenect_camera_gencfg.dir/depend
 

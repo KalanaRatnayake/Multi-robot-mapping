@@ -1,6 +1,6 @@
 # generated from catkin/cmake/template/pkg.context.pc.in
 CATKIN_PACKAGE_PREFIX = ""
-PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/include".split(';') if "/home/kalana/Xavier/Robot/src/kobuki_setup/kobuki_bumper2pc/include" != "" else []
+PROJECT_PKG_CONFIG_INCLUDE_DIRS = "/home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/include".split(';') if "/home/kalana/Xavier/Robot/src/kobuki/kobuki_bumper2pc/include" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;nodelet;pluginlib;sensor_msgs;kobuki_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lkobuki_bumper2pc_nodelet".split(';') if "-lkobuki_bumper2pc_nodelet" != "" else []
 PROJECT_NAME = "kobuki_bumper2pc"

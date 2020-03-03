@@ -3,7 +3,7 @@
   <!-- Static transform publisher from fcu to camera_link -->
   <!-- RPY = XYZ -->
   <node pkg="tf" type="static_transform_publisher" name="camera_to_base" args="0 0 0.1 0 0.0 0 base_footprint camera_link 100"/>
-  <!--node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0 map odom 100"/-->
+  <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0 map odom 100">
   <!-- uncomment the following line when running on real hardware -->
   <node pkg="tf" type="static_transform_publisher" name="robot_state_publisher" args="0 0 0 0 0.0 0 base_footprint base_link 100"/>
 

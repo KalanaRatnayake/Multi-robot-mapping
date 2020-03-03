@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/Robot/build_isolated/navfn
@@ -58,17 +58,17 @@ include CMakeFiles/navfn.dir/progress.make
 include CMakeFiles/navfn.dir/flags.make
 
 CMakeFiles/navfn.dir/src/navfn.cpp.o: CMakeFiles/navfn.dir/flags.make
-CMakeFiles/navfn.dir/src/navfn.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn.cpp
+CMakeFiles/navfn.dir/src/navfn.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/navfn.dir/src/navfn.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navfn.dir/src/navfn.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navfn.dir/src/navfn.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn.cpp
 
 CMakeFiles/navfn.dir/src/navfn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navfn.dir/src/navfn.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn.cpp > CMakeFiles/navfn.dir/src/navfn.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn.cpp > CMakeFiles/navfn.dir/src/navfn.cpp.i
 
 CMakeFiles/navfn.dir/src/navfn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navfn.dir/src/navfn.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn.cpp -o CMakeFiles/navfn.dir/src/navfn.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn.cpp -o CMakeFiles/navfn.dir/src/navfn.cpp.s
 
 CMakeFiles/navfn.dir/src/navfn.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/navfn.dir/src/navfn.cpp.o.provides.build: CMakeFiles/navfn.dir/src/na
 
 
 CMakeFiles/navfn.dir/src/navfn_ros.cpp.o: CMakeFiles/navfn.dir/flags.make
-CMakeFiles/navfn.dir/src/navfn_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn_ros.cpp
+CMakeFiles/navfn.dir/src/navfn_ros.cpp.o: /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn_ros.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/navfn.dir/src/navfn_ros.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navfn.dir/src/navfn_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn_ros.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/navfn.dir/src/navfn_ros.cpp.o -c /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn_ros.cpp
 
 CMakeFiles/navfn.dir/src/navfn_ros.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/navfn.dir/src/navfn_ros.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn_ros.cpp > CMakeFiles/navfn.dir/src/navfn_ros.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn_ros.cpp > CMakeFiles/navfn.dir/src/navfn_ros.cpp.i
 
 CMakeFiles/navfn.dir/src/navfn_ros.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/navfn.dir/src/navfn_ros.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn/src/navfn_ros.cpp -o CMakeFiles/navfn.dir/src/navfn_ros.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn/src/navfn_ros.cpp -o CMakeFiles/navfn.dir/src/navfn_ros.cpp.s
 
 CMakeFiles/navfn.dir/src/navfn_ros.cpp.o.requires:
 
@@ -363,6 +363,6 @@ CMakeFiles/navfn.dir/clean:
 .PHONY : CMakeFiles/navfn.dir/clean
 
 CMakeFiles/navfn.dir/depend:
-	cd /home/kalana/Xavier/Robot/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles/navfn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/Robot/build_isolated/navfn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/navfn /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn /home/kalana/Xavier/Robot/build_isolated/navfn/CMakeFiles/navfn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/navfn.dir/depend
 

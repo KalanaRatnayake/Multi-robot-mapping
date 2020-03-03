@@ -3,6 +3,6 @@ prefix=/home/kalana/Xavier/Robot/devel_isolated/voxel_grid
 Name: voxel_grid
 Description: Description of voxel_grid
 Version: 1.14.4
-Cflags: -I/home/kalana/Xavier/Robot/src/Navigation_setup/navigation-kinetic-devel/voxel_grid/include
+Cflags: -I/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/voxel_grid/include
 Libs: -L${prefix}/lib -lvoxel_grid
 Requires: roscpp
