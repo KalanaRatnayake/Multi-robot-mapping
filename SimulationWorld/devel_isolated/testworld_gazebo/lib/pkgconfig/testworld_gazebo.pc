@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/SimulationWorld/devel_isolated/testworld_gazebo
+
+Name: testworld_gazebo
+Description: Description of testworld_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

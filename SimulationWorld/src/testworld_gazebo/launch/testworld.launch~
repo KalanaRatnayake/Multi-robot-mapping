@@ -1,0 +1,20 @@
+<launch>
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find testworld_gazebo)/worlds/test_underpass.world"/>
+  </include>
+  
+  <arg name="kobuki_publish_tf" default="true"/>
+
+  <node pkg="nodelet" type="nodelet" name="mobile_base_nodelet_manager" args="manager"/>
+
+  <node pkg="nodelet" type="nodelet" name="mobile_base" args="load kobuki_node/KobukiNodelet mobile_base_nodelet_manager">
+    <rosparam file="$(find kobuki_node)/param/base.yaml" command="load"/>
+    <param name="publish_tf" value="$(arg kobuki_publish_tf)"/>
+      <remap from="mobile_base/odom" to="odom"/>
+      <remap from="mobile_base/joint_states" to="joint_states"/>
+  </node>
+  
+  <node pkg="diagnostic_aggregator" type="aggregator_node" name="diagnostic_aggregator" >
+      <rosparam command="load" file="$(find kobuki_node)/param/diagnostics.yaml" />
+  </node>
+</launch>
