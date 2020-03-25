@@ -1,0 +1,8 @@
+prefix=/home/kalana/Xavier/BaseStation/devel_isolated/map_merge
+
+Name: map_merge
+Description: Description of map_merge
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

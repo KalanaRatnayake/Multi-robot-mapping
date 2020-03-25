@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -Wno-error  -O3 -funroll-loops -DNDEBUG -fPIC   -fPIC
 
 CXX_DEFINES = -Doctomath_EXPORTS
 
-CXX_INCLUDES = -I/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/include 
+CXX_INCLUDES = -I/home/kalana/Xavier/BaseStation/src/octomap/include 
 

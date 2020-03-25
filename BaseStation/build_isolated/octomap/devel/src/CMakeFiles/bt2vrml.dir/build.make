@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel
@@ -58,17 +58,17 @@ include src/CMakeFiles/bt2vrml.dir/progress.make
 include src/CMakeFiles/bt2vrml.dir/flags.make
 
 src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o: src/CMakeFiles/bt2vrml.dir/flags.make
-src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/bt2vrml.cpp
+src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o: /home/kalana/Xavier/BaseStation/src/octomap/src/bt2vrml.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o -c /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/bt2vrml.cpp
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o -c /home/kalana/Xavier/BaseStation/src/octomap/src/bt2vrml.cpp
 
 src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bt2vrml.dir/bt2vrml.cpp.i"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/bt2vrml.cpp > CMakeFiles/bt2vrml.dir/bt2vrml.cpp.i
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/BaseStation/src/octomap/src/bt2vrml.cpp > CMakeFiles/bt2vrml.dir/bt2vrml.cpp.i
 
 src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bt2vrml.dir/bt2vrml.cpp.s"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/bt2vrml.cpp -o CMakeFiles/bt2vrml.dir/bt2vrml.cpp.s
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/BaseStation/src/octomap/src/bt2vrml.cpp -o CMakeFiles/bt2vrml.dir/bt2vrml.cpp.s
 
 src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o.requires:
 
@@ -88,16 +88,16 @@ bt2vrml_OBJECTS = \
 # External object files for target bt2vrml
 bt2vrml_EXTERNAL_OBJECTS =
 
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml: src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml: src/CMakeFiles/bt2vrml.dir/build.make
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomap.so.1.9.0
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomath.so.1.9.0
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml: src/CMakeFiles/bt2vrml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml"
+/home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml: src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.o
+/home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml: src/CMakeFiles/bt2vrml.dir/build.make
+/home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml: /home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomap.so.1.9.0
+/home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml: /home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomath.so.1.9.0
+/home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml: src/CMakeFiles/bt2vrml.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml"
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bt2vrml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/bt2vrml.dir/build: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/bt2vrml
+src/CMakeFiles/bt2vrml.dir/build: /home/kalana/Xavier/BaseStation/src/octomap/bin/bt2vrml
 
 .PHONY : src/CMakeFiles/bt2vrml.dir/build
 
@@ -110,6 +110,6 @@ src/CMakeFiles/bt2vrml.dir/clean:
 .PHONY : src/CMakeFiles/bt2vrml.dir/clean
 
 src/CMakeFiles/bt2vrml.dir/depend:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/bt2vrml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/BaseStation/src/octomap /home/kalana/Xavier/BaseStation/src/octomap/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/bt2vrml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/bt2vrml.dir/depend
 

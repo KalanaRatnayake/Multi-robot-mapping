@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/log2graph.dir/log2graph.cpp.o"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/log2graph.pdb"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/log2graph"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/log2graph.pdb"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/log2graph"
 )
 
 # Per-language clean rules from dependency scanning.

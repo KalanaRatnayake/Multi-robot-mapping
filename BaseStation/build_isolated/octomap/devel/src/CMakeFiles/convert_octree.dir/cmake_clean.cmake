@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/convert_octree.dir/convert_octree.cpp.o"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/convert_octree.pdb"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/convert_octree"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/convert_octree.pdb"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/convert_octree"
 )
 
 # Per-language clean rules from dependency scanning.

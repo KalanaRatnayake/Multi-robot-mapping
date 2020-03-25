@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/simple_example.cpp" "/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/simple_example.dir/simple_example.cpp.o"
+  "/home/kalana/Xavier/BaseStation/src/octomap/src/simple_example.cpp" "/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/simple_example.dir/simple_example.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/include"
+  "/home/kalana/Xavier/BaseStation/src/octomap/include"
   )
 
 # Targets to which this target links.

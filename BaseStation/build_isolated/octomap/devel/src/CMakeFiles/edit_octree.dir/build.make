@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel
@@ -58,17 +58,17 @@ include src/CMakeFiles/edit_octree.dir/progress.make
 include src/CMakeFiles/edit_octree.dir/flags.make
 
 src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o: src/CMakeFiles/edit_octree.dir/flags.make
-src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/edit_octree.cpp
+src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o: /home/kalana/Xavier/BaseStation/src/octomap/src/edit_octree.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/edit_octree.dir/edit_octree.cpp.o -c /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/edit_octree.cpp
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/edit_octree.dir/edit_octree.cpp.o -c /home/kalana/Xavier/BaseStation/src/octomap/src/edit_octree.cpp
 
 src/CMakeFiles/edit_octree.dir/edit_octree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/edit_octree.dir/edit_octree.cpp.i"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/edit_octree.cpp > CMakeFiles/edit_octree.dir/edit_octree.cpp.i
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/BaseStation/src/octomap/src/edit_octree.cpp > CMakeFiles/edit_octree.dir/edit_octree.cpp.i
 
 src/CMakeFiles/edit_octree.dir/edit_octree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/edit_octree.dir/edit_octree.cpp.s"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/edit_octree.cpp -o CMakeFiles/edit_octree.dir/edit_octree.cpp.s
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/BaseStation/src/octomap/src/edit_octree.cpp -o CMakeFiles/edit_octree.dir/edit_octree.cpp.s
 
 src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o.requires:
 
@@ -88,16 +88,16 @@ edit_octree_OBJECTS = \
 # External object files for target edit_octree
 edit_octree_EXTERNAL_OBJECTS =
 
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree: src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree: src/CMakeFiles/edit_octree.dir/build.make
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomap.so.1.9.0
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomath.so.1.9.0
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree: src/CMakeFiles/edit_octree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree"
+/home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree: src/CMakeFiles/edit_octree.dir/edit_octree.cpp.o
+/home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree: src/CMakeFiles/edit_octree.dir/build.make
+/home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree: /home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomap.so.1.9.0
+/home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree: /home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomath.so.1.9.0
+/home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree: src/CMakeFiles/edit_octree.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree"
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/edit_octree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/edit_octree.dir/build: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/edit_octree
+src/CMakeFiles/edit_octree.dir/build: /home/kalana/Xavier/BaseStation/src/octomap/bin/edit_octree
 
 .PHONY : src/CMakeFiles/edit_octree.dir/build
 
@@ -110,6 +110,6 @@ src/CMakeFiles/edit_octree.dir/clean:
 .PHONY : src/CMakeFiles/edit_octree.dir/clean
 
 src/CMakeFiles/edit_octree.dir/depend:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/edit_octree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/BaseStation/src/octomap /home/kalana/Xavier/BaseStation/src/octomap/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/edit_octree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/edit_octree.dir/depend
 

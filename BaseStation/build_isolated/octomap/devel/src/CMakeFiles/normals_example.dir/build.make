@@ -43,7 +43,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel
@@ -58,17 +58,17 @@ include src/CMakeFiles/normals_example.dir/progress.make
 include src/CMakeFiles/normals_example.dir/flags.make
 
 src/CMakeFiles/normals_example.dir/normals_example.cpp.o: src/CMakeFiles/normals_example.dir/flags.make
-src/CMakeFiles/normals_example.dir/normals_example.cpp.o: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/normals_example.cpp
+src/CMakeFiles/normals_example.dir/normals_example.cpp.o: /home/kalana/Xavier/BaseStation/src/octomap/src/normals_example.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/normals_example.dir/normals_example.cpp.o"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/normals_example.dir/normals_example.cpp.o -c /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/normals_example.cpp
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/normals_example.dir/normals_example.cpp.o -c /home/kalana/Xavier/BaseStation/src/octomap/src/normals_example.cpp
 
 src/CMakeFiles/normals_example.dir/normals_example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/normals_example.dir/normals_example.cpp.i"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/normals_example.cpp > CMakeFiles/normals_example.dir/normals_example.cpp.i
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kalana/Xavier/BaseStation/src/octomap/src/normals_example.cpp > CMakeFiles/normals_example.dir/normals_example.cpp.i
 
 src/CMakeFiles/normals_example.dir/normals_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/normals_example.dir/normals_example.cpp.s"
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/normals_example.cpp -o CMakeFiles/normals_example.dir/normals_example.cpp.s
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kalana/Xavier/BaseStation/src/octomap/src/normals_example.cpp -o CMakeFiles/normals_example.dir/normals_example.cpp.s
 
 src/CMakeFiles/normals_example.dir/normals_example.cpp.o.requires:
 
@@ -88,16 +88,16 @@ normals_example_OBJECTS = \
 # External object files for target normals_example
 normals_example_EXTERNAL_OBJECTS =
 
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example: src/CMakeFiles/normals_example.dir/normals_example.cpp.o
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example: src/CMakeFiles/normals_example.dir/build.make
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomap.so.1.9.0
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomath.so.1.9.0
-/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example: src/CMakeFiles/normals_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example"
+/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example: src/CMakeFiles/normals_example.dir/normals_example.cpp.o
+/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example: src/CMakeFiles/normals_example.dir/build.make
+/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example: /home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomap.so.1.9.0
+/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example: /home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomath.so.1.9.0
+/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example: src/CMakeFiles/normals_example.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example"
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/normals_example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/normals_example.dir/build: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example
+src/CMakeFiles/normals_example.dir/build: /home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example
 
 .PHONY : src/CMakeFiles/normals_example.dir/build
 
@@ -110,6 +110,6 @@ src/CMakeFiles/normals_example.dir/clean:
 .PHONY : src/CMakeFiles/normals_example.dir/clean
 
 src/CMakeFiles/normals_example.dir/depend:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/normals_example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kalana/Xavier/BaseStation/src/octomap /home/kalana/Xavier/BaseStation/src/octomap/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel/src/CMakeFiles/normals_example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/normals_example.dir/depend
 

@@ -246,7 +246,7 @@ octomap_BINARY_DIR:STATIC=/home/kalana/Xavier/BaseStation/build_isolated/octomap
 octomap_LIB_DEPENDS:STATIC=general;octomath;
 
 //Value Computed by CMake
-octomap_SOURCE_DIR:STATIC=/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+octomap_SOURCE_DIR:STATIC=/home/kalana/Xavier/BaseStation/src/octomap
 
 //Dependencies for target
 octomath-static_LIB_DEPENDS:STATIC=
@@ -329,7 +329,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/kalana/Xavier/BaseStation/src/octomap
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

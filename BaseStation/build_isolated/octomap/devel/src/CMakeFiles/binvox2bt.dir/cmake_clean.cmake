@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/binvox2bt.dir/binvox2bt.cpp.o"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/binvox2bt.pdb"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/binvox2bt"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/binvox2bt.pdb"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/binvox2bt"
 )
 
 # Per-language clean rules from dependency scanning.

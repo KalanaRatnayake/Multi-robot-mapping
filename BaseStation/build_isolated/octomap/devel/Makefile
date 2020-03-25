@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel
@@ -630,19 +630,6 @@ eval_octree_accuracy/fast:
 .PHONY : eval_octree_accuracy/fast
 
 #=============================================================================
-# Target rules for targets named octree_simple_merge
-
-# Build rule for target.
-octree_simple_merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 octree_simple_merge
-.PHONY : octree_simple_merge
-
-# fast build rule for target.
-octree_simple_merge/fast:
-	$(MAKE) -f src/CMakeFiles/octree_simple_merge.dir/build.make src/CMakeFiles/octree_simple_merge.dir/build
-.PHONY : octree_simple_merge/fast
-
-#=============================================================================
 # Target rules for targets named bt2vrml
 
 # Build rule for target.
@@ -682,19 +669,6 @@ octomap/fast:
 .PHONY : octomap/fast
 
 #=============================================================================
-# Target rules for targets named right_angle_detector
-
-# Build rule for target.
-right_angle_detector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 right_angle_detector
-.PHONY : right_angle_detector
-
-# fast build rule for target.
-right_angle_detector/fast:
-	$(MAKE) -f src/CMakeFiles/right_angle_detector.dir/build.make src/CMakeFiles/right_angle_detector.dir/build
-.PHONY : right_angle_detector/fast
-
-#=============================================================================
 # Target rules for targets named graph2tree
 
 # Build rule for target.
@@ -706,32 +680,6 @@ graph2tree: cmake_check_build_system
 graph2tree/fast:
 	$(MAKE) -f src/CMakeFiles/graph2tree.dir/build.make src/CMakeFiles/graph2tree.dir/build
 .PHONY : graph2tree/fast
-
-#=============================================================================
-# Target rules for targets named edit_octree
-
-# Build rule for target.
-edit_octree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 edit_octree
-.PHONY : edit_octree
-
-# fast build rule for target.
-edit_octree/fast:
-	$(MAKE) -f src/CMakeFiles/edit_octree.dir/build.make src/CMakeFiles/edit_octree.dir/build
-.PHONY : edit_octree/fast
-
-#=============================================================================
-# Target rules for targets named convert_octree
-
-# Build rule for target.
-convert_octree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 convert_octree
-.PHONY : convert_octree
-
-# fast build rule for target.
-convert_octree/fast:
-	$(MAKE) -f src/CMakeFiles/convert_octree.dir/build.make src/CMakeFiles/convert_octree.dir/build
-.PHONY : convert_octree/fast
 
 #=============================================================================
 # Target rules for targets named simple_example
@@ -799,95 +747,30 @@ octree2pointcloud/fast:
 .PHONY : octree2pointcloud/fast
 
 #=============================================================================
-# Target rules for targets named create_manual_octree
+# Target rules for targets named edit_octree
 
 # Build rule for target.
-create_manual_octree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 create_manual_octree
-.PHONY : create_manual_octree
+edit_octree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 edit_octree
+.PHONY : edit_octree
 
 # fast build rule for target.
-create_manual_octree/fast:
-	$(MAKE) -f src/CMakeFiles/create_manual_octree.dir/build.make src/CMakeFiles/create_manual_octree.dir/build
-.PHONY : create_manual_octree/fast
+edit_octree/fast:
+	$(MAKE) -f src/CMakeFiles/edit_octree.dir/build.make src/CMakeFiles/edit_octree.dir/build
+.PHONY : edit_octree/fast
 
 #=============================================================================
-# Target rules for targets named traverse_octree
+# Target rules for targets named convert_octree
 
 # Build rule for target.
-traverse_octree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 traverse_octree
-.PHONY : traverse_octree
+convert_octree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 convert_octree
+.PHONY : convert_octree
 
 # fast build rule for target.
-traverse_octree/fast:
-	$(MAKE) -f src/CMakeFiles/traverse_octree.dir/build.make src/CMakeFiles/traverse_octree.dir/build
-.PHONY : traverse_octree/fast
-
-#=============================================================================
-# Target rules for targets named transform_octree
-
-# Build rule for target.
-transform_octree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 transform_octree
-.PHONY : transform_octree
-
-# fast build rule for target.
-transform_octree/fast:
-	$(MAKE) -f src/CMakeFiles/transform_octree.dir/build.make src/CMakeFiles/transform_octree.dir/build
-.PHONY : transform_octree/fast
-
-#=============================================================================
-# Target rules for targets named chaincode_to_octree
-
-# Build rule for target.
-chaincode_to_octree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chaincode_to_octree
-.PHONY : chaincode_to_octree
-
-# fast build rule for target.
-chaincode_to_octree/fast:
-	$(MAKE) -f src/CMakeFiles/chaincode_to_octree.dir/build.make src/CMakeFiles/chaincode_to_octree.dir/build
-.PHONY : chaincode_to_octree/fast
-
-#=============================================================================
-# Target rules for targets named octree_feature_merge
-
-# Build rule for target.
-octree_feature_merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 octree_feature_merge
-.PHONY : octree_feature_merge
-
-# fast build rule for target.
-octree_feature_merge/fast:
-	$(MAKE) -f src/CMakeFiles/octree_feature_merge.dir/build.make src/CMakeFiles/octree_feature_merge.dir/build
-.PHONY : octree_feature_merge/fast
-
-#=============================================================================
-# Target rules for targets named chaincode_generator
-
-# Build rule for target.
-chaincode_generator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 chaincode_generator
-.PHONY : chaincode_generator
-
-# fast build rule for target.
-chaincode_generator/fast:
-	$(MAKE) -f src/CMakeFiles/chaincode_generator.dir/build.make src/CMakeFiles/chaincode_generator.dir/build
-.PHONY : chaincode_generator/fast
-
-#=============================================================================
-# Target rules for targets named cross_section
-
-# Build rule for target.
-cross_section: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 cross_section
-.PHONY : cross_section
-
-# fast build rule for target.
-cross_section/fast:
-	$(MAKE) -f src/CMakeFiles/cross_section.dir/build.make src/CMakeFiles/cross_section.dir/build
-.PHONY : cross_section/fast
+convert_octree/fast:
+	$(MAKE) -f src/CMakeFiles/convert_octree.dir/build.make src/CMakeFiles/convert_octree.dir/build
+.PHONY : convert_octree/fast
 
 #=============================================================================
 # Target rules for targets named test_changedkeys
@@ -1068,26 +951,17 @@ help:
 	@echo "... compare_octrees"
 	@echo "... log2graph"
 	@echo "... eval_octree_accuracy"
-	@echo "... octree_simple_merge"
 	@echo "... bt2vrml"
 	@echo "... octomap-static"
 	@echo "... octomap"
-	@echo "... right_angle_detector"
 	@echo "... graph2tree"
-	@echo "... edit_octree"
-	@echo "... convert_octree"
 	@echo "... simple_example"
 	@echo "... normals_example"
 	@echo "... intersection_example"
 	@echo "... binvox2bt"
 	@echo "... octree2pointcloud"
-	@echo "... create_manual_octree"
-	@echo "... traverse_octree"
-	@echo "... transform_octree"
-	@echo "... chaincode_to_octree"
-	@echo "... octree_feature_merge"
-	@echo "... chaincode_generator"
-	@echo "... cross_section"
+	@echo "... edit_octree"
+	@echo "... convert_octree"
 	@echo "... test_changedkeys"
 	@echo "... test_io"
 	@echo "... test_scans"

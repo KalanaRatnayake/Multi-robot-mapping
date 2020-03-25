@@ -6,4 +6,4 @@ if [ ! -z "$_CATKIN_SETUP_DIR" ] && [ "$_CATKIN_SETUP_DIR" != "/home/kalana/Xavi
   return 1
 fi
 
-_CATKIN_SETUP_DIR= . "/home/kalana/Xavier/BaseStation/devel_isolated/pose_merge/setup.sh"
+_CATKIN_SETUP_DIR= . "/home/kalana/Xavier/BaseStation/devel_isolated/map_merge/setup.sh"

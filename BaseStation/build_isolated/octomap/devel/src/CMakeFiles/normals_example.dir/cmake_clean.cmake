@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/normals_example.dir/normals_example.cpp.o"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example.pdb"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/bin/normals_example"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example.pdb"
+  "/home/kalana/Xavier/BaseStation/src/octomap/bin/normals_example"
 )
 
 # Per-language clean rules from dependency scanning.

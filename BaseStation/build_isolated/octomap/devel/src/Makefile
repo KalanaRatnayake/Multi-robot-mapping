@@ -48,7 +48,7 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/octomap
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel
@@ -67,17 +67,6 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
@@ -88,6 +77,17 @@ package_source:
 package_source/fast: package_source
 
 .PHONY : package_source/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
 list_install_components:
@@ -111,28 +111,6 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -144,6 +122,17 @@ package/fast: package
 
 .PHONY : package/fast
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -154,6 +143,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -233,21 +233,6 @@ eval_octree_accuracy/fast:
 .PHONY : eval_octree_accuracy/fast
 
 # Convenience name for target.
-src/CMakeFiles/octree_simple_merge.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/octree_simple_merge.dir/rule
-.PHONY : src/CMakeFiles/octree_simple_merge.dir/rule
-
-# Convenience name for target.
-octree_simple_merge: src/CMakeFiles/octree_simple_merge.dir/rule
-
-.PHONY : octree_simple_merge
-
-# fast build rule for target.
-octree_simple_merge/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_simple_merge.dir/build.make src/CMakeFiles/octree_simple_merge.dir/build
-.PHONY : octree_simple_merge/fast
-
-# Convenience name for target.
 src/CMakeFiles/bt2vrml.dir/rule:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/bt2vrml.dir/rule
 .PHONY : src/CMakeFiles/bt2vrml.dir/rule
@@ -293,21 +278,6 @@ octomap/fast:
 .PHONY : octomap/fast
 
 # Convenience name for target.
-src/CMakeFiles/right_angle_detector.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/right_angle_detector.dir/rule
-.PHONY : src/CMakeFiles/right_angle_detector.dir/rule
-
-# Convenience name for target.
-right_angle_detector: src/CMakeFiles/right_angle_detector.dir/rule
-
-.PHONY : right_angle_detector
-
-# fast build rule for target.
-right_angle_detector/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/right_angle_detector.dir/build.make src/CMakeFiles/right_angle_detector.dir/build
-.PHONY : right_angle_detector/fast
-
-# Convenience name for target.
 src/CMakeFiles/graph2tree.dir/rule:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/graph2tree.dir/rule
 .PHONY : src/CMakeFiles/graph2tree.dir/rule
@@ -321,36 +291,6 @@ graph2tree: src/CMakeFiles/graph2tree.dir/rule
 graph2tree/fast:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/graph2tree.dir/build.make src/CMakeFiles/graph2tree.dir/build
 .PHONY : graph2tree/fast
-
-# Convenience name for target.
-src/CMakeFiles/edit_octree.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/edit_octree.dir/rule
-.PHONY : src/CMakeFiles/edit_octree.dir/rule
-
-# Convenience name for target.
-edit_octree: src/CMakeFiles/edit_octree.dir/rule
-
-.PHONY : edit_octree
-
-# fast build rule for target.
-edit_octree/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/edit_octree.dir/build.make src/CMakeFiles/edit_octree.dir/build
-.PHONY : edit_octree/fast
-
-# Convenience name for target.
-src/CMakeFiles/convert_octree.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/convert_octree.dir/rule
-.PHONY : src/CMakeFiles/convert_octree.dir/rule
-
-# Convenience name for target.
-convert_octree: src/CMakeFiles/convert_octree.dir/rule
-
-.PHONY : convert_octree
-
-# fast build rule for target.
-convert_octree/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/convert_octree.dir/build.make src/CMakeFiles/convert_octree.dir/build
-.PHONY : convert_octree/fast
 
 # Convenience name for target.
 src/CMakeFiles/simple_example.dir/rule:
@@ -428,109 +368,34 @@ octree2pointcloud/fast:
 .PHONY : octree2pointcloud/fast
 
 # Convenience name for target.
-src/CMakeFiles/create_manual_octree.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/create_manual_octree.dir/rule
-.PHONY : src/CMakeFiles/create_manual_octree.dir/rule
+src/CMakeFiles/edit_octree.dir/rule:
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/edit_octree.dir/rule
+.PHONY : src/CMakeFiles/edit_octree.dir/rule
 
 # Convenience name for target.
-create_manual_octree: src/CMakeFiles/create_manual_octree.dir/rule
+edit_octree: src/CMakeFiles/edit_octree.dir/rule
 
-.PHONY : create_manual_octree
+.PHONY : edit_octree
 
 # fast build rule for target.
-create_manual_octree/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/create_manual_octree.dir/build.make src/CMakeFiles/create_manual_octree.dir/build
-.PHONY : create_manual_octree/fast
+edit_octree/fast:
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/edit_octree.dir/build.make src/CMakeFiles/edit_octree.dir/build
+.PHONY : edit_octree/fast
 
 # Convenience name for target.
-src/CMakeFiles/traverse_octree.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/traverse_octree.dir/rule
-.PHONY : src/CMakeFiles/traverse_octree.dir/rule
+src/CMakeFiles/convert_octree.dir/rule:
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/convert_octree.dir/rule
+.PHONY : src/CMakeFiles/convert_octree.dir/rule
 
 # Convenience name for target.
-traverse_octree: src/CMakeFiles/traverse_octree.dir/rule
+convert_octree: src/CMakeFiles/convert_octree.dir/rule
 
-.PHONY : traverse_octree
+.PHONY : convert_octree
 
 # fast build rule for target.
-traverse_octree/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/traverse_octree.dir/build.make src/CMakeFiles/traverse_octree.dir/build
-.PHONY : traverse_octree/fast
-
-# Convenience name for target.
-src/CMakeFiles/transform_octree.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/transform_octree.dir/rule
-.PHONY : src/CMakeFiles/transform_octree.dir/rule
-
-# Convenience name for target.
-transform_octree: src/CMakeFiles/transform_octree.dir/rule
-
-.PHONY : transform_octree
-
-# fast build rule for target.
-transform_octree/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/transform_octree.dir/build.make src/CMakeFiles/transform_octree.dir/build
-.PHONY : transform_octree/fast
-
-# Convenience name for target.
-src/CMakeFiles/chaincode_to_octree.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chaincode_to_octree.dir/rule
-.PHONY : src/CMakeFiles/chaincode_to_octree.dir/rule
-
-# Convenience name for target.
-chaincode_to_octree: src/CMakeFiles/chaincode_to_octree.dir/rule
-
-.PHONY : chaincode_to_octree
-
-# fast build rule for target.
-chaincode_to_octree/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_to_octree.dir/build.make src/CMakeFiles/chaincode_to_octree.dir/build
-.PHONY : chaincode_to_octree/fast
-
-# Convenience name for target.
-src/CMakeFiles/octree_feature_merge.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/octree_feature_merge.dir/rule
-.PHONY : src/CMakeFiles/octree_feature_merge.dir/rule
-
-# Convenience name for target.
-octree_feature_merge: src/CMakeFiles/octree_feature_merge.dir/rule
-
-.PHONY : octree_feature_merge
-
-# fast build rule for target.
-octree_feature_merge/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_feature_merge.dir/build.make src/CMakeFiles/octree_feature_merge.dir/build
-.PHONY : octree_feature_merge/fast
-
-# Convenience name for target.
-src/CMakeFiles/chaincode_generator.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/chaincode_generator.dir/rule
-.PHONY : src/CMakeFiles/chaincode_generator.dir/rule
-
-# Convenience name for target.
-chaincode_generator: src/CMakeFiles/chaincode_generator.dir/rule
-
-.PHONY : chaincode_generator
-
-# fast build rule for target.
-chaincode_generator/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_generator.dir/build.make src/CMakeFiles/chaincode_generator.dir/build
-.PHONY : chaincode_generator/fast
-
-# Convenience name for target.
-src/CMakeFiles/cross_section.dir/rule:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/cross_section.dir/rule
-.PHONY : src/CMakeFiles/cross_section.dir/rule
-
-# Convenience name for target.
-cross_section: src/CMakeFiles/cross_section.dir/rule
-
-.PHONY : cross_section
-
-# fast build rule for target.
-cross_section/fast:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/cross_section.dir/build.make src/CMakeFiles/cross_section.dir/build
-.PHONY : cross_section/fast
+convert_octree/fast:
+	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/convert_octree.dir/build.make src/CMakeFiles/convert_octree.dir/build
+.PHONY : convert_octree/fast
 
 AbstractOcTree.o: AbstractOcTree.cpp.o
 
@@ -856,60 +721,6 @@ bt2vrml.cpp.s:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/bt2vrml.dir/build.make src/CMakeFiles/bt2vrml.dir/bt2vrml.cpp.s
 .PHONY : bt2vrml.cpp.s
 
-chaincode_generator.o: chaincode_generator.cpp.o
-
-.PHONY : chaincode_generator.o
-
-# target to build an object file
-chaincode_generator.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_generator.dir/build.make src/CMakeFiles/chaincode_generator.dir/chaincode_generator.cpp.o
-.PHONY : chaincode_generator.cpp.o
-
-chaincode_generator.i: chaincode_generator.cpp.i
-
-.PHONY : chaincode_generator.i
-
-# target to preprocess a source file
-chaincode_generator.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_generator.dir/build.make src/CMakeFiles/chaincode_generator.dir/chaincode_generator.cpp.i
-.PHONY : chaincode_generator.cpp.i
-
-chaincode_generator.s: chaincode_generator.cpp.s
-
-.PHONY : chaincode_generator.s
-
-# target to generate assembly for a file
-chaincode_generator.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_generator.dir/build.make src/CMakeFiles/chaincode_generator.dir/chaincode_generator.cpp.s
-.PHONY : chaincode_generator.cpp.s
-
-chaincode_to_octree.o: chaincode_to_octree.cpp.o
-
-.PHONY : chaincode_to_octree.o
-
-# target to build an object file
-chaincode_to_octree.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_to_octree.dir/build.make src/CMakeFiles/chaincode_to_octree.dir/chaincode_to_octree.cpp.o
-.PHONY : chaincode_to_octree.cpp.o
-
-chaincode_to_octree.i: chaincode_to_octree.cpp.i
-
-.PHONY : chaincode_to_octree.i
-
-# target to preprocess a source file
-chaincode_to_octree.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_to_octree.dir/build.make src/CMakeFiles/chaincode_to_octree.dir/chaincode_to_octree.cpp.i
-.PHONY : chaincode_to_octree.cpp.i
-
-chaincode_to_octree.s: chaincode_to_octree.cpp.s
-
-.PHONY : chaincode_to_octree.s
-
-# target to generate assembly for a file
-chaincode_to_octree.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/chaincode_to_octree.dir/build.make src/CMakeFiles/chaincode_to_octree.dir/chaincode_to_octree.cpp.s
-.PHONY : chaincode_to_octree.cpp.s
-
 compare_octrees.o: compare_octrees.cpp.o
 
 .PHONY : compare_octrees.o
@@ -963,60 +774,6 @@ convert_octree.s: convert_octree.cpp.s
 convert_octree.cpp.s:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/convert_octree.dir/build.make src/CMakeFiles/convert_octree.dir/convert_octree.cpp.s
 .PHONY : convert_octree.cpp.s
-
-create_manual_octree.o: create_manual_octree.cpp.o
-
-.PHONY : create_manual_octree.o
-
-# target to build an object file
-create_manual_octree.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/create_manual_octree.dir/build.make src/CMakeFiles/create_manual_octree.dir/create_manual_octree.cpp.o
-.PHONY : create_manual_octree.cpp.o
-
-create_manual_octree.i: create_manual_octree.cpp.i
-
-.PHONY : create_manual_octree.i
-
-# target to preprocess a source file
-create_manual_octree.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/create_manual_octree.dir/build.make src/CMakeFiles/create_manual_octree.dir/create_manual_octree.cpp.i
-.PHONY : create_manual_octree.cpp.i
-
-create_manual_octree.s: create_manual_octree.cpp.s
-
-.PHONY : create_manual_octree.s
-
-# target to generate assembly for a file
-create_manual_octree.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/create_manual_octree.dir/build.make src/CMakeFiles/create_manual_octree.dir/create_manual_octree.cpp.s
-.PHONY : create_manual_octree.cpp.s
-
-cross_section.o: cross_section.cpp.o
-
-.PHONY : cross_section.o
-
-# target to build an object file
-cross_section.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/cross_section.dir/build.make src/CMakeFiles/cross_section.dir/cross_section.cpp.o
-.PHONY : cross_section.cpp.o
-
-cross_section.i: cross_section.cpp.i
-
-.PHONY : cross_section.i
-
-# target to preprocess a source file
-cross_section.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/cross_section.dir/build.make src/CMakeFiles/cross_section.dir/cross_section.cpp.i
-.PHONY : cross_section.cpp.i
-
-cross_section.s: cross_section.cpp.s
-
-.PHONY : cross_section.s
-
-# target to generate assembly for a file
-cross_section.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/cross_section.dir/build.make src/CMakeFiles/cross_section.dir/cross_section.cpp.s
-.PHONY : cross_section.cpp.s
 
 edit_octree.o: edit_octree.cpp.o
 
@@ -1207,87 +964,6 @@ octree2pointcloud.cpp.s:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree2pointcloud.dir/build.make src/CMakeFiles/octree2pointcloud.dir/octree2pointcloud.cpp.s
 .PHONY : octree2pointcloud.cpp.s
 
-octree_feature_merge.o: octree_feature_merge.cpp.o
-
-.PHONY : octree_feature_merge.o
-
-# target to build an object file
-octree_feature_merge.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_feature_merge.dir/build.make src/CMakeFiles/octree_feature_merge.dir/octree_feature_merge.cpp.o
-.PHONY : octree_feature_merge.cpp.o
-
-octree_feature_merge.i: octree_feature_merge.cpp.i
-
-.PHONY : octree_feature_merge.i
-
-# target to preprocess a source file
-octree_feature_merge.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_feature_merge.dir/build.make src/CMakeFiles/octree_feature_merge.dir/octree_feature_merge.cpp.i
-.PHONY : octree_feature_merge.cpp.i
-
-octree_feature_merge.s: octree_feature_merge.cpp.s
-
-.PHONY : octree_feature_merge.s
-
-# target to generate assembly for a file
-octree_feature_merge.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_feature_merge.dir/build.make src/CMakeFiles/octree_feature_merge.dir/octree_feature_merge.cpp.s
-.PHONY : octree_feature_merge.cpp.s
-
-octree_simple_merge.o: octree_simple_merge.cpp.o
-
-.PHONY : octree_simple_merge.o
-
-# target to build an object file
-octree_simple_merge.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_simple_merge.dir/build.make src/CMakeFiles/octree_simple_merge.dir/octree_simple_merge.cpp.o
-.PHONY : octree_simple_merge.cpp.o
-
-octree_simple_merge.i: octree_simple_merge.cpp.i
-
-.PHONY : octree_simple_merge.i
-
-# target to preprocess a source file
-octree_simple_merge.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_simple_merge.dir/build.make src/CMakeFiles/octree_simple_merge.dir/octree_simple_merge.cpp.i
-.PHONY : octree_simple_merge.cpp.i
-
-octree_simple_merge.s: octree_simple_merge.cpp.s
-
-.PHONY : octree_simple_merge.s
-
-# target to generate assembly for a file
-octree_simple_merge.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/octree_simple_merge.dir/build.make src/CMakeFiles/octree_simple_merge.dir/octree_simple_merge.cpp.s
-.PHONY : octree_simple_merge.cpp.s
-
-right_angle_detector.o: right_angle_detector.cpp.o
-
-.PHONY : right_angle_detector.o
-
-# target to build an object file
-right_angle_detector.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/right_angle_detector.dir/build.make src/CMakeFiles/right_angle_detector.dir/right_angle_detector.cpp.o
-.PHONY : right_angle_detector.cpp.o
-
-right_angle_detector.i: right_angle_detector.cpp.i
-
-.PHONY : right_angle_detector.i
-
-# target to preprocess a source file
-right_angle_detector.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/right_angle_detector.dir/build.make src/CMakeFiles/right_angle_detector.dir/right_angle_detector.cpp.i
-.PHONY : right_angle_detector.cpp.i
-
-right_angle_detector.s: right_angle_detector.cpp.s
-
-.PHONY : right_angle_detector.s
-
-# target to generate assembly for a file
-right_angle_detector.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/right_angle_detector.dir/build.make src/CMakeFiles/right_angle_detector.dir/right_angle_detector.cpp.s
-.PHONY : right_angle_detector.cpp.s
-
 simple_example.o: simple_example.cpp.o
 
 .PHONY : simple_example.o
@@ -1315,60 +991,6 @@ simple_example.cpp.s:
 	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/simple_example.dir/build.make src/CMakeFiles/simple_example.dir/simple_example.cpp.s
 .PHONY : simple_example.cpp.s
 
-transform_octree.o: transform_octree.cpp.o
-
-.PHONY : transform_octree.o
-
-# target to build an object file
-transform_octree.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/transform_octree.dir/build.make src/CMakeFiles/transform_octree.dir/transform_octree.cpp.o
-.PHONY : transform_octree.cpp.o
-
-transform_octree.i: transform_octree.cpp.i
-
-.PHONY : transform_octree.i
-
-# target to preprocess a source file
-transform_octree.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/transform_octree.dir/build.make src/CMakeFiles/transform_octree.dir/transform_octree.cpp.i
-.PHONY : transform_octree.cpp.i
-
-transform_octree.s: transform_octree.cpp.s
-
-.PHONY : transform_octree.s
-
-# target to generate assembly for a file
-transform_octree.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/transform_octree.dir/build.make src/CMakeFiles/transform_octree.dir/transform_octree.cpp.s
-.PHONY : transform_octree.cpp.s
-
-traverse_octree.o: traverse_octree.cpp.o
-
-.PHONY : traverse_octree.o
-
-# target to build an object file
-traverse_octree.cpp.o:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/traverse_octree.dir/build.make src/CMakeFiles/traverse_octree.dir/traverse_octree.cpp.o
-.PHONY : traverse_octree.cpp.o
-
-traverse_octree.i: traverse_octree.cpp.i
-
-.PHONY : traverse_octree.i
-
-# target to preprocess a source file
-traverse_octree.cpp.i:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/traverse_octree.dir/build.make src/CMakeFiles/traverse_octree.dir/traverse_octree.cpp.i
-.PHONY : traverse_octree.cpp.i
-
-traverse_octree.s: traverse_octree.cpp.s
-
-.PHONY : traverse_octree.s
-
-# target to generate assembly for a file
-traverse_octree.cpp.s:
-	cd /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel && $(MAKE) -f src/CMakeFiles/traverse_octree.dir/build.make src/CMakeFiles/traverse_octree.dir/traverse_octree.cpp.s
-.PHONY : traverse_octree.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1376,37 +998,28 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... test"
-	@echo "... edit_cache"
-	@echo "... package_source"
-	@echo "... list_install_components"
-	@echo "... install"
-	@echo "... install/local"
-	@echo "... install/strip"
 	@echo "... compare_octrees"
 	@echo "... log2graph"
 	@echo "... eval_octree_accuracy"
-	@echo "... octree_simple_merge"
 	@echo "... bt2vrml"
+	@echo "... package_source"
 	@echo "... octomap-static"
 	@echo "... octomap"
-	@echo "... right_angle_detector"
 	@echo "... graph2tree"
-	@echo "... package"
-	@echo "... edit_octree"
-	@echo "... convert_octree"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... simple_example"
 	@echo "... normals_example"
+	@echo "... install"
 	@echo "... intersection_example"
 	@echo "... binvox2bt"
 	@echo "... octree2pointcloud"
+	@echo "... edit_octree"
+	@echo "... convert_octree"
+	@echo "... package"
+	@echo "... install/local"
 	@echo "... rebuild_cache"
-	@echo "... create_manual_octree"
-	@echo "... traverse_octree"
-	@echo "... transform_octree"
-	@echo "... chaincode_to_octree"
-	@echo "... octree_feature_merge"
-	@echo "... chaincode_generator"
-	@echo "... cross_section"
+	@echo "... edit_cache"
 	@echo "... AbstractOcTree.o"
 	@echo "... AbstractOcTree.i"
 	@echo "... AbstractOcTree.s"
@@ -1440,24 +1053,12 @@ help:
 	@echo "... bt2vrml.o"
 	@echo "... bt2vrml.i"
 	@echo "... bt2vrml.s"
-	@echo "... chaincode_generator.o"
-	@echo "... chaincode_generator.i"
-	@echo "... chaincode_generator.s"
-	@echo "... chaincode_to_octree.o"
-	@echo "... chaincode_to_octree.i"
-	@echo "... chaincode_to_octree.s"
 	@echo "... compare_octrees.o"
 	@echo "... compare_octrees.i"
 	@echo "... compare_octrees.s"
 	@echo "... convert_octree.o"
 	@echo "... convert_octree.i"
 	@echo "... convert_octree.s"
-	@echo "... create_manual_octree.o"
-	@echo "... create_manual_octree.i"
-	@echo "... create_manual_octree.s"
-	@echo "... cross_section.o"
-	@echo "... cross_section.i"
-	@echo "... cross_section.s"
 	@echo "... edit_octree.o"
 	@echo "... edit_octree.i"
 	@echo "... edit_octree.s"
@@ -1479,24 +1080,9 @@ help:
 	@echo "... octree2pointcloud.o"
 	@echo "... octree2pointcloud.i"
 	@echo "... octree2pointcloud.s"
-	@echo "... octree_feature_merge.o"
-	@echo "... octree_feature_merge.i"
-	@echo "... octree_feature_merge.s"
-	@echo "... octree_simple_merge.o"
-	@echo "... octree_simple_merge.i"
-	@echo "... octree_simple_merge.s"
-	@echo "... right_angle_detector.o"
-	@echo "... right_angle_detector.i"
-	@echo "... right_angle_detector.s"
 	@echo "... simple_example.o"
 	@echo "... simple_example.i"
 	@echo "... simple_example.s"
-	@echo "... transform_octree.o"
-	@echo "... transform_octree.i"
-	@echo "... transform_octree.s"
-	@echo "... traverse_octree.o"
-	@echo "... traverse_octree.i"
-	@echo "... traverse_octree.s"
 .PHONY : help
 
 

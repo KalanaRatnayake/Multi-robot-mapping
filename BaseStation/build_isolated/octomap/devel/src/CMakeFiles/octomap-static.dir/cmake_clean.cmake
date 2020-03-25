@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/octomap-static.dir/OcTreeNode.cpp.o"
   "CMakeFiles/octomap-static.dir/OcTreeStamped.cpp.o"
   "CMakeFiles/octomap-static.dir/ColorOcTree.cpp.o"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomap.pdb"
-  "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/lib/liboctomap.a"
+  "/home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomap.pdb"
+  "/home/kalana/Xavier/BaseStation/src/octomap/lib/liboctomap.a"
 )
 
 # Per-language clean rules from dependency scanning.

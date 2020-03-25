@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/BaseStation/install_isolated
-
-Name: pose_merge
-Description: Description of pose_merge
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: octomap_ros

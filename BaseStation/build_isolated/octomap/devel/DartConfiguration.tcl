@@ -4,7 +4,7 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap
+SourceDirectory: /home/kalana/Xavier/BaseStation/src/octomap
 BuildDirectory: /home/kalana/Xavier/BaseStation/build_isolated/octomap/devel
 
 # Where to place the cost data store
@@ -33,7 +33,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/kalana/Xavier/BaseStation/src/octomap-devel/octomap"
+ConfigureCommand: "/usr/bin/cmake" "/home/kalana/Xavier/BaseStation/src/octomap"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 

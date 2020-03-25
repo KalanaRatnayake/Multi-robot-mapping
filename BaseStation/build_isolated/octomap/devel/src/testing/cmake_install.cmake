@@ -1,4 +1,4 @@
-# Install script for directory: /home/kalana/Xavier/BaseStation/src/octomap-devel/octomap/src/testing
+# Install script for directory: /home/kalana/Xavier/BaseStation/src/octomap/src/testing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
