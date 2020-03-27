@@ -1,0 +1,17 @@
+<launch>
+    <arg name="world_file"  default="$(env TURTLEBOT_GAZEBO_WORLD_FILE)"/>
+    <arg name="gui" default="true"/>
+
+    <param name="/use_sim_time" value="true" />
+
+    <!-- start world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find testworld_gazebo)/worlds/test_wall_less.world"/>
+    </include>
+
+    <!-- start gui -->
+    <!-- <node name="gazebo_gui" pkg="gazebo" type="gui" respawn="false" output="screen"/> -->
+
+    <!-- include our robots -->
+    <include file="$(find testworld_gazebo)/launch/robots.launch"/>
+</launch>
