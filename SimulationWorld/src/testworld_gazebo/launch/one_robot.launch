@@ -5,7 +5,9 @@
  
     <node name="spawn_turtlebot_model" pkg="gazebo_ros" type="spawn_model" args="$(arg init_pose) -urdf -param /robot_description -model $(arg robot_name)" respawn="false" output="screen" />
  
-    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen"/>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
+        <param name="tf_prefix" value="$(arg tf_prefix)"/>
+    </node>
     
     <!-- Bumper/cliff to pointcloud (not working, as it needs sensors/core messages) -->
     <include file="$(find turtlebot_bringup)/launch/includes/kobuki/bumper2pc.launch.xml"/>

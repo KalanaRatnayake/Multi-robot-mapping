@@ -27,16 +27,12 @@ static bool completeness[robot_count];
 
 float floor_z = -0.14f;       /*To remove the floor values*/
 
-/* 
-** position details for Robot1 in meters. rotation is clockwise
-*/
+// position details for Robot1 in meters. rotation is clockwise
 
 const int yaw_1 = 0;           
 const float x_translation_1 = 0.00f, y_translation_1 = 0.00f;   
 
-/*  
-** position details for Robot2 in meters. rotation is clockwise
-*/
+// position details for Robot2 in meters. rotation is clockwise
 
 const int yaw_2 = 0;
 const float x_translation_2 = 0.0f, y_translation_2 = 4.26f;
@@ -44,9 +40,7 @@ const float x_translation_2 = 0.0f, y_translation_2 = 4.26f;
 
 ColorOcTree tree_final(resolution);
 
-/*
-** The Subscriber Publisher Class for the Map Merge Process
-*/
+// The Subscriber Publisher Class for the Map Merge Process
 
 class SubscribeAndPublish{
 public:
@@ -57,15 +51,20 @@ public:
     }
 
     void octomap_callback_bot1(const octomap_msgs::Octomap::ConstPtr& msg){
-        cout<<"Octomap of robot 1 received"<<endl; 
+        cout<<"Octomap of robot 1 received"<<endl;
+
+        //converting the octomap_msg to octomap
 
         octomap_msgs::Octomap received_msg = *msg; 
         AbstractOcTree* bot_1_tree = octomap_msgs::fullMsgToMap(received_msg); 
         ColorOcTree* bot_1_colorTree = dynamic_cast<ColorOcTree*>(bot_1_tree);
+        
         bot_1_colorTree->expand(); 
         
         for(ColorOcTree::leaf_iterator it = bot_1_colorTree->begin_leafs(), end=bot_1_colorTree->end_leafs(); it!=end; ++it){
             
+            //transforming the octomap according to starting position of robot
+
             float x = it.getX() + x_translation_1; 
             float y = it.getY() + y_translation_1; 
             float z = it.getZ();
@@ -75,6 +74,8 @@ public:
 
             float x_transformed = x*cosValue - y*sinValue; 
             float y_transformed = x*sinValue + y*cosValue; 
+
+            //coping the node data to new octomap
 
             if(z>floor_z){
                 point3d node(x_transformed, y_transformed, z);
@@ -132,7 +133,9 @@ public:
     }
 
     void octomap_callback_bot2(const octomap_msgs::Octomap::ConstPtr& msg){
-        cout<<"Octomap message of robot 2 received"<<endl; 
+        cout<<"Octomap message of robot 2 received"<<endl;
+
+        //converting the octomap_msg to octomap
 
         octomap_msgs::Octomap received_msg = *msg; 
         AbstractOcTree* bot_2_tree = octomap_msgs::fullMsgToMap(received_msg); 
@@ -141,6 +144,8 @@ public:
         
         for(ColorOcTree::leaf_iterator it = bot_2_colorTree->begin_leafs(), end=bot_2_colorTree->end_leafs(); it!=end; ++it){
             
+            //transforming the octomap according to starting position of robot
+
             float x = it.getX() + x_translation_2; 
             float y = it.getY() + y_translation_2; 
             float z = it.getZ();
@@ -150,6 +155,8 @@ public:
 
             float x_transformed = x*cosValue - y*sinValue; 
             float y_transformed = x*sinValue + y*cosValue; 
+
+            //coping the node data to new octomap
 
             if(z>floor_z){
                 point3d node(x_transformed, y_transformed, z);

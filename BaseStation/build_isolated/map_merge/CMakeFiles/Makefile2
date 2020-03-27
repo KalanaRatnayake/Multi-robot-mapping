@@ -60,80 +60,6 @@ CMAKE_SOURCE_DIR = /home/kalana/Xavier/BaseStation/src/map_merge
 CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/map_merge
 
 #=============================================================================
-# Target rules for target CMakeFiles/multirobot_live_color_merge.dir
-
-# All Build rule for target.
-CMakeFiles/multirobot_live_color_merge.dir/all:
-	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/depend
-	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=20,21 "Built target multirobot_live_color_merge"
-.PHONY : CMakeFiles/multirobot_live_color_merge.dir/all
-
-# Include target in all.
-all: CMakeFiles/multirobot_live_color_merge.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/multirobot_live_color_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_live_color_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/multirobot_live_color_merge.dir/rule
-
-# Convenience name for target.
-multirobot_live_color_merge: CMakeFiles/multirobot_live_color_merge.dir/rule
-
-.PHONY : multirobot_live_color_merge
-
-# clean rule for target.
-CMakeFiles/multirobot_live_color_merge.dir/clean:
-	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/clean
-.PHONY : CMakeFiles/multirobot_live_color_merge.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/multirobot_live_color_merge.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/sub_pub_test.dir
-
-# All Build rule for target.
-CMakeFiles/sub_pub_test.dir/all:
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/depend
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=28,29 "Built target sub_pub_test"
-.PHONY : CMakeFiles/sub_pub_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/sub_pub_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/sub_pub_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sub_pub_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/sub_pub_test.dir/rule
-
-# Convenience name for target.
-sub_pub_test: CMakeFiles/sub_pub_test.dir/rule
-
-.PHONY : sub_pub_test
-
-# clean rule for target.
-CMakeFiles/sub_pub_test.dir/clean:
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/clean
-.PHONY : CMakeFiles/sub_pub_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/sub_pub_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/nodelet_generate_messages_nodejs.dir
 
 # All Build rule for target.
@@ -230,39 +156,34 @@ clean: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/octomap_msg_reader.dir
+# Target rules for target CMakeFiles/roscpp_generate_messages_py.dir
 
 # All Build rule for target.
-CMakeFiles/octomap_msg_reader.dir/all:
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/depend
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=22,23 "Built target octomap_msg_reader"
-.PHONY : CMakeFiles/octomap_msg_reader.dir/all
-
-# Include target in all.
-all: CMakeFiles/octomap_msg_reader.dir/all
-
-.PHONY : all
+CMakeFiles/roscpp_generate_messages_py.dir/all:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
+.PHONY : CMakeFiles/roscpp_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/octomap_msg_reader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/octomap_msg_reader.dir/all
+CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/octomap_msg_reader.dir/rule
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
+.PHONY : CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
-octomap_msg_reader: CMakeFiles/octomap_msg_reader.dir/rule
+roscpp_generate_messages_py: CMakeFiles/roscpp_generate_messages_py.dir/rule
 
-.PHONY : octomap_msg_reader
-
-# clean rule for target.
-CMakeFiles/octomap_msg_reader.dir/clean:
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/clean
-.PHONY : CMakeFiles/octomap_msg_reader.dir/clean
+.PHONY : roscpp_generate_messages_py
 
 # clean rule for target.
-clean: CMakeFiles/octomap_msg_reader.dir/clean
+CMakeFiles/roscpp_generate_messages_py.dir/clean:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/clean
+.PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 .PHONY : clean
 
@@ -295,43 +216,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/publish_binary_map_file.dir
-
-# All Build rule for target.
-CMakeFiles/publish_binary_map_file.dir/all:
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/depend
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=24,25 "Built target publish_binary_map_file"
-.PHONY : CMakeFiles/publish_binary_map_file.dir/all
-
-# Include target in all.
-all: CMakeFiles/publish_binary_map_file.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/publish_binary_map_file.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/publish_binary_map_file.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/publish_binary_map_file.dir/rule
-
-# Convenience name for target.
-publish_binary_map_file: CMakeFiles/publish_binary_map_file.dir/rule
-
-.PHONY : publish_binary_map_file
-
-# clean rule for target.
-CMakeFiles/publish_binary_map_file.dir/clean:
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/clean
-.PHONY : CMakeFiles/publish_binary_map_file.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/publish_binary_map_file.dir/clean
 
 .PHONY : clean
 
@@ -755,10 +639,92 @@ clean: CMakeFiles/std_msgs_generate_messages_py.dir/clean
 # Target rules for target CMakeFiles/color_octomap_saver.dir
 
 # All Build rule for target.
-CMakeFiles/color_octomap_saver.dir/all:
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/nodelet_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/bond_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/nodelet_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/pcl_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/bond_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/pcl_ros_gencfg.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/nodelet_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/nodelet_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/bond_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_srvs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/bond_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/bond_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/nodelet_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/topic_tools_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/topic_tools_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/nodelet_topic_tools_gencfg.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/topic_tools_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/octomap_msgs_generate_messages_cpp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/topic_tools_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/octomap_msgs_generate_messages_lisp.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/octomap_msgs_generate_messages_py.dir/all
+CMakeFiles/color_octomap_saver.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/color_octomap_saver.dir/build.make CMakeFiles/color_octomap_saver.dir/depend
 	$(MAKE) -f CMakeFiles/color_octomap_saver.dir/build.make CMakeFiles/color_octomap_saver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=3,4 "Built target color_octomap_saver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=1,2 "Built target color_octomap_saver"
 .PHONY : CMakeFiles/color_octomap_saver.dir/all
 
 # Include target in all.
@@ -849,6 +815,38 @@ CMakeFiles/tf_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/tf_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+rosgraph_msgs_generate_messages_lisp: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
@@ -1201,6 +1199,125 @@ CMakeFiles/actionlib_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/actionlib_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/multirobot_live_color_merge.dir
+
+# All Build rule for target.
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/nodelet_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/bond_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/nodelet_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/pcl_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_srvs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/pcl_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_srvs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/bond_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/pcl_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/roscpp_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/sensor_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/sensor_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/sensor_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/pcl_ros_gencfg.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/octomap_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/pcl_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/nodelet_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/nodelet_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/bond_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_srvs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/roscpp_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_srvs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/bond_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/bond_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/nodelet_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/topic_tools_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/topic_tools_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/nodelet_topic_tools_gencfg.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/pcl_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_srvs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/topic_tools_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/topic_tools_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/octomap_msgs_generate_messages_eus.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/octomap_msgs_generate_messages_cpp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/topic_tools_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/octomap_msgs_generate_messages_lisp.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/octomap_msgs_generate_messages_py.dir/all
+CMakeFiles/multirobot_live_color_merge.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/depend
+	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=14,15 "Built target multirobot_live_color_merge"
+.PHONY : CMakeFiles/multirobot_live_color_merge.dir/all
+
+# Include target in all.
+all: CMakeFiles/multirobot_live_color_merge.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/multirobot_live_color_merge.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_live_color_merge.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
+.PHONY : CMakeFiles/multirobot_live_color_merge.dir/rule
+
+# Convenience name for target.
+multirobot_live_color_merge: CMakeFiles/multirobot_live_color_merge.dir/rule
+
+.PHONY : multirobot_live_color_merge
+
+# clean rule for target.
+CMakeFiles/multirobot_live_color_merge.dir/clean:
+	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/clean
+.PHONY : CMakeFiles/multirobot_live_color_merge.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/multirobot_live_color_merge.dir/clean
 
 .PHONY : clean
 
@@ -1749,38 +1866,6 @@ clean: CMakeFiles/nodelet_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/std_msgs_generate_messages_lisp.dir
-
-# All Build rule for target.
-CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
-.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/geometry_msgs_generate_messages_py.dir
 
 # All Build rule for target.
@@ -1905,6 +1990,38 @@ CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
+
+# All Build rule for target.
+CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
+.PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
+.PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+dynamic_reconfigure_generate_messages_lisp: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
+
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# clean rule for target.
+CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
@@ -2421,43 +2538,6 @@ clean: CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/multirobot_color_merge.dir
-
-# All Build rule for target.
-CMakeFiles/multirobot_color_merge.dir/all:
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/depend
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=18,19 "Built target multirobot_color_merge"
-.PHONY : CMakeFiles/multirobot_color_merge.dir/all
-
-# Include target in all.
-all: CMakeFiles/multirobot_color_merge.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/multirobot_color_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_color_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/multirobot_color_merge.dir/rule
-
-# Convenience name for target.
-multirobot_color_merge: CMakeFiles/multirobot_color_merge.dir/rule
-
-.PHONY : multirobot_color_merge
-
-# clean rule for target.
-CMakeFiles/multirobot_color_merge.dir/clean:
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/clean
-.PHONY : CMakeFiles/multirobot_color_merge.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/multirobot_color_merge.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/tf_generate_messages_eus.dir
 
 # All Build rule for target.
@@ -2746,75 +2826,6 @@ clean: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/roscpp_generate_messages_py.dir
-
-# All Build rule for target.
-CMakeFiles/roscpp_generate_messages_py.dir/all:
-	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/depend
-	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target roscpp_generate_messages_py"
-.PHONY : CMakeFiles/roscpp_generate_messages_py.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/roscpp_generate_messages_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/roscpp_generate_messages_py.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-# Convenience name for target.
-roscpp_generate_messages_py: CMakeFiles/roscpp_generate_messages_py.dir/rule
-
-.PHONY : roscpp_generate_messages_py
-
-# clean rule for target.
-CMakeFiles/roscpp_generate_messages_py.dir/clean:
-	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/clean
-.PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/roscpp_generate_messages_py.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/color_merge_test.dir
-
-# All Build rule for target.
-CMakeFiles/color_merge_test.dir/all:
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/depend
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=1,2 "Built target color_merge_test"
-.PHONY : CMakeFiles/color_merge_test.dir/all
-
-# Include target in all.
-all: CMakeFiles/color_merge_test.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/color_merge_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/color_merge_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/color_merge_test.dir/rule
-
-# Convenience name for target.
-color_merge_test: CMakeFiles/color_merge_test.dir/rule
-
-.PHONY : color_merge_test
-
-# clean rule for target.
-CMakeFiles/color_merge_test.dir/clean:
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/clean
-.PHONY : CMakeFiles/color_merge_test.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/color_merge_test.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/actionlib_msgs_generate_messages_py.dir
 
 # All Build rule for target.
@@ -2875,75 +2886,6 @@ CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir
-
-# All Build rule for target.
-CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all:
-	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target dynamic_reconfigure_generate_messages_lisp"
-.PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-dynamic_reconfigure_generate_messages_lisp: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/rule
-
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/multirobot_binary_merge.dir
-
-# All Build rule for target.
-CMakeFiles/multirobot_binary_merge.dir/all:
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/depend
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=16,17 "Built target multirobot_binary_merge"
-.PHONY : CMakeFiles/multirobot_binary_merge.dir/all
-
-# Include target in all.
-all: CMakeFiles/multirobot_binary_merge.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/multirobot_binary_merge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/multirobot_binary_merge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/multirobot_binary_merge.dir/rule
-
-# Convenience name for target.
-multirobot_binary_merge: CMakeFiles/multirobot_binary_merge.dir/rule
-
-.PHONY : multirobot_binary_merge
-
-# clean rule for target.
-CMakeFiles/multirobot_binary_merge.dir/clean:
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/clean
-.PHONY : CMakeFiles/multirobot_binary_merge.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/multirobot_binary_merge.dir/clean
 
 .PHONY : clean
 
@@ -3140,108 +3082,34 @@ clean: CMakeFiles/octomap_msgs_generate_messages_py.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+# Target rules for target CMakeFiles/std_msgs_generate_messages_lisp.dir
 
 # All Build rule for target.
-CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target rosgraph_msgs_generate_messages_lisp"
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+CMakeFiles/std_msgs_generate_messages_lisp.dir/all:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/depend
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num= "Built target std_msgs_generate_messages_lisp"
+.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
+CMakeFiles/std_msgs_generate_messages_lisp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-rosgraph_msgs_generate_messages_lisp: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+std_msgs_generate_messages_lisp: CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
-.PHONY : rosgraph_msgs_generate_messages_lisp
-
-# clean rule for target.
-CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-.PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
+.PHONY : std_msgs_generate_messages_lisp
 
 # clean rule for target.
-clean: CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/publish_octomap.dir
-
-# All Build rule for target.
-CMakeFiles/publish_octomap.dir/all:
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/depend
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=26,27 "Built target publish_octomap"
-.PHONY : CMakeFiles/publish_octomap.dir/all
-
-# Include target in all.
-all: CMakeFiles/publish_octomap.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/publish_octomap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/publish_octomap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/publish_octomap.dir/rule
-
-# Convenience name for target.
-publish_octomap: CMakeFiles/publish_octomap.dir/rule
-
-.PHONY : publish_octomap
+CMakeFiles/std_msgs_generate_messages_lisp.dir/clean:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
+.PHONY : CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 # clean rule for target.
-CMakeFiles/publish_octomap.dir/clean:
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/clean
-.PHONY : CMakeFiles/publish_octomap.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/publish_octomap.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/transform_live_octomap.dir
-
-# All Build rule for target.
-CMakeFiles/transform_live_octomap.dir/all:
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/depend
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=30,31 "Built target transform_live_octomap"
-.PHONY : CMakeFiles/transform_live_octomap.dir/all
-
-# Include target in all.
-all: CMakeFiles/transform_live_octomap.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/transform_live_octomap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/transform_live_octomap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles 0
-.PHONY : CMakeFiles/transform_live_octomap.dir/rule
-
-# Convenience name for target.
-transform_live_octomap: CMakeFiles/transform_live_octomap.dir/rule
-
-.PHONY : transform_live_octomap
-
-# clean rule for target.
-CMakeFiles/transform_live_octomap.dir/clean:
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/clean
-.PHONY : CMakeFiles/transform_live_octomap.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/transform_live_octomap.dir/clean
+clean: CMakeFiles/std_msgs_generate_messages_lisp.dir/clean
 
 .PHONY : clean
 
@@ -3272,7 +3140,7 @@ gtest/preinstall: gtest/gtest/preinstall
 gtest/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock.dir/build.make gtest/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=5,6,7 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=3,4,5 "Built target gmock"
 .PHONY : gtest/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3304,7 +3172,7 @@ clean: gtest/CMakeFiles/gmock.dir/clean
 gtest/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/CMakeFiles/gmock_main.dir/build.make gtest/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=8,9,10,11 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=6,7,8,9 "Built target gmock_main"
 .PHONY : gtest/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3355,7 +3223,7 @@ gtest/gtest/preinstall:
 gtest/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest.dir/build.make gtest/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=12,13 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=10,11 "Built target gtest"
 .PHONY : gtest/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3387,7 +3255,7 @@ clean: gtest/gtest/CMakeFiles/gtest.dir/clean
 gtest/gtest/CMakeFiles/gtest_main.dir/all: gtest/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=14,15 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kalana/Xavier/BaseStation/build_isolated/map_merge/CMakeFiles --progress-num=12,13 "Built target gtest_main"
 .PHONY : gtest/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.

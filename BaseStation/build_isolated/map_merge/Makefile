@@ -56,39 +56,6 @@ CMAKE_BINARY_DIR = /home/kalana/Xavier/BaseStation/build_isolated/map_merge
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: install/local
-
-.PHONY : install/local/fast
-
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: install/strip
-
-.PHONY : install/strip/fast
-
 # Special rule for the target list_install_components
 list_install_components:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
@@ -98,17 +65,6 @@ list_install_components:
 list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target test
 test:
@@ -132,6 +88,50 @@ install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: install/strip
+
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: install/local
+
+.PHONY : install/local/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -164,32 +164,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named multirobot_live_color_merge
-
-# Build rule for target.
-multirobot_live_color_merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multirobot_live_color_merge
-.PHONY : multirobot_live_color_merge
-
-# fast build rule for target.
-multirobot_live_color_merge/fast:
-	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/build
-.PHONY : multirobot_live_color_merge/fast
-
-#=============================================================================
-# Target rules for targets named sub_pub_test
-
-# Build rule for target.
-sub_pub_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sub_pub_test
-.PHONY : sub_pub_test
-
-# fast build rule for target.
-sub_pub_test/fast:
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/build
-.PHONY : sub_pub_test/fast
 
 #=============================================================================
 # Target rules for targets named nodelet_generate_messages_nodejs
@@ -231,17 +205,17 @@ rosgraph_msgs_generate_messages_nodejs/fast:
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named octomap_msg_reader
+# Target rules for targets named roscpp_generate_messages_py
 
 # Build rule for target.
-octomap_msg_reader: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 octomap_msg_reader
-.PHONY : octomap_msg_reader
+roscpp_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
+.PHONY : roscpp_generate_messages_py
 
 # fast build rule for target.
-octomap_msg_reader/fast:
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/build
-.PHONY : octomap_msg_reader/fast
+roscpp_generate_messages_py/fast:
+	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
+.PHONY : roscpp_generate_messages_py/fast
 
 #=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
@@ -255,19 +229,6 @@ dynamic_reconfigure_generate_messages_cpp: cmake_check_build_system
 dynamic_reconfigure_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_cpp.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named publish_binary_map_file
-
-# Build rule for target.
-publish_binary_map_file: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 publish_binary_map_file
-.PHONY : publish_binary_map_file
-
-# fast build rule for target.
-publish_binary_map_file/fast:
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/build
-.PHONY : publish_binary_map_file/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_eus
@@ -478,6 +439,19 @@ tf_generate_messages_lisp/fast:
 .PHONY : tf_generate_messages_lisp/fast
 
 #=============================================================================
+# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+
+# Build rule for target.
+rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
+.PHONY : rosgraph_msgs_generate_messages_lisp
+
+# fast build rule for target.
+rosgraph_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+.PHONY : rosgraph_msgs_generate_messages_lisp/fast
+
+#=============================================================================
 # Target rules for targets named doxygen
 
 # Build rule for target.
@@ -619,6 +593,19 @@ actionlib_generate_messages_cpp: cmake_check_build_system
 actionlib_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/actionlib_generate_messages_cpp.dir/build.make CMakeFiles/actionlib_generate_messages_cpp.dir/build
 .PHONY : actionlib_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named multirobot_live_color_merge
+
+# Build rule for target.
+multirobot_live_color_merge: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multirobot_live_color_merge
+.PHONY : multirobot_live_color_merge
+
+# fast build rule for target.
+multirobot_live_color_merge/fast:
+	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/build
+.PHONY : multirobot_live_color_merge/fast
 
 #=============================================================================
 # Target rules for targets named clean_test_results
@@ -842,19 +829,6 @@ nodelet_generate_messages_lisp/fast:
 .PHONY : nodelet_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named std_msgs_generate_messages_lisp
-
-# Build rule for target.
-std_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-#=============================================================================
 # Target rules for targets named geometry_msgs_generate_messages_py
 
 # Build rule for target.
@@ -905,6 +879,19 @@ std_srvs_generate_messages_lisp: cmake_check_build_system
 std_srvs_generate_messages_lisp/fast:
 	$(MAKE) -f CMakeFiles/std_srvs_generate_messages_lisp.dir/build.make CMakeFiles/std_srvs_generate_messages_lisp.dir/build
 .PHONY : std_srvs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
+
+# Build rule for target.
+dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
+.PHONY : dynamic_reconfigure_generate_messages_lisp
+
+# fast build rule for target.
+dynamic_reconfigure_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
+.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named roscpp_generate_messages_lisp
@@ -1115,19 +1102,6 @@ tf2_msgs_generate_messages_py/fast:
 .PHONY : tf2_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named multirobot_color_merge
-
-# Build rule for target.
-multirobot_color_merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multirobot_color_merge
-.PHONY : multirobot_color_merge
-
-# fast build rule for target.
-multirobot_color_merge/fast:
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/build
-.PHONY : multirobot_color_merge/fast
-
-#=============================================================================
 # Target rules for targets named tf_generate_messages_eus
 
 # Build rule for target.
@@ -1245,32 +1219,6 @@ actionlib_msgs_generate_messages_lisp/fast:
 .PHONY : actionlib_msgs_generate_messages_lisp/fast
 
 #=============================================================================
-# Target rules for targets named roscpp_generate_messages_py
-
-# Build rule for target.
-roscpp_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 roscpp_generate_messages_py
-.PHONY : roscpp_generate_messages_py
-
-# fast build rule for target.
-roscpp_generate_messages_py/fast:
-	$(MAKE) -f CMakeFiles/roscpp_generate_messages_py.dir/build.make CMakeFiles/roscpp_generate_messages_py.dir/build
-.PHONY : roscpp_generate_messages_py/fast
-
-#=============================================================================
-# Target rules for targets named color_merge_test
-
-# Build rule for target.
-color_merge_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 color_merge_test
-.PHONY : color_merge_test
-
-# fast build rule for target.
-color_merge_test/fast:
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/build
-.PHONY : color_merge_test/fast
-
-#=============================================================================
 # Target rules for targets named actionlib_msgs_generate_messages_py
 
 # Build rule for target.
@@ -1295,32 +1243,6 @@ tf2_msgs_generate_messages_cpp: cmake_check_build_system
 tf2_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build.make CMakeFiles/tf2_msgs_generate_messages_cpp.dir/build
 .PHONY : tf2_msgs_generate_messages_cpp/fast
-
-#=============================================================================
-# Target rules for targets named dynamic_reconfigure_generate_messages_lisp
-
-# Build rule for target.
-dynamic_reconfigure_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic_reconfigure_generate_messages_lisp
-.PHONY : dynamic_reconfigure_generate_messages_lisp
-
-# fast build rule for target.
-dynamic_reconfigure_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build.make CMakeFiles/dynamic_reconfigure_generate_messages_lisp.dir/build
-.PHONY : dynamic_reconfigure_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named multirobot_binary_merge
-
-# Build rule for target.
-multirobot_binary_merge: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multirobot_binary_merge
-.PHONY : multirobot_binary_merge
-
-# fast build rule for target.
-multirobot_binary_merge/fast:
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/build
-.PHONY : multirobot_binary_merge/fast
 
 #=============================================================================
 # Target rules for targets named tf2_msgs_generate_messages_lisp
@@ -1401,43 +1323,17 @@ octomap_msgs_generate_messages_py/fast:
 .PHONY : octomap_msgs_generate_messages_py/fast
 
 #=============================================================================
-# Target rules for targets named rosgraph_msgs_generate_messages_lisp
+# Target rules for targets named std_msgs_generate_messages_lisp
 
 # Build rule for target.
-rosgraph_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 rosgraph_msgs_generate_messages_lisp
-.PHONY : rosgraph_msgs_generate_messages_lisp
+std_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_msgs_generate_messages_lisp
+.PHONY : std_msgs_generate_messages_lisp
 
 # fast build rule for target.
-rosgraph_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
-.PHONY : rosgraph_msgs_generate_messages_lisp/fast
-
-#=============================================================================
-# Target rules for targets named publish_octomap
-
-# Build rule for target.
-publish_octomap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 publish_octomap
-.PHONY : publish_octomap
-
-# fast build rule for target.
-publish_octomap/fast:
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/build
-.PHONY : publish_octomap/fast
-
-#=============================================================================
-# Target rules for targets named transform_live_octomap
-
-# Build rule for target.
-transform_live_octomap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 transform_live_octomap
-.PHONY : transform_live_octomap
-
-# fast build rule for target.
-transform_live_octomap/fast:
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/build
-.PHONY : transform_live_octomap/fast
+std_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -1491,33 +1387,6 @@ gtest_main/fast:
 	$(MAKE) -f gtest/gtest/CMakeFiles/gtest_main.dir/build.make gtest/gtest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-src/color_merge_test.o: src/color_merge_test.cpp.o
-
-.PHONY : src/color_merge_test.o
-
-# target to build an object file
-src/color_merge_test.cpp.o:
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/src/color_merge_test.cpp.o
-.PHONY : src/color_merge_test.cpp.o
-
-src/color_merge_test.i: src/color_merge_test.cpp.i
-
-.PHONY : src/color_merge_test.i
-
-# target to preprocess a source file
-src/color_merge_test.cpp.i:
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/src/color_merge_test.cpp.i
-.PHONY : src/color_merge_test.cpp.i
-
-src/color_merge_test.s: src/color_merge_test.cpp.s
-
-.PHONY : src/color_merge_test.s
-
-# target to generate assembly for a file
-src/color_merge_test.cpp.s:
-	$(MAKE) -f CMakeFiles/color_merge_test.dir/build.make CMakeFiles/color_merge_test.dir/src/color_merge_test.cpp.s
-.PHONY : src/color_merge_test.cpp.s
-
 src/color_octomap_saver.o: src/color_octomap_saver.cpp.o
 
 .PHONY : src/color_octomap_saver.o
@@ -1544,60 +1413,6 @@ src/color_octomap_saver.s: src/color_octomap_saver.cpp.s
 src/color_octomap_saver.cpp.s:
 	$(MAKE) -f CMakeFiles/color_octomap_saver.dir/build.make CMakeFiles/color_octomap_saver.dir/src/color_octomap_saver.cpp.s
 .PHONY : src/color_octomap_saver.cpp.s
-
-src/multirobot_binary_merge.o: src/multirobot_binary_merge.cpp.o
-
-.PHONY : src/multirobot_binary_merge.o
-
-# target to build an object file
-src/multirobot_binary_merge.cpp.o:
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/src/multirobot_binary_merge.cpp.o
-.PHONY : src/multirobot_binary_merge.cpp.o
-
-src/multirobot_binary_merge.i: src/multirobot_binary_merge.cpp.i
-
-.PHONY : src/multirobot_binary_merge.i
-
-# target to preprocess a source file
-src/multirobot_binary_merge.cpp.i:
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/src/multirobot_binary_merge.cpp.i
-.PHONY : src/multirobot_binary_merge.cpp.i
-
-src/multirobot_binary_merge.s: src/multirobot_binary_merge.cpp.s
-
-.PHONY : src/multirobot_binary_merge.s
-
-# target to generate assembly for a file
-src/multirobot_binary_merge.cpp.s:
-	$(MAKE) -f CMakeFiles/multirobot_binary_merge.dir/build.make CMakeFiles/multirobot_binary_merge.dir/src/multirobot_binary_merge.cpp.s
-.PHONY : src/multirobot_binary_merge.cpp.s
-
-src/multirobot_color_merge.o: src/multirobot_color_merge.cpp.o
-
-.PHONY : src/multirobot_color_merge.o
-
-# target to build an object file
-src/multirobot_color_merge.cpp.o:
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/src/multirobot_color_merge.cpp.o
-.PHONY : src/multirobot_color_merge.cpp.o
-
-src/multirobot_color_merge.i: src/multirobot_color_merge.cpp.i
-
-.PHONY : src/multirobot_color_merge.i
-
-# target to preprocess a source file
-src/multirobot_color_merge.cpp.i:
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/src/multirobot_color_merge.cpp.i
-.PHONY : src/multirobot_color_merge.cpp.i
-
-src/multirobot_color_merge.s: src/multirobot_color_merge.cpp.s
-
-.PHONY : src/multirobot_color_merge.s
-
-# target to generate assembly for a file
-src/multirobot_color_merge.cpp.s:
-	$(MAKE) -f CMakeFiles/multirobot_color_merge.dir/build.make CMakeFiles/multirobot_color_merge.dir/src/multirobot_color_merge.cpp.s
-.PHONY : src/multirobot_color_merge.cpp.s
 
 src/multirobot_live_color_merge.o: src/multirobot_live_color_merge.cpp.o
 
@@ -1626,158 +1441,17 @@ src/multirobot_live_color_merge.cpp.s:
 	$(MAKE) -f CMakeFiles/multirobot_live_color_merge.dir/build.make CMakeFiles/multirobot_live_color_merge.dir/src/multirobot_live_color_merge.cpp.s
 .PHONY : src/multirobot_live_color_merge.cpp.s
 
-src/octomap_msg_reader.o: src/octomap_msg_reader.cpp.o
-
-.PHONY : src/octomap_msg_reader.o
-
-# target to build an object file
-src/octomap_msg_reader.cpp.o:
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/src/octomap_msg_reader.cpp.o
-.PHONY : src/octomap_msg_reader.cpp.o
-
-src/octomap_msg_reader.i: src/octomap_msg_reader.cpp.i
-
-.PHONY : src/octomap_msg_reader.i
-
-# target to preprocess a source file
-src/octomap_msg_reader.cpp.i:
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/src/octomap_msg_reader.cpp.i
-.PHONY : src/octomap_msg_reader.cpp.i
-
-src/octomap_msg_reader.s: src/octomap_msg_reader.cpp.s
-
-.PHONY : src/octomap_msg_reader.s
-
-# target to generate assembly for a file
-src/octomap_msg_reader.cpp.s:
-	$(MAKE) -f CMakeFiles/octomap_msg_reader.dir/build.make CMakeFiles/octomap_msg_reader.dir/src/octomap_msg_reader.cpp.s
-.PHONY : src/octomap_msg_reader.cpp.s
-
-src/publish_binary_map_file.o: src/publish_binary_map_file.cpp.o
-
-.PHONY : src/publish_binary_map_file.o
-
-# target to build an object file
-src/publish_binary_map_file.cpp.o:
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/src/publish_binary_map_file.cpp.o
-.PHONY : src/publish_binary_map_file.cpp.o
-
-src/publish_binary_map_file.i: src/publish_binary_map_file.cpp.i
-
-.PHONY : src/publish_binary_map_file.i
-
-# target to preprocess a source file
-src/publish_binary_map_file.cpp.i:
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/src/publish_binary_map_file.cpp.i
-.PHONY : src/publish_binary_map_file.cpp.i
-
-src/publish_binary_map_file.s: src/publish_binary_map_file.cpp.s
-
-.PHONY : src/publish_binary_map_file.s
-
-# target to generate assembly for a file
-src/publish_binary_map_file.cpp.s:
-	$(MAKE) -f CMakeFiles/publish_binary_map_file.dir/build.make CMakeFiles/publish_binary_map_file.dir/src/publish_binary_map_file.cpp.s
-.PHONY : src/publish_binary_map_file.cpp.s
-
-src/publish_octomap.o: src/publish_octomap.cpp.o
-
-.PHONY : src/publish_octomap.o
-
-# target to build an object file
-src/publish_octomap.cpp.o:
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/src/publish_octomap.cpp.o
-.PHONY : src/publish_octomap.cpp.o
-
-src/publish_octomap.i: src/publish_octomap.cpp.i
-
-.PHONY : src/publish_octomap.i
-
-# target to preprocess a source file
-src/publish_octomap.cpp.i:
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/src/publish_octomap.cpp.i
-.PHONY : src/publish_octomap.cpp.i
-
-src/publish_octomap.s: src/publish_octomap.cpp.s
-
-.PHONY : src/publish_octomap.s
-
-# target to generate assembly for a file
-src/publish_octomap.cpp.s:
-	$(MAKE) -f CMakeFiles/publish_octomap.dir/build.make CMakeFiles/publish_octomap.dir/src/publish_octomap.cpp.s
-.PHONY : src/publish_octomap.cpp.s
-
-src/sub_pub_test.o: src/sub_pub_test.cpp.o
-
-.PHONY : src/sub_pub_test.o
-
-# target to build an object file
-src/sub_pub_test.cpp.o:
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/src/sub_pub_test.cpp.o
-.PHONY : src/sub_pub_test.cpp.o
-
-src/sub_pub_test.i: src/sub_pub_test.cpp.i
-
-.PHONY : src/sub_pub_test.i
-
-# target to preprocess a source file
-src/sub_pub_test.cpp.i:
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/src/sub_pub_test.cpp.i
-.PHONY : src/sub_pub_test.cpp.i
-
-src/sub_pub_test.s: src/sub_pub_test.cpp.s
-
-.PHONY : src/sub_pub_test.s
-
-# target to generate assembly for a file
-src/sub_pub_test.cpp.s:
-	$(MAKE) -f CMakeFiles/sub_pub_test.dir/build.make CMakeFiles/sub_pub_test.dir/src/sub_pub_test.cpp.s
-.PHONY : src/sub_pub_test.cpp.s
-
-src/transform_live_octomap.o: src/transform_live_octomap.cpp.o
-
-.PHONY : src/transform_live_octomap.o
-
-# target to build an object file
-src/transform_live_octomap.cpp.o:
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/src/transform_live_octomap.cpp.o
-.PHONY : src/transform_live_octomap.cpp.o
-
-src/transform_live_octomap.i: src/transform_live_octomap.cpp.i
-
-.PHONY : src/transform_live_octomap.i
-
-# target to preprocess a source file
-src/transform_live_octomap.cpp.i:
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/src/transform_live_octomap.cpp.i
-.PHONY : src/transform_live_octomap.cpp.i
-
-src/transform_live_octomap.s: src/transform_live_octomap.cpp.s
-
-.PHONY : src/transform_live_octomap.s
-
-# target to generate assembly for a file
-src/transform_live_octomap.cpp.s:
-	$(MAKE) -f CMakeFiles/transform_live_octomap.dir/build.make CMakeFiles/transform_live_octomap.dir/src/transform_live_octomap.cpp.s
-.PHONY : src/transform_live_octomap.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... install/local"
-	@echo "... install/strip"
-	@echo "... multirobot_live_color_merge"
-	@echo "... sub_pub_test"
 	@echo "... nodelet_generate_messages_nodejs"
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
-	@echo "... octomap_msg_reader"
+	@echo "... roscpp_generate_messages_py"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
-	@echo "... publish_binary_map_file"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... bond_generate_messages_eus"
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
@@ -1794,6 +1468,7 @@ help:
 	@echo "... color_octomap_saver"
 	@echo "... download_extra_data"
 	@echo "... tf_generate_messages_lisp"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... doxygen"
 	@echo "... std_srvs_generate_messages_eus"
 	@echo "... tf_generate_messages_cpp"
@@ -1806,6 +1481,7 @@ help:
 	@echo "... sensor_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... actionlib_generate_messages_cpp"
+	@echo "... multirobot_live_color_merge"
 	@echo "... clean_test_results"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
@@ -1823,20 +1499,19 @@ help:
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... geometry_msgs_generate_messages_eus"
 	@echo "... nodelet_generate_messages_lisp"
-	@echo "... edit_cache"
-	@echo "... std_msgs_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
 	@echo "... bond_generate_messages_py"
 	@echo "... std_srvs_generate_messages_lisp"
+	@echo "... dynamic_reconfigure_generate_messages_lisp"
 	@echo "... test"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... tf_generate_messages_nodejs"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... bond_generate_messages_cpp"
 	@echo "... bond_generate_messages_lisp"
-	@echo "... install"
 	@echo "... nodelet_generate_messages_eus"
+	@echo "... install"
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_eus"
 	@echo "... nodelet_topic_tools_gencfg"
@@ -1847,8 +1522,8 @@ help:
 	@echo "... topic_tools_generate_messages_nodejs"
 	@echo "... actionlib_msgs_generate_messages_nodejs"
 	@echo "... tf2_msgs_generate_messages_py"
-	@echo "... multirobot_color_merge"
 	@echo "... tf_generate_messages_eus"
+	@echo "... rebuild_cache"
 	@echo "... tf_generate_messages_py"
 	@echo "... std_msgs_generate_messages_eus"
 	@echo "... actionlib_generate_messages_eus"
@@ -1857,55 +1532,28 @@ help:
 	@echo "... dynamic_reconfigure_generate_messages_py"
 	@echo "... actionlib_generate_messages_py"
 	@echo "... actionlib_msgs_generate_messages_lisp"
-	@echo "... roscpp_generate_messages_py"
-	@echo "... color_merge_test"
 	@echo "... actionlib_msgs_generate_messages_py"
 	@echo "... tf2_msgs_generate_messages_cpp"
-	@echo "... dynamic_reconfigure_generate_messages_lisp"
-	@echo "... multirobot_binary_merge"
 	@echo "... tf2_msgs_generate_messages_lisp"
 	@echo "... octomap_msgs_generate_messages_eus"
 	@echo "... octomap_msgs_generate_messages_cpp"
 	@echo "... topic_tools_generate_messages_py"
 	@echo "... octomap_msgs_generate_messages_lisp"
 	@echo "... octomap_msgs_generate_messages_py"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
-	@echo "... publish_octomap"
-	@echo "... transform_live_octomap"
+	@echo "... install/strip"
+	@echo "... install/local"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... edit_cache"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
-	@echo "... src/color_merge_test.o"
-	@echo "... src/color_merge_test.i"
-	@echo "... src/color_merge_test.s"
 	@echo "... src/color_octomap_saver.o"
 	@echo "... src/color_octomap_saver.i"
 	@echo "... src/color_octomap_saver.s"
-	@echo "... src/multirobot_binary_merge.o"
-	@echo "... src/multirobot_binary_merge.i"
-	@echo "... src/multirobot_binary_merge.s"
-	@echo "... src/multirobot_color_merge.o"
-	@echo "... src/multirobot_color_merge.i"
-	@echo "... src/multirobot_color_merge.s"
 	@echo "... src/multirobot_live_color_merge.o"
 	@echo "... src/multirobot_live_color_merge.i"
 	@echo "... src/multirobot_live_color_merge.s"
-	@echo "... src/octomap_msg_reader.o"
-	@echo "... src/octomap_msg_reader.i"
-	@echo "... src/octomap_msg_reader.s"
-	@echo "... src/publish_binary_map_file.o"
-	@echo "... src/publish_binary_map_file.i"
-	@echo "... src/publish_binary_map_file.s"
-	@echo "... src/publish_octomap.o"
-	@echo "... src/publish_octomap.i"
-	@echo "... src/publish_octomap.s"
-	@echo "... src/sub_pub_test.o"
-	@echo "... src/sub_pub_test.i"
-	@echo "... src/sub_pub_test.s"
-	@echo "... src/transform_live_octomap.o"
-	@echo "... src/transform_live_octomap.i"
-	@echo "... src/transform_live_octomap.s"
 .PHONY : help
 
 
