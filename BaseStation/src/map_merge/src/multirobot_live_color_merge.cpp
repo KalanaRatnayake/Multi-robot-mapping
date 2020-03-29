@@ -30,12 +30,12 @@ float floor_z = -0.14f;       /*To remove the floor values*/
 // position details for Robot1 in meters. rotation is clockwise
 
 const int yaw_1 = 0;           
-const float x_translation_1 = 0.00f, y_translation_1 = 0.00f;   
+const float x_translation_1 = 4.00f, y_translation_1 = 0.00f;   
 
 // position details for Robot2 in meters. rotation is clockwise
 
 const int yaw_2 = 0;
-const float x_translation_2 = 0.0f, y_translation_2 = 4.26f;
+const float x_translation_2 = 0.0f, y_translation_2 = 4.00f;
 
 
 ColorOcTree tree_final(resolution);
