@@ -6,7 +6,7 @@
     <!-- BEGIN ROBOT 1-->
     <group ns="qbot1">
         <include file="$(find testworld_gazebo)/launch/one_robot.launch" >
-            <arg name="init_pose" value="-x 4 -y 0 -z 0 -R 0 -P 0 -Y 0" />
+            <arg name="init_pose" value="-x 3 -y 0 -z 0 -R 0 -P 0 -Y 0" />
             <arg name="robot_name"  value="Qbot1" />
             <arg name="tf_prefix" default="qbot1"/>
         </include>
@@ -15,7 +15,7 @@
     <!-- BEGIN ROBOT 2-->
     <group ns="qbot2">
         <include file="$(find testworld_gazebo)/launch/one_robot.launch" >
-            <arg name="init_pose" value="-x 0 -y 4 -z 0 -R 0 -P 0 -Y 0" />
+            <arg name="init_pose" value="-x 0 -y 3 -z 0 -R 0 -P 0 -Y 0" />
             <arg name="robot_name"  value="Qbot2" />
             <arg name="tf_prefix" default="qbot2"/>
         </include>
