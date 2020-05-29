@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/devel_isolated/octomap_ros
-
-Name: octomap_ros
-Description: Description of octomap_ros
-Version: 0.4.0
-Cflags: -I/home/kalana/Xavier/Robot/src/octomap/octomap_ros/include -I/home/kalana/Xavier/Robot/devel_isolated/octomap/include
-Libs: -L${prefix}/lib -loctomap_ros /home/kalana/Xavier/Robot/devel_isolated/octomap/lib/liboctomap.so /home/kalana/Xavier/Robot/devel_isolated/octomap/lib/liboctomath.so
-Requires: sensor_msgs tf octomap_msgs

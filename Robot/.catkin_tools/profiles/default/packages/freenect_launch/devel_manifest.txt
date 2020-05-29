@@ -1,0 +1,5 @@
+camera/freenect_launch
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_launch/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_launch/share/freenect_launch/cmake/freenect_launchConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_launch/cmake/freenect_launchConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_launch/share/freenect_launch/cmake/freenect_launchConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_launch/cmake/freenect_launchConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_launch/lib/pkgconfig/freenect_launch.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/freenect_launch.pc

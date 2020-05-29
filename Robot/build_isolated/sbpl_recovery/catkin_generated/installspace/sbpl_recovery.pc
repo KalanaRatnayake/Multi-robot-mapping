@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: sbpl_recovery
-Description: Description of sbpl_recovery
-Version: 0.2.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lsbpl_recovery
-Requires: roscpp nav_core sbpl_lattice_planner pose_follower costmap_2d pluginlib base_local_planner

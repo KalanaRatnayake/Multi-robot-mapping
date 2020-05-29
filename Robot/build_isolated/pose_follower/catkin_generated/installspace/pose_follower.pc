@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: pose_follower
-Description: Description of pose_follower
-Version: 0.2.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lpose_follower
-Requires: nav_core base_local_planner costmap_2d roscpp tf nav_msgs pluginlib

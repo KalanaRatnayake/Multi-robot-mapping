@@ -1,0 +1,6 @@
+kobuki/kobuki_bumper2pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_bumper2pc/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_bumper2pc/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_bumper2pc/cmake/kobuki_bumper2pcConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_bumper2pc/lib/libkobuki_bumper2pc_nodelet.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_bumper2pc_nodelet.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_bumper2pc/lib/pkgconfig/kobuki_bumper2pc.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_bumper2pc.pc

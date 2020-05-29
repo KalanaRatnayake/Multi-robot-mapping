@@ -4,19 +4,17 @@
     <group ns="$(arg tf_prefix)">
         <param name="tf_prefix" value="$(arg tf_prefix)" />
 
-        <!-- tf config -->
-        <node pkg="tf" type="static_transform_publisher" name="camera_to_base" args="0 0 0.1 0 0.0 0 $(arg tf_prefix)/base_footprint $(arg tf_prefix)/camera_link 100"/>
-        <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_base_link" args="0 0 0 0 0.0 0 $(arg tf_prefix)/base_footprint $(arg tf_prefix)/base_link 100"/>
-        <node pkg="tf" type="static_transform_publisher" name="base_footprint_to_map" args="0 0 0 0 0 0 $(arg tf_prefix)/map $(arg tf_prefix)/odom 100"/>
-       <!-- declaring the world coordinate frame -->
-		<node pkg="tf" type="static_transform_publisher" name="world_to_robot" args="0 0 0 0 0.0 0 /world $(arg tf_prefix)/map 100" />
+        <node pkg="octomap_server" type="octomap_server_node" name="octomap_server" output="screen">
+            <param name="resolution" value="0.05" />
+            <param name="frame_id" type="string" value="/world" />
+            <param name="base_frame_id" type="string" value="$(arg tf_prefix)/base_link" />
+            <param name="sensor_model/max_range" value="3.8" />
+            <param name="latch" value="true" />
+            <param name="filter_ground" value="true" />
 
-        <!-- run octomap_server -->
-		<include file="$(find octomap_server)/launch/octomap_mapping_tf.launch">
-            <arg name="tf_prefix" value="$(arg tf_prefix)"/>
-            <!--param name="frame_id" value="$(arg tf_prefix)/map"/>
-            <param name="base_frame_id" value="$(arg tf_prefix)/base_footprint"/-->
-        </include>
+            <remap from="cloud_in" to="camera/depth/points" />
+            <remap from="projected_map" to="map" />
+        </node>
 
         <!-- Move base -->
 		<include file="$(find my_robot_navigation)/launch/move_base_tf_prefix.launch.xml">

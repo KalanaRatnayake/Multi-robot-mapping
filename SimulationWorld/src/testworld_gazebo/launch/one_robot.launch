@@ -2,12 +2,25 @@
     <arg name="tf_prefix"/>
     <arg name="robot_name"/>
     <arg name="init_pose"/>
+    <arg name="x" default="0"/>
+    <arg name="y" default="0"/>
+    <arg name="z" default="0"/>
+    <arg name="ro" default="0"/>
+    <arg name="pi" default="0"/>
+    <arg name="ya" default="0"/>
  
     <node name="spawn_turtlebot_model" pkg="gazebo_ros" type="spawn_model" args="$(arg init_pose) -urdf -param /robot_description -model $(arg robot_name)" respawn="false" output="screen" />
  
     <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" output="screen">
         <param name="tf_prefix" value="$(arg tf_prefix)"/>
     </node>
+
+    <!-- tf config -->
+    <node pkg="tf" type="static_transform_publisher" name="odome_to_map" args="0 0 0 0 0 0 $(arg tf_prefix)/map $(arg tf_prefix)/odom 100"/>
+
+    <!-- declaring the world coordinate frame -->
+    <node pkg="tf" type="static_transform_publisher" name="world_to_robot" args="$(arg x) $(arg y) $(arg z) $(arg ro) $(arg pi) $(arg ya) /world $(arg tf_prefix)/map 100" />
+
     
     <!-- Bumper/cliff to pointcloud (not working, as it needs sensors/core messages) -->
     <include file="$(find turtlebot_bringup)/launch/includes/kobuki/bumper2pc.launch.xml"/>

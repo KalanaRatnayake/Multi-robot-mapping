@@ -1,0 +1,5 @@
+navigation/navigation_tutorials/roomba_stage
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/roomba_stage/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/roomba_stage/share/roomba_stage/cmake/roomba_stageConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/roomba_stage/cmake/roomba_stageConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/roomba_stage/share/roomba_stage/cmake/roomba_stageConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/roomba_stage/cmake/roomba_stageConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/roomba_stage/lib/pkgconfig/roomba_stage.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/roomba_stage.pc

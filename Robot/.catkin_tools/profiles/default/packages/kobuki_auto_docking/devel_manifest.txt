@@ -1,0 +1,7 @@
+kobuki/kobuki_auto_docking
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_auto_docking/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_auto_docking/share/kobuki_auto_docking/cmake/kobuki_auto_dockingConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_auto_docking/cmake/kobuki_auto_dockingConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_auto_docking/share/kobuki_auto_docking/cmake/kobuki_auto_dockingConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_auto_docking/cmake/kobuki_auto_dockingConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_auto_docking/lib/libkobuki_auto_docking_ros.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_auto_docking_ros.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_auto_docking/lib/libkobuki_auto_docking_nodelet.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_auto_docking_nodelet.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_auto_docking/lib/pkgconfig/kobuki_auto_docking.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_auto_docking.pc

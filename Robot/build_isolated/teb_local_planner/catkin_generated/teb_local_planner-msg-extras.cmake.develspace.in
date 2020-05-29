@@ -1,2 +1,0 @@
-set(teb_local_planner_MESSAGE_FILES "/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryPointMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/TrajectoryMsg.msg;/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/teb_local_planner-kinetic-devel/msg/FeedbackMsg.msg")
-set(teb_local_planner_SERVICE_FILES "")

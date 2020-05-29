@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/gtest/gtest/src -lpthread -Wl,-rpath,/home/kalana/Xavier/Robot/build_isolated/teb_local_planner/gtest/gtest/src 

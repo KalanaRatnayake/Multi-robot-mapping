@@ -1,0 +1,11 @@
+<launch>
+    <!-- start world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find testworld_gazebo)/worlds/outdoor_garden2.world"/>
+    </include>
+
+    <!-- include our robots -->
+    <include file="$(find testworld_gazebo)/launch/robots_outdoor.launch"/>
+
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find testworld_gazebo)/rviz/simulation_config_3.rviz" />
+</launch>

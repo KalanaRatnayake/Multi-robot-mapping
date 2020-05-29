@@ -1,0 +1,14 @@
+camera/freenect_camera
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/include/freenect_camera/FreenectConfig.h /home/kalana/ROS_Workspaces/Xavier/Robot/devel/include/freenect_camera/FreenectConfig.h
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/share/freenect_camera/docs/FreenectConfig.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_camera/docs/FreenectConfig.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/share/freenect_camera/docs/FreenectConfig-usage.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_camera/docs/FreenectConfig-usage.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/share/freenect_camera/docs/FreenectConfig.wikidoc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_camera/docs/FreenectConfig.wikidoc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/share/freenect_camera/cmake/freenect_cameraConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_camera/cmake/freenect_cameraConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/share/freenect_camera/cmake/freenect_cameraConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/freenect_camera/cmake/freenect_cameraConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/lib/libfreenect_nodelet.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libfreenect_nodelet.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/lib/freenect_camera/freenect_node /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/freenect_camera/freenect_node
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/lib/pkgconfig/freenect_camera.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/freenect_camera.pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/lib/python2.7/dist-packages/freenect_camera/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/freenect_camera/__init__.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/lib/python2.7/dist-packages/freenect_camera/cfg/FreenectConfig.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/freenect_camera/cfg/FreenectConfig.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_camera/lib/python2.7/dist-packages/freenect_camera/cfg/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/freenect_camera/cfg/__init__.py

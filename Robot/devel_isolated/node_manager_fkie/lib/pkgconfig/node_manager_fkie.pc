@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/devel_isolated/node_manager_fkie
-
-Name: node_manager_fkie
-Description: Description of node_manager_fkie
-Version: 0.8.9
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: diagnostic_msgs master_discovery_fkie multimaster_msgs_fkie

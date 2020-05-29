@@ -1,0 +1,9 @@
+/BaseStation/build/*
+/BaseStation/devel/*
+/BaseStation/logs/*
+/Robot/build/*
+/Robot/devel/*
+/Robot/logs/*
+/SimulationWorld/build/*
+/SimulationWorld/devel/*
+/SimulationWorld/logs/*

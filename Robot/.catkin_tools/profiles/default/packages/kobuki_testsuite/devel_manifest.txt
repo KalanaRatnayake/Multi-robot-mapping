@@ -1,0 +1,6 @@
+kobuki/kobuki_testsuite
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_testsuite/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_testsuite/share/kobuki_testsuite/cmake/kobuki_testsuiteConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_testsuite/cmake/kobuki_testsuiteConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_testsuite/share/kobuki_testsuite/cmake/kobuki_testsuiteConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_testsuite/cmake/kobuki_testsuiteConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_testsuite/lib/pkgconfig/kobuki_testsuite.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_testsuite.pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_testsuite/lib/python2.7/dist-packages/kobuki_testsuite/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/kobuki_testsuite/__init__.py

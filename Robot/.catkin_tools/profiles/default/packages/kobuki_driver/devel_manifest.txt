@@ -1,0 +1,12 @@
+kobuki/kobuki_driver
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/share/kobuki_driver/cmake/kobuki_driverConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_driver/cmake/kobuki_driverConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/share/kobuki_driver/cmake/kobuki_driverConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_driver/cmake/kobuki_driverConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/libkobuki.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/kobuki_driver/kobuki_velocity_commands /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_driver/kobuki_velocity_commands
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/kobuki_driver/demo_kobuki_initialisation /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_driver/demo_kobuki_initialisation
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/kobuki_driver/version_info /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_driver/version_info
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/kobuki_driver/simple_keyop /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_driver/simple_keyop
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/kobuki_driver/demo_kobuki_simple_loop /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_driver/demo_kobuki_simple_loop
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/kobuki_driver/demo_kobuki_sigslots /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_driver/demo_kobuki_sigslots
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_driver/lib/pkgconfig/kobuki_driver.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_driver.pc

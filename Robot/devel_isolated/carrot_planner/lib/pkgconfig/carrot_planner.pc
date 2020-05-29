@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/devel_isolated/carrot_planner
-
-Name: carrot_planner
-Description: Description of carrot_planner
-Version: 1.14.4
-Cflags: -I/home/kalana/Xavier/Robot/src/Navigation/navigation-kinetic-devel/carrot_planner/include
-Libs: -L${prefix}/lib -lcarrot_planner
-Requires: roscpp pluginlib costmap_2d base_local_planner nav_core

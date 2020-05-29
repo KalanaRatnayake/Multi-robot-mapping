@@ -1,0 +1,2 @@
+camera/freenect_stack
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/freenect_stack/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock

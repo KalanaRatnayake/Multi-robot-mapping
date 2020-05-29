@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: default_cfg_fkie
-Description: Description of default_cfg_fkie
-Version: 0.8.9
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: multimaster_msgs_fkie roslaunch roslib rospy

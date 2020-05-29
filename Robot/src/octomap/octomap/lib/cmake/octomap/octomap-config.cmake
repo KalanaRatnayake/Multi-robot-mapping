@@ -54,13 +54,13 @@ set(OCTOMAP_MINOR_VERSION "9")
 set(OCTOMAP_PATCH_VERSION "0")
 set(OCTOMAP_VERSION "1.9.0")
 
-set_and_check(OCTOMAP_INCLUDE_DIRS "/home/kalana/Xavier/Robot/src/octomap/octomap/include")
-set_and_check(OCTOMAP_LIBRARY_DIRS "/home/kalana/Xavier/Robot/src/octomap/octomap/lib")
+set_and_check(OCTOMAP_INCLUDE_DIRS "/home/kalana/ROS_Workspaces/Xavier/Robot/src/octomap/octomap/include")
+set_and_check(OCTOMAP_LIBRARY_DIRS "/home/kalana/ROS_Workspaces/Xavier/Robot/src/octomap/octomap/lib")
 
 # Set library names
 set(OCTOMAP_LIBRARIES
-  "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so"
-  "/home/kalana/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so"
+  "/home/kalana/ROS_Workspaces/Xavier/Robot/src/octomap/octomap/lib/liboctomap.so"
+  "/home/kalana/ROS_Workspaces/Xavier/Robot/src/octomap/octomap/lib/liboctomath.so"
 )
 
 

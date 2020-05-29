@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/unflasher.dir/unflasher.cpp.o  -o /home/kalana/Xavier/Robot/devel_isolated/kobuki_ftdi/lib/kobuki_ftdi/unflasher -rdynamic -lusb -lftdi 

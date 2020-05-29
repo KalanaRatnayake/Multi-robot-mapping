@@ -1,0 +1,6 @@
+multimaster_fkie/src/master_discovery_fkie
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/master_discovery_fkie/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/master_discovery_fkie/share/master_discovery_fkie/cmake/master_discovery_fkieConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/master_discovery_fkie/cmake/master_discovery_fkieConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/master_discovery_fkie/share/master_discovery_fkie/cmake/master_discovery_fkieConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/master_discovery_fkie/cmake/master_discovery_fkieConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/master_discovery_fkie/lib/pkgconfig/master_discovery_fkie.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/master_discovery_fkie.pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/master_discovery_fkie/lib/python2.7/dist-packages/master_discovery_fkie/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/master_discovery_fkie/__init__.py

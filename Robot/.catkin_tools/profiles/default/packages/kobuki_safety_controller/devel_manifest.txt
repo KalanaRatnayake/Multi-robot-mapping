@@ -1,0 +1,6 @@
+kobuki/kobuki_safety_controller
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_safety_controller/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_safety_controller/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_safety_controller/cmake/kobuki_safety_controllerConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_safety_controller/lib/libkobuki_safety_controller_nodelet.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_safety_controller_nodelet.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_safety_controller/lib/pkgconfig/kobuki_safety_controller.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_safety_controller.pc

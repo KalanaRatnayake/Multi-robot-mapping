@@ -1,0 +1,39 @@
+<launch>
+
+    <!-- No namespace here as we will share this description. Access with slash at the beginning -->
+    <param name="robot_description" command="$(find xacro)/xacro.py 
+    $(find turtlebot_description)/robots/kobuki_hexagons_kinect.urdf.xacro" />
+
+    <!-- BEGIN ROBOT 1-->
+    <group ns="qbot1">
+        <include file="$(find testworld_gazebo)/launch/one_robot.launch" >
+            <arg name="init_pose" value="-x 4 -y 8 -z 0 -R 0 -P 0 -Y 0" />
+            <arg name="robot_name"  value="Qbot1" />
+            <arg name="tf_prefix" default="qbot1"/>
+            <arg name="x" value="4"/>
+            <arg name="y" value="8"/>
+        </include>
+    </group>
+
+    <!-- BEGIN ROBOT 2-->
+    <group ns="qbot2">
+        <include file="$(find testworld_gazebo)/launch/one_robot.launch" >
+            <arg name="init_pose" value="-x 25 -y 8 -z 0 -R 0 -P 0 -Y 0" />
+            <arg name="robot_name"  value="Qbot2" />
+            <arg name="tf_prefix" default="qbot2"/>
+            <arg name="x" value="25"/>
+            <arg name="y" value="8"/>
+        </include>
+    </group>
+
+    <!-- BEGIN ROBOT 3-->
+    <group ns="qbot3">
+        <include file="$(find testworld_gazebo)/launch/one_robot.launch" >
+            <arg name="init_pose" value="-x -8 -y -8 -z 0 -R 0 -P 0 -Y 0" />
+            <arg name="robot_name"  value="Qbot3" />
+            <arg name="tf_prefix" default="qbot3"/>
+            <arg name="x" value="-8"/>
+            <arg name="y" value="-8"/>
+        </include>
+    </group>
+</launch>

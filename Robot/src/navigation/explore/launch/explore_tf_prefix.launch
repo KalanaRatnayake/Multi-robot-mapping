@@ -1,0 +1,15 @@
+<launch>
+    <arg name="tf_prefix" default=""/>
+    <node pkg="explore_lite" type="explore" respawn="false" name="explore" output="screen">
+      <param name="robot_base_frame" value="/$(arg tf_prefix)/base_link"/> <!-- There is some problem with this name -->
+      <param name="costmap_topic" value="/$(arg tf_prefix)/move_base/global_costmap/costmap"/>
+      <param name="visualize" value="true"/>
+      <param name="planner_frequency" value="0.5"/>
+      <param name="progress_timeout" value="30.0"/>
+      <param name="potential_scale" value="0.001"/>
+      <param name="orientation_scale" value="0.0"/>
+      <param name="gain_scale" value="2.0"/>
+      <param name="transform_tolerance" value="0.5"/>
+      <param name="min_frontier_size" value="0.5"/>
+    </node>
+</launch>

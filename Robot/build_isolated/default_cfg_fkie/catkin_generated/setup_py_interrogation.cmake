@@ -1,6 +1,0 @@
-set(default_cfg_fkie_SETUP_PY_VERSION "0.8.9")
-set(default_cfg_fkie_SETUP_PY_SCRIPTS "")
-set(default_cfg_fkie_SETUP_PY_PACKAGES "default_cfg_fkie")
-set(default_cfg_fkie_SETUP_PY_PACKAGE_DIRS "src/default_cfg_fkie")
-set(default_cfg_fkie_SETUP_PY_MODULES "")
-set(default_cfg_fkie_SETUP_PY_MODULE_DIRS "")

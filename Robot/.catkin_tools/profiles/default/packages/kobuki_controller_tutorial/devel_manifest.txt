@@ -1,0 +1,6 @@
+kobuki/kobuki_controller_tutorial
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_controller_tutorial/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_controller_tutorial/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_controller_tutorial/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_controller_tutorial/cmake/kobuki_controller_tutorialConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_controller_tutorial/lib/libbump_blink_controller_nodelet.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libbump_blink_controller_nodelet.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_controller_tutorial/lib/pkgconfig/kobuki_controller_tutorial.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_controller_tutorial.pc

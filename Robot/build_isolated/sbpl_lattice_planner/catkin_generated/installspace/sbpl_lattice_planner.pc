@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: sbpl_lattice_planner
-Description: Description of sbpl_lattice_planner
-Version: 0.2.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lsbpl_lattice_planner
-Requires: roscpp costmap_2d nav_core pluginlib tf2 geometry_msgs nav_msgs message_runtime

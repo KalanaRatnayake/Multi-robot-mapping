@@ -1,0 +1,6 @@
+navigation/navigation_core/rotate_recovery
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rotate_recovery/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rotate_recovery/share/rotate_recovery/cmake/rotate_recoveryConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/rotate_recovery/cmake/rotate_recoveryConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rotate_recovery/share/rotate_recovery/cmake/rotate_recoveryConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/rotate_recovery/cmake/rotate_recoveryConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rotate_recovery/lib/librotate_recovery.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/librotate_recovery.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rotate_recovery/lib/pkgconfig/rotate_recovery.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/rotate_recovery.pc

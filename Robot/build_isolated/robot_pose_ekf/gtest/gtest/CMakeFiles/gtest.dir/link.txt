@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/opt/ros/kinetic/lib  -L/home/kalana/Xavier/Robot/build_isolated/robot_pose_ekf/gtest/gtest/src -lpthread -Wl,-rpath,/opt/ros/kinetic/lib:/home/kalana/Xavier/Robot/build_isolated/robot_pose_ekf/gtest/gtest/src 

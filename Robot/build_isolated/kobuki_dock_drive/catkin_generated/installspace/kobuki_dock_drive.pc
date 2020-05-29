@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: kobuki_dock_drive
-Description: Description of kobuki_dock_drive
-Version: 0.7.8
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -lkobuki_dock_drive
-Requires: ecl_threads ecl_geometry ecl_linear_algebra

@@ -1,0 +1,13 @@
+navigation/navigation_experimental/pose_follower
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/include/pose_follower/PoseFollowerConfig.h /home/kalana/ROS_Workspaces/Xavier/Robot/devel/include/pose_follower/PoseFollowerConfig.h
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/share/pose_follower/docs/PoseFollowerConfig-usage.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/pose_follower/docs/PoseFollowerConfig-usage.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/share/pose_follower/docs/PoseFollowerConfig.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/pose_follower/docs/PoseFollowerConfig.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/share/pose_follower/docs/PoseFollowerConfig.wikidoc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/pose_follower/docs/PoseFollowerConfig.wikidoc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/share/pose_follower/cmake/pose_followerConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/pose_follower/cmake/pose_followerConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/share/pose_follower/cmake/pose_followerConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/pose_follower/cmake/pose_followerConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/lib/libpose_follower.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libpose_follower.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/lib/pkgconfig/pose_follower.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/pose_follower.pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/lib/python2.7/dist-packages/pose_follower/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/pose_follower/__init__.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/lib/python2.7/dist-packages/pose_follower/cfg/PoseFollowerConfig.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/pose_follower/cfg/PoseFollowerConfig.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/pose_follower/lib/python2.7/dist-packages/pose_follower/cfg/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/pose_follower/cfg/__init__.py

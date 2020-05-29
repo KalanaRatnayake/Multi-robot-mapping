@@ -2,7 +2,7 @@
 
 source /opt/ros/kinetic/setup.bash
 
-source devel_isolated/setup.bash
+source devel/setup.bash
 
 export ROS_MASTER_URI=http://192.168.0.152:11311
 

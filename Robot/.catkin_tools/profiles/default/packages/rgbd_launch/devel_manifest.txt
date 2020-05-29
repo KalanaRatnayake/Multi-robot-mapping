@@ -1,0 +1,5 @@
+camera/rgbd_launch
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rgbd_launch/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rgbd_launch/share/rgbd_launch/cmake/rgbd_launchConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/rgbd_launch/cmake/rgbd_launchConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rgbd_launch/share/rgbd_launch/cmake/rgbd_launchConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/rgbd_launch/cmake/rgbd_launchConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/rgbd_launch/lib/pkgconfig/rgbd_launch.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/rgbd_launch.pc

@@ -1,0 +1,5 @@
+kobuki/kobuki_description
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_description/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_description/cmake/kobuki_descriptionConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_description/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_description/cmake/kobuki_descriptionConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_description/lib/pkgconfig/kobuki_description.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_description.pc

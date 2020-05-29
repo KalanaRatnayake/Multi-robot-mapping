@@ -1,2 +1,0 @@
-map_merge:octomap
--G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/kalana/Xavier/BaseStation/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/kalana/Xavier/BaseStation/install_isolated

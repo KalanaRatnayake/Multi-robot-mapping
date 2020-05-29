@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/ftdi_kobuki.dir/ftdi_kobuki.cpp.o  -o /home/kalana/Xavier/Robot/devel_isolated/kobuki_ftdi/lib/kobuki_ftdi/ftdi_kobuki -rdynamic -lftdi 

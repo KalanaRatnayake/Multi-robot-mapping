@@ -1,0 +1,6 @@
+kobuki/kobuki_dock_drive
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_dock_drive/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_dock_drive/share/kobuki_dock_drive/cmake/kobuki_dock_driveConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_dock_drive/cmake/kobuki_dock_driveConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_dock_drive/share/kobuki_dock_drive/cmake/kobuki_dock_driveConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_dock_drive/cmake/kobuki_dock_driveConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_dock_drive/lib/libkobuki_dock_drive.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_dock_drive.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_dock_drive/lib/pkgconfig/kobuki_dock_drive.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_dock_drive.pc

@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/devel_isolated/freenect_launch
-
-Name: freenect_launch
-Description: Description of freenect_launch
-Version: 0.4.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/kalana/Xavier/Robot/devel_isolated/kobuki_safety_controller/lib;/home/kalana/Xavier/Robot/devel_isolated/kobuki_driver/lib;/opt/ros/kinetic/lib")

@@ -1,0 +1,29 @@
+<launch>
+    <arg name="tf_prefix" default="qbot3"/>
+
+    <group ns="$(arg tf_prefix)">
+        <param name="tf_prefix" value="$(arg tf_prefix)" />
+
+        <node pkg="octomap_server" type="octomap_server_node" name="octomap_server" output="screen">
+            <param name="resolution" value="0.05" />
+            <param name="frame_id" type="string" value="/world" />
+            <param name="base_frame_id" type="string" value="$(arg tf_prefix)/base_link" />
+            <param name="sensor_model/max_range" value="3.8" />
+            <param name="latch" value="true" />
+            <param name="filter_ground" value="true" />
+
+            <remap from="cloud_in" to="camera/depth/points" />
+            <remap from="projected_map" to="map" />
+        </node>
+
+        <!-- Move base -->
+		<include file="$(find my_robot_navigation)/launch/move_base_tf_prefix.launch.xml">
+            <arg name="tf_prefix" value="$(arg tf_prefix)"/>
+        </include>
+
+		<!-- Run the greedy exploration algorithm -->
+		<include file="$(find explore_lite)/launch/explore_tf_prefix.launch">
+            <arg name="tf_prefix" value="$(arg tf_prefix)"/>
+        </include>
+    </group>
+</launch>

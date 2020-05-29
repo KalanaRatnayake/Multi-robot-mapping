@@ -1,0 +1,6 @@
+kobuki/kobuki_keyop
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_keyop/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_keyop/cmake/kobuki_keyopConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_keyop/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_keyop/cmake/kobuki_keyopConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_keyop/lib/kobuki_keyop/keyop /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/kobuki_keyop/keyop
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_keyop/lib/pkgconfig/kobuki_keyop.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_keyop.pc

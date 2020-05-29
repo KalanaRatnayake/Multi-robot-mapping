@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: master_discovery_fkie
-Description: Description of master_discovery_fkie
-Version: 0.8.9
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: multimaster_msgs_fkie std_srvs

@@ -1,0 +1,7 @@
+kobuki/kobuki_node
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_node/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_node/cmake/kobuki_nodeConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_node/share/kobuki_node/cmake/kobuki_nodeConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_node/cmake/kobuki_nodeConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_node/lib/libkobuki_ros.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_ros.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_node/lib/libkobuki_nodelet.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libkobuki_nodelet.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_node/lib/pkgconfig/kobuki_node.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_node.pc

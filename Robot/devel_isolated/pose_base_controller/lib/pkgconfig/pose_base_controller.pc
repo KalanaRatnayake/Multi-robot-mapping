@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/devel_isolated/pose_base_controller
-
-Name: pose_base_controller
-Description: Description of pose_base_controller
-Version: 0.2.0
-Cflags: -I/home/kalana/Xavier/Robot/src/Navigation/navigation_experimental-kinetic-devel/pose_base_controller/include
-Libs: -L${prefix}/lib 
-Requires: actionlib move_base_msgs nav_msgs roscpp tf geometry_msgs

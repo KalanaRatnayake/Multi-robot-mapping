@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: multi_robot_exploration
-Description: Description of multi_robot_exploration
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

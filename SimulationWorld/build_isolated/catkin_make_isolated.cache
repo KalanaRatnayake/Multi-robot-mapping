@@ -1,2 +1,0 @@
-testworld_gazebo
--G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/kalana/Xavier/SimulationWorld/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/kalana/Xavier/SimulationWorld/install_isolated

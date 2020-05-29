@@ -1,0 +1,13 @@
+navigation/navigation_core/dwa_local_planner
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/include/dwa_local_planner/DWAPlannerConfig.h /home/kalana/ROS_Workspaces/Xavier/Robot/devel/include/dwa_local_planner/DWAPlannerConfig.h
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/share/dwa_local_planner/docs/DWAPlannerConfig.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/dwa_local_planner/docs/DWAPlannerConfig.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/share/dwa_local_planner/docs/DWAPlannerConfig-usage.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/dwa_local_planner/docs/DWAPlannerConfig-usage.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/share/dwa_local_planner/docs/DWAPlannerConfig.wikidoc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/dwa_local_planner/docs/DWAPlannerConfig.wikidoc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/share/dwa_local_planner/cmake/dwa_local_plannerConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/dwa_local_planner/cmake/dwa_local_plannerConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/share/dwa_local_planner/cmake/dwa_local_plannerConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/dwa_local_planner/cmake/dwa_local_plannerConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/lib/libdwa_local_planner.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libdwa_local_planner.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/lib/pkgconfig/dwa_local_planner.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/dwa_local_planner.pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/lib/python2.7/dist-packages/dwa_local_planner/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/dwa_local_planner/__init__.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/lib/python2.7/dist-packages/dwa_local_planner/cfg/DWAPlannerConfig.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/dwa_local_planner/cfg/DWAPlannerConfig.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/dwa_local_planner/lib/python2.7/dist-packages/dwa_local_planner/cfg/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/dwa_local_planner/cfg/__init__.py

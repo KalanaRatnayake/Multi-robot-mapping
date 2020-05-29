@@ -1,8 +1,0 @@
-prefix=/home/kalana/Xavier/Robot/install_isolated
-
-Name: assisted_teleop
-Description: Description of assisted_teleop
-Version: 0.2.0
-Cflags: -I${prefix}/include -I/usr/include/eigen3
-Libs: -L${prefix}/lib -llaser_scan_filters
-Requires: tf costmap_2d roscpp roslib geometry_msgs move_base_msgs actionlib message_filters base_local_planner angles pluginlib sensor_msgs filters

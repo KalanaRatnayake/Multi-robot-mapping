@@ -1,0 +1,5 @@
+kobuki/kobuki_rapps
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_rapps/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_rapps/share/kobuki_rapps/cmake/kobuki_rappsConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_rapps/cmake/kobuki_rappsConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_rapps/share/kobuki_rapps/cmake/kobuki_rappsConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/kobuki_rapps/cmake/kobuki_rappsConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/kobuki_rapps/lib/pkgconfig/kobuki_rapps.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/kobuki_rapps.pc

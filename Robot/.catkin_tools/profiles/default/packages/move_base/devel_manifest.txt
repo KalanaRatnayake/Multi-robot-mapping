@@ -1,0 +1,14 @@
+navigation/navigation_core/move_base
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/cmake.lock /home/kalana/ROS_Workspaces/Xavier/Robot/devel/./cmake.lock
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/include/move_base/MoveBaseConfig.h /home/kalana/ROS_Workspaces/Xavier/Robot/devel/include/move_base/MoveBaseConfig.h
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.wikidoc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/move_base/docs/MoveBaseConfig.wikidoc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/share/move_base/docs/MoveBaseConfig-usage.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/move_base/docs/MoveBaseConfig-usage.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/share/move_base/docs/MoveBaseConfig.dox /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/move_base/docs/MoveBaseConfig.dox
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/share/move_base/cmake/move_baseConfig-version.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/move_base/cmake/move_baseConfig-version.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/share/move_base/cmake/move_baseConfig.cmake /home/kalana/ROS_Workspaces/Xavier/Robot/devel/share/move_base/cmake/move_baseConfig.cmake
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/lib/libmove_base.so /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/libmove_base.so
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/lib/pkgconfig/move_base.pc /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/pkgconfig/move_base.pc
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/lib/move_base/move_base /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/move_base/move_base
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/lib/python2.7/dist-packages/move_base/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/move_base/__init__.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/move_base/cfg/MoveBaseConfig.py
+/home/kalana/ROS_Workspaces/Xavier/Robot/devel/.private/move_base/lib/python2.7/dist-packages/move_base/cfg/__init__.py /home/kalana/ROS_Workspaces/Xavier/Robot/devel/lib/python2.7/dist-packages/move_base/cfg/__init__.py
