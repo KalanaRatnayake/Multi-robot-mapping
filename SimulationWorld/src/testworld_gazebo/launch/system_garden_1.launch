@@ -5,7 +5,7 @@
     </include>
 
     <!-- include our robots -->
-    <include file="$(find testworld_gazebo)/launch/robots_outdoor.launch"/>
+    <include file="$(find testworld_gazebo)/launch/robots_garden.launch"/>
 
     <node type="rviz" name="rviz" pkg="rviz" args="-d $(find testworld_gazebo)/rviz/simulation_config_3.rviz" />
 </launch>

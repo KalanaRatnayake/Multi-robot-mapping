@@ -1,5 +1,4 @@
 <launch>
-
     <node pkg="map_merge" type="multirobot_live_color_merge" name="merge_node" output="screen">
         <remap from="bot_stream_1" to="qbot1/octomap_full" />
         <remap from="bot_stream_2" to="qbot2/octomap_full" />
