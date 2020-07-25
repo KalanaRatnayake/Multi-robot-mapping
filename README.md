@@ -1,4 +1,4 @@
-The main Xavier system has been divided into two subsystems according to its purpose,
+The main Xaviour system has been divided into two subsystems according to its purpose,
 
 1. Robot
 2. BaseStation
